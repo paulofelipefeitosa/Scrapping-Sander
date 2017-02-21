@@ -58,11 +58,12 @@ def getimage(string):
 
 	return string[idxst : idxend]
 
-def removeflags(string):
-	# L&#8217; &#8216; &#8217; &#8211; [&#8230;]
+def removeFlags(string):
+	# L&#8217; &#8216; &#8217; &#8211; [&#8230;] &nbsp;
+	# Remove todas as flags do Tipo Acima
 
 	while True:
-		idx = string.find("#")
+		idx = string.find("&")
 		if idx == -1:
 			break
 
@@ -70,17 +71,22 @@ def removeflags(string):
 		ide = idx + 1
 
 		while (ids > 0 and string[ids] != " "):
+
 			if(string[ids].isalpha()):
-				if(string[ids] == 'L'):
+
+				if(string[ids] == 'L' or string[ids] == 'n'):
 					ids -= 1
+
 				else:
 					break
+
 			else:
 				ids -= 1
 
-		while (ide < len(string) and string[ide] != " " and string[ide] != "\n" and not string[ide].isalpha()):
+		while (string[ide] != ';'):
 			ide += 1
-		string = string[0 : ids + 1] + string[ide : len(string)]
+
+		string = string[0 : ids + 1] + string[ide + 1 : len(string)]
 
 	return string
 
