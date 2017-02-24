@@ -33,7 +33,7 @@ def removeFlags(string):
 		while (string[ide] != ';'):
 			ide += 1
 
-		if(string[ide + 1] == ']'):
+		if(ide + 1 < len(string) and string[ide + 1] == ']'):
 			ide += 1
 
 		string = string[0 : ids + 1] + string[ide + 1 : len(string)]
