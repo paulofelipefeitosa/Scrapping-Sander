@@ -1,0 +1,8 @@
+# Crawler Desenvolvido
+
+\# | Arquivo/Pasta     | Descrição
+01 | Crawler.py        | Código do Crawler
+02 | ./Crawler/        | Pasta com os Html's gravados
+03 | lista_sites.txt   | Lista de Sites com os Antigos e os Novos
+04 | lista_descart.txt | Lista de Sites descartados na Escolha
+05 | new_lista.txt     | Lista só contendo os Sites Crawleados
