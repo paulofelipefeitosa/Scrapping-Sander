@@ -6,3 +6,5 @@
 03 | lista_sites.txt   | Lista de Sites com os Antigos e os Novos
 04 | lista_descart.txt | Lista de Sites descartados na Escolha
 05 | new_lista.txt     | Lista só contendo os Sites Crawleados
+
+Crawler.py - Faz a busca no google com a combinação de nomes de cidades e palavras chaves, além disso tenta filtrar os sites que já foram vasculhados ou já estão na base de dados (lista_sites.txt).
