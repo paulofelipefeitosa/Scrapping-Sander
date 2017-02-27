@@ -1,0 +1,1527 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" dir="ltr" lang="pt-BR"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" dir="ltr" lang="pt-BR"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" dir="ltr" lang="pt-BR"> <![endif]-->
+<!--[if gt IE 8]><!--> <html dir="ltr" lang="pt-BR"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Encontre os melhores eventos Rio de Janeiro! Shows, congressos, seminários, cursos, workshops, eventos esportivos e muito mais."/>
+<script type="text/javascript" src="/assets/7fbe970a/jquery.min.js"></script>
+<script type="text/javascript" src="/js/sympla.validator.js"></script>
+<title>Os melhores eventos Rio de Janeiro - Sympla</title>
+
+        <META NAME="keywords" CONTENT="eventos, venda de ingressos, inscrições para eventos, plataforma online, gerenciamento de eventos, sistema de eventos, congressos, seminários, shows, música, festas, cursos, workshops, encontros, networking, esportivo, cultural, religioso, feiras, exposições, check-in, credenciamento"/>
+
+        <meta property="og:description" content="A plataforma online de eventos líder no Brasil. Venda de ingressos, promoção e administração de eventos. Simples e segura. Organiza eventos? Sympla!"/>
+        <meta property="og:image" content="http://www.sympla.com.br/images/logo-sympla-for-facebook.png"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="sitelock-site-verification" content="5174"/>
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/public/favicon/new/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/images/public/favicon/new/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/public/favicon/new/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/public/favicon/new/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/public/favicon/new/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/public/favicon/new/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/public/favicon/new/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/public/favicon/new/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/public/favicon/new/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/public/favicon/new/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/public/favicon/new/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/images/public/favicon/new/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/public/favicon/new/favicon-16x16.png">
+        <link rel="manifest" href="/images/public/favicon/new/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/images/public/favicon/new/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+
+
+        <!-- <link rel="icon" href="/images/public/favicon/favicon.ico?v=2.14" />
+
+        <!-- For third-generation iPad with high-resolution Retina display:
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/public/favicon/favicon-144x144.png?v=2.1">
+
+        <!-- For iPhone with high-resolution Retina display:
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/public/favicon/favicon-114x114.png?v=2.1">
+
+        <!-- For first- and second-generation iPad:
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/public/favicon/favicon-72x72.png?v=2.1">
+
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices:
+        <link rel="apple-touch-icon-precomposed" href="/images/public/favicon/favicon-57x57.png?v=2.1"> -->
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        
+                    <link href="/css/public/bootstrap.css?v=1" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/fa/css/font-awesome.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/icomoon.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/animate.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/linearicons/style.css?v=1.96" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/base.css?v=1.125" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/style.css?v=1.116" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/buttons.css?v=1.17" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/swiper.min.css?v=1.1" media="screen, projection, print" rel="stylesheet" type="text/css">
+                    <link href="/css/public/jquery.dropdown.css?v=1.1" media="screen, projection, print" rel="stylesheet" type="text/css">
+        
+
+        <!-- <link href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.css' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.js"></script> -->
+
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:200,900' rel='stylesheet' type='text/css'> -->
+
+
+        
+                    <script src="/js/jquery.ripple.js?v=1.2"></script>
+                    <script src="/css/hdicons/grunticon.loader.js"></script>
+                    <script src="/js/public/swiper.js?v=1.0"></script>
+                <script>grunticon(["/css/hdicons/icons.data.svg.css?v=1.0","/css/hdicons/icons.data.png.css?v=1.0","/css/hdicons/icons.fallback.css?v=1.0"]);</script>
+        <noscript><link href="/css/hdicons/icons.fallback.css?v=1.0" rel="stylesheet"></noscript>
+
+
+        <script src="//cdn.optimizely.com/js/4227403937.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="/js/public/html5shiv.js"></script>
+        <script src="/js/public/respond.min.js"></script>
+        <![endif]-->
+
+        <!--[if lt IE 9]><link href="/css/public/base.iefix.css?v=1.6" media="screen" rel="stylesheet" type="text/css"><![endif]-->
+
+
+        
+        <!-- GA -->
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-24958859-7','auto');ga('send','pageview');</script>
+
+        <!-- start siftscience -->
+        <script type="text/javascript">var _user_id='';var _session_id='t79k5lao6klr8h5aegmicdvgn2';var _sift=window._sift=window._sift||[];_sift.push(['_setAccount','6d24289ca1']);_sift.push(['_setUserId',_user_id]);_sift.push(['_setSessionId',_session_id]);_sift.push(['_trackPageview']);(function(){function ls(){var e=document.createElement('script');e.type='text/javascript';e.async=true;e.src=('https:'===document.location.protocol?'https://':'http://')+'cdn.siftscience.com/s.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(e,s);}
+if(window.attachEvent){window.attachEvent('onload',ls);}else{window.addEventListener('load',ls,false);}}());</script>
+        <!-- end siftscience -->
+
+        <!-- Código do Google para tag de remarketing -->
+        <div style="display:none">
+        <script type="text/javascript">//<![CDATA[
+var google_conversion_id=876807203;var google_custom_params=window.google_tag_params;var google_remarketing_only=true;
+//]]></script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+        </div>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876807203/?guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+
+                
+                            <!-- start Kissmetrics -->
+                            <script type='text/javascript'>var _kmq=_kmq||[];var _kmk=_kmk||'f314a9b70ae28c0522d77c5274e9766284db2123';function _kms(u){setTimeout(function(){var d=document,f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.type='text/javascript';s.async=true;s.src=u;f.parentNode.insertBefore(s,f);},1);}
+_kms('//i.kissmetrics.com/i.js');_kms('//scripts.kissmetrics.com/'+_kmk+'.2.js');</script>
+                            <!-- end Kissmetrics -->
+                           
+    </head>
+    <body data-offset="62" data-spy="scroll" data-target=".navbar">
+        
+                   <!-- Google Tag Manager -->
+                        <script>dataLayer=[{}];</script>
+                        <noscript><iframe src='//www.googletagmanager.com/ns.html?id=' GTM-MXLMPC height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+                        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MXLMPC');</script>
+                    <!-- End Google Tag Manager -->     
+                                   <div class="globalNotify"></div>
+<div id="nav-home" class="navbar navbar-fixed-top navbar-sympla no-print">
+    <div class="row">
+    <div class="col-xs-5 visible-lg">
+        <div class="input-group input-search" id="input-search-navbar">
+            <i class="fa icon-search-2"></i>
+            <input type="text" class="form-control" placeholder="Digite o nome da cidade, evento ou selecione uma categoria" id="tags">
+        </div>
+    </div>
+    <div class="col-xs-4 col-md-3 col-lg-2 logo">
+        <a href="/home/">
+            <img src="/images/public/logo-sympla-header-02.png" alt="logo Sympla" class="logo">
+        </a>
+    </div>
+    <div class="col-sm-8 col-md-9 col-lg-5 ">
+        <button type="button" class="navbar-toggle collapsed visible-xs" id="menu-icon-nav" data-toggle='collapse' data-target='#menu-navigation-collapsed' aria-expanded="false">
+            <i class="fa icon-menu-2"></i>
+            <i class="fa icon-close-2" style="display:none;"></i>
+        </button>
+        <button type="button" class="navbar-toggle collapsed hidden-sm hidden-md hidden-lg" id="search-icon-nav" data-toggle="collapse" data-target="#search-bar-collapsed">
+            <i class="fa icon-search-2"></i>
+        </button>
+
+        <nav id="my-nav" class="navbar nav hidden-xs" role="navigation" style="">
+            <ul class="nav navbar-nav">
+                                    <li class=""><a href="/como-funciona">Para produtores</a></li>
+                    <li class=""><a onclick="showDialogLogin(realoadNavbarWhite);">Login</a></li>
+                    <li class=""><a onclick="showDialogRegistration(realoadNavbarWhite);">Criar conta</a></li>
+                    <li class="btn-outline btn-fill-white"><a href="javascript:showLoginAndRedirect('/criar-evento')">+Publicar evento</a></li>
+                            </ul>
+        </nav>
+    </div>
+</div>
+<div class="collapse navbar-collapse navbar-menu" id="menu-navigation-collapsed">
+    <ul>
+                <li class=""><a href="/como-funciona">Para produtores</a></li>
+        <li class=""><a onclick="showDialogLogin(realoadNavbarWhite)">Login</a></li>
+        <!-- <li class=""><a href="">Login</a></li> -->
+        <li class=""><a onclick="showRegResp(realoadNavbarWhite)">Criar conta</a></li>
+        <li><a class="btn btn-outline btn-fill-white" href="javascript:showLoginAndRedirect('/criar-evento')">+Publicar evento</a></li>
+            </ul>
+</div>
+</div>
+
+
+<div id="dropdown_auth" class="s-dropdown s-dropdown-tip s-dropdown-anchor-right" style="margin-top: 24px;">
+    <ul class="s-dropdown-menu text-left">
+                <li><a href="/pagina-do-organizador">P&aacute;gina do organizador</a></li>
+                <li><a href="/minha-conta">Minha conta</a></li>
+        <li><a href="javascript:logout(realoadNavbarWhite);">Sair</a></li>
+    </ul>
+</div>
+<div class="globalShadow"></div>
+<script type="text/javascript">$.widget("custom.catcomplete",$.ui.autocomplete,{_create:function(){this._super();this.widget().menu("option","items","> :not(.ui-autocomplete-category)");},_renderItem:function(ul,item){return $("<li>").attr("data-value",item.value).append('<div class="ui-menu-item-wrapper">'+item.value+'</div>').appendTo(ul);},_renderMenu:function(ul,items){var that=this,currentCategory="";$.each(items,function(index,item){var li;if(item.category!=currentCategory){ul.append("<li class='ui-autocomplete-category'>"+item.category+"</li>");currentCategory=item.category;}
+li=that._renderItemData(ul,item);if(item.category){li.attr("aria-label",item.category+" : "+item.value);}});}});function createCatCompete(){var data1=window.defaultCategories;$(document).on('click','#menu-icon-nav',function(){$(this).children().first().toggle();$(this).children().last().toggle();});$(document).on('shown.bs.collapse','#menu-navigation-collapsed',function(){$('body').addClass('noscroll');});$(document).on('hidden.bs.collapse','#menu-navigation-collapsed',function(){$('body').removeClass('noscroll');});$("#tags").on('focus',function(){$('.globalShadow').show();});$("#tags").on('blur',function(){$('.globalShadow').hide();});$("#tags").catcomplete({delay:0,appendTo:"#input-search-navbar",source:function(request,response){if((request.term||'').length==0)
+response(data1);else if(request.term.length>2){$.ajax({url:"/search/suggestions?query="+request.term+"&only=events,cities",success:function(data){response(data);}});}},select:function(event,ui){window.location.assign(ui.item.url);},minLength:0}).bind('focus',function(){$(this).catcomplete("search");});}
+$(document).ready(function(){createCatCompete();});function realoadNavbarWhite(){isGuest=false;$('#dialogLogin').modal('hide');$.ajax({'type':'POST','beforeSend':function(data){$('#my-nav').html('<i class="fa fa-spinner fa-2x fa-spin fa-pulse pull-right" style="margin-top:15px;"></i>');},'data':{'callback':'realoadNavbarWhite'},'dataType':'html','url':'/site/reloadNavbarWhiteMenu','cache':false,'success':function(html){$('#nav-home').html(html);createCatCompete();},'error':function(){$('#my-nav').html('');}});}</script>
+<section id="home" class="filter-result-page">
+    <div class="container" style="padding: 0 15px;">
+                <div class="row">
+            <div class="col-xs-12 nopadding sympla-search-bar hidden-xs">
+                <div class="input-group" id="symplaSearchBarInput">
+                                        <input type="text" class="form-control" aria-label="Pesquisar eventos ou categorias" placeholder="Pesquisar eventos ou categorias" name="input-full-search-home" id="inputFullSearchHome">
+                                        <span class="fa icon-search-2" style="left:50%"></span>
+                    <input type="text" data-value="rio-de-janeiro-rj" value="Rio de Janeiro - RJ" class="form-control" placeholder="Pesquisar por cidade" aria-label="Pesquisar por cidade" id="inputCitySearchHome">
+                    <span class="fa icon-location" style="left:100%"></span>
+                </div>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="searchForData" style="float:left;">
+                                                Todas as datas
+                        </span>
+                        <i class="fa icon-selection"></i>
+                    </button>
+                    <ul class="dropdown-menu" id="dropdownMenuDates">
+                        <li><a data-period="">Todas as datas</a></li>
+                        <li><a data-period="hoje">Hoje</a></li>
+                        <li><a data-period="amanha">Amanhã</a></li>
+                        <li><a data-period="esta-semana">Esta semana</a></li>
+                        <li><a data-period="este-fim-de-semana">Este fim de semana</a></li>
+                        <li><a data-period="proxima-semana">Próxima semana</a></li>
+                        <li><a data-period="este-mes">Este mês</a></li>
+                    </ul>
+                    <button type="button" class="btn btn-danger" id="searchEventsByFilters">
+                        <span class="visible-md visible-lg">Procurar</span>
+                        <span class="hidden-md hidden-lg"><i class="icon-search-2"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="sympla-search-bar visible-xs">
+                <div class="input-group">
+                    <input type="text" id="search-bar-collapsed-input" class="form-control " aria-label="Pesquisar eventos ou categorias" placeholder="Pesquisar eventos ou categorias" data-toggle="collapse" data-target="#search-bar-collapsed">
+                    <span class="fa icon-search-2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="search-bar-collapsed">
+            <!-- <img class="fa-close pull-right" aria-hidden="true" data-toggle="collapse" data-target="#search-bar-collapsed" src="/images/public/close.png" alt="fechar"> -->
+            <button type="button" class="navbar-toggle collapsed visible-xs" id="menu-icon-nav" data-toggle="collapse" data-target="#search-bar-collapsed">
+                <i class="fa icon-close-2"></i>
+            </button>
+            <!-- <i class="fa fa-close pull-right" aria-hidden="true" data-toggle="collapse" data-target="#search-bar-collapsed"></i> -->
+            <div class="input-group first1">
+                                <input type="text" class="form-control" placeholder="Pesquisar eventos ou categorias" id="inputFullSearchHomeResp">
+                                <i class="fa icon-search-2"></i>
+            </div>
+            <div class="input-group" id="inputCitySearchHomeContainer">
+                <input type="text" data-value="rio-de-janeiro-rj" value="Rio de Janeiro - RJ" class="form-control" placeholder="Pesquisar por cidade" aria-label="Pesquisar por cidade" id="inputCitySearchHomeResp">
+                <span class="fa icon-location"></span>
+            </div>
+            <div class="input-group with-dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span id="searchForDataResp">
+                                                Todas as datas
+                                            </span><span class="fa icon-selection"></span>
+                </button>
+                <ul class="dropdown-menu" id="dropdownMenuDatesResp">
+                    <li><a data-period="">Todas as datas</a></li>
+                    <li><a data-period="hoje">Hoje</a></li>
+                    <li><a data-period="amanha">Amanhã</a></li>
+                    <li><a data-period="esta-semana">Esta semana</a></li>
+                    <li><a data-period="este-fim-de-semana">Este fim de semana</a></li>
+                    <li><a data-period="proxima-semana">Próxima semana</a></li>
+                    <li><a data-period="este-mes">Este mês</a></li>
+                </ul>
+            </div>
+            <!-- <div class="input-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span id="searchForCategoryResp">Categorias</span>
+                    <span class="fa icon-selection"></span>
+                </button>
+                <ul class="dropdown-menu" id="dropdownCategories">
+                </ul>
+            </div> -->
+            <div class="input-group-button">
+                <button type="button" class="btn btn-danger btn-block" id="searchEventsByFiltersResp">Procurar</button>
+            </div>
+        </div>
+            </div>
+</section>
+<section id="all-results-list">
+    <div class="header-list">
+        <div class="container" style="position:relative; padding: 0 15px;">
+                <h3><strong>365</strong> eventos encontrados
+                     em <strong>Rio de Janeiro</strong>                                    </h3>
+            <div class="dropdown hidden-xs">
+                <strong class="hidden-sm">Ordenar por: </strong>
+              <button class="btn dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span class="pull-left-xs">Relevância</span>
+                                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="/eventos/rio-de-janeiro-rj?ordem=data">Data</a></li>
+                              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container nopadding">
+        <div class="row">
+                            <div id="events-grid">
+                <div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/cursos-regulares-20171__101778">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/582cbb57cc1e9-xs.png')">
+            </div>
+                
+        <div class="event-name">
+            <p>Cursos Regulares 2017.1</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Nov            </div>
+            <div class="calendar-day">
+                18            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Escola de Cinema Darcy Ribeiro</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>Em andamento - Iniciado
+           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-livre-arquitetura-legal__103555">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5831ece076e97-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Curso Livre Arquitetura Legal</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Jan            </div>
+            <div class="calendar-day">
+                14            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Centro de Convenções Barra Prime</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>Em andamento - Iniciado
+           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/reiki-nivel-1-rio-de-janeiro__107726">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5851d93382c14-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Reiki Nível 1 Rio de Janeiro</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                25            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Espaço Akasha</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               08h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/o-dgi-no-rio-de-janeiro---dia-0403-das-16h-as-18h-em-copacabana__115142">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/588fe2f09cd0b-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>O-DGI NO RIO DE JANEIRO - DIA 04/03 das 16h às 18h em COPACABANA.</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                 4            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Academia Orlando Cani</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               16h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/trilha-inhomirim-x-petropolis__109507">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/587633e9d7f78-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Trilha Inhomirim x Petrópolis</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mai            </div>
+            <div class="calendar-day">
+                14            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Central do Brasil</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               07h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/trilha-cachoeiras-parnaso---guapimirim__109508">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5876331aaf613-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Trilha Cachoeiras Parnaso - Guapimirim</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                26            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Central do Brasil</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               07h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/laboratorio-subversivo-pinhole-c-greice-rosa-e-marco-antonio-portela__109413">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/586529d6e1e88-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>LABORATÓRIO SUBVERSIVO: Pinhole c/ Greice Rosa e Marco Antonio Portela</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Jan            </div>
+            <div class="calendar-day">
+                21            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>A Casa - Fotografia e Arte Contemporânea</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>Em andamento - Iniciado
+           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/brazil-promotion-day---rio-de-janeiro__105755">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/584016a6445e7-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Brazil Promotion Day – Rio de Janeiro</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mai            </div>
+            <div class="calendar-day">
+                17            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Hotel Sheraton Barra da Tijuca</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               10h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/formacao-em-self--professional-coaching-com-pnl-rio-de-janeiro-rj__110951">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/58739c3f67937-xs.png')">
+            </div>
+                
+        <div class="event-name">
+            <p>Formação em Self & Professional Coaching com PNL Rio de Janeiro RJ </p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Jul            </div>
+            <div class="calendar-day">
+                 1            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Rio de Janeiro</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               08h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/borknagar-no-rio-de-janeiro__112171">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/587cffd8aa80a-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>BORKNAGAR no Rio de Janeiro</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                24            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Teatro Odisseia</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               18h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-tecnico-de-planejamento---certificado-emitido-pelo-crea-rj__105889">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5840bb665ad6d-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Curso Técnico de Planejamento - Certificado Emitido Pelo CREA-Rj</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Jan            </div>
+            <div class="calendar-day">
+                28            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Rua Buenos Aires, 90</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>Em andamento - Iniciado
+           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-de-orcamento-e-nocoes-de-planejamento-de-obras__107459">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5703d5687c22a-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>CURSO DE ORÇAMENTO E NOÇÕES DE PLANEJAMENTO DE OBRAS </p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Jan            </div>
+            <div class="calendar-day">
+                31            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>ESPAÇO CREA-RJ </p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>Em andamento - Iniciado
+           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-de-leitura-e-interpretacao-de-projeto__107471">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5787f0d65ecb4-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>CURSO DE LEITURA E INTERPRETAÇÃO DE PROJETO  </p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                28            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>ESPAÇO CREA-RJ </p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               18h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-de-gerenciamento-de-projetos---conceitos--msproject-2013__110592">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5870f9dfd0140-xs.png')">
+            </div>
+                
+        <div class="event-name">
+            <p>Curso de Gerenciamento de Projetos - Conceitos + MSProject 2013</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                11            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>EDX Coworking</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               09h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/workshop-como-criar-e-promover-o-seu-walking-tour__113002">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5800dc7bae230-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Workshop "Como Criar e Promover o Seu Walking Tour"</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                23            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>CIETH </p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               09h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/o-poder-das-midias-sociais-com-arnaldo-neto__112689">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/587f9171de385-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>O Poder das Mídias Sociais com Arnaldo Neto</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                15            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Studio 512</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               19h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/historia-da-arte-art-nouveau__112667">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/587f807990c54-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>História da Arte: art nouveau</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                 6            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Studio 512</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               16h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-de-capacitacao-em-acompanhamento-de-obras-civis__118236">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/5703d5dc1f766-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>CURSO DE CAPACITAÇÃO EM ACOMPANHAMENTO DE OBRAS CIVIS </p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                27            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>CREA-RJ</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               18h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/anime-field---19032017__119204">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/58a5e4eb0a587-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Anime Field - 19/03/2017</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                19            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Colégio SOMEC</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               11h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/curso-basico-de-marketing-e-propaganda__119167">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/58a5ae1467305-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Curso Básico de Marketing e Propaganda</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                28            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Shopping Nova America</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               19h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 single-event-box">
+    <a class="event-box-link" target="blank" href="https://www.sympla.com.br/workshop-na-direcao-do-medo-c-gui-mohallem__119290">
+                    <div class="event-image-box" style="background-image:url('https://d1gkntzr8mxq7s.cloudfront.net/58a5fb4aead3f-xs.jpg')">
+            </div>
+                
+        <div class="event-name">
+            <p>Workshop Na direção do medo, c/ Gui Mohallem</p>
+        </div>
+        <div class="calendar-box">
+            <div class="calendar-month">
+                Mar            </div>
+            <div class="calendar-day">
+                31            </div>
+        </div>
+        <div class="event-local-box">
+
+           <div class="uppercase line">
+                               <p>Ateliê Oriente</p>
+                           </div>
+
+           <div class="line">
+                          <i class="fa fa-clock-o color-grey" style="padding-right: 2px;"></i>
+               18h           
+                          <i class="fa fa-map-marker color-grey" style="padding: 0 2px 0 4px;"></i>
+               Rio de Janeiro, RJ                      </div>
+        </div>
+    </a>
+</div>
+                </div>
+
+                                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-md-offset-4">
+                        <div class="spinner"></div>
+                        <button id="more-events" data-url="/eventos/rio-de-janeiro-rj?ordem=relev%C3%A2ncia&pagina=2" class="btn btn-dark-transparent btn-outline btn-block" style="margin: 70px auto 30px">Carregar mais</button>
+                    </div>
+                </div>
+                                    </div>
+    </div>
+</section>
+<script type="text/javascript">var append_content=function(response){$('#events-grid').append(response.content);$('.spinner').hide();$('#more-events').show();if(response.next){$('#more-events').data('url',response.next);}else{$('#more-events').hide();}};var load_more=function(){var url=$(this).data('url');$('#more-events').hide();$('.spinner').show();$.getJSON(url,append_content);};$(document).ready(function(){$('#more-events').on('click',load_more);$(window.defaultCategories).each(function(index,el){$('#dropdownCategories:hidden').append('<li><a data-category='+el.value+'>'+el.label+'</a></li>');});$(".collapse").on('shown.bs.collapse',function(){$('body').addClass('noscroll');$('#nav-home').css('opacity',1);if($('#inputFullSearchHomeResp'))
+$('#inputFullSearchHomeResp').focus();var refCat=$('body').find('#search-bar-collapsed')[0].childNodes[5];$("#inputCitySearchHomeResp").catcomplete({delay:0,appendTo:"#inputCitySearchHomeRespContainer",classes:{"ui-autocomplete":"responsive"},source:function(request,response){if(request.term.length>2){$.ajax({url:"/search/suggestions?query="+request.term+"&only=cities",success:function(data){response(data);}});}},response:function(event,ui){if(ui.content.length>0){dataToSearch.city=ui.content[0].label;$('#inputCitySearchHomeResp').data('value',ui.content[0].label);cityToSearch=ui.content[0].value;}
+else{dataToSearch.city='';$('#inputCitySearchHomeResp').data('value','');cityToSearch='';}},select:function(event,ui){dataToSearch.city=ui.item.value;$('#inputCitySearchHomeResp').data('value',ui.item.label);},minLength:0}).bind('focus',function(){$(this).catcomplete("search");});});$(".collapse").on('hidden.bs.collapse',function(){$('body').removeClass('noscroll');$('#nav-home').css('opacity',0.9);$("#inputCitySearchHomeResp").catcomplete('destroy');});$('#dropdownMenuDates li a').on('click',function(){$('#searchForData').text($(this).text());dataToSearch.period=$(this).data('period');$('#searchForData').data('value',$(this).data('period'));});$('#dropdownMenuDatesResp li a').on('click',function(){$('#searchForDataResp').text($(this).text());dataToSearch.period=$(this).data('period');$('#searchForDataResp').data('value',$(this).data('period'));});var scrollPage=$(window).scrollTop();var searchBarOffset=$('#search-bar-collapsed-input').offset();if($(this).width()<767&&scrollPage>=searchBarOffset.top){$('#search-icon-nav').show();}
+if($(this).width()<767&&scrollPage<searchBarOffset.top){$('#search-icon-nav').hide();}
+$(window).scroll(function(){scrollPage=$(window).scrollTop();if($(this).width()<767&&scrollPage>=searchBarOffset.top){$('#search-icon-nav').show();}
+if($(this).width()<767&&scrollPage<searchBarOffset.top){$('#search-icon-nav').hide();}});var dataToSearch={'full':'','city':'','period':'','category':''};$("#inputFullSearchHome").on('keyup',function(e){if(e.keyCode==13){dataToSearch.full=$(this).val();if($('#inputCitySearchHome').data('value'))
+dataToSearch.city=$('#inputCitySearchHome').data('value');else{dataToSearch.city='';}
+if($('#searchForData').data('value'))
+dataToSearch.period=$('#searchForData').data('value');else{dataToSearch.period='';}
+var url=buildUrl(dataToSearch);window.location.assign(url)}});var buildUrl=function(dataToSearch){var url=window.location.origin+'/eventos';if(dataToSearch.city!='')
+url=url.concat('/'+dataToSearch.city);if(dataToSearch.category!='')
+url=url.concat('/'+dataToSearch.category);if(dataToSearch.period!='')
+url=url.concat('/'+dataToSearch.period);if(dataToSearch.full!='')
+url=url.concat('?s='+dataToSearch.full);return url;}
+var cityToSearch='';$('#inputCitySearchHome').on('blur',function(){if($(this).val().length<3)
+cityToSearch='';$(this).val(cityToSearch);});$('#searchEventsByFilters').on('click',function(){dataToSearch.full=$('#inputFullSearchHome').val();if($('#inputCitySearchHome').data('value'))
+dataToSearch.city=$('#inputCitySearchHome').data('value');else{dataToSearch.city='';}
+if($('#searchForData').data('value'))
+dataToSearch.period=$('#searchForData').data('value');else{dataToSearch.period='';}
+var url=buildUrl(dataToSearch);window.open(url,'_self');});$('#searchEventsByFiltersResp').on('click',function(){dataToSearch.full=$('#inputFullSearchHomeResp').val();if($('#inputCitySearchHomeResp').data('value'))
+dataToSearch.city=$('#inputCitySearchHomeResp').data('value');else{dataToSearch.city='';}
+if($('#searchForDataResp').data('value'))
+dataToSearch.period=$('#searchForDataResp').data('value');else{dataToSearch.period='';}
+var url=buildUrl(dataToSearch);window.open(url,'_self');});$("#inputCitySearchHome").catcomplete({delay:0,appendTo:"#symplaSearchBarInput",source:function(request,response){if(request.term.length>2){$.ajax({url:"/search/suggestions?query="+request.term+"&only=cities",success:function(data){response(data);}});}},select:function(event,ui){dataToSearch.city=ui.item.label;$('#inputCitySearchHome').data('value',ui.item.label);},response:function(event,ui){if(ui.content.length>0){dataToSearch.city=ui.content[0].label;$('#inputCitySearchHome').data('value',ui.content[0].label);cityToSearch=ui.content[0].value;}
+else{dataToSearch.city='';$('#inputCitySearchHome').data('value','');cityToSearch='';}},minLength:0}).bind('focus',function(){$(this).catcomplete("search");});$("#inputCitySearchHomeResp").catcomplete({delay:0,appendTo:"#inputCitySearchHomeRespContainer",source:function(request,response){if(request.term.length>2){$.ajax({url:"/search/suggestions?query="+request.term+"&only=cities",success:function(data){response(data);}});}},select:function(event,ui){dataToSearch.city=ui.item.value;$('#inputCitySearchHomeResp').data('value',ui.item.label);},response:function(event,ui){if(ui.content.length>0){dataToSearch.city=ui.content[0].label;$('#inputCitySearchHomeResp').data('value',ui.content[0].label);cityToSearch=ui.content[0].value;}
+else{dataToSearch.city='';$('#inputCitySearchHomeResp').data('value','');cityToSearch='';}},minLength:0}).bind('focus',function(){$(this).catcomplete("search");});});</script>
+
+                        <div class="modal fade dialog2" id="dialogLogin" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-detail">
+                <div class="modal-body">
+                    <div class="close">
+                        <i class="fa icon-close-2" style="" onclick="closeDialogLogin()"></i>
+                    </div>
+                    <div id="login-create-form">
+                        <div class="row row-centered">
+                            <div class="col-md-12 col-sm-12 col-centered">
+                                <div class="title margin-bottom-40">
+                                    <h1>Login</h1>
+                                </div>
+                                <div class="free-form text-left" id="login-free-form">
+                                    <form id="login-form" class="form-floating" onsubmit="login(0);return false;">
+                                        <div id="fb-btn">
+                                            <a class="btn btn-fb btn-block" href="javascript:fb_login();">
+                                                <span>Entrar com o Facebook</span>
+                                            </a>
+                                        </div>
+                                        <div class="modal-divider"></div>
+                                        <div class="loginform-group">
+                                            <div class="iconLabel"><span class="icon-mail"></span></div>
+                                            <input class="form-controlold" name="LoginForm[username]" id="LoginForm_username" placeholder="E-mail" type="text" maxlength="150">
+                                            <span id="errorMsgLoginEmail" class="errorMsgInput errorMsgLoginEmail"></span>
+                                        </div>
+                                        <div style="position:relative">
+                                            <div class="loginform-group">
+                                                <div class="iconLabel"><span class="icon-password"></span></div>
+                                                <input class="form-controlold" name="LoginForm[password]" id="LoginForm_password" placeholder="Senha" type="password" maxlength="150">
+                                            </div>
+                                            <span id="errorMsgLoginPsw" class="errorMsgInput errorMsgLoginPsw"></span>
+                                            <p id="errorMsgLoginPswRel" class="errorMsgInputRel errorMsgLoginPswRel"></p>
+                                        </div>
+                                        <div class="margin-bottom-20 checkbox-line">
+                                            <label class="nomargin"><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="1" type="checkbox" class="nomargin">
+                                            Mantenha-me conectado</label>
+                                        </div>
+                                        <div class="row nomargin">
+                                            <button class="btn btn-danger btn-block btn-submit" type="submit">Login</button>
+                                        </div>
+                                        <div class="row">
+                                            <h6 class="text-center">
+                                                Esqueceu sua senha? <a data-toggle="modal" data-target="#dialogRecoverPsw" onclick="closeDialogLogin()">Clique aqui.</a>
+                                            </h6>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-login-footer">
+                    <p class="nomargin text-center">Não possui uma conta? <a onclick="showDialogRegistration(_callback_function)">Cadastre-se!</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade dialog2" id="dialogRecoverPsw" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-detail">
+                <div class="modal-body">
+                    <div class="close">
+                        <i class="fa icon-close-2" style="" onclick="closeDialogRecoverPsw()"></i>
+                    </div>
+                    <div class="row row-centered">
+                        <div class="col-md-12 col-sm-12 col-centered">
+                            <div class="title margin-bottom-40">
+                                <h1>Recuperar senha</h1>
+                            </div>
+                            <div>
+                                <form id="form-forget-psw" onsubmit="event.preventDefault();submitRecoverPsw()">
+                                    <div class="loginform-group">
+                                        <div class="iconLabel"><span class="icon-mail"></span></div>
+                                        <input placeholder="E-mail" name="ForgotPasswordForm_email" id="ForgotPasswordForm_email" type="text" maxlength="150">
+                                    </div>
+                                    <span id="errorMsgForgetPsw" class="errorMsgInput"></span>
+                                    <span id="errorMsgForgetPswRel" class="errorMsgInputRel"></span>
+                                    <div class="margin-top-20">
+                                        <button type="submit" class="btn btn-danger btn-block btn-submit">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade dialog2" id="dialogCheckEmail" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-detail">
+                <div class="modal-body">
+                    <div class="close">
+                        <i class="fa icon-close-2" style="" onclick="closeDialogCheckEmail()"></i>
+                    </div>
+                    <div class="row row-centered">
+                        <div class="col-md-12 col-sm-12 col-centered">
+                            <div class="title margin-bottom-40">
+                                <h1>Confira seu e-mail</h1>
+                            </div>
+                            <div>
+                                <div class="margin-bottom-40 text-center">
+                                    <span>O endereço indicado receberá um e-mail com instruções de como criar uma nova senha.</span>
+                                </div>
+                                <div class="margin-top-20">
+                                    <button class="btn btn-block btn-submit" style="background-color:#8293aa" onclick="closeDialogCheckEmail()"> Fechar </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="login-resp-collapsed" class="loginMaskResp">
+    <div class="close" onclick="hideLoginResp()">
+        <i class="fa icon-close-2"></i>
+    </div>
+
+    <div class="col-md-12 col-sm-12 margin-top-20 box-login-resp-body">
+        <div class="title margin-bottom-20"><h3 class="nomargin text-center">Login</h3></div>
+        <div class="free-form text-left" id="login-free-form">
+            <form id="login-form-resp" class="form-floating" onsubmit="login(1);return false;">
+                <div id="fb-btn" class="margin-bottom-40">
+                    <a class="btn btn-fb btn-block" href="javascript:fb_login();"><span>Entrar com o Facebook</span></a>
+                </div>
+                <div class="modal-divider"></div>
+                <div class="loginform-group">
+                    <div class="iconLabel"><span class="icon-mail"></span></div>
+                    <input class="form-controlold" name="LoginForm[username]" id="LoginForm_username_resp" placeholder="E-mail" type="text" maxlength="150">
+                    <span id="errorMsgLoginEmail" class="errorMsgInput errorMsgLoginEmail"></span>
+                </div>
+                <div style="position:relative">
+                    <div class="loginform-group">
+                        <div class="iconLabel"><span class="icon-password"></span></div>
+                        <input class="form-controlold" name="LoginForm[password]" id="LoginForm_password_resp" placeholder="Senha" type="password" maxlength="150">
+                    </div>
+                    <span id="errorMsgLoginPsw" class="errorMsgInput errorMsgLoginPsw"></span>
+                    <p id="errorMsgLoginPswRel" class="errorMsgInputRel errorMsgLoginPswRel"></p>
+                </div>
+                <div class="margin-bottom-20 checkbox-line">
+                    <label class="nomargin"><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe_resp" value="1" type="checkbox" class="nomargin">
+                    Mantenha-me conectado</label>
+                </div>
+                <div class="row nomargin">
+                    <button class="btn btn-danger btn-block btn-submit" type="submit">Login</button>
+                </div>
+                <div class="row">
+                    <h6 class="text-center">Esqueceu sua senha? <a onclick="showRecoverPswResp();">Clique aqui.</a></h6>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="box-login-resp-footer">
+        <p class="nomargin text-center">Não possui uma conta? <a onclick="showRegResp(_callback_function);hideLoginResp()">Cadastre-se!</a></p>
+    </div>
+</div>
+
+<div id="recover-psw-collapsed" class="loginMaskResp">
+    <div class="close" onclick="hideRecoverPswResp()">
+        <i class="fa icon-close-2"></i>
+    </div>
+
+    <div class="col-md-12 col-sm-12 margin-top-20">
+        <div class="title margin-bottom-40 margin-top-40">
+            <h3 class="nomargin text-center">Recuperar senha</h3>
+        </div>
+        <div>
+            <form id="form-forget-psw-resp" onsubmit="event.preventDefault();submitRecoverPsw(1)">
+                <div class="loginform-group">
+                    <div class="iconLabel"><span class="icon-mail"></span></div>
+                    <input placeholder="E-mail" name="ForgotPasswordForm_email" id="ForgotPasswordForm_emailResp" type="text" maxlength="150">
+                </div>
+                <span id="errorMsgForgetPswResp" class="errorMsgInput"></span>
+                <span id="errorMsgForgetPswRespRel" class="errorMsgInputRel"></span>
+                <div class="margin-top-20">
+                    <button type="submit" class="btn btn-danger btn-block btn-submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="dialogCheckEmailResp" class="loginMaskResp">
+    <div class="col-md-12 col-sm-12 margin-top-20">
+        <div class="title margin-bottom-40 margin-top-40">
+            <h3 class="nomargin text-center">Confira seu e-mail</h3>
+        </div>
+        <div>
+            <div class="margin-bottom-40 text-center">
+                <span>O endereço indicado receberá um e-mail com instruções de como criar uma nova senha.</span>
+            </div>
+            <div class="margin-top-20">
+                <button class="btn btn-block btn-submit" style="background-color:#8293aa" onclick="closeDialogCheckEmailResp()"> Fechar </button>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="modal fade dialog2" id="dialogRegistration" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-detail">
+                <div class="modal-body">
+                    <div class="close">
+                        <i class="fa icon-close-2" style="" onclick="closeDialogRegistration()"></i>
+                    </div>
+                    <div class="row row-centered nomargin">
+                        <div class="col-md-12 col-sm-12 col-centered nopadding">
+                            <div class="title margin-bottom-40">
+                                <h1>Criar conta</h1>
+                            </div>
+                            <div id="registration-create-form">
+                                <form id="registration-form" class="form-floating reg-form-desktop" onsubmit="registration(0); return false;">
+                                    <div id="registration-with-email">
+                                        <div id="fb-btn">
+                                            <a class="btn btn-fb btn-block" href="javascript:checkRegState();">
+                                                <span>Entrar com o Facebook</span>
+                                            </a>
+                                        </div>
+                                        <div class="modal-divider"></div>
+                                        <div class="loginform-group">
+                                            <div class="iconLabel"><span class="icon-name"></span></div>
+                                            <input name="User_FIRST_NAME" id="User_FIRST_NAME" placeholder="Nome" type="text" maxlength="150">
+                                            <span id="errorMsgRegFirstname" class="errorMsgInput"></span>
+                                        </div>
+                                        <div class="loginform-group">
+                                            <div class="iconLabel"><span class="icon-surname"></span></div>
+                                            <input name="User_LAST_NAME" id="User_LAST_NAME" placeholder="Sobrenome" type="text" maxlength="150">
+                                            <span id="errorMsgRegLastname" class="errorMsgInput"></span>
+                                        </div>
+                                        <div class="loginform-group">
+                                            <div class="iconLabel"><span class="icon-mail"></span></div>
+                                            <input name="User_EMAIL" id="User_EMAIL" placeholder="E-mail" type="text" maxlength="150">
+                                            <span id="errorMsgRegEmail" class="errorMsgInput"></span>
+                                        </div>
+                                        <div class="loginform-group">
+                                            <div class="iconLabel"><span class="icon-password"></span></div>
+                                            <input class="form-controlold" name="User_PASSWORD" id="User_PASSWORD" placeholder="Senha" type="password" maxlength="150">
+                                            <span id="errorMsgRegPsw" class="errorMsgInput"></span>
+                                        </div>
+                                        <div class="row nomargin">
+                                            <button type="submit" class="btn btn-danger btn-block btn-submit">Cadastrar</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row nomargin">
+                                        <h6 class="text-center">
+                                            Ao me cadastrar, concordo com os <a href="/termos-de-uso" target="_blank">Termos de uso</a> e <a href="/politica-de-privacidade" target="_blank">Política de privacidade</a> da Sympla
+                                        </h6>
+                                    </div>
+                                    <div id="ajaxResult"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-login-footer">
+                    <p class="nomargin text-center">Já possui uma conta? <a onclick="showDialogLogin(_callback_function)">Faça login!</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade dialog2" id="dialogCheckEmailReg" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-detail">
+                <div class="modal-body">
+                    <div class="close">
+                        <i class="fa icon-close-2" style="" onclick="closeDialogCheckEmailReg()"></i>
+                    </div>
+                    <div class="row row-centered">
+                        <div class="col-md-12 col-sm-12 col-centered">
+                            <div class="title margin-bottom-40">
+                                <h1>Confira seu e-mail</h1>
+                            </div>
+                            <div>
+                                <div class="margin-bottom-40 text-center">
+                                    <span>Acesse seu e-mail e clique no link de confirmação.</span>
+                                </div>
+                                <div class="margin-top-20">
+                                    <button class="btn btn-block btn-submit" style="background-color:#8293aa" onclick="closeDialogCheckEmailReg()"> Fechar </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="reg-resp-collapsed" class="loginMaskResp">
+    <div class="close" onclick="hideRegResp()">
+        <i class="fa icon-close-2"></i>
+    </div>
+
+    <div class="row row-centered nomargin">
+        <div class="col-md-12 col-sm-12 margin-top-20">
+            <div class="title margin-bottom-20">
+                <h3 class="nomargin text-center">Criar conta</h3>
+            </div>
+            <div id="registration-create-form">
+                <form id="registration-form" class="form-floating reg-form-mobile" onsubmit="registration(1);return false;">
+                    <div id="fb-btn" class="margin-bottom-40">
+                        <a class="btn btn-fb btn-block" href="javascript:checkRegState();">
+                            <span>Entrar com o Facebook</span>
+                        </a>
+                    </div>
+                    <div class="modal-divider"></div>
+                    <div class="loginform-group">
+                        <div class="iconLabel"><span class="icon-name"></span></div>
+                        <input name="User_FIRST_NAME_resp" id="User_FIRST_NAME_resp" placeholder="Nome" type="text" maxlength="150">
+                        <span id="errorMsgRegFirstnameResp" class="errorMsgInput"></span>
+                    </div>
+                    <div class="loginform-group">
+                        <div class="iconLabel"><span class="icon-surname"></span></div>
+                        <input name="User_LAST_NAME_resp" id="User_LAST_NAME_resp" placeholder="Sobrenome" type="text" maxlength="150">
+                        <span id="errorMsgRegLastnameResp" class="errorMsgInput"></span>
+                    </div>
+                    <div class="loginform-group">
+                        <div class="iconLabel"><span class="icon-mail"></span></div>
+                        <input name="User_EMAIL_resp" id="User_EMAIL_resp" placeholder="E-mail" type="text" maxlength="150">
+                        <span id="errorMsgRegEmailResp" class="errorMsgInput"></span>
+                    </div>
+                    <div class="loginform-group">
+                        <div class="iconLabel"><span class="icon-password"></span></div>
+                        <input class="form-controlold" name="User_PASSWORD_resp" id="User_PASSWORD_resp" placeholder="Senha" type="password" maxlength="150">
+                        <span id="errorMsgRegPswResp" class="errorMsgInput"></span>
+                    </div>
+                    <div class="row nomargin">
+                        <button type="submit" class="btn btn-danger btn-block btn-submit">Cadastrar</button>
+                    </div>
+                    <div class="row">
+                        <h6 class="text-center">
+                            Ao me cadastrar, concordo com os <a href="/termos-de-uso" target="_blank">Termos de uso</a> e <a href="/politica-de-privacidade" target="_blank">Política de privacidade</a> da Sympla
+                        </h6>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="box-reg-resp-footer">
+        <p class="nomargin text-center">Já possui uma conta? <a onclick="showLoginResp(_callback_function);hideRegResp()">Faça login!</a></p>
+    </div>
+</div>
+<div id="reg-confirm-resp-collapsed" class="loginMaskResp">
+    <div class="close" onclick="hideRegConfirmResp()">
+        <i class="fa icon-close-2"></i>
+    </div>
+    <div class="row row-centered" style="display:table;width:100%;height:100%;">
+        <div class="col-md-12 col-sm-12 margin-top-40" style="display:table-cell;vertical-align:middle;">
+            <div class="title margin-bottom-40">
+                <h3 class="nomargin text-center">Confira seu e-mail</h3>
+            </div>
+            <p>Acesse seu e-mail e clique no link de confirmação.</p>
+        </div>
+    </div>
+</div>
+                <div class="fullwidth-section half-padding text-center" style="background: #8d909a; padding-bottom: 10px;">
+            <img id="imgHelp" src="/images/public/img-faq-footer.png" style="margin-left: -182px;position: relative;left: -20px;top: 4px;">
+            <a class="btn btn-white-transparent btn-outline" href="http://ajuda.sympla.com.br/forums" target="_blank">Central de ajuda</a>
+        </div>
+        <div class="fullwidth-section half-padding footer">
+            <div class="container">
+                
+<div id="footer-sitemap" class="footer-sitemap">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <ul>
+                    <li class="first-child"><a href="/como-funciona">Para produtores</a></li>
+                    <li><a id="footer-how-link" href="/como-funciona#comofunciona">Como funciona</a></li>
+                    <li><a id="footer-how-link" href="/solucoes">Soluções</a></li>
+                    <li><a id="footer-how-link" href="/como-funciona#servicos">Serviços</a></li>
+                    <li><a id="footer-how-link" href="/como-funciona#preco">Preço</a></li>
+                    <li><a id="footer-how-link" href="http://blog.sympla.com.br/category/cases-de-sucesso/" target="_blank">Cases de sucesso</a></li>
+                    <li><a id="footer-how-link" href="javascript:;" onclick="showFaleConsultor('footer');">Fale com um consultor</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <ul>
+                                        <li class="first-child">Planeje Seu Evento</li>
+                    <li><a href="/planeje/congresso-seminario">Congresso, seminário</a></li>
+                    <li><a href="/planeje/show-musica-festa">Show, música e festa</a></li>
+                    <li><a href="/planeje/esportivo">Esportivo</a></li>
+                    <li><a href="/planeje/curso-workshop">Curso, workshop</a></li>
+                    <li><a href="/planeje/encontro-networking">Encontro, networking</a></li>
+                    <li><a href="/planeje/evento-online">Evento online</a></li>
+                    <li><a href="/planeje/religioso">Religioso</a></li>
+                    <li><a href="/planeje/gastronomico">Gastronômico</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <ul>
+                    <li class="first-child"><a href="/eventos">Encontre Eventos</a></li>
+                    <li><a href="/eventos/sao-paulo-sp">São Paulo</a></li>
+                    <li><a href="/eventos/belo-horizonte-mg">Belo Horizonte</a></li>
+                    <li><a href="/eventos/rio-de-janeiro-rj">Rio de Janeiro</a></li>
+                    <li><a href="/eventos/salvador-ba">Salvador</a></li>
+                    <!-- <li></li> -->
+                </ul>
+
+                <ul class="margin-top-20">
+                    <li class="first-child">Compre pelo app</li>
+                    <div class="padding-bottom-20-xs padding-bottom-0-md">
+                        <div class="col-centered hdicon-responsive-container" style="width: 105px; height: 32px; margin-right: 3px;">
+                            <a target="_blank" href="https://itunes.apple.com/br/app/sympla-ingressos-para-os-melhores/id1136318924"><div class="icon-app-store-badge"></div></a>
+                        </div>
+                        <div class="col-centered hdicon-responsive-container" style="width: 105px; height: 32px; margin-left: 3px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.sympla.tickets&hl=pt_BR"><div class="icon-google-play-badge"></div></a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <ul>
+                    <li class="first-child"><a href="/home">Empresa</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="http://blog.sympla.com.br" target="_blank">Blog</a></li>
+                    <li><a href="/sobre-sympla">Sobre a Sympla</a></li>
+                    <li><a href="/trabalhe-conosco">Trabalhe conosco</a></li>
+                </ul>
+
+                <ul id="footer-media" style="display: inline-block;">
+                    <li class="first-child">Siga-nos</li>
+                    <li class="pull-left"><a href="http://www.facebook.com/sympla" target="_blank"><img style="height: 20px" src="/images/img-icon-facebook-footer.png"></a></li>
+                    <li class="pull-left" style=""><a href="http://twitter.com/sympla/" target="_blank"><img style="height: 20px" src="/images/img-icon-twitter-footer.png"></a></li>
+                    <li class="pull-left"><a href="http://vimeo.com/sympla/" target="_blank"><img style="height: 20px" src="/images/img-icon-vimeo-footer.png"></a></li>
+                    <!--<li><a href="http://www.orkut.com/Main#Community?cmm=115029474" target="_blank"><img src="/images/icon-orkut-footer.png"></a> <a href="http://www.orkut.com/Main#Community?cmm=115029474" target="_blank">Orkut</a></li>-->
+                </ul>
+            </div>
+        </div>
+<div class="row">
+    <div class="text-center">
+        <div class="col-md-12 col-centered" style="text-align: center; margin: 50px 0 20px 0;">
+            <a href="http://www.sanpedrovalley.org" target="blank"><img src="/images/logo-made-in-sanpedrovalley.png"/></a>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 text-center">
+        &copy; 2015 Todos os direitos reservados. <a href="/termos-de-uso">Termos de uso</a> | <a href="/politica-de-privacidade">Política de privacidade</a></div>
+
+<!--  contact Organizer dialog   -->
+<div class="modal fade margin-top-40" id="dialog-fale-consultor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <a class="close ripple" data-color="#00aeef" onclick="closeFaleConsultor();"><span aria-hidden="true">&times;</span></a>
+            <h4 class="modal-title" id="myModalLabel">Fale com um consultor</h4>
+        </div>
+        <div class="modal-detail">
+            <div class="modal-body kill-bottom-padding">
+                <form class="form-horizontal2">
+                    <fieldset>
+
+                    <input type="hidden" value="" id="hidCA">
+                    <!-- Text input-->
+                    <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="control-label" for="dialogContactOrgNome">Nome *</label>
+                          <input id="dialogContactOrgNome" name="dialogContactOrgNome" type="text" placeholder="" class="form-control" required="">
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="control-label" for="dialogContactOrgEmail">Email *</label>
+                          <input id="dialogContactOrgEmail" name="dialogContactOrgEmail" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="control-label" for="dialogContactOrgPhone">Telefone *</label>
+                          <input id="dialogContactOrgPhone" name="dialogContactOrgPhone" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-12 control-label text-left" for="dialogContactOrgProdName">Qual é o nome da sua produtora/evento? *</label>
+                      <div class="col-md-12">
+                      <input id="dialogContactOrgProdName" name="dialogContactOrgProdName" type="text" placeholder="" class="form-control input-md">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-8 control-label text-right padding-top-0-xs padding-top-20-md" for="dialogContactOrgProdArea">Em qual categoria seu evento melhor se enquadra? *</label>
+                        <div class="col-md-4 padding-top-0-xs padding-top-20-md">
+                            <select class="form-control" id="dialogContactOrgProdArea" name="dialogContactOrgProdArea">
+                              <option>Entretenimento</option>
+                              <option>Corporativo</option>
+                              <option>Esportivo</option>
+                              <option>Outro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-8 control-label text-right padding-top-0-xs padding-top-20-md" for="dialogContactSymplaUser">Já utiliza venda online em seus eventos? *</label>
+                      <div class="col-md-4 padding-top-0-xs padding-top-20-md">
+                            <select class="form-control" id="dialogContactSymplaUser" name="dialogContactSymplaUser">
+                              <option>Sim</option>
+                              <option>Não</option>
+                            </select>
+                      </div>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                      <label class="col-md-12 control-label" for="dialogContactOrgMsg">Mensagem *</label>
+                      <div class="col-md-12">
+                          <textarea class="form-control input-md" id="dialogContactOrgMsg" name="dialogContactOrgMsg" rows="4"></textarea>
+                      </div>
+                    </div>
+
+                    <input type="hidden" id="hidEventId" value="">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="modal-footer margin-top-20">
+                <div class="col-md-12" id="divEventMsgCU" class="padding-top-20"></div>
+                <div class="row row-centered" id="actionsContactOrg">
+                    <div class="col-lg-10 col-md-10 col-centered text-center-important">
+                        <a class="btn btn-primary btn-sm ripple" data-color="#FFBF75" onclick="javascript:sendEmailConsultor();"><span>Enviar mensagem</span></a>
+                        <a class="btn btn-sm color-primary ripple" data-color="#00aeef" href="javascript:closeFaleConsultor();">Cancelar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">var formValidador=new validator();formValidador.addField('fale-consultor','dialogContactOrgNome','O campo Nome é obrigatório.','required');formValidador.addField('fale-consultor','dialogContactOrgEmail','O e-mail informado não é válido.','email');formValidador.addField('fale-consultor','dialogContactOrgEmail','O e-mail informado não é válido.','required');formValidador.addField('fale-consultor','dialogContactOrgPhone','O campo Telefone é obrigatório.','required');formValidador.addField('fale-consultor','dialogContactOrgProdName','O campo Nome produtora/evento é obrigatório.','required');formValidador.addField('fale-consultor','dialogContactOrgMsg','O campo Mensagem é obrigatório.','required');function closeFaleConsultor()
+{$('#dialog-fale-consultor').modal('hide');clearFaleConsultor();}
+function showFaleConsultor(actionName)
+{$("#divEventMsgCU").html('');$("#actionsContactOrg").show();$('#dialog-fale-consultor').modal('show');$('#hidCA').val(actionName);}
+function sendEmailConsultor()
+{if(formValidador.checkFormFields('fale-consultor','divEventMsgCU'))
+{jQuery.ajax({'type':'POST','beforeSend':function(data){$("#actionsContactOrg").hide();$('#divEventMsgCU').html('<div><center><span><img alt=""  src="/images/img-loading.gif"></span></center></div>');},'data':{'email':$("#dialogContactOrgEmail").val(),'message':$("#dialogContactOrgMsg").val(),'name':$("#dialogContactOrgNome").val(),'cc':$("#hidEmail").val(),'prodname':$("#dialogContactOrgProdName").val(),'phone':$("#dialogContactOrgPhone").val(),'area':$("#dialogContactOrgProdArea").val(),'suser':$("#dialogContactSymplaUser").val(),'ca':$('#hidCA').val(),'urlreferer':''},'dataType':'json','url':'/site/sendEmailConsultant','cache':false,'success':function(data){if(data.status=="ok"){$("#divEventMsgCU").show().html('<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1025760016/?label=PP4fCPqvumUQkLaP6QM&amp;guid=ON&amp;script=0"/><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6045616710041&amp;cd[value]=0.00&amp;cd[currency]=BRL" /><div class="alert alert-success text-center">Sua mensagem foi enviada com sucesso!  <a href="javascript:closeFaleConsultor();">Fechar</a></div>');var fccEventCategory=$('#dialogContactOrgProdArea').val();var fccAlreadySells=$('#dialogContactSymplaUser').val();_kmq.push(['record','Submitted FcC',{'FCC Event Category':fccEventCategory,'FCC Already Sells Online':fccAlreadySells}]);fbq('track','Lead');}else{$("#divEventMsgCU").show().html("<div class=\"alert alert-danger\"><span>Ooops...</span></div>");$("#actionsContactOrg").show();$('#divEventMsgCU').html('');}},'error':function(){$("#divEventMsgCU").show().html("<div class=\"alert alert-danger\"><span>error-contect-general</span></div>");$("#actionsContactOrg").show();$('#divEventMsgCU').html('');}});}}
+function clearFaleConsultor(){$('#dialog-fale-consultor form input, #dialog-fale-consultor form  textarea').val('');$('#dialog-fale-consultor form input, #dialog-fale-consultor form  textarea').css("background-color","");$('#divEventMsgCU').html('');}</script>
+
+<!-- Facebook Pixel Code -->
+<script>!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1703068899921590');fbq('track','PageView');</script>
+<noscript>
+ <img height="1" width="1" src="https://www.facebook.com/tr?id=1703068899921590&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+            </div>
+        </div>
+        
+<!-- ===================================== -->
+<!-- ========== START JQUERY SCRIPTS ========== -->
+<!-- ===================================== -->
+
+    <script type="text/javascript" src="/js/public/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/public/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/js/public/stellar.js"></script>
+    <script type="text/javascript" src="/js/public/counter.js?v=1.0"></script>
+    <script type="text/javascript" src="/js/public/jquery.superslides.js"></script>
+    <script type="text/javascript" src="/js/public/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/js/public/animation-engine.js"></script>
+    <script type="text/javascript" src="/js/public/hammer.js?v=1.0"></script>
+    <script type="text/javascript" src="/js/public/jquery.dotdotdot.js?v=1.3"></script>
+    <script type="text/javascript" src="/js/bxslider/jquery.bxslider.js?v=1.0"></script>
+    <script type="text/javascript" src="/js/public/jquery.sticky-kit.min.js?v=1.2"></script>
+    <script type="text/javascript" src="/js/public/jquery.dropdown.js?v=1.0"></script>
+    <script type="text/javascript" src="/js/public/base.js?v=2.03"></script>
+    <script type="text/javascript" src="/js/sympla.access.js?v=1.33"></script>
+
+
+<script type="text/javascript">$(document).ready(function(){$('#main-image').show();$("#owl-front-events").owlCarousel({navigation:false,slideSpeed:300,paginationSpeed:400,singleItem:true});$('#slides2').superslides({inherit_height_from:"#home",animation:'fade',animation_speed:2000,play:8000,animation_easing:'swing'});$('.ripple').ripple();$('.ripple-fast').ripple({'v_duration':150,'h_duration':150});$('.ripple-slow').ripple({'v_duration':1000,'h_duration':1000});$('.ripple-fast-slow').ripple({'v_duration':600,'h_duration':150});});$('.navbar').on('show.bs.collapse',function(){var actives=$(this).find('.collapse.in');if(actives&&actives.length){hasData=actives.data('collapse')
+if(hasData&&hasData.transitioning)return
+actives.collapse('hide')
+hasData||actives.data('collapse',null)}});function searchEvent()
+{$('.ui-autocomplete').removeClass('ui-corner-all');$('.ui-autocomplete').addClass('col-lg-4 col-md-4 col-sm-6 col-xs-12');$('.search-icon').attr('src','/images/img-search-loading.gif');window.setTimeout(function(){stopSearch();},2000);}
+function stopSearch()
+{if($('.search-icon').attr('src')=='/images/img-search-loading.gif');$('.search-icon').attr('src','/images/img-search-magnifier.png');}</script>
+
+<!-- Start of sympla Zendesk Widget script -->
+<script>//<![CDATA[
+window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//assets.zendesk.com/embeddable_framework/main.js","sympla.zendesk.com");
+//]]></script>
+<!-- End of sympla Zendesk Widget script -->
+<script>zE(function(){zE.setLocale('pt-br');zE.identify({name:'',email:''});});</script>
+
+
+<!-- Olark -->
+<script type='text/javascript'>//<![CDATA[
+window.olark||(function(i){var e=window,h=document,a=e.location.protocol=="https:"?"https:":"http:",g=i.name,b="load";(function(){e[g]=function(){(c.s=c.s||[]).push(arguments)};var c=e[g]._={},f=i.methods.length;while(f--){(function(j){e[g][j]=function(){e[g]("call",j,arguments)}})(i.methods[f])}c.l=i.loader;c.i=arguments.callee;c.f=setTimeout(function(){if(c.f){(new Image).src=a+"//"+c.l.replace(".js",".png")+"&"+escape(e.location.href)}c.f=null},20000);c.p={0:+new Date};c.P=function(j){c.p[j]=new Date-c.p[0]};function d(){c.P(b);e[g](b)}e.addEventListener?e.addEventListener(b,d,false):e.attachEvent("on"+b,d);(function(){function l(j){j="head";return["<",j,"></",j,"><",z,' onl'+'oad="var d=',B,";d.getElementsByTagName('head')[0].",y,"(d.",A,"('script')).",u,"='",a,"//",c.l,"'",'"',"></",z,">"].join("")}var z="body",s=h[z];if(!s){return setTimeout(arguments.callee,100)}c.P(1);var y="appendChild",A="createElement",u="src",r=h[A]("div"),G=r[y](h[A](g)),D=h[A]("iframe"),B="document",C="domain",q;r.style.display="none";s.insertBefore(r,s.firstChild).id=g;D.frameBorder="0";D.id=g+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){D.src="javascript:false"}D.allowTransparency="true";G[y](D);try{D.contentWindow[B].open()}catch(F){i[C]=h[C];q="javascript:var d="+B+".open();d.domain='"+h.domain+"';";D[u]=q+"void(0);"}try{var H=D.contentWindow[B];H.write(l());H.close()}catch(E){D[u]=q+'d.write("'+l().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}c.P(2)})()})()})({loader:(function(a){return"static.olark.com/jsclient/loader0.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]});olark.identify('1585-436-10-2950');
+//]]></script>
+
+<script type="text/javascript">olark('api.chat.updateVisitorNickname',{snippet:""});window.defaultCategories=[{"category":"Categorias","url":"\/eventos\/congresso-seminario","value":"Congresso, semin\u00e1rio","label":"congresso-seminario"},{"category":"Categorias","url":"\/eventos\/gastronomico","value":"Gastron\u00f4mico","label":"gastronomico"},{"category":"Categorias","url":"\/eventos\/curso-workshop","value":"Curso, workshop","label":"curso-workshop"},{"category":"Categorias","url":"\/eventos\/encontro-networking","value":"Encontro, networking","label":"encontro-networking"},{"category":"Categorias","url":"\/eventos\/esportivo","value":"Esportivo","label":"esportivo"},{"category":"Categorias","url":"\/eventos\/feira-exposicao","value":"Feira, exposi\u00e7\u00e3o","label":"feira-exposicao"},{"category":"Categorias","url":"\/eventos\/filme-cinema-teatro","value":"Filme, cinema e teatro","label":"filme-cinema-teatro"},{"category":"Categorias","url":"\/eventos\/religioso-espiritual","value":"Religioso, espiritual","label":"religioso-espiritual"},{"category":"Categorias","url":"\/eventos\/show-musica-festa","value":"Show, m\u00fasica e festa","label":"show-musica-festa"},{"category":"Categorias","url":"\/eventos\/outro-evento","value":"Outro evento","label":"outro-evento"}];</script>
+</body>
+</html>

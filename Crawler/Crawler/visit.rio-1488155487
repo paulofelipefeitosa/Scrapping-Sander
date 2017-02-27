@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <link rel="icon" href="http://visit.rio/wp-content/themes/rio/favicon.gif" type="image/gif">
+      <meta property="og:title" content="Visit.Rio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://ec2-54-94-151-225.sa-east-1.compute.amazonaws.com/wp-content/themes/rio/assets/img/logo_visit_rio.svg">
+    <meta property="fb:app_id" content="1654706448118348">
+    <script async defer>
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    if (sessionStorage.getItem('anuncioParceiro')) {
+          
+        } else {
+          parceiro = document.getElementById('parceiro')
+          parceiro.style.display = "table";
+          sessionStorage.setItem('anuncioParceiro', true)
+        }
+  })
+  </script>
+  
+<!-- This site is optimized with the Yoast SEO plugin v3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Home | Visit.Rio</title>
+<meta name="description" content="Agenda cultural, informações turísticas, onde ficar e onde comer no Rio de Janeiro. Visit.Rio!"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://visit.rio/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:locale:alternate" content="es_ES" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home | Visit.Rio" />
+<meta property="og:description" content="Agenda cultural, informações turísticas, onde ficar e onde comer no Rio de Janeiro. Visit.Rio!" />
+<meta property="og:url" content="http://visit.rio/" />
+<meta property="og:site_name" content="Visit.Rio" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Agenda cultural, informações turísticas, onde ficar e onde comer no Rio de Janeiro. Visit.Rio!" />
+<meta name="twitter:title" content="Home | Visit.Rio" />
+<meta name="twitter:site" content="@riodejaneiro" />
+<meta name="twitter:creator" content="@riodejaneiro" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/visit.rio\/","name":"Visit.Rio","potentialAction":{"@type":"SearchAction","target":"http:\/\/visit.rio\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Visit.Rio &raquo; Home" href="http://visit.rio/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/visit.rio\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://visit.rio/wp-content/themes/rio/assets/js/vendor/bootstrap/dist/css/bootstrap.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fa-css-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css-css'  href='http://visit.rio/wp-content/themes/rio/assets/js/vendor/fancybox/source/jquery.fancybox.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css-css'  href='http://visit.rio/wp-content/themes/rio/assets/js/vendor/slick/slick.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='guia-rio-css'  href='http://visit.rio/wp-content/themes/rio/assets/css/main.css?ver=4.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/wp-a11y.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"Nenhum resultado de pesquisa.","oneResult":"Foi encontrado um resultado. Use as setas para cima e para baixo do teclado para navegar.","manyResults":"Foram encontrados %d resultados. Use as setas para cima e para baixo do teclado para navegar."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var main_vars = {"admin_url":"http:\/\/visit.rio\/wp-admin\/admin-ajax.php","gr_nonce":"3dee57e631","home_url":"http:\/\/visit.rio\/","filtro_url":"","sobre_rio":"http:\/\/visit.rio\/wp-content\/themes\/rio\/template-sobre-o-rio.php","url_tema":"http:\/\/visit.rio\/wp-content\/themes\/rio"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://visit.rio/wp-content/themes/rio/assets/js/min/guiario.min.js?ver=2.0.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vars = {"url":"http:\/\/visit.rio\/wp-admin\/admin-ajax.php","gr_nonce":"9336c448c0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://visit.rio/wp-content/themes/rio/assets/js/min/busca.min.js?ver=1.1'></script>
+<link rel='https://api.w.org/' href='http://visit.rio/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://visit.rio/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://visit.rio/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='http://visit.rio/' />
+<link rel="alternate" type="application/json+oembed" href="http://visit.rio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fvisit.rio%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://visit.rio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fvisit.rio%2F&#038;format=xml" />
+<link rel="alternate" href="http://visit.rio/" hreflang="pt" />
+<link rel="alternate" href="http://visit.rio/en/welcome/" hreflang="en" />
+<link rel="alternate" href="http://visit.rio/es/bienvenido/" hreflang="es" />
+</head>
+
+<body class="home page page-id-243 page-template page-template-front-page page-template-front-page-php">
+
+  <div class="all-in-rio">
+  <div id="fb-root"></div>
+
+  
+  
+  <!-- busca -->
+  <div id="topbar" class="clearfix">
+    <div class="center-block">
+      <div id="search" class="">
+
+	<a class="searchClose" data-close="close" href="javascript:;">&times;</a>
+	
+	<form role="search" method="get" id="searchform" action="http://visit.rio/">
+
+		<input type="text" value="" name="s" id="s" autocomplete="off" />
+
+		<input type="text" id="fake-complete">
+
+	</form>
+
+</div>      <h1 id="guia-rio"><a href="http://visit.rio/"></a></h1>
+      <ul id="options" class="inline-list">
+                  <li id="sobre_rio"><a href="http://visit.rio/sobre-o-rio/">Sobre o Rio</a></li>
+          <li id="agenda"><a href="http://visit.rio/agenda/">Agenda</a></li>
+          <li class="turismo_negocios">
+            <a href="http://visit.rio">Turismo</a>
+          </li>
+          <li class="turismo_negocios">
+            <a href="http://visit.rio/editorial/negocios/">Negócios</a>
+          </li>
+          <li id="mobilidade">
+            <a href="http://visit.rio/mobilidade/">Mobilidade</a>
+          </li>
+                <li class="idioma">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#" aria-expanded="true">pt<b class="icon-down"></b></a><ul id="dropdown-lang" class="dropdown-menu"><li id="rio-en" class = "lang-item-en"><a href ="http://visit.rio/en/welcome/" hreflang = "en">en</a></li><li id="rio-es" class = "lang-item-es"><a href ="http://visit.rio/es/bienvenido/" hreflang = "es">es</a></li></ul>        </li>
+        <li class="wishlist">
+          <a id="wishlist-all" class="" href="http://visit.rio/wishlist/">
+            <i class="icon-fav-adicionado"></i>
+          </a>
+        </li>
+        <li class="busca">
+          <a href="javascript:;" id="searchOpen"><i class="icon-lupa"></i></a>
+        </li>
+              </ul>
+    </div><!-- center-block -->
+  </div><!-- #topbar -->
+
+  <header>
+    
+<div id="bannerFoto" class="home-carousel">
+	
+		
+						
+			<div>
+				<div class="item-banner">
+					
+										
+					<div class="banner-wrap" style="background-image:linear-gradient(rgba(100,0,0,.2), rgba(0,0,0,.2)), url('http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/02/Banner-Carnaval-2017_Sem-nome_1920x500_acf_cropped.jpg');">
+						
+												
+						<h2>
+							<a href="http://visit.rio/?post_type=editorial&#038;p=25256">
+								App Carnaval de Blocos Rio 2017							</a>
+						</h2>
+						<a class="scroll-down" href="#topbar"><span class="icon-arrow-down"></span></a>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+					
+			<div>
+				<div class="item-banner">
+					
+										
+					<div class="banner-wrap" style="background-image:linear-gradient(rgba(100,0,0,.2), rgba(0,0,0,.2)), url('http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/01/carnavaL__1920x500_acf_cropped.jpg');">
+						
+												
+						<h2>
+							<a href="http://visit.rio/?post_type=editorial&#038;p=21114">
+								É carnaval!							</a>
+						</h2>
+						<a class="scroll-down" href="#topbar"><span class="icon-arrow-down"></span></a>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+					
+			<div>
+				<div class="item-banner">
+					
+										
+					<div class="banner-wrap" style="background-image:linear-gradient(rgba(100,0,0,.2), rgba(0,0,0,.2)), url('http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/mustsee_1920x500_acf_cropped-1.jpg');">
+						
+												
+						<h2>
+							<a href="http://visit.rio/?post_type=editorial&#038;p=1723">
+								Rio Imperdível							</a>
+						</h2>
+						<a class="scroll-down" href="#topbar"><span class="icon-arrow-down"></span></a>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+				
+</div>
+
+    <div class="clearfix"></div>
+    <nav id="menu-desktop" class="menu-principal">
+      <ul id="main">
+        <li class="parent-link que_fazer">
+          <div class="layer-transition"><i class="icon-que-fazer"></i></div>
+          <a href="#" class="link-pai">O que fazer</a>
+          <ul class="tax sub-menu" id="o-que-fazer">
+                          <li><a href="http://visit.rio/o-que-fazer/ao-ar-livre/" data-term="ao-ar-livre">Ao ar livre</a></li>
+                          <li><a href="http://visit.rio/o-que-fazer/bem-estar/" data-term="bem-estar">Bem estar</a></li>
+                          <li><a href="http://visit.rio/o-que-fazer/compras/" data-term="compras">Compras</a></li>
+                          <li><a href="http://visit.rio/o-que-fazer/cultura-arte/" data-term="cultura-arte">Cultura e Arte</a></li>
+                          <li><a href="http://visit.rio/o-que-fazer/esportes/" data-term="esportes">Esportes</a></li>
+                          <li><a href="http://visit.rio/o-que-fazer/vida-noturna/" data-term="vida-noturna">Para Dançar</a></li>
+                      </ul>
+        </li>
+        <li class="parent-link onde_comer">
+          <div class="layer-transition"><i class="icon-onde-comer"></i></div>
+          <a href="#" class="link-pai">Onde comer</a>
+          <ul class="tax sub-menu" id="onde-comer">
+                          <li><a href="http://visit.rio/onde-comer/bares/" data-term="bares">Bares</a></li>
+                          <li><a href="http://visit.rio/onde-comer/cafes/" data-term="cafes">Cafés</a></li>
+                          <li><a href="http://visit.rio/onde-comer/fastfood-pt/" data-term="fastfood-pt">Fastfood</a></li>
+                          <li><a href="http://visit.rio/onde-comer/quiosques/" data-term="quiosques">Quiosques</a></li>
+                          <li><a href="http://visit.rio/onde-comer/restaurantes/" data-term="restaurantes">Restaurantes</a></li>
+                          <li><a href="http://visit.rio/onde-comer/sorveterias/" data-term="sorveterias">Sorveterias</a></li>
+                          <li><a href="http://visit.rio/onde-comer/food-truck/" data-term="food-truck">Food Truck</a></li>
+                      </ul>
+        </li>
+        <li class="parent-link onde_ficar">
+          <div class="layer-transition"><i class="icon-onde-ficar"></i></div>
+          <a href="#" class="link-pai">Onde Ficar</a>
+          <ul class="tax sub-menu" id="onde-ficar">
+                          <li><a href="http://visit.rio/onde-ficar/albergues/" data-term="albergues">Albergues</a></li>
+                          <li><a href="http://visit.rio/onde-ficar/apart-hoteis/" data-term="apart-hoteis">Apart hotéis</a></li>
+                          <li><a href="http://visit.rio/onde-ficar/cama-e-cafe/" data-term="cama-e-cafe">Cama e café</a></li>
+                          <li><a href="http://visit.rio/onde-ficar/hoteis/" data-term="hoteis">Hotéis</a></li>
+                          <li><a href="http://visit.rio/onde-ficar/pousada/" data-term="pousada">Pousadas</a></li>
+                      </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="filtros-top">
+      <div class="wrap_rio">
+                  <div class="select-filtro">
+            <select name="escolha_seu_rio" id="escolha_seu_rio">
+              <option value="0" selected>&#xf0d7; &nbsp;Escolha seu Rio</option>
+                              <option value="historico">Histórico</option>
+                              <option value="infantil">Infantil</option>
+                              <option value="lgbt">LGBT</option>
+                          </select>
+          </div>
+        
+        
+          <div class="select-filtro">
+            <select name="cozinhas" id="cozinhas">
+              <option value="0" selected>&#xf0d7; &nbsp;Cozinhas</option>
+                              <option value="pizzaria">Pizzaria</option>
+                              <option value="kosher">Kosher</option>
+                              <option value="natural-pt">Natural</option>
+                              <option value="inglesa">Inglesa</option>
+                              <option value="latino-americana">Latino Americana</option>
+                              <option value="tailandesa">Tailandesa</option>
+                              <option value="vegetariana">Vegetariana</option>
+                              <option value="internacional">Internacional</option>
+                              <option value="comida-de-bar-pt">Comida de bar</option>
+                              <option value="argentina">Argentina</option>
+                              <option value="belga">Belga</option>
+                              <option value="asiatica">Asiática</option>
+                              <option value="americana">Americana</option>
+                              <option value="espanhola">Espanhola</option>
+                              <option value="francesa">Francesa</option>
+                              <option value="a-quilo">A Quilo</option>
+                              <option value="alema">Alemã</option>
+                              <option value="arabe">Árabe</option>
+                              <option value="chinesa">Chinesa</option>
+                              <option value="comida-de-boteco">Comida de Boteco</option>
+                              <option value="brasileira">Brasileira</option>
+                              <option value="doces">Doces</option>
+                              <option value="contemporanea">Contemporânea</option>
+                              <option value="fast-food">Fast Food</option>
+                              <option value="italiana">Italiana</option>
+                              <option value="japonesa">Japonesa</option>
+                              <option value="massas">Massas</option>
+                              <option value="mexicana">Mexicana</option>
+                              <option value="peixes-e-frutos-do-mar">Peixes e Frutos do Mar</option>
+                              <option value="polonesa">Polonesa</option>
+                              <option value="peruana">Peruana</option>
+                              <option value="sorveteria">Sorveteria</option>
+                              <option value="portuguesa">Portuguesa</option>
+                              <option value="tradicional">Tradicional</option>
+                          </select>
+            <select name="precos" id="precos">
+              <option value="0">&#xf0d7; &nbsp;Preço</option>
+                              <option value="6555">$$$</option>
+                              <option value="libre-pt">Libre</option>
+                              <option value="barato">$</option>
+                              <option value="popular">$$</option>
+                              <option value="caro">$$$</option>
+                              <option value="muito-caro">$$$$</option>
+                              <option value="gratuito">Grátis</option>
+                          </select>
+          </div>
+              </div><!-- /.wrap-rio -->
+    </div><!-- /#filtros-top -->
+  </header>
+<div id="container">
+  <ul id="grid-rio">
+  
+     <li class="item  0 0">
+       <figure>
+         <a href="http://visit.rio/informacoes/#apps-uteis">
+           <img style="width:100%;" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/Apps-recomendados-250x250.jpg" alt="">
+           <figcaption>
+             <div class="wrap">
+               <h4>Aplicativos Recomendados</h4>
+               <p>&nbsp;</p>
+             </div>
+           </figcaption>
+         </a>
+       </figure>
+     </li>
+     
+    <li class="item  1 0 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/cristoredentor/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/7009324581_649371f2df_k-2-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="7009324581_649371f2df_k-2" />          <figcaption>
+            <div class="wrap">
+                            <h4>Cristo Redentor</h4>
+              <p>Passeios</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  2 1 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/aquario-marinho-do-rio-aquario/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/10/AquaRio-©-Alexandre-Macieira-140-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="aquario-alexandre-macieira-140" />          <figcaption>
+            <div class="wrap">
+                            <h4>Aquário Marinho do Rio (AquaRio)</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  3 2 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/paodeacucar/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/7543753204_9dd905f177_k-2-e1443563257150-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="7543753204_9dd905f177_k-2" />          <figcaption>
+            <div class="wrap">
+                            <h4>Pão de Açúcar</h4>
+              <p>Passeios</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item big 4 3 editorial">
+      <figure>
+        <a href="http://visit.rio/editorial/carnaval2017/" target="_parent">
+        <img width="500" height="500" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/11/carnaval-destataca-raphael-david.jpg" class="attachment-full-square size-full-square wp-post-image" alt="Foto: Raphael David" />          <figcaption>
+            <div class="wrap">
+                            <h4>É carnaval!</h4>
+              <p>Editorial</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+        <li class="item larger 5 4 imperdivel">
+      <div class="layer"></div>
+      <a href="http://visit.rio/editorial/rioimperdivel/">
+        <div class="col-xs-6 sup-icon left">
+          <div class="wrap-serv">
+            <div class="content-text">Rio <strong>Imperdível</strong></div>
+          </div>
+        </div>
+        <div class="col-xs-6 data">
+          <div class="wrap-serv">
+            <div class="content-serv">
+              <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/sobre-impredivel.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </a>
+      <div class="layer"></div>
+    </li>
+
+    
+    <li class="item  6 4 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/sightseeingrio/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/sightseeing500-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="sightseeing500" />          <figcaption>
+            <div class="wrap">
+                            <h4>SIGHTSEEING RIO</h4>
+              <p>Passeios</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item taller 7 5 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/museudoamanha/" target="_parent">
+        <img width="250" height="500" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/12/21057887419_bfd7f8221a_k-1-250x500.jpg" class="attachment-vertical size-vertical wp-post-image" alt="21057887419_bfd7f8221a_k (1)" />          <figcaption>
+            <div class="wrap">
+                            <h4>Museu do Amanhã</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  8 6 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/florestadatijuca/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/6926360987_9258d33bf2_b-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Foto: Alexandre Macieira | Riotur" />          <figcaption>
+            <div class="wrap">
+                            <h4>FLORESTA DA TIJUCA</h4>
+              <p>Ao ar livre</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 9 7 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/jardimbotanico/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/19761016088_7277db664a_k-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="19761016088_7277db664a_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Jardim Botânico</h4>
+              <p>Ao ar livre</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  10 8 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/feiradesaocristovao/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/12/8006919986_34c2fabf4e_k-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="8006919986_34c2fabf4e_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Centro Luiz Gonzaga de Tradições Nordestinas</h4>
+              <p>Para Dançar</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  11 9 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/morrodoisirmaos/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/19695858006_42030fd693_k-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="19695858006_42030fd693_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Morro Dois Irmãos</h4>
+              <p>Trilhas</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 12 10 imperdivel">
+      <div class="layer"></div>
+      <a href="http://visit.rio/destaque/o-que-faz-o-rio-especial/">
+        <div class="col-xs-6 sup-icon left">
+          <div class="wrap-serv">
+            <div class="content-text">
+              O que faz o Rio <strong>especial</strong>            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 data">
+          <div class="wrap-serv">
+            <div class="content-serv">
+              <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/sobre-especial.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+ 
+    <li class="item larger 13 10 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/theatromunicipal/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/17603748585_e86b62f80f_k1-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="17603748585_e86b62f80f_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Theatro Municipal</h4>
+              <p>Cultura e Arte</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    	 <li class="item  14 11">
+		 <figure>
+			 <a href="https://open.spotify.com/user/visit.rio" target="_blank">
+				 <img style="width:100%;" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/Foto_site-spotify-250x250.png" alt="">
+				 <figcaption>
+					 <div class="wrap">
+						 <h4>Descubra o Rio através da música</h4>
+						 <p>&nbsp;</p>
+					 </div>
+				 </figcaption>
+			 </a>
+		 </figure>
+	 </li>
+	 
+    <li class="item tax fazer  15 11">
+      <a href="http://visit.rio/o-que-fazer/ao-ar-livre/">
+        <div class="content">
+          <i class="icon-que-fazer"></i>
+          <p>O que fazer</p>
+          <h3>AO AR LIVRE</h3>
+          <div class="layer"></div>
+        </div>
+      </a>
+    </li>
+
+    
+    <li class="item larger 16 11">
+      <figure>
+        <a href="http://carnavalesamba.rio" target="_blank">
+          <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/samba_rio.jpg" alt="">
+          <figcaption>
+            <div class="wrap">
+              <h4>carnavalesamba.rio</h4>
+              <p>Acesse o site</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+
+    
+    <li class="item  17 11 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/pedradagavea/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/8577671008_dfec8946b5_k-e1443458359668-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="8577671008_dfec8946b5_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Pedra da Gávea</h4>
+              <p>Trilhas</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  0 12 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/igreja-de-nossa-senhora-da-candelaria/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/5985461202_50831d9147_o-e1443551888266-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="5985461202_50831d9147_o" />          <figcaption>
+            <div class="wrap">
+                            <h4>Igreja de Nossa Senhora da Candelária</h4>
+              <p>Cultura e Arte</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  1 13 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/riozoo/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/12/riozoo_600-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="riozoo_600" />          <figcaption>
+            <div class="wrap">
+                            <h4>RioZoo</h4>
+              <p>Ao ar livre</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item tax ficar  2 14">
+      <a href="http://visit.rio/onde-ficar/hoteis/">
+        <div class="content">
+          <i class="icon-onde-ficar"></i>
+          <p>Onde ficar</p>
+          <h3>HOTÉIS</h3>
+          <div class="layer"></div>
+        </div>
+      </a>
+    </li>
+
+    
+    <li class="item  3 14 editorial">
+      <figure>
+        <a href="http://visit.rio/editorial/roteiro-madureira/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/roteiro-m-adureira-destacada-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="roteiro m adureira - destacada" />          <figcaption>
+            <div class="wrap">
+                            <h4>Roteiro Madureira</h4>
+              <p>Editorial</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item big 4 15 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/mam/" target="_parent">
+        <img width="500" height="500" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/7158977258_49bc147533_k-e1443472298799-500x500.jpg" class="attachment-full-square size-full-square wp-post-image" alt="7158977258_49bc147533_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>MAM - Museu de Arte Moderna</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 5 16 editorial">
+      <figure>
+        <a href="http://visit.rio/editorial/barestombados/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/12/Bar-do-Joia-©-Alexandre-Macieira-106-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="Bar do Joia © Alexandre Macieira 106" />          <figcaption>
+            <div class="wrap">
+                            <h4>Bares tombados</h4>
+              <p>Editorial</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  6 17 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/centro-de-visitantes-paineiras/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/28017072854_b1478b274a_z-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="28017072854_b1478b274a_z" />          <figcaption>
+            <div class="wrap">
+                            <h4>CENTRO DE VISITANTES PAINEIRAS</h4>
+              <p>Ao ar livre</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item taller 7 18 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/ccbb/" target="_parent">
+        <img width="250" height="500" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/6023504526_05875714c5_o-250x500.jpg" class="attachment-vertical size-vertical wp-post-image" alt="Foto: Divulgação" />          <figcaption>
+            <div class="wrap">
+                            <h4>Centro Cultural Banco do Brasil - CCBB</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  8 19 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/saara/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/saara-destacada-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Foto: Divulgação" />          <figcaption>
+            <div class="wrap">
+                            <h4>Saara</h4>
+              <p>Compras</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 9 20 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/a-casa-do-jongo/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/12/casa-do-jongo-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="Foto: Alexandre Macieira | Riotur" />          <figcaption>
+            <div class="wrap">
+                            <h4>Casa do Jongo</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  10 21 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/nave-do-conhecimento-e-museu-cidade-olimpica/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/6253258-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="DCIM100MEDIA" />          <figcaption>
+            <div class="wrap">
+                            <h4>Museu Cidade Olímpica</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  11 22 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/centro-cultural-correios/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/7774955338_c1abafb061_k-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="7774955338_c1abafb061_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Centro Cultural Correios</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 12 23 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/jeeptour/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/jeep500-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="jeep500" />          <figcaption>
+            <div class="wrap">
+                            <h4>JEEP TOUR</h4>
+              <p>Passeios</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 13 24 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/casa-de-cultura-laura-alvim/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/4194832135_ac4158a347_o-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="4194832135_ac4158a347_o" />          <figcaption>
+            <div class="wrap">
+                            <h4>Casa de Cultura Laura Alvim</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  14 25 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/quinta-da-boa-vista/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/14887168267_364fec8e5c_k-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="14887168267_364fec8e5c_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Quinta da Boa Vista</h4>
+              <p>Ao ar livre</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item tax comer  15 26">
+      <a href="http://visit.rio/onde-comer/restaurantes/">
+        <div class="content">
+          <i class="icon-onde-comer"></i>
+          <p>Onde comer</p>
+          <h3>RESTAURANTES</h3>
+          <div class="layer"></div>
+        </div>
+      </a>
+    </li>
+
+    
+    <li class="item  16 26 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/pedra-bonita/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/19934899858_e6d7bddfda_k-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="19934899858_e6d7bddfda_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Pedra Bonita</h4>
+              <p>Trilhas</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  0 27 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/museuhistoricodacidadedoriodejaneiro/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/13528892_1569091700051673_2437413652388968215_n-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="13528892_1569091700051673_2437413652388968215_n" />          <figcaption>
+            <div class="wrap">
+                            <h4>Museu Histórico da Cidade do Rio de Janeiro</h4>
+              <p>Cultura e Arte</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  1 28 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/abrico/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/08/52d98490c6850cc7f5e13b4c7a0d957699eb8050a1ce3-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="52d98490c6850cc7f5e13b4c7a0d957699eb8050a1ce3" />          <figcaption>
+            <div class="wrap">
+                            <h4>Abricó</h4>
+              <p>Praias</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  2 29 editorial">
+      <figure>
+        <a href="http://visit.rio/editorial/eternizados-em-bronze/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/04/destacada-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Foto: Alexandre Macieira" />          <figcaption>
+            <div class="wrap">
+                            <h4>Eternizados em Bronze</h4>
+              <p>Editorial</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  3 30 ">
+      <figure>
+        <a href="http://visit.rio/evento/ginga-tropical/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/05/Ginga-Tropical-©-Alexandre-Macieira-5898-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Ginga Tropical © Alexandre Macieira 5898" />          <figcaption>
+            <div class="wrap">
+                            <div class="data">
+                              <h4>07<span>jan</span></h4>
+                                  <div class="dash">-</div>
+                  <h4>30<span>abr</span></h4>
+                                            </div>
+                            <h4>Ginga Tropical</h4>
+              <p></p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item big 4 31 editorial">
+      <figure>
+        <a href="http://visit.rio/editorial/roteiros-niemeyer/" target="_parent">
+        <img width="500" height="500" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/roteiro-niemeyer-destacada.jpg" class="attachment-full-square size-full-square wp-post-image" alt="roteiro niemeyer - destacada" />          <figcaption>
+            <div class="wrap">
+                            <h4>Roteiro Niemeyer</h4>
+              <p>Editorial</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 5 32 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/museu-de-arte-contemporanea-mac-2/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/mac-destacada-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="mac - destacada" />          <figcaption>
+            <div class="wrap">
+                            <h4>Museu de Arte Contemporânea (MAC)</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  6 33 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/teatro-riachuelo-rio/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/destacada-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Foto: Projeção" />          <figcaption>
+            <div class="wrap">
+                            <h4>Teatro Riachuelo Rio</h4>
+              <p></p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item taller 7 34 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/casa-franca-brasil/" target="_parent">
+        <img width="250" height="500" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2015/09/8284884224_e3062b7930_k-250x500.jpg" class="attachment-vertical size-vertical wp-post-image" alt="8284884224_e3062b7930_k" />          <figcaption>
+            <div class="wrap">
+                            <h4>Casa França-Brasil</h4>
+              <p>Museus e Centros Culturais</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  8 35 ">
+      <figure>
+        <a href="http://visit.rio/onde_comer/deli-43/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/11/deli_600-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="deli_600" />          <figcaption>
+            <div class="wrap">
+                            <h4>Deli 43 - Centro</h4>
+              <p>Restaurantes</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 9 36 editorial">
+      <figure>
+        <a href="http://visit.rio/editorial/negocios/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/07/Fotolia_59961738_Subscription_Monthly_XXL-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="Image of business partners handshake on signing contract" />          <figcaption>
+            <div class="wrap">
+                            <h4>Negócios</h4>
+              <p>Editorial</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  10 37 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/trilha-transcarioca/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/02/floresta-2-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Foto: Marcello Cavalcanti" />          <figcaption>
+            <div class="wrap">
+                            <h4>Trilha Transcarioca</h4>
+              <p>Trilhas</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item  11 38 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/ilhas-cagarras/" target="_parent">
+        <img width="250" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/12/destacada-5-250x250.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Foto: Divulgação" />          <figcaption>
+            <div class="wrap">
+                            <h4>Ilhas Cagarras</h4>
+              <p>Passeios</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    
+    <li class="item larger 12 39 ">
+      <figure>
+        <a href="http://visit.rio/que_fazer/cachaca-experience-tour/" target="_parent">
+        <img width="500" height="250" src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/12/cachaça-destacada-500x250.jpg" class="attachment-horizontal size-horizontal wp-post-image" alt="Foto: Divulgação" />          <figcaption>
+            <div class="wrap">
+                            <h4>Cachaça Experience Tour</h4>
+              <p>Passeios</p>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+      </ul>
+</div>
+
+  <footer>
+    <div class="wrap_rio">
+      <div class="col col-sm-4 col-xs-6 col-md-2 hidden-xs logo">
+        <div class="logo-text">
+          <a href="/index.php"><img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/logo_rodape.gif" alt=""></a>
+        </div>
+      </div>
+      <div class="col col-sm-4 col-xs-6 col-md-2">
+        <h3>Sobre o Rio</h3>
+        <ul>
+          <li><a href="http://visit.rio/destaque/o-que-faz-o-rio-especial/">O que faz o Rio especial</a></li>
+          <li><a href="http://visit.rio/editorial/rioimperdivel/">Rio Imperdível</a></li>
+          <li><a href="http://visit.rio/editorial/por-perto/">Por perto</a></li>
+          <li><a href="http://visit.rio/mobilidade/">Mobilidade</a></li>
+          <li><a href="http://visit.rio/informacoes/">Informações úteis</a></li>
+          <li class="cidade-olimpica"><a href="http://www.cidadeolimpica.com.br/" target="_blank">Rio Olímpico<i class="icon-out"></i> </a></li>
+        </ul>
+      </div>
+      <div class="col col-sm-4 col-xs-6 col-md-2 agenda">
+        <h3>Agenda</h3>
+                <a href="http://visit.rio/agenda/">
+          <h4>26</h4>
+          <p>Feb</p>
+        </a>
+      </div>
+      <div class="col col-sm-4 col-xs-6 col-md-2">
+        <h3>O que fazer</h3>
+        <ul>
+                      <li><a href="http://visit.rio/o-que-fazer/ao-ar-livre/">Ao ar livre</a></li>
+                      <li><a href="http://visit.rio/o-que-fazer/bem-estar/">Bem estar</a></li>
+                      <li><a href="http://visit.rio/o-que-fazer/compras/">Compras</a></li>
+                      <li><a href="http://visit.rio/o-que-fazer/cultura-arte/">Cultura e Arte</a></li>
+                      <li><a href="http://visit.rio/o-que-fazer/esportes/">Esportes</a></li>
+                      <li><a href="http://visit.rio/o-que-fazer/vida-noturna/">Para Dançar</a></li>
+                  </ul>
+      </div>
+      <div class="col col-sm-4 col-xs-6 col-md-2">
+        <h3>Onde comer</h3>
+        <ul>
+                      <li><a href="http://visit.rio/onde-comer/bares/">Bares</a></li>
+                      <li><a href="http://visit.rio/onde-comer/cafes/">Cafés</a></li>
+                      <li><a href="http://visit.rio/onde-comer/fastfood-pt/">Fastfood</a></li>
+                      <li><a href="http://visit.rio/onde-comer/quiosques/">Quiosques</a></li>
+                      <li><a href="http://visit.rio/onde-comer/restaurantes/">Restaurantes</a></li>
+                      <li><a href="http://visit.rio/onde-comer/sorveterias/">Sorveterias</a></li>
+                      <li><a href="http://visit.rio/onde-comer/food-truck/">Food Truck</a></li>
+                  </ul>
+      </div>
+      <div class="col col-sm-4 col-xs-6 col-md-2">
+        <h3>Onde ficar</h3>
+        <ul>
+                      <li><a href="http://visit.rio/onde-ficar/albergues/">Albergues</a></li>
+                      <li><a href="http://visit.rio/onde-ficar/apart-hoteis/">Apart hotéis</a></li>
+                      <li><a href="http://visit.rio/onde-ficar/cama-e-cafe/">Cama e café</a></li>
+                      <li><a href="http://visit.rio/onde-ficar/hoteis/">Hotéis</a></li>
+                      <li><a href="http://visit.rio/onde-ficar/pousada/">Pousadas</a></li>
+                  </ul>
+      </div>
+    </div>
+    <div class="social-links wrap_rio row">
+      <div class="col-md-6">
+        <ul class="social">
+          <li><a class="tw" href="http://twitter.com/riodejaneiro" target="_blank"><i class="icon-twitter"></i></a></li>
+          <li><a class="fb" href="http://facebook.com/riodejaneiro" target="_blank"><i class="icon-facebook"></i></a></li>
+          <li><a class="it" href="http://instagram.com/visit.rio" target="_blank"><i class="icon-instagram"></i></a></li>
+        </ul>
+        <ul id="links-footer" class="links">
+          <li data-section="cont"><a href="javascript:;">Contato</a></li>
+          <li data-section="exp"><a href="javascript:;">Expediente</a></li>
+          <li data-section="down"><a href="javascript:;">Download</a></li>
+          <li data-section="press"><a href="javascript:;">Imprensa</a></li>
+        </ul>
+      </div>
+      <!--<div class="col-md-6 logos">
+         <a id="prefeitura" href="#">
+          <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/prefeitura.png" alt="">
+        </a>
+        <a id="rio-convention" href="http://www.rcvb.com.br/" target="_blank">
+          <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/rio_convention.png" alt="">
+        </a>
+        <a id="spectranet" href="http://www.spectranet.com.br/" target="_blank">
+          <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/spectranet_grayscale.svg" alt="">
+          <small>INFRAESTRUTURA</small>
+        </a>
+        <a id="tuut" href="http://tuut.com.br" target="_blank">
+          <img src="http://visitriocache.s3.amazonaws.com/wp-content/themes/rio/assets/img/logo_tuut.svg" alt="">
+          <small>DESIGN E DESENVOLVIMENTO</small>
+        </a>
+      </div>-->
+    </div>
+  </footer>
+
+  <!-- HIDDEN FOOTER - CONTACT FORM -->
+<div id="cont" class="hidden-footer">
+  <div class="wrap_rio">
+    <p class="close-foot"><a href="javascript:;" id="close">&times;</a></p>
+    <h2>Contato</h2>
+    <div id="msg-form"></div>
+    <p class="description col-md-12">
+      Para entrar em contato conosco, envie um e-mail para <a href="mailto:info@visit.rio">info@visit.rio</a> ou preencha o formulário abaixo.    </p>
+    <div class="form-contato">
+      <form action="http://visit.rio/" method="post">
+        <div class="col-md-6">
+          <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome">
+          <input class="form-control" type="text" name="telefone"id="telefone" placeholder="Telefone">
+          <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+          <textarea class="form-control" placeholder="Mensagem" name="mensagem" id="mensagem"></textarea>
+        </div>
+        <div id="submit-wrap" class="col-md-12">
+          <input class="btn" type="submit" value="enviar">
+        </div>
+      </form>
+    </div><!-- form-contato -->
+  </div>
+</div>
+  <!-- HIDDEN FOOTER - CREDITS -->
+<div id="exp" class="hidden-footer">
+  <div class="wrap_rio">
+    <p class="close-foot"><a href="javascript:;" id="close">x</a></p>
+    <h2>Expediente</h2>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Prefeitura da Cidade do Rio de Janeiro</h4>
+      <p class="desc-foot">Prefeito <br>Marcelo Crivella</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">RIOTUR - EMPRESA DE TURISMO DO MUNICÍPIO DO RIO DE JANEIRO S.A</h4>
+      <p class="desc-foot">Presidente <br>Marcelo Alves</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Coordenação e Edição</h4>
+      <p class="desc-foot">Hellen Silva (jornalista responsável - MTB 36683) e Marcio Formiga</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Criação</h4>
+      <p class="desc-foot">Bruno Merolla e Márcio Formiga</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Reportagens</h4>
+      <p class="desc-foot">Bianca Garcia, Hellen Silva e Jéssica Vidal.</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Fotógrafo</h4>
+      <p class="desc-foot">Alexandre Macieira</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Pesquisa e Revisão</h4>
+      <p class="desc-foot">Elisa Souza, Marisa Pinheiro, Vera Maria von Jess Pereira, Thamara Canto e Wanda Rocha</p>
+    </div>
+  </div>
+</div>
+<div id="down" class="hidden-footer">
+  <div id="content" class="wrap_rio">
+    <p class="close-foot"><a href="javascript:;" id="close">x</a></p>
+    <h2>downloads</h2>
+    <div id="slide-download">
+                        <div class="item-download">
+            <a href="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/02/RevistaVisitRio2017_Edição14-FEV_BAIXA_SPREAD.pdf" target="_blank">
+              <img src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/02/Capa-Fevereiro.jpg" alt="">
+              <div class="overlay"><i class="icon-download"></i></div>
+            </a>
+          </div>
+                  <div class="item-download">
+            <a href="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/Riotur_Mapas_2016_ZNorte-e-Sul.pdf" target="_blank">
+              <img src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2016/08/Riotur_Mapa_2016_Verso_Barra_ZNorte_baixa-e1470163192760.png" alt="">
+              <div class="overlay"><i class="icon-download"></i></div>
+            </a>
+          </div>
+                  <div class="item-download">
+            <a href="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/02/Planilha-dos-Blocos-de-Rua-2017-6.pdf" target="_blank">
+              <img src="http://visitriocache.s3.amazonaws.com/wp-content/uploads/2017/01/Logo_CARNAVAL2017_CMYK-04_reduzido.jpg" alt="">
+              <div class="overlay"><i class="icon-download"></i></div>
+            </a>
+          </div>
+            </div>
+  </div>
+</div>
+  <!-- HIDDEN FOOTER - PRESS -->
+<div id="press" class="hidden-footer">
+  <div class="wrap_rio">
+    <p class="close-foot"><a href="javascript:;" id="close">x</a></p>
+    <h2>Imprensa</h2>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Turismo</h4>
+      <p class="desc-foot">press@visit.rio</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Imprensa Internacional</h4>
+      <p class="desc-foot">press@rio.rj.gov.br</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Relações Internacionais</h4>
+      <p class="desc-foot">inter.riodejaneiro@gmail.com</p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Rio Convention & Visitors Bureau</h4>
+      <p class="desc-foot">Fundação privada cujo objetivo é estimular e incrementar o fluxo turístico para a cidade.<br>rcvb@rcvb.com.br<br><a target="_blank" href="http://www.rcvb.com.br">www.rcvb.com.br</a></p>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <h4 class="title-foot">Rio Negócios</h4>
+      <p class="desc-foot">Agência de promoção de investimentos do Rio de Janeiro.<br> info@rio-negocios.com<br><a target="_blank" href="http://rio-negocios.com">rio-negocios.com</a></p>
+    </div>
+  </div>
+</div>
+  <!-- FORM WISHLIST -->
+<div id="form-sendmail">
+  <h3>Envie por email</h3>
+  <div id="mail_sending_spinner">
+    <p>Enviando mensagem...</p>
+  </div>
+  <div id="msg"></div>
+  <form action="http://visit.rio/" method="post" class="row">
+    <div class="col-md-6">
+      <input type="text" name="email_a" placeholder="Enviar para:">
+      <input type="text" name="nome_r" placeholder="Seu nome:">
+      <input type="text" name="nome_a" placeholder="Nome do seu amigo:">
+    </div>
+    <div class="col-md-6">
+      <textarea name="msg" placeholder="Deixe uma mensagem:"></textarea>
+    </div>
+    <br clear="all">
+    <div id="submit">
+      <input type="submit" value="Enviar">
+    </div>
+  </form>
+</div>
+    <script type='text/javascript' src='http://visit.rio/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://visit.rio/wp-content/themes/rio/assets/js/vendor/imagesloaded/imagesloaded.pkgd.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://visit.rio/wp-content/themes/rio/assets/js/vendor/fancybox/source/jquery.fancybox.pack.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://visit.rio/wp-content/themes/rio/assets/js/vendor/bootstrap/dist/js/bootstrap.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://visit.rio/wp-content/themes/rio/assets/js/vendor/slick/slick.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://visit.rio/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71565673-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </div><!-- /.all-in-rio -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"83e9730e53","applicationID":"27710907","transactionName":"b1wDZBMEDxdUVkELDVYWIFMVDA4KGlNHDQxMFBFRBgA=","queueTime":0,"applicationTime":1133,"atts":"QxsAElseHBk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Content Delivery Network via Amazon Web Services: S3: visitriocache.s3.amazonaws.com
+
+ Served from: visit.rio @ 2017-02-26 23:15:49 by W3 Total Cache -->

@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="pt-br" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="Cultura,Programação Cultural,Fomento,Leis de Incentivo,Revista de cultura,Banco de Cultura,Produção Cultural,Cultura Digital,Cinema,Teatro,Música,Artes Visuais,Literatura,Museus,Bibliotecas" />
+<meta name="description" content="Notícias sobre a programação cultural no Estado do Rio de Janeiro" /> 
+<meta http-equiv="expires" content="Sat, 01 Jan 2000 00:00:01 GMT" />
+<meta name="expires" content="Sat, 01 Jan 2000 00:00:01 GMT" />
+<meta name="revisit-after" content="1 day" />
+<meta name="google-site-verification" content="Lp8D2F-HiZvLWw0VIZML_DvZsitpJn6qONP_3pzqvpg" />
+<meta property="fb:admins" content="100000116480695" />
+<meta property="fb:app_id" content="147483878652112" />
+<link rel="image_src" href="/img/menu_logo.jpg" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="/css/styles_4.css" type="text/css" media="screen" />
+
+<title>Cultura.rj | Programação cultural</title>
+
+
+<!-- header -->
+ 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  
+  _gaq.push(['_setCustomVar',
+			  1,                // This custom var is set to slot #1.  Required parameter.
+			  'nivel',  // The name of the custom variable.  Required parameter.
+  			  								
+  			  'desconhecido',        							  // The value of the custom variable.  Required parameter.
+  			  			  
+			  1                 // Sets the scope to visitor-level.  Optional parameter.
+		 ]);
+  
+    
+  _gaq.push(['_setAccount', 'UA-625452-38']);
+  _gaq.push(['_setDomainName', '.cultura.rj.gov.br']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="/gov/css/style.css" rel="stylesheet" type="text/css" />
+
+
+<!-- /header -->
+</head>
+
+<body>
+
+<!-- top_banner -->
+<!-- topo governo -->
+<!-- HEADER --> 
+<div class="principal_head">
+        <div id="header">
+           <div id="topo"> 
+              <div id="logoportal" title="Secretaria de Estado de Cultura"><a href="http://www.rj.gov.br/" target="_blank">Secretaria de Estado de Cultura</a></div>
+              <!--<div id="topo_menu">
+                 <ul>
+                    <li><a href="http://www.rj.gov.br/popupatemporj" target="_blank">RIO POUPA TEMPO NA WEB</a></li> 
+                 </ul>        
+               </div>
+               <div id="topo_submenu"> 
+                    <ul>
+                        <li class="aumentafonte" title="Aumentar Fonte"><a href="#" onclick="javascript:MudarTamanho(.2,'conteudo');return false;">&nbsp;</a></li>
+                        <li>|</li>
+                        <li class="diminuifonte" title="Diminuir Fonte"><a href="#" onclick="javascript:MudarTamanho(-.2,'conteudo');return false;">&nbsp;</a></li>
+                        <li>|</li>
+                        <li class="fontenormal" title="Tamanho Normal"><a href="#" onclick="javascript:normalizaTamanho('conteudo');return false;">&nbsp;</a></li>
+                        <li>|</li>
+                        <li class="contraste" title="Alto Contraste">
+                           <!-- Adicione no evento onclick a funÃ§Ã£o de troca de estilos no link abaixo"-- >
+                           <a href="#" onclick="setActiveStyleSheet();">&nbsp;</a>
+                       </li>
+                   </ul>   	
+                </div>-->
+           </div>
+      </div>
+</div>  
+
+<!-- /HEADER --> <!-- /topo governo -->
+
+<!-- <head>
+	<link rel="stylesheet" href="/css/aovivo.css" type="text/css" />
+</head>
+ -->
+
+
+<script type="text/javascript">
+var nrImagem = 0;
+var imagens = [];
+var links = [];
+var refrescar = 5; // mudar imagem de 1 em 1 segundo
+
+// colocar aqui todas as imagens, seguindo a ordem numÃ©rica
+imagens[0] = "/banners/gif/gr_palacio.gif";
+links[0] = "http://www.cultura.rj.gov.br/materias/palacio-laranjeiras-um-projeto-arrojado-para-a-sua-epoca";
+imagens[1] = "/banners/img/gd/editais_banner_1476384597_1481580608.jpg";
+links[1] = "http://www.cultura.rj.gov.br/funarj-inscricao-pautas/";
+imagens[2] = "/banners/img/gd/banner_elos_site_flat_1457565732.jpg";
+links[2] = "http://www.cultura.rj.gov.br/elos/";
+imagens[3] = "/banners/img/gd/banner_caravana_1457125315.jpg";
+links[3] = "https://www.facebook.com/riocriativo/";
+imagens[4] = "/banners/img/gd/banner_territorios_150916_1473968386.jpg";
+links[4] = "http://www.cultura.rj.gov.br/tcfc2016/";
+imagens[5] = "/banners/img/gd/banner_padec_1437521107.jpg";
+links[5] = "http://www.cultura.rj.gov.br/apresentacao-projeto/padec";
+imagens[6] = "/banners/img/gd/culturaintolerancia_1435185593.jpg";
+links[6] = "http://www.cultura.rj.gov.br/materias/rio-intolerante";
+imagens[7] = "/banners/img/gd/audencia_publica_setoriais_audiovisua_baixe_aqui_1430778400.jpg";
+links[7] = "http://www.cultura.rj.gov.br/materias/secretaria-de-estado-de-cultura-promove-audiencia-publica-para-o-setor-do-audiovisual";
+imagens[8] = "/banners/img/gd/biblioteca_parque_conheca_1396999589.jpg";
+links[8] = "http://www.bibliotecasparque.org.br/";
+imagens[9] = "/banners/img/gd/banner_catalogo_2_1386437446.jpg";
+links[9] = "http://www.cultura.rj.gov.br/riooccupationlondon/";
+imagens[10] = "/banners/img/gd/banner_cinema_da_cidade_modelo_2_1380313232.jpg";
+links[10] = "http://www.cultura.rj.gov.br/projeto/cinema-da-cidade";
+imagens[11] = "/banners/img/gd/mapadeculturabanner_1354222849.jpg";
+links[11] = "http://mapadecultura.rj.gov.br/";
+
+//...
+
+rodarImagens = function () {
+
+  //document.getElementById["img_banner_topo"].src = imagens[nrImagem];
+  //document.getElementById["link_banner_topo"].href = links[nrImagem];
+  document.getElementById("top_banner").innerHTML = "<a href='"+links[nrImagem]+"'><img border='0' src='"+imagens[nrImagem]+"' style='margin:25px 0 5px 0;' /></a>";
+  
+  nrImagem = (nrImagem + 1) % imagens.length; 
+}
+var intervalControl = setInterval(rodarImagens, 1000 * refrescar);
+
+</script>
+
+<div id="top_banner">
+<script type="text/javascript">
+//document.writeln("<a href='"+links[imagens.length-1]+"'><img border='0' src='"+imagens[imagens.length-1]+"' style='margin:25px 0 5px 0;' /></a>");
+document.writeln("<a href='"+links[0]+"'><img border='0' src='"+imagens[0]+"' style='margin:25px 0 5px 0;' /></a>");
+</script>
+</div>
+
+<!-- /top_banner -->
+
+<!-- top -->
+<div id="top">
+
+<!-- container -->
+<div class="container clearfix">
+
+<!--<a href="http://www.governo.rj.gov.br" target="_blank" title="Link para o site do Governo do Estado do Rio de Janeiro"><img src="/img/logo_government.gif" border="0" align="left" alt="Governo do Estado do Rio de Janeiro" /></a>-->
+
+<!-- login -->
+<div id="login" style="margin:0 0 0 151px;">
+
+
+<a href='/registra-usuario'>Registre-se</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+
+<a href="/login">Faça seu login</a>
+
+
+<!-- Ol&aacute;, <a href="#">Fulano de Tal</a>  |  <a href="#">Logout</a> -->
+
+</div>
+<!-- /login -->
+
+<!-- midias -->
+<div class="div_midias_topo"><a href="http://twitter.com/culturarj" target="_blank"><img src="/img/logo_twitter_topo.png" border="0" alt="Secretaria de Cultura no Twitter" title="Secretaria de Cultura no Twitter" /></a>&nbsp;&nbsp;<a href="http://www.youtube.com/culturarj" target="_blank"><img src="/img/logo_youtube_topo.png" border="0" alt="Secretaria de Cultura no YouTube" title="Secretaria de Cultura no YouTube" /></a>&nbsp;&nbsp;<a href="http://www.facebook.com/cultura.rj" target="_blank"><img src="/img/facebook_logo_topo.png" border="0" alt="Secretaria de Cultura no Facebook" title="Secretaria de Cultura no Facebook" /></a></div>
+<!-- midias -->
+
+<!-- home_search -->
+<div class="home_search">
+
+<form action="http://www.google.com/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="003500678847890955844:ji7zjp_ad5e" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="30" />
+    <input type="submit" name="sa" value="" style="border:none; background: url(/img/button.gif) top left no-repeat; height:18px; width:18px; padding:0; vertical-align:middle;" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=pt"></script>
+
+
+<!--<form name="FrmTopoBusca" action="#" method="post">
+
+<label>Busca</label>&nbsp;&nbsp;<input type="text" name="" id="" alt="" title="" style="border:1px solid #e9e5d6; background:#fff; height:14px; width:143px; padding:2px; vertical-align:middle;" />&nbsp;&nbsp;<input type="submit" value="" name="" id="" alt="" title="" style="border:none; background: url(/img/button.gif) top left no-repeat; height:18px; width:18px; padding:0; vertical-align:middle;" />
+</form>
+--><!-- fixBug --><!-- fixBug --><!-- fixBug --><!-- fixBug --><!-- fixBug --><!-- fixBug --><!-- fixBug --><!-- fixBug -->
+</div>
+<!-- /home_search -->
+
+</div>
+<!-- /container -->
+</div><!-- /top -->
+
+<!-- menu -->
+<div id="menu">
+
+<!-- container -->
+<div class="container clearfix">
+
+<!-- menu logo -->
+<div id="menu_logo">
+<img src="/img/menu_secretaria.png" alt="Secretaria de Cultura" /><br />
+<a href="/home" title="Secretaria de Cultura"><img src="/img/menu_logo.png" alt="Secretaria de Cultura" /></a></div>
+<!-- /menu logo -->
+
+<!-- nav structure -->
+<div id="menu_navstructure">
+<ul id="menu_navbar">
+<li><a href="/banco-de-cultura" title="Banco de Cultura">Banco de Cultura</a></li>
+<li><a href="/espacos-culturais" title="Espaços Culturais">Espaços Culturais</a></li>
+<li><a href="/revista" title="Revista">Revista</a></li>
+<li><a href="/mapa-de-cultura" title="Mapa de Cultura">Mapa de Cultura</a></li>
+<li><a href="/a-secretaria" title="A Secretaria">A Secretaria</a></li>
+
+</ul>
+<ul class="menu_subnavbar">
+<li><a href="/colabore" title="Colabore">Colabore</a></li>
+<li><a href="/parcerias" title="Parcerias">Parcerias</a></li>
+<li><a href="/leidoincentivo/leidoincentivo.php" title="Lei de Incentivo">Lei de Incentivo</a></li>
+<li><a href="/editais/editais.php" title="Editais">Editais</a></li>
+<li><a href="/novo-contato-ouvidoria" title="Ouvidoria">Ouvidoria</a></li>
+<li><a href="/programacao-cultural" title="Programação Cultural">Programação Cultural</a></li>
+</ul>
+<ul class="menu_subnavbar margin_bottom">
+<li><a href="http://www.cultura.rj.gov.br/elos" target="_blank" title="ELOS RJ">ELOS RJ</a></li>
+<li><a href="http://www.inepac.rj.gov.br" target="_blank" title="INEPAC">INEPAC</a></li>
+<li><a href="http://www.cultura.rj.gov.br/curso-gestores-agentes/" target="_blank" title="Curso de Forma&ccedil;&atilde;o Cultural">Curso de Forma&ccedil;&atilde;o Cultural</a></li>
+<li><a href="/projeto/sistema-estadual-de-cultura" title="Sistema Estadual de Cultura">Pol&iacute;ticas Culturais</a></li>
+<li><a href="http://www.riocriativo.rj.gov.br/" title="Rio Criativo" target="_blank">Rio Criativo</a></li>
+</ul>
+</div>
+<!-- /nav structure -->
+
+</div>
+<!-- /container -->
+
+</div>
+<!-- /menu -->
+
+<!-- structure -->
+	<div id="structure_2" class="clearfix">
+
+    <!-- left column -->
+<div id="left_column">
+
+<p class="title_6"><a href="/programacao-cultural">Programação cultural</a>&nbsp;<a href="/rss-eventos" target="_blank"><img src="/img/icon_rss.gif" border="0" align="absmiddle" /></a></p><br />
+
+<!-- programacao -->
+<div>
+
+<form name="frmProgramacao" id="frmProgramacao" action="/programacao-cultural" method="post">
+	<img src="/img/title_home_location.gif" alt="Por local" title="Por local" /><br />
+	<select name="slcCidades" id="slcCidades" alt="Cidades" title="Cidades" class="side">
+    <option value = "" >Todas as cidades</option>
+
+		<option value = "3587" >Angra dos Reis</option>
+<option value = "3588" >Aperibé</option>
+<option value = "3589" >Araruama</option>
+<option value = "3590" >Areal</option>
+<option value = "3591" >Armação dos Búzios</option>
+<option value = "3592" >Arraial do Cabo</option>
+<option value = "3593" >Barra do Piraí</option>
+<option value = "3594" >Barra Mansa</option>
+<option value = "3595" >Belford Roxo</option>
+<option value = "3596" >Bom Jardim</option>
+<option value = "3597" >Bom Jesus do Itabapoana</option>
+<option value = "3598" >Cabo Frio</option>
+<option value = "3599" >Cachoeiras de Macacu</option>
+<option value = "3600" >Cambuci</option>
+<option value = "3601" >Campos dos Goytacazes</option>
+<option value = "3602" >Cantagalo</option>
+<option value = "3603" >Carapebus</option>
+<option value = "3604" >Cardoso Moreira</option>
+<option value = "3605" >Carmo</option>
+<option value = "3606" >Casimiro de Abreu</option>
+<option value = "3607" >Comendador Levy Gasparian</option>
+<option value = "3608" >Conceição de Macabu</option>
+<option value = "3609" >Cordeiro</option>
+<option value = "3610" >Duas Barras</option>
+<option value = "3611" >Duque de Caxias</option>
+<option value = "3612" >Engenheiro Paulo de Frontin</option>
+<option value = "3613" >Guapimirim</option>
+<option value = "3614" >Iguaba Grande</option>
+<option value = "3615" >Itaboraí</option>
+<option value = "3616" >Itaguaí</option>
+<option value = "3617" >Italva</option>
+<option value = "3618" >Itaocara</option>
+<option value = "3619" >Itaperuna</option>
+<option value = "3620" >Itatiaia</option>
+<option value = "3621" >Japeri</option>
+<option value = "3622" >Laje do Muriaé</option>
+<option value = "3623" >Macaé</option>
+<option value = "3624" >Macuco</option>
+<option value = "3625" >Magé</option>
+<option value = "3626" >Mangaratiba</option>
+<option value = "3627" >Maricá</option>
+<option value = "3628" >Mendes</option>
+<option value = "3629" >Mesquita</option>
+<option value = "3630" >Miguel Pereira</option>
+<option value = "3631" >Miracema</option>
+<option value = "3632" >Natividade</option>
+<option value = "3633" >Nilópolis</option>
+<option value = "3634" >Niterói</option>
+<option value = "3635" >Nova Friburgo</option>
+<option value = "3636" >Nova Iguaçu</option>
+<option value = "3637" >Paracambi</option>
+<option value = "3638" >Paraíba do Sul</option>
+<option value = "3639" >Paraty</option>
+<option value = "3640" >Paty do Alferes</option>
+<option value = "3641" >Petrópolis</option>
+<option value = "3642" >Pinheiral</option>
+<option value = "3643" >Piraí</option>
+<option value = "3644" >Porciúncula</option>
+<option value = "3645" >Porto Real</option>
+<option value = "3646" >Quatis</option>
+<option value = "3647" >Queimados</option>
+<option value = "3648" >Quissamã</option>
+<option value = "3649" >Resende</option>
+<option value = "3650" >Rio Bonito</option>
+<option value = "3651" >Rio Claro</option>
+<option value = "3652" >Rio das Flores</option>
+<option value = "3653" >Rio das Ostras</option>
+<option value = "3654" >Rio de Janeiro</option>
+<option value = "3655" >Santa Maria Madalena</option>
+<option value = "3656" >Santo Antônio de Pádua</option>
+<option value = "3666" >Sapucaia</option>
+<option value = "3667" >Saquarema</option>
+<option value = "3657" >São Fidélis</option>
+<option value = "3658" >São Francisco de Itabapoana</option>
+<option value = "3659" >São Gonçalo</option>
+<option value = "3660" >São João da Barra</option>
+<option value = "3661" >São João de Meriti</option>
+<option value = "3662" >São José de Ubá</option>
+<option value = "3663" >São José do Vale do Rio Preto</option>
+<option value = "3664" >São Pedro da Aldeia</option>
+<option value = "3665" >São Sebastião do Alto</option>
+<option value = "3668" >Seropédica</option>
+<option value = "3669" >Silva Jardim</option>
+<option value = "3670" >Sumidouro</option>
+<option value = "3671" >Tanguá</option>
+<option value = "3672" >Teresópolis</option>
+<option value = "3673" >Trajano de Morais</option>
+<option value = "3674" >Três Rios</option>
+<option value = "3675" >Valença</option>
+<option value = "3676" >Varre-Sai</option>
+<option value = "3677" >Vassouras</option>
+<option value = "3678" >Volta Redonda</option>
+	</select><br />
+	<!--<select name="slcEspacos" id="slcEspacos" alt="Espaços" title="Espaços" class="side">
+    <option value = "" >Selecione</option>
+			</select><br />--><br />
+	<img src="/img/title_home_date.gif" alt="Por data" title="Por data" /><br />		
+	<select name="slcDia" id="slc" alt="Dia" title="Dia" class="small">
+    <option value = "" > </option>
+		<option value = "01" >01</option>
+<option value = "02" >02</option>
+<option value = "03" >03</option>
+<option value = "04" >04</option>
+<option value = "05" >05</option>
+<option value = "06" >06</option>
+<option value = "07" >07</option>
+<option value = "08" >08</option>
+<option value = "09" >09</option>
+<option value = "10" >10</option>
+<option value = "11" >11</option>
+<option value = "12" >12</option>
+<option value = "13" >13</option>
+<option value = "14" >14</option>
+<option value = "15" >15</option>
+<option value = "16" >16</option>
+<option value = "17" >17</option>
+<option value = "18" >18</option>
+<option value = "19" >19</option>
+<option value = "20" >20</option>
+<option value = "21" >21</option>
+<option value = "22" >22</option>
+<option value = "23" >23</option>
+<option value = "24" >24</option>
+<option value = "25" >25</option>
+<option value = "26"  selected>26</option>
+<option value = "27" >27</option>
+<option value = "28" >28</option>
+<option value = "29" >29</option>
+<option value = "30" >30</option>
+<option value = "31" >31</option>
+	</select>&nbsp;&nbsp;
+	<select name="slcMes" id="slcMes" alt="Mês" title="Mês" class="medium">
+    <option value = "" > </option>
+		<option value = "01" >Janeiro</option>
+<option value = "02"  selected>Fevereiro</option>
+<option value = "03" >Março</option>
+<option value = "04" >Abril</option>
+<option value = "05" >Maio</option>
+<option value = "06" >Junho</option>
+<option value = "07" >Julho</option>
+<option value = "08" >Agosto</option>
+<option value = "09" >Setembro</option>
+<option value = "10" >Outubro</option>
+<option value = "11" >Novembro</option>
+<option value = "12" >Dezembro</option>
+	</select>&nbsp;&nbsp;
+	<input name="txtAno" id="txtAno" alt="Ano" title="Ano" type="text" class="small" value="2017" /><br /><br />
+	<img src="/img/title_home_area.gif" alt="Por área" title="Por área" /><br />
+	<select name="slcAreas" id="slcAreas" alt="Áreas" title="Áreas" class="side">
+    <option value = "" >Todas as áreas </option>
+		<option value = "26" >Blocos de carnaval</option>
+<option value = "24" >Teatro Infantil</option>
+<option value = "23" >Oficinas</option>
+<option value = "22" >Teatro de rua</option>
+<option value = "21" >Circo</option>
+<option value = "19" >Noite</option>
+<option value = "18" >Centro Cultural</option>
+<option value = "3" >Biblioteca</option>
+<option value = "12" >Cinema</option>
+<option value = "6" >Cultura popular</option>
+<option value = "11" >Cursos e workshops</option>
+<option value = "5" >Dança</option>
+<option value = "15" >Fotografia</option>
+<option value = "4" >Exposições</option>
+<option value = "10" >Literatura</option>
+<option value = "1" >Música</option>
+<option value = "17" >Palestra</option>
+<option value = "16" >Programação Infantil</option>
+<option value = "14" >Música clássica</option>
+<option value = "8" >Museus</option>
+<option value = "2" >Teatro</option>
+	</select><br />
+	<a href="javascript:document.frmProgramacao.submit()" class="pointer_3">buscar</a>
+</form></div>
+<!-- /programacao -->
+
+<!-- panel -->
+<!-- painel -->
+
+<!-- /painel -->
+<!-- /panel -->
+
+<!-- facebook -->
+<!--<div id="fb-root"></div><script src="http://connect.facebook.net/pt_BR/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/Cultura.rj" width="220" height="405" show_faces="true" border_color="" stream="false" header="false"></fb:like-box>
+
+<div id="fb-root"></div><fb:like-box href="http://www.facebook.com/mapadeculturaRJ" width="220" height="445" show_faces="true" border_color="" stream="false" header="false"></fb:like-box>-->
+
+<!-- facebook -->  
+
+</div>
+    <!-- /left column -->
+
+	<!-- right column -->
+	<div id="right_column_2">
+
+<!-- breadcrumb_top -->
+<div id="breadcrumb_top">&nbsp;</div>
+<!-- /breadcrumb_top -->
+
+<!-- breadcrumb_middle -->
+<div id="breadcrumb_middle"> <a href='/' class=''>Home</a> <img src="/img/icon_breadcrumb.gif" />  Programação cultural <img src="/img/icon_breadcrumb.gif" />  Índice</div>
+<!-- /breadcrumb_middle -->
+
+<!-- breadcrumb_bottom -->
+<div id="breadcrumb_bottom">&nbsp;</div>
+<!-- /breadcrumb_bottom -->
+
+<p>Encontrado(s) 29 resultado(s).</p><br />
+
+
+
+<p><span class="bold">Data:</span> A partir de 26/02/2017</p>
+
+
+
+<!-- order -->
+<!--<div class="form_ordenacao">
+<form name="frmOrdenacao" action="" method="post">
+<label>Ordenar por</label>&nbsp;&nbsp;<select name="slcOrdenacao" id="slcOrdenacao" alt="Ordenação" title="Ordenação" class="side" style="vertical-align:middle" onChange="javascript:document.frmOrdenacao.submit();">
+-->
+<!--</select>
+</form>
+</div>
+--><!-- /order -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/modernidades-fotograficas-1940-1964">Modernidades fotográficas, 1940-1964</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Nova mostra de longa duração do IMS reúne 160 imagens que retratam as transformações do país entre 1940 e 1964</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/centro-cultural">Centro Cultural</a>&nbsp;&nbsp;
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/cultura-popular">Cultura popular</a>&nbsp;&nbsp;
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/fotografia">Fotografia</a>&nbsp;&nbsp;
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/exposicoes">Exposições</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/instituto-moreira-salles">Instituto Moreira Salles </a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Rio de Janeiro&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">De terça a domingo, das 11h às 20h</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/tra-la-la-no-oi-futuro-ipanema">&quot;Tra-Lá-Lá&quot; no Oi Futuro Ipanema</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Musical fica em cartaz no centro cultural em Ipanema de 14 de janeiro a 26 de março</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/teatro-infantil">Teatro Infantil</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/oi-futuro-ipanema">Oi Futuro Ipanema</a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Rio de Janeiro&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Sábados e Domingos, às 16h 
+(não haverá espetáculo nos dias 25 e 26 de fevereiro).
+</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/oi-futuro-recebe-mostra-inedita-de-robert-capa">OI FUTURO RECEBE MOSTRA INÉDITA DE ROBERT CAPA</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>“Capa em Cores” é a primeira exposição de imagens coloridas do fotógrafo</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/fotografia">Fotografia</a>&nbsp;&nbsp;
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/exposicoes">Exposições</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/oi-futuro-flamengo">Oi Futuro Flamengo </a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Rio de Janeiro&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">De 6 de fevereiro a 9 de abril
+Terça a domingo, das 11h às 20h | Térreo e Níveis 2, 4 e 5
+</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/oi-futuro-apresenta-instalacao-de-elvis-almeida-no-projeto-tech-no">Oi Futuro apresenta instalação de Elvis Almeida no Projeto Tech-Nô</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Exposição fica em cartaz até o dia 9 de abril no Oi Futuro Flamengo.</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/exposicoes">Exposições</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/oi-futuro-flamengo">Oi Futuro Flamengo </a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Rio de Janeiro&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Oi Futuro – área externa
+(Rua Dois de Dezembro, 63 – Flamengo)
+De 6 de fevereiro a 9 de abril de 2017
+Terça a domingo, 11h às 20h
+Entrada franca | Classificação etária: Livre</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/oi-futuro-inaugura-obra-de-cesar-oiticica-filho-em-seu-espaco-de-arte-publica"> Oi Futuro inaugura obra de Cesar Oiticica Filho em seu espaço de arte pública</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p> “Pintura Quântica” ocupa o Grande Campo no centro cultural do Flamengo até o dia 09 de abril.</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/exposicoes">Exposições</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/oi-futuro-flamengo">Oi Futuro Flamengo </a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Rio de Janeiro&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Oi Futuro – área externa
+Grande Campo: “Pintura Quântica” – Cesar Oiticica
+Rua Dois de Dezembro, 63 – Flamengo
+De 06 de fevereiro a 9 de abril
+</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/exposicao-leopoldina-princesa-da-independencia-das-artes-e-das-ciencias-no-mar">Exposição Leopoldina, princesa da Independência,  das artes e das ciências no MAR</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Mostra fica em cartaz até 2017 no Museu de Arte do Rio</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/exposicoes">Exposições</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/espaco-teste">espaco-teste</a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Rio de Janeiro&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Terça a domingo, das 10h às 17h. Às segundas o museu fecha ao público. </p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/oficinas-de-arte-do-museu-do-inga">Oficinas de Arte do Museu do Ingá</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Cerâmica, Escultura, papel artesanal e gravura.</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/cursos-e-workshops">Cursos e workshops</a>&nbsp;&nbsp;
+</p>
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/espaco/museu-do-inga">Museu do Ingá</a>&nbsp;&nbsp;
+
+</p>
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Niterói&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold"><strong>Cerâmica
+</strong>terça e quinta, 10h às 17h
+
+<strong>Escultura</strong>
+Terça e quinta, 10h às 17h
+
+<strong>Papel artesanal</strong>
+Quarta ou sexta, 14h às 17h
+
+<strong>Gravura</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/corpus-christi-em-buzios">Corpus Christi em Búzios</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Com a exposição de tradicionais tapetes de sal, o evento encanta visitantes e moradores</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/exposicoes">Exposições</a>&nbsp;&nbsp;
+</p>
+
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Armação dos Búzios&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Feriado de Corpus Christi
+</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/dia-de-sao-sebastiao-do-alto">Dia de São Sebastião do Alto</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Município presta homenagem ao santo que lhe deu o nome</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/cultura-popular">Cultura popular</a>&nbsp;&nbsp;
+</p>
+
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;São Sebastião do Alto&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Dia 20 de janeiro</p>
+</div>
+<!-- /result -->
+
+
+<!-- result -->
+<div class="result_item">
+<a class="title" href="/evento/fest-verao">Fest Verão</a>&nbsp;&nbsp;<strong></strong>
+
+
+<br />
+<p>Festival de música em Macaé agita o município na estação mais quente do ano</p>
+
+<p class="date_2">
+<img src="/img/icon_link.gif" alt="" />&nbsp;<a class="space" href="/programacao-cultural/musica">Música</a>&nbsp;&nbsp;
+</p>
+
+
+
+
+<p class="date_2">
+
+<img src="/img/icon_link.gif" alt="" />&nbsp;Macaé&nbsp;&nbsp;
+
+</p>
+
+
+
+</p>
+<p class="bold">Em janeiro e fevereiro</p>
+</div>
+<!-- /result -->
+
+
+
+<!-- pagination -->
+<div class="margin_right">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="20" colspan="3"></td>
+	</tr>
+	<tr>
+		<td class="pagination_border_up" height="10" colspan="3"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="middle" class="pagination_left">Eventos 1 a 10 de 29		</td>
+		<td width="10"></td>
+		<td width="350" align="right" valign="middle" class="pagination_right">início&nbsp;|&nbsp;< anteriores &nbsp;|&nbsp;<a class='link_simples' href="/programacao-cultural?page=2"> próximos ></a>&nbsp;|&nbsp;<a class='link_simples' href="/programacao-cultural?page=3">fim</a></td>
+	</tr>
+</table>
+</div>
+<!-- /pagination -->
+
+
+</div>
+	<!-- /right column -->
+
+</div>
+<!-- /structure -->
+
+<!-- structure_bottom -->
+<div id="structure_bottom"><img src="/img/structure_bottom.png" border="0" /></div>
+<!-- /structure_bottom -->
+
+<!-- footer -->
+<div id="footer" class="clearfix">
+
+<div id="div_2">Secretaria de Cultura. Governo do Rio de Janeiro.</div>
+
+<div id="div_3"><a href="/novo-contato">Fale Conosco</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/ajuda">Ajuda</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/expediente">Expediente</a></div>
+
+<div id="div_4"><a href="http://www.tecnopop.com.br" target="_blank"><img src="/img/logo_tecnopop.png" border="0" /></a></div>
+
+<div id="div_1"><a target="_blank" href="http://www.creativecommons.org.br"><img src="/img/logo_cc.gif" border="0" /></a> Esta obra é licenciada sob uma licença Creative Commons Atribuio 2.0 Brasil</div>
+
+</div><!-- /footer -->
+
+</body>
+</html>

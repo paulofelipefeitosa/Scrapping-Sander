@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        
+<!-- This site is optimized with the Yoast SEO plugin v3.0.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Agenda de eventos do Anhembi</title>
+<meta name="description" content="Veja aqui a agenda de todos os eventos programados no Anhembi: são shows, feiras, congressos, eventos esportivos e muito mais."/>
+<meta name="robots" content="noodp,noydir"/>
+<link rel="canonical" href="http://www.anhembi.com.br/agenda/" />
+<meta property="og:locale" content="pt_PT" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Agenda de eventos do Anhembi" />
+<meta property="og:description" content="Veja aqui a agenda de todos os eventos programados no Anhembi: são shows, feiras, congressos, eventos esportivos e muito mais." />
+<meta property="og:url" content="http://www.anhembi.com.br/agenda/" />
+<meta property="og:site_name" content="Anhembi" />
+<meta property="article:publisher" content="http://www.facebook.com/AnhembiParque" />
+<meta property="fb:app_id" content="350967784990396" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários de Anhembi &raquo; Agenda de Eventos" href="http://www.anhembi.com.br/agenda/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.anhembi.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.8"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='colorbox-theme1-css'  href='http://www.anhembi.com.br/wp-content/plugins/jquery-colorbox/themes/theme1/colorbox.css?ver=4.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='colorbox-css-css'  href='http://www.anhembi.com.br/wp-content/plugins/jquery-colorbox/css/jquery-colorbox-zoom.css?ver=1.4.33' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-email-css'  href='http://www.anhembi.com.br/wp-content/plugins/wp-email/email-css.css?ver=2.60' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css'  href='http://www.anhembi.com.br/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_dlmp_styles-css'  href='http://www.anhembi.com.br/wp-content/plugins/download-monitor/page-addon/styles.css?ver=4.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='flags_tpw_flags-css'  href='http://www.anhembi.com.br/wp-content/plugins/transposh-translation-filter-for-wordpress/widgets/flags/tpw_flags.css?ver=0.9.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.anhembi.com.br/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.anhembi.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6.1","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"true","colorboxPreloading":"true","colorboxOverlayClose":"true","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"3000","colorboxClose":"close","colorboxNext":"next","colorboxPrevious":"previous","colorboxSlideshowStart":"start slideshow","colorboxSlideshowStop":"stop slideshow","colorboxCurrent":"{current} of {total} images","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"800px","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"380px","colorboxLinkWidth":"650px","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"true","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.anhembi.com.br/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.4.33'></script>
+<script type='text/javascript' src='http://www.anhembi.com.br/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.anhembi.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.anhembi.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.8" />
+<link rel='shortlink' href='http://www.anhembi.com.br/?p=561' />
+	<style type='text/css'>
+	.download-info .download-button {
+		background-image: url(http://www.anhembi.com.br/wp-content/plugins/download-monitor/page-addon/downloadbutton.gif);
+	}
+	.download-info .more-button {
+		background-image: url(http://www.anhembi.com.br/wp-content/plugins/download-monitor/page-addon/morebutton.gif);
+	}
+	</style>
+<link rel="alternate" hreflang="en" href="/agenda/?lang=en"/><link rel="alternate" hreflang="es" href="/agenda/?lang=es"/>        <meta http-equiv="Content-Type" content="text/html; UTF-8" />
+        
+        <link rel="shortcut icon" href="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/favicon.ico" />
+
+        <!---------------------------------- FOLHAS DE ESTILO ----->
+        <link rel="stylesheet"  type="text/css" media="all" href="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/style.css" />
+        <!--[if lte IE 7]><link rel="stylesheet"  type="text/css" media="all" href="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/style_IE7.css" /><![endif]-->
+        <!--[if IE 8]><link rel="stylesheet"  type="text/css" media="all" href="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/style_IE8.css" /><![endif]-->
+
+        <!---------------------------------- JAVASCRIPTS & BIBLIOTECAS ---------> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+        <script type="text/javascript" src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/js/accordion_menu.js"></script>
+        <script type='text/javascript' src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/js/smooth.pack.js"></script>
+        <script type="text/javascript" src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/js/jquery-cookie.js"></script>
+
+        <!------------------- BARRA DE ROLAGEM ----->
+        <script type="text/javascript" id="sourcecode">
+            $(function ()
+            {
+                $('.scroll-pane').jScrollPane();
+            });
+        </script>
+        <script type="text/javascript" src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/js/nova-galeria/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/js/nova-galeria/jquery.jscrollpane.min.js"></script>
+
+        <!-- Meta -->
+        <script type="application/ld+json">
+            { "@context" : "http://schema.org",
+            "@type" : "Organization",
+            "name" : "Anhembi Parque",
+            "url" : "http://www.anhembi.com.br",
+            "logo": "http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/header-logo.png",
+            "sameAs" : [ "https://www.facebook.com/AnhembiParque",
+            "https://twitter.com/anhembiparque",
+            "https://plus.google.com/u/1/116472191067816141276/posts"] 
+            }
+        </script>
+        <!-- <meta name="author" content="Luciana Jabur / Leandro Rossi Sampaio / Daniella Parra / Pagu Senna" />'; -->
+        <!-- Meta -->
+
+                            
+
+        
+        <script type="text/javascript">
+            //--------------------------- RE-SIZE TEXT
+            $(document).ready(function () {
+                if ($.cookie('TEXT_SIZE')) {
+                    $('body').addClass($.cookie('TEXT_SIZE'));
+                }
+                $('.resizer a').click(function () {
+                    var textSize = $(this).parent().attr('class');
+                    $('body').removeClass('small medium large').addClass(textSize);
+                    $.cookie('TEXT_SIZE', textSize, {path: '/', expires: 10000});
+                    return false;
+                });
+            });
+        </script>
+        <script>
+            //---------------------- SCROLL TO TOP 
+            $(document).ready(function () {
+                $("#back-top").hide();
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200) {
+                            $('#back-top').fadeIn();
+                        } else {
+                            $('#back-top').fadeOut();
+                        }
+                    });
+                    $('#back-top_arrow').click(function () {
+                        $('body,html').animate({
+                            scrollTop: 0
+                        }, 800);
+                        return false;
+                    });
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            // --------------------------------- HEATMAP.ME        
+            (function () {
+                var hm = document.createElement('script');
+                hm.type = 'text/javascript';
+                hm.async = true;
+                hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g, '/').replace(/-/g, '.');
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script type="text/javascript">
+            // ------------------------ Analytics
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-329120-2']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <!-------------------------------- FIM  JAVASCRIPTS ---->
+    </head>
+    <body>
+        <div id="all">
+            <!--[if lte IE 8]>
+                <div id="IEall">       
+            <![endif]-->
+            <header>
+                <div id="header">
+                    <div id="header_content">
+                        <div id="header_content_logo">
+                            <a href="http://www.anhembi.com.br">
+                                <img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/header-logo.png" alt="Anhembi Logo" />
+                            </a>
+                        </div>
+                        <div id="header_content_menus">
+                            <div id="header_content_menus_lang">
+                            </div>
+                            <div id="header_content_menus_nav">
+                                <nav>
+                                    <div id="header_content_menus_nav_content">
+                                        <ul id="menu-menu-superior" class="menu"><li id="menu-item-1833" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1833"><a href="http://www.anhembi.com.br/seu-evento-aqui/">Espaços Locáveis</a>
+<ul class="sub-menu">
+	<li id="menu-item-2116" class="menu-item menu-item-type-post_type menu-item-object-espaco menu-item-2116"><a href="http://www.anhembi.com.br/espaco/palacio-das-convencoes/">Palácio das Convenções</a></li>
+	<li id="menu-item-2117" class="menu-item menu-item-type-post_type menu-item-object-espaco menu-item-2117"><a href="http://www.anhembi.com.br/espaco/pavilhao-de-exposicoes/">Pavilhão de Exposições</a></li>
+	<li id="menu-item-2122" class="menu-item menu-item-type-post_type menu-item-object-espaco menu-item-2122"><a href="http://www.anhembi.com.br/espaco/sambodromo/">Sambódromo</a></li>
+	<li id="menu-item-2137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="http://www.anhembi.com.br/diferenciais/">Veja os Diferenciais do Anhembi</a></li>
+</ul>
+</li>
+<li id="menu-item-5003" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-561 current_page_item menu-item-5003"><a href="http://www.anhembi.com.br/agenda/">Agenda de Eventos</a></li>
+<li id="menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1850"><a href="http://www.anhembi.com.br/destaques/">Destaques</a></li>
+<li id="menu-item-1816" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1816"><a href="http://www.anhembi.com.br/servicos/">Serviços</a>
+<ul class="sub-menu">
+	<li id="menu-item-2133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2133"><a title="Anuncie no Anhembi" href="http://www.anhembi.com.br/servicos/anuncie-no-anhembi/">Anuncie no Anhembi</a></li>
+	<li id="menu-item-1420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1420"><a href="http://www.anhembi.com.br/servicos/tabelas-telecom-2015/">Internet e Telefonia</a></li>
+	<li id="menu-item-1910" class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1910"><a href="http://www.anhembi.com.br/servicos/servicos-estacionamento/">Estacionamento</a></li>
+	<li id="menu-item-1909" class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1909"><a href="http://www.anhembi.com.br/servicos/encontre-aqui/">Restaurantes, bancos, etc</a></li>
+	<li id="menu-item-1908" class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1908"><a href="http://www.anhembi.com.br/servicos/hoteis/">Hotéis</a></li>
+	<li id="menu-item-1419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1419"><a href="http://www.anhembi.com.br/servicos/downloads/">Downloads</a></li>
+	<li id="menu-item-1935" class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1935"><a href="http://www.anhembi.com.br/servicos/acessibilidade/">Acessibilidade</a></li>
+	<li id="menu-item-7343" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7343"><a href="http://www.anhembi.com.br/servicos/achados-perdidos/">Achados e Perdidos</a></li>
+</ul>
+</li>
+<li id="menu-item-3565" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3565"><a href="http://www.anhembi.com.br/o-anhembi/">O Anhembi</a></li>
+<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="http://www.anhembi.com.br/como-chegar/">Como Chegar</a></li>
+<li id="menu-item-1880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1880"><a href="http://www.anhembi.com.br/fale-conosco/">Fale Conosco</a>
+<ul class="sub-menu">
+	<li id="menu-item-7442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7442"><a href="http://www.anhembi.com.br/faq/">Perguntas Frequentes</a></li>
+	<li id="menu-item-7752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7752"><a href="http://www.anhembi.com.br/receba-novidades/">Receba Novidades</a></li>
+	<li id="menu-item-7754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7754"><a target="_blank" href="http://imprensa.spturis.com.br/">Imprensa</a></li>
+	<li id="menu-item-7443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7443"><a href="http://www.anhembi.com.br/fale-conosco/">Contato</a></li>
+</ul>
+</li>
+</ul>                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                                                    <div id="back-top">
+                                <a id="back-top_arrow" href ="#top">
+                                    <span id="back-top_span">
+                                        <img src ="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/arrow-top.png" />
+                                    </span>
+                                </a>
+                                <div id="back-top_socialMedia">   
+                                    <a id="back-top_socialMedia_rss" target="_blank" href="http://www.anhembi.com.br/feed/"></a>
+                                    <a id="back-top_socialMedia_face" target="_blank" href="http://facebook.com/AnhembiParque"></a>
+                                    <a id="back-top_socialMedia_twitter" target="_blank" href="http://twitter.com/anhembiparque"></a>
+                                </div>
+                            </div>
+                                                </div>            
+            </header>        
+            <!--[if lte IE 8]>
+                 </div>         
+            <![endif]--><div id="all_content">
+    <div id="orangeBox"></div>
+    <div id="contentIntern">
+        <!------------------------------------------ BLOCO 1 ---------------------------------->
+        <div id="content_bloco1">
+            <div id="content_bloco1_sliderNavegation"></div>
+                       <div id="traductor">
+                <li id="transposh-2" class="widget widget_transposh"><div class="no_translate transposh_flags" ><a href="/agenda/" class="tr_active"><img src="/wp-content/plugins/transposh-translation-filter-for-wordpress/img/flags/pt.png" title="Português" alt="Português"/></a><a href="/agenda/?lang=en"><img src="/wp-content/plugins/transposh-translation-filter-for-wordpress/img/flags/us.png" title="English" alt="English"/></a><a href="/agenda/?lang=es"><img src="/wp-content/plugins/transposh-translation-filter-for-wordpress/img/flags/es.png" title="Español" alt="Español"/></a></div><div id="tr_credit"></div></li>
+            </div>
+            <div id="content_bloco1_search">
+                <form role="search" method="get" id="searchform" action="http://www.anhembi.com.br/">
+            <input class="content_bloco1_search_input" type="text" value="DIGITE SUA BUSCA AQUI..." name="s" maxlength="21" onclick="this.value=''" />
+            <input class="content_bloco1_search_btn" type="submit" id="searchsubmit" value="" />
+</form>            </div>
+        </div>
+        <div id="content_breadcrumb">
+            <h4 id="content_breadcrumb_text">
+                <a href="http://www.anhembi.com.br/agenda/">
+                    Agenda de Eventos                </a>
+            </h4>
+        </div>
+        <!------------------------------------------ Esquerda ---------------------------------->
+        <div id="content_esquerda">
+            <div class="content_esquerda_sidebarX">
+                <aside id="publicidade">
+            <p>Publicidade:</p>
+        <script language='JavaScript' type='text/javascript' src='http://www.spturis.com/openads/adx.js'></script>
+        <script language='JavaScript' type='text/javascript'>
+            <!--
+           if (!document.phpAds_used)
+                document.phpAds_used = ',';
+            phpAds_random = new String(Math.random());
+            phpAds_random = phpAds_random.substring(2, 11);
+
+            document.write("<" + "script language='JavaScript' type='text/javascript' src='");
+            document.write("http://www.spturis.com/openads/adjs.php?n=" + phpAds_random);
+            document.write("&amp;what=zone:39");
+            document.write("&amp;exclude=" + document.phpAds_used);
+            if (document.referrer)
+                document.write("&amp;referer=" + escape(document.referrer));
+            document.write("'><" + "/script>");
+            //-->
+        </script><noscript><a href='http://www.spturis.com/openads/adclick.php?n=a1da0e93' target='_blank'><img src='http://www.spturis.com/openads/adview.php?what=zone:39&amp;n=a1da0e93' border='0' alt=''></a></noscript>
+        </aside><aside>
+    <li id="text-12" class="widget widget_text">			<div class="textwidget"><b style="text-align: left; font-size: 20px">Saiba tudo <br/>do Anhembi!</b><br/>
+Inscreva-se e receba dicas de eventos, novidades do Anhembi e muito mais!
+<br/>
+<br/>
+<iframe src="http://www.anhembi.com.br/e-anhembi/form_anhembi.php" frameBorder=0 width=200   height=190 scrolling='no'></iframe>  
+<br/>
+<span style="text-align: right; font-size: 9px">Você receberá um email de confirmação =]</span></div>
+		</li>
+</aside>            </div>
+        </div>
+        <div id="content_border">
+            <div id="content_borde_color"></div>
+        </div>
+        <!------------------------------------------ Direita ---------------------------------->
+        <div id="content_direita">
+                            <article class="content_direita_article">
+                    <div class="content_direita_article_theContentAgenda">
+                        <p>Confira a agenda de eventos do Anhembi!<br />
+São shows, feiras, congressos, eventos esportivos e muito mais.<br />
+<span style="font-size: 9px;">Recomenda-se a confirmação das informações com os respectivos promotores responsáveis,</span></p>
+<p>&nbsp;</p>
+<p><a style="padding: 5px; color: #fff; font-size: 14px; font-family: calibri; display: block; background-color: #e84d0e; text-align: center; text-decoration: none; font-weight: normal;" href="http://www.anhembi.com.br/agenda-de-eventos-fevereiro-2017/?utm_source=MenuAgenda" target="_blank">CLIQUE AQUI E <strong>SAIBA MAIS SOBRE OS EVENTOS DE FEVEREIRO!</strong></a></p>
+<p>&nbsp;</p>
+                    </div>
+                    <iframe src="http://intranet.spturis.com.br/intranet/modulos/booking/anhembisite_busca.php" width="690" height="700" frameborder="0" style="overflow:hidden;"></iframe>
+                </article>
+                    </div>
+    </div>
+</div>
+<footer>
+    <div id="footer">
+        <div id="footer_pudim"></div>
+        <div id="footer_logosEtxt">
+            <div id="footer_logosEtxt_container">
+                <div id="footer_logos">
+                    <div id="footer_info">
+                        <p>*Informa&ccedil;&otilde;es sujeitas a altera&ccedil;&atilde;o sem aviso pr&eacute;vio.</p>
+                    </div> 
+                    <div class="footer_logos_img"><a href="http://www.cidadedesaopaulo.com" target="_blank" alt="Site Cidade de S�o Paulo"><img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/footer_logo_marcaSP.png" alt="" /></a></div>
+                    <div class="footer_logos_img"><a href="http://spturis.com" target="_blank" alt="Site SPTuris"><img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/footer_logo_SPTuris.png" alt="" /></a></div>
+                    <div class="footer_logos_img"><a href="http://www.capital.sp.gov.br" target="_blank" alt="Site Prefeitura de S�o Paulo"><img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/footer_logo_SPPref.png" alt="" /></a></div>
+                </div>
+                <div id="footer_menu">
+                    <div id="footer_content_menus_nav">
+                        <nav>
+                            <div id="footer_content_menus_nav_content">
+                                <ul id="menu-menu-superior-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1833"><a href="http://www.anhembi.com.br/seu-evento-aqui/">Espaços Locáveis</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-espaco menu-item-2116"><a href="http://www.anhembi.com.br/espaco/palacio-das-convencoes/">Palácio das Convenções</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-espaco menu-item-2117"><a href="http://www.anhembi.com.br/espaco/pavilhao-de-exposicoes/">Pavilhão de Exposições</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-espaco menu-item-2122"><a href="http://www.anhembi.com.br/espaco/sambodromo/">Sambódromo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="http://www.anhembi.com.br/diferenciais/">Veja os Diferenciais do Anhembi</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-561 current_page_item menu-item-5003"><a href="http://www.anhembi.com.br/agenda/">Agenda de Eventos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1850"><a href="http://www.anhembi.com.br/destaques/">Destaques</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1816"><a href="http://www.anhembi.com.br/servicos/">Serviços</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2133"><a title="Anuncie no Anhembi" href="http://www.anhembi.com.br/servicos/anuncie-no-anhembi/">Anuncie no Anhembi</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1420"><a href="http://www.anhembi.com.br/servicos/tabelas-telecom-2015/">Internet e Telefonia</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1910"><a href="http://www.anhembi.com.br/servicos/servicos-estacionamento/">Estacionamento</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1909"><a href="http://www.anhembi.com.br/servicos/encontre-aqui/">Restaurantes, bancos, etc</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1908"><a href="http://www.anhembi.com.br/servicos/hoteis/">Hotéis</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1419"><a href="http://www.anhembi.com.br/servicos/downloads/">Downloads</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-servicos menu-item-1935"><a href="http://www.anhembi.com.br/servicos/acessibilidade/">Acessibilidade</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7343"><a href="http://www.anhembi.com.br/servicos/achados-perdidos/">Achados e Perdidos</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3565"><a href="http://www.anhembi.com.br/o-anhembi/">O Anhembi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="http://www.anhembi.com.br/como-chegar/">Como Chegar</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1880"><a href="http://www.anhembi.com.br/fale-conosco/">Fale Conosco</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7442"><a href="http://www.anhembi.com.br/faq/">Perguntas Frequentes</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7752"><a href="http://www.anhembi.com.br/receba-novidades/">Receba Novidades</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7754"><a target="_blank" href="http://imprensa.spturis.com.br/">Imprensa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7443"><a href="http://www.anhembi.com.br/fale-conosco/">Contato</a></li>
+</ul>
+</li>
+</ul>                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div id="footer_text">
+    </div>                <div id="footer_logos_linha2">
+                    <div id="footer_logos_img_linha2_text">
+                        <p>Associado a:</p>
+                    </div> 
+                    <div class="footer_logos_img_linha2"><a href="http://visitesaopaulo.com/" target="_blank" alt="UBRAFE"><img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/footer_logo_SaoPaulo.png" alt="" /></a></div>
+                    <div class="footer_logos_img_linha2"><a href="http://www.ifesnet.com/" target="_blank" alt="UBRAFE"><img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/footer_logo_Ifes.png" alt="" /></a></div>
+                    <div class="footer_logos_img_linha2"><a href="http://www.ubrafe.org.br/" target="_blank" alt="UBRAFE"><img src="http://www.anhembi.com.br/wp-content/themes/Miguel-Juliano-WP-Anhembi/images/footer_logo_Ubrafe.png" alt="" /></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width:100%;text-align:center; font-size:11px; clear:both"><a target="_blank" title="Insert PHP Snippet Wordpress Plugin" href="http://xyzscripts.com/wordpress-plugins/insert-php-code-snippet/">PHP Code Snippets</a> Powered By : <a target="_blank" title="PHP Scripts & Wordpress Plugins" href="http://www.xyzscripts.com" >XYZScripts.com</a></div><script type='text/javascript'>
+/* <![CDATA[ */
+var emailL10n = {"ajax_url":"http:\/\/www.anhembi.com.br\/wp-admin\/admin-ajax.php","max_allowed":"5","text_error":"The Following Error Occurs:","text_name_invalid":"- Your Name is empty\/invalid","text_email_invalid":"- Your Email is empty\/invalid","text_remarks_invalid":"- Your Remarks is invalid","text_friend_names_empty":"- Friend Name(s) is empty","text_friend_name_invalid":"- Friend Name is empty\/invalid: ","text_max_friend_names_allowed":"- Maximum 5 Friend Names allowed","text_friend_emails_empty":"- Friend Email(s) is empty","text_friend_email_invalid":"- Friend Email is invalid: ","text_max_friend_emails_allowed":"- Maximum 5 Friend Emails allowed","text_friends_tally":"- Friend Name(s) count does not tally with Friend Email(s) count","text_image_verify_empty":"- Image Verification is empty"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.anhembi.com.br/wp-content/plugins/wp-email/email-js.js?ver=2.60'></script>
+</footer>
+</div>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+ Served from: www.anhembi.com.br @ 2017-02-26 21:48:10 by W3 Total Cache -->

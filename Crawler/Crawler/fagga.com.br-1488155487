@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fagga | GL events Exhibitions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Description" lang="pt-br" content="Referência em promoção e organização de feiras e eventos no Brasil, a Fagga l GL events Exhibitions está no mercado há meio século e é responsável pela realização de mais de 20 feiras por ano no país. " />
+<meta name="keywords" lang="pt-br" content="Fagga, gl events, gl events exhitibitons, Feiras, feira, riocentro, rio de janeiro, são Paulo, bienal do livro, construir, feira construir, degusta, mondial, mondial de la bière, brasil brau, congresso estética, congresso de estética, congresso científico internacional de estética, expo aseac, expoaseac, expo cruz, expocruxz, expo franchising, rio franchising business, expopostos, fitabes, fliporto, footecon, hair & beauty, hair&beauty, interseg, première vision, première vision são Paulo, rio content Market, riocontent" />
+<meta property="og:title" content="Fagga | GL events Exhibitions"/>
+<meta property="og:url" content="http://www.fagga.com.br/"/>
+<meta property="og:image" content="http://www.fagga.com.br/imagens/"/>
+<meta property="og:site_name" content="FAGGA"/>
+<meta property="og:description" content="Referência em promoção e organização de feiras e eventos no Brasil, a Fagga l GL events Exhibitions está no mercado há meio século e é responsável pela realização de mais de 20 feiras por ano no país. "/>
+<link href="FAGGA" rel="publisher" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta name="distribution" content="Global" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="content-language" content="pt" />
+<meta name="DC.Title" content="Fagga | GL events Exhibitions" />
+<meta name="DC.Description" content="Referência em promoção e organização de feiras e eventos no Brasil, a Fagga l GL events Exhibitions está no mercado há meio século e é responsável pela realização de mais de 20 feiras por ano no país. " />
+<meta name="geo.placename" content="Brazil" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://www.fagga.com.br/js/jqFancyTransitions.js"></script>
+<script type="text/javascript" src="http://www.fagga.com.br/js/jflow.js"></script>
+<script type="text/javascript" src="http://www.fagga.com.br/js/galeria.js"></script>
+<script type="text/javascript" src="http://www.fagga.com.br/js/funcoes.js"></script>
+<script type="text/javascript" src="http://www.fagga.com.br/js/jquery.carousel.js"></script>
+<script type="text/javascript" src="http://www.portalgl.com.br/js/validacoes.js"></script>
+<!-- Script do Carrossel - Home -->
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('body').removeClass('no-js');
+		    $('#my-carousel').carousel({
+		    	itemsPerPage: 4,
+		    	itemsPerTransition: 1,
+		    	speed: 500
+		    });
+		});
+</script>
+<link href='http://www.portalgl.com.br/fagga/css/default.css' rel='stylesheet' type='text/css' />
+</head>
+<body style='background-image:url(http://www.portalgl.com.br/upload/fagga/bg_62s02u650zo.jpg);'>
+<div class='topo'>
+<div class='content'>
+<div class='logo'>
+<a href='http://www.fagga.com.br/'>
+	<img src='http://www.portalgl.com.br/upload/fagga/logo_1xo5xp10vvk.jpg' alt='Fagga | GL events Exhibitions' title='Fagga | GL events Exhibitions' border='0'>
+	</a>
+</div>
+
+            
+        <div class="busca">
+        
+        	
+            <div class="search" class="idioma" style="width:35px;">
+            	<div id="subsearch" style="display:none;">
+                <form action="http://fagga.com.br/busca/index.asp" method="post" name="frm" id="frm">
+                <input type="text" name="str_palavra_busca" id="str_palavra_busca"/>
+                <input type="submit" class="submita" value="ok" onclick="javascript:return Search();"/>
+            	</form>
+                </div>
+            	<img src="http://www.fagga.com.br/imagens/search.png" onclick="toggle('subsearch');" />
+            </div>
+            <div class="idioma" style="width:35px;">
+				
+                <a href="http://www.fagga.com.br/idioma/?fagga/en/"><img src="http://www.fagga.com.br/imagens/bt_en.jpg"></a>
+                
+        	</div>
+            <div style="float:left;">
+				<a href="http://www.facebook.com/FaggaGlexhibitions"><img src="http://www.fagga.com.br/img/facebook.png" style="margin-left:5px;"></a>
+                <a href="http://www.twitter.com/faggagl "><img src="http://www.fagga.com.br/img/twitter.png"></a>
+                <a href="http://www.youtube.com/FaggaEventos"><img src="http://www.fagga.com.br/img/youtube.png"></a>
+        	</div>
+            <br /><br/><br />
+            <p style="text-align:right;"><a href="http://www.vagas.com.br/fagga" target="_blank" title="Vagas"><img src="http://www.riocentro.com.br/imagens/trabalhe.png"></a></p>
+            
+        </div>
+              
+        
+<div class='menu_site'>
+<ul>
+
+<li><a href='http://www.fagga.com.br/'  class='selected' >Home</a></li>
+<li ONMOUSEOVER='showMenu(1)' ONMOUSEOUT='startTimer()' STYLE='cursor:pointer'>
+<a href='#'>Fagga</a>
+<div class='submenu' id='menu_1' STYLE='display:none;'>
+<ul>
+<li><a href='http://www.fagga.com.br/canal/?fagga/8620/quem-somos/'>Quem somos</a></li>
+<li><a href='http://www.fagga.com.br/canal/?fagga/8621/gl-events-no-brasil/'>GL EVENTS NO BRASIL</a></li>
+<li><a href='http://www.fagga.com.br/canal/?fagga/8797/premios/'>Prêmios</a></li>
+<li><a href='http://www.fagga.com.br/canal/?fagga/8887/think-green/'>Think Green</a></li>
+</ul>
+<div>
+</li>
+<li ONMOUSEOVER='showMenu(2)' ONMOUSEOUT='startTimer()' STYLE='cursor:pointer'>
+<a href='#'>Feiras</a>
+<div class='submenu' id='menu_2' STYLE='display:none;'>
+<ul>
+<li><a href='http://www.fagga.com.br/canal/?feiras/22303/portfolio/'>Portfólio</a></li>
+<li><a href='http://www.fagga.com.br/canal/?feiras/8777/calendario/'>Calendário</a></li>
+</ul>
+<div>
+</li>
+<li ONMOUSEOVER='showMenu(3)' ONMOUSEOUT='startTimer()' STYLE='cursor:pointer'>
+<a href='#'>Imprensa</a>
+<div class='submenu' id='menu_3' STYLE='display:none;'>
+<ul>
+<li><a href='http://www.fagga.com.br/canal/?imprensa/8623/contato/'>Contato</a></li>
+<li><a href='http://www.fagga.com.br/canal/?releases/'>Releases</a></li>
+<li><a href='http://www.fagga.com.br/canal/?noticias/'>Notícias</a></li>
+<li><a href='https://www.youtube.com/user/FaggaEventos/videos'>Vídeos</a></li>
+</ul>
+<div>
+</li>
+<li ONMOUSEOVER='showMenu(4)' ONMOUSEOUT='startTimer()' STYLE='cursor:pointer'>
+<a href='#' >Fale Conosco</a>
+<div class='submenu' id='menu_4' STYLE='display:none;'>
+<ul>
+<li><a href='http://www.fagga.com.br/contato/'>Contato</a></li>
+</ul>
+<div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class='destacao'>
+<div id='sliderContainer'>
+<div id='mySlides'>
+<div id='slide-1' class='slide'>
+<a href='http://www.portalgl.com.br/ads/?QTE9MTUmUDI9OTAmRTM9MTI2NiZTND0yNg'>
+<img src='http://www.portalgl.com.br/upload/fagga/rcm_21447.jpg' alt='RioContentMarket' title='RioContentMarket' />
+</a>
+<div class='slideContent'></div>
+</div>
+<div id='slide0' class='slide'>
+<a href='http://www.portalgl.com.br/ads/?QTE9MTUmUDI9OTAmRTM9MTI2MiZTND0yNg'>
+<img src='http://www.portalgl.com.br/upload/fagga/banner_geek_21384.jpg' alt='Geek & Game' title='Geek & Game' />
+</a>
+<div class='slideContent'></div>
+</div>
+</div>
+<div id='myController'> <span class='jFlowControl'></span>
+<span class='jFlowControl'></span>
+<div class='jFlowPrev'></div>
+<div class='jFlowNext'></div>
+</div>
+</div>
+</div></a>
+
+<div class="miolo">	    
+	<div class="content home">
+			
+		<div id="my-carousel" class="carousel module">
+			 <ul>
+					
+				<li>
+                	<a href="http://www.riocontentmarket.com.br" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/riocontentmarket_648_17129.png" /></a>
+                    <a href="http://www.riocontentmarket.com.br" class="link_carousel" target="_blank"><strong>RioContentMarket</strong><br />
+                    08 a 10 de março 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.ggrf.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/geek_game_21380.png" /></a>
+                    <a href="http://www.ggrf.com.br/" class="link_carousel" target="_blank"><strong>Geek & Game Rio Festival</strong><br />
+                    21 a 23 de Abril de 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.brasilbrau.com.br" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/brasilbrau_logo_faga_20134.png" /></a>
+                    <a href="http://www.brasilbrau.com.br" class="link_carousel" target="_blank"><strong>Brasil Brau</strong><br />
+                    26 a 28 de julho 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.degustabeerandfood.com.br" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/degusta_648_17120.png" /></a>
+                    <a href="http://www.degustabeerandfood.com.br" class="link_carousel" target="_blank"><strong>Degusta Beer & Food</strong><br />
+                    26 a 29 de julho 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.congressoestetica.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/estetika_21338.jpg" /></a>
+                    <a href="http://www.congressoestetica.com.br/" class="link_carousel" target="_blank"><strong>Estétika SP</strong><br />
+                    03 A 06 de agosto 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.expopostos.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/expoposto2017_21228.png" /></a>
+                    <a href="http://www.expopostos.com.br/" class="link_carousel" target="_blank"><strong>ExpoPostos</strong><br />
+                    15 a 17 de agosto de 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://bienaldolivro.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/bienal_21421.jpg" /></a>
+                    <a href="http://bienaldolivro.com.br/" class="link_carousel" target="_blank"><strong>Bienal do Livro Rio</strong><br />
+                    31 de agosto a 10 de setembro de 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://expocruz.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/expocruz_fgga_21416.png" /></a>
+                    <a href="http://expocruz.com.br/" class="link_carousel" target="_blank"><strong>Expocruz</strong><br />
+                    22 de setembro a 01 de outubro</a>
+                </li>
+					
+				<li>
+                	<a href="http://expofranchising.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/expo_21414.jpg" /></a>
+                    <a href="http://expofranchising.com.br/" class="link_carousel" target="_blank"><strong>Expo Franchising</strong><br />
+                    28 a 30 de Setembro de 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.adventurefair.com.br/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/adventure_fagga_21415.png" /></a>
+                    <a href="http://www.adventurefair.com.br/" class="link_carousel" target="_blank"><strong>Adventure Fair </strong><br />
+                    27 a 29 de Outubro de 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.sirha-saopaulo.com/" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/17_sirha_sa0paulo_21446.jpg" /></a>
+                    <a href="http://www.sirha-saopaulo.com/" class="link_carousel" target="_blank"><strong>Sirha São Paulo</strong><br />
+                    7 a 9 de Novembro de 2017</a>
+                </li>
+					
+				<li>
+                	<a href="http://www.mondialdelabiererio.com" target="_blank"><img src="http://www.portalgl.com.br/upload/fagga/logo2_20136.png" /></a>
+                    <a href="http://www.mondialdelabiererio.com" class="link_carousel" target="_blank"><strong>Mondial de La Bière</strong><br />
+                    11 a 15 de Outubro de 2017</a>
+                </li>
+					
+            </ul>
+		</div>
+			
+        <div class="coluna1">
+        	<!--<div class="destaques_home">
+            	<div class="botao_vermelho todos">
+                <a href="http://www.fagga.com.br/canal/?destaques/">Todos os destaques</a></div>
+                <h1 style="margin-left:-8px;">Destaques</h1>                
+                <ul><li>
+<a href='http://www.fagga.com.br/canal/?releases/24286/bienal+internacional+do+livro+do+rio+de+janeiro+recebe+676+mil+pessoas+e+celebra+a+leitura+/'><img src='http://www.portalgl.com.br/image.aspx?src=fagga/destaque_bienal_fagga_20382.png&w=285&h=185' alt='Bienal do Livro 2015' title='Bienal do Livro 2015' width='310' /></a>
+<a href='http://www.fagga.com.br/canal/?releases/24286/bienal+internacional+do+livro+do+rio+de+janeiro+recebe+676+mil+pessoas+e+celebra+a+leitura+/'><h2 >BIENAL DO LIVRO 2015</h2>
+Bienal Internacional do Livro do Rio de Janeiro recebe 676 mil pessoas
+<br /><br />
+<img src='http://www.fagga.com.br/imagens/bt_mais.jpg' /></a>
+</li>
+<li>
+<a href='http://www.fagga.com.br/canal/?releases/24104/brasil+brau+e+degusta+beer+&+food+registram+publico+recorde+e+reforcam+a+imagem+de+expansao+do+mercado+cervejeiro/'><img src='http://www.portalgl.com.br/image.aspx?src=fagga/destaque_20103.jpg&w=285&h=185' alt='Brasil Brau e Degusta Beer 2015' title='Brasil Brau e Degusta Beer 2015' width='310' /></a>
+<a href='http://www.fagga.com.br/canal/?releases/24104/brasil+brau+e+degusta+beer+&+food+registram+publico+recorde+e+reforcam+a+imagem+de+expansao+do+mercado+cervejeiro/'><h2 >BRASIL BRAU E DEGUSTA BEER 2015</h2>
+Recorde de público e reforço na imagem de expansão do mercado cervejei
+<br /><br />
+<img src='http://www.fagga.com.br/imagens/bt_mais.jpg' /></a>
+</li>
+</ul>                
+            </div>-->           
+                          
+            <div class="ultimasnoticias">
+            <h1>Not&iacute;cias</h1>                    
+            <ul>
+            	<li>
+                    <a href="http://www.fagga.com.br/canal/?noticias/26384/grandes+nomes+da+industria+gamer+internacional+virao+ao+brasil+este+ano,+fique+ligado!/"> <h2>GRANDES NOMES DA INDÚSTRIA GAMER INTERNACIONAL VIRÃO AO BRASIL ESTE ANO, FIQUE LIGADO!</h2>
+                    22.Feb.2017 | Fonte: Arkade /Online  </a>
+                </li>
+                               
+            	<li>
+                    <a href="http://www.fagga.com.br/canal/?noticias/26383/geek+&+game+rio+festival+-+tim+schafer+vira+pela+1ª+vez+ao+brasil+/"> <h2>GEEK & GAME RIO FESTIVAL - TIM SCHAFER VIRÁ PELA 1ª VEZ AO BRASIL </h2>
+                    22.Feb.2017 | Fonte: Noobz /Online  </a>
+                </li>
+                               
+            	<li>
+                    <a href="http://www.fagga.com.br/canal/?noticias/26382/a+melhor+chef+que+voce+nao+conhece/"> <h2>A MELHOR CHEF QUE VOCÊ NÃO CONHECE</h2>
+                    17.Feb.2017 | Fonte: Exame /Online  </a>
+                </li>
+                                     
+                </ul>
+            	<div class="botao_vermelho"><a href="http://fagga.com.br/canal/?noticias/">Todas as not&iacute;cias</a></div>
+            </div>
+            
+            <div class="videos">
+            	<h1>V&iacute;deo em Destaque</h1>
+                <div class="vid">
+                
+        			<ul class="videos_home">
+            	<li></li>
+            	</ul>
+                </div>
+				<a href="https://www.youtube.com/user/FaggaEventos/videos" target="_blank"><img src="http://www.fagga.com.br/imagens/fagga_yt.png" style="width: 299px; margin: 0 auto; margin-bottom: 10px; display: block;"/></a>
+                 <!--<div class="botao_vermelho"><a href="canal/videos/">Todos os videos</a></div>-->
+                 <div class="botao_vermelho"><a href="https://www.youtube.com/user/FaggaEventos/videos" target="_blank">Todos os videos</a></div>
+       		</div>           
+                       
+        </div>
+        
+        <div class="coluna2">
+        	
+            <h1>Fique Ligado</h1>
+        	<div class="fiqueligado">
+            	<ul>
+                	<li>
+                    	<div class="logo"><img src="imagens/logo_facebook.jpg" /></div>
+                        <div class="social">
+                                	<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FFaggaGlexhibitions&amp;width=320&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=220" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:322px; height:219px; margin:-1px 0 0 -1px;" allowTransparency="true"></iframe>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="logo"><img src="imagens/logo_twitter.jpg" /></div>
+                        <div class="social">
+						<a class="twitter-timeline" href="https://twitter.com/Fagga_GL" data-widget-id="395946076340887552">Tweets by @Fagga_GL</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+                    </li>
+                    <li> <h1>Newsletter</H1> </li>
+                    <li>
+                    	<div class="logo"><img src="imagens/logo_newsletter.jpg" /></div>
+                        <div class="newsletter">
+                        
+          <form action="http://www.fagga.com.br/newsletter/processa.asp" method="post" name="frmnews" id="frmnews" onsubmit="return Valida_News();">
+          <input type=hidden name="retURL" value="http://www.fagga.com.br/newsletter/">
+                	<input type="hidden" id="site" name="site" maxlength="100" value="fagga/" />
+                    <input type="text" id="nome" name="nome" maxlength="100" onclick="clickclear(this,'Nome')" onblur="clickrecall(this,'Nome')" /><br />
+                    <input type="text" id="email" name="email" maxlength="100" onclick="clickclear(this,'E-mail')" onblur="clickrecall(this,'E-mail')" /><br />
+                    <p class="enviar adjust">
+                        <input name="enviar" type="submit" value="ENVIAR"/>
+                    </p>
+                        </div>
+                    </li>
+                </ul>            	
+			</div>           
+           
+        </div>
+    </div>   
+</div>
+</div>
+<div class="rodape">
+	<div class="content2">
+    	<div class="logo_rodape">
+        	<img src="http://www.fagga.com.br/imagens/logo_rodape.jpg" alt="#" title="#" />
+        </div>
+        <div class="menu_rodape">
+        	<ul>
+			
+				<li><a href="http://www.fagga.com.br/canal/?fagga/">Fagga</a></li>
+                <li>|</li>
+				
+				<li><a href="http://www.fagga.com.br/canal/?feiras/">Feiras</a></li>
+                <li>|</li>
+				
+				<li><a href="http://www.fagga.com.br/canal/?imprensa/">Imprensa</a></li>
+                <li>|</li>
+				
+                <li><a href="http://www.fagga.com.br/contato/">Fale Conosco</a></li>
+                <li>|</li>
+                <li><a href="https://site.vagas.com.br/PagEmprCust_fagga_vagas.html" target="_blank">Trabalhe Conosco</a></li>
+            </ul>
+        </div>
+        <hr />
+        <div class="endereco" style="padding-left:0;">
+        	<strong>Rio de Janeiro</strong><br />
+            Rua Salvador Allende, 6.555<br />
+            Barra da Tijuca - CEP: 22870-160<br />
+			Rio de Janeiro - RJ - Brasil<br />
+            Tel: (21) 2441-9100 | Fax: (21) 2441-9398
+        </div>    
+        <div class="endereco">
+        	<strong>S&atilde;o Paulo</strong><br />
+            Rodovia dos Imigrantes, km 1,5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            CEP: 04329-900<br />
+            Tel: (11) 5067-1760
+        </div> 
+        <!--<div class="endereco">
+        	<strong>Salvador</strong><br />
+            Rua Dr. Jos&eacute; Peroba, 275 - sl 706/707<br />
+            Stiep - CEP: 41770-235<br />
+            Tel: (71) 3797-0525
+        </div> 
+        <div class="endereco" style="border:0;">
+        	<strong>Belo Horizonte</strong><br />
+            Rua Ant&ocirc;nio de Albuquerque, 606 - sl 206<br />
+            Funcion&aacute;rios - CEP: 30112-010<br />
+            Tel: (31) 3223-4500
+        </div>--> 
+    </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38334735-23', 'fagga.com.br');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="pt-BR"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="pt-BR"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="pt-BR"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="pt-BR"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="pt-BR" xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+
+<head>
+    <!-- title -->
+    <title>
+    Agenda &ndash; Itaú Cultural    </title>
+
+    <!-- Facebook -->
+    	<meta property="fb:admins" content="1273493656" />
+	<meta property="fb:admins" content="1502659769" />
+	<meta property="fb:admins" content="1062731505" />
+	<meta property="fb:admins" content="752309629" />
+	<meta property="fb:admins" content="100000790149761" />
+	<meta property="fb:admins" content="1335772394" />
+
+    <!-- meta : charset -->
+    <meta charset="UTF-8">
+
+    <!-- always force latest ie rendering engine & chrome frame -->
+    <meta http-equiv="X-UA-Compatible"      content="IE=edge,chrome=1">
+
+    <!-- meta : basics -->
+    <meta name="author"                     content="Instituto Itaú Cultural">
+    <meta name="Copyright"                  content="Copyright Itaú Cultural 2017. Todos direitos reservados.">
+    <meta name="keywords"                   content="[KEYWORDS]">
+    <meta http-equiv="Cache-Control"        content="no-cache, no-store">
+    <meta http-equiv="Pragma"               content="no-cache, no-store">
+    <meta http-equiv="expires"              content="Mon, 06 Jan 1990 00:00:01 GMT"/>
+
+    <!-- meta : viewport -->
+    <meta name="viewport"                   content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- meta : google verification -->
+    <meta name="google-site-verification"   content="">
+
+    <!-- favicon -->
+    <link rel="shortcut icon"               href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/common/favicon.ico?v=1.0.0" type="image/ico">
+    <link rel="apple-touch-icon"            href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/common/apple-touch-icon.png?v=1.0.0">
+
+	<link rel="canonical" href="http://www.itaucultural.org.br/programe-se/agenda/">
+
+    <!-- css -->
+    <link rel="stylesheet"                  href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/common/screen.css?v=1.0.1" media="screen, projection, print" type="text/css">
+    <!--[if IE ]>
+    <link rel="stylesheet"                  href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/common/ie-specific.css?v=1.0.0" media="screen, projection, print" type="text/css">
+    <![endif]-->
+    <link rel="stylesheet"                  href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/lib/uniform.default.css?v=1.0.0" media="screen, projection, print" type="text/css">
+    <link rel="stylesheet"                  href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/common/print.css?v=1.0.0" media="print" type="text/css">
+    <link rel="stylesheet"                  href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/style.css" media="screen, projection, print" type="text/css">
+
+    <!-- js -->
+    <script type="text/javascript"          src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/libs/jquery-1.7.1.min.js?v=1.0.0"></script>
+    <script type="text/javascript"          src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/libs/jquery.uniform.min.js?v=1.0.0"></script>
+    <script type="text/javascript"          src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/libs/jquery.jcarousel.min.js?v=1.0.0"></script>
+    <script type="text/javascript"          src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/section/carousel-horizontal-pagination.js?v=1.0.0"></script>
+    <script type="text/javascript"          src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/common/core.js?v=1.1.0"></script>
+    <script src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/colorbox/i18n/jquery.colorbox-pt-br.js"></script>
+
+    <link href="http://www.itaucultural.org.br/wp-content/themes/itau-cultural/opensearch.xml" rel="search" title="Busca no conteúdo do Itaú Cultural" type="application/opensearchdescription+xml">
+
+    
+	<script type="text/javascript">
+	//<![CDATA[
+	var ajaxurl = 'http://www.itaucultural.org.br/wp-admin/admin-ajax.php';
+	//]]>
+	</script>		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.itaucultural.org.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=9d766a12f56c03d99da28a685190757f"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.itaucultural.org.br/?mcsf_action=main_css&#038;ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.itaucultural.org.br/wp-content/plugins/mailchimp/css/ie.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jquery-ui-theme-base-css'  href='http://www.itaucultural.org.br/wp-content/libs/jquery-ui/themes/base/all.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-theme-smoothness-css'  href='http://www.itaucultural.org.br/wp-content/libs/jquery-ui/themes/smoothness/theme.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='datetimepicker-css'  href='http://www.itaucultural.org.br/wp-content/libs/jqueryui-timepicker-addon/dist/jquery-ui-timepicker-addon.min.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-fancybox-css'  href='http://www.itaucultural.org.br/wp-content/libs/fancybox/jquery.fancybox-1.3.4.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.itaucultural.org.br/wp-content/plugins/portalic_explore/fancybox/jquery.fancybox-1.3.4.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/css/dashicons.min.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/thickbox/thickbox.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='participe_style-css'  href='http://www.itaucultural.org.br/wp-content/plugins/portalic_participe/css/main-style.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<link rel='stylesheet' id='wsl-widget-css'  href='http://www.itaucultural.org.br/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=9d766a12f56c03d99da28a685190757f' type='text/css' media='all' />
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/jqueryui-timepicker-addon/dist/jquery-ui-timepicker-addon.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/jqueryui-timepicker-addon/dist/jquery-ui-sliderAccess.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/jqueryui-timepicker-addon/dist/i18n/jquery-ui-timepicker-pt-BR.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/jquery-ui/ui/i18n/datepicker-pt-BR.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/fancybox/jquery.fancybox-1.3.4.pack.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/plugins/portalic_explore/fancybox/jquery.fancybox-1.3.4.pack.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/plugins/wordpress-social-login/assets/js/widget.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/section/custom-gallery.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/modernizr/modernizr.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/libs/js-cookie/src/js.cookie.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<link rel='https://api.w.org/' href='http://www.itaucultural.org.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.itaucultural.org.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.itaucultural.org.br/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="http://www.itaucultural.org.br/programe-se/agenda/" />
+<link rel='shortlink' href='http://www.itaucultural.org.br/?p=96' />
+<link rel="alternate" type="application/json+oembed" href="http://www.itaucultural.org.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.itaucultural.org.br%2Fprograme-se%2Fagenda%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.itaucultural.org.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.itaucultural.org.br%2Fprograme-se%2Fagenda%2F&#038;format=xml" />
+<script type="text/javascript" src="http://www.itaucultural.org.br/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://www.itaucultural.org.br/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<link rel="stylesheet" href="http://www.itaucultural.org.br/wp-content/plugins/sodet-solr-server/template/mss_autocomplete.css" type="text/css" media="screen" />
+<script type="text/javascript">
+    // jQuery(document).ready(function($) {
+    	// FIXME Missing library?
+    //     $("#s").suggest("?method=autocomplete",{});
+    //     $("#qrybox").suggest("?method=autocomplete",{});
+    // });
+</script>
+
+
+
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.itaucultural.org.br/?wordfence_logHuman=1&hid=EE7A83082DD6F0535A54F103D0822831');
+</script>
+    <script type="text/javascript" language="javascript">
+	jQuery(document).ready(function($) {
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+
+    if(getCookie('first_access') != 'view'){
+      var d = new Date();
+      d.setTime(d.getTime() + (4*60*60*1000));
+      var expires = "expires="+d.toUTCString();
+      document.cookie = "first_access=view; " + expires;
+      $('.splash-home-page').fadeIn('fast');
+    }
+
+		// Volta a fonte para o tamanho padrão.
+
+        //console.log('=>' + document.cookie);
+
+		var originalFontSize = jQuery('body').css('font-size');
+		jQuery('.font-reset').click(function() {
+			jQuery('body').css('font-size', originalFontSize);
+		});
+
+		// Aumenta
+		jQuery('.ico-bigger').click(function() {
+			var currentBody = jQuery('body').css('font-size');
+			var currentBodyNum = parseFloat(currentBody, 10);
+			var newBodyFontSize = currentBodyNum*1.2;
+			if(parseFloat(newBodyFontSize) < parseFloat(81))
+			{
+				jQuery('body').css('font-size', newBodyFontSize);
+			}
+
+			var currentDivP = jQuery('div p').css('font-size');
+			var currentDivPNum = parseFloat(currentDivP, 10);
+			var newDivPSize = currentDivPNum*1.2;
+			if(parseFloat(newDivPSize) < parseFloat(81))
+			{
+				jQuery('div p').css('font-size', newDivPSize);
+			}
+
+			var currentPSpan = jQuery('p span').css('font-size');
+			var currentPSpanNum = parseFloat(currentPSpan, 10);
+			var newPSpanSize = currentPSpanNum*1.2;
+			if(parseFloat(newPSpanSize) < parseFloat(81))
+			{
+				jQuery('p span').css('font-size', newPSpanSize);
+			}
+			return false;
+		});
+
+		// Diminui
+		jQuery('.ico-smaller').click(function() {
+			var currentBody = jQuery('body').css('font-size');
+			var currentBodyNum = parseFloat(currentBody, 10);
+			var newBodyFontSize = currentBodyNum*0.8;
+			if(parseFloat(newBodyFontSize) > parseFloat(5))
+			{
+				jQuery('body').css('font-size', newBodyFontSize);
+			}
+
+			var currentDivP = jQuery('p span').css('font-size');
+			var currentDivPNum = parseFloat(currentDivP, 10);
+			var newDivPSize = currentDivPNum*0.8;
+			if(parseFloat(newDivPSize) > parseFloat(5))
+			{
+				jQuery('div p').css('font-size', newDivPSize);
+			}
+
+			var currentPSpan = jQuery('p span').css('font-size');
+			var currentPSpanNum = parseFloat(currentPSpan, 10);
+			var newPSpanSize = currentPSpanNum*0.8;
+			if(parseFloat(newPSpanSize) > parseFloat(5))
+			{
+				jQuery('p span').css('font-size', newPSpanSize);
+			}
+			return false;
+		});
+	});
+	</script>
+	<!--<script type="text/javascript">
+		(function($) {
+			jQuery.fn.cubo9Sharer = function(params) {
+				jQuery(this).parent().parent().next().toggle();
+			};
+		})(jQuery);
+	</script>-->
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $('.no-link > a').each(function(){
+          $(this).removeAttr('href');
+        });
+	$('.menu-espaco-olavo > li').each(function(indice){
+          $(this).addClass('index-' + indice);
+        });
+      });
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-34407839-2', 'itaucultural.org.br');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '691538090933381');
+  fbq('track', "PageView");</script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=691538090933381&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+
+<!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P8CPX3"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P8CPX3');</script>
+    <!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+      jQuery(function() {
+        if (!Cookies.get('termos-aceito-2015-11')) {
+          jQuery('#marcoCivil').delay(1000).slideDown();
+        }
+
+        jQuery('.btn-fechar').click(function(){
+          jQuery('#marcoCivil').slideUp();
+          Cookies.set('termos-aceito-2015-11', true, { expires: 1 });
+        });
+      });
+    </script>
+    <div id="marcoCivil" class="marco-civil-container" style="display:none; height: 36px; color: rgb(255, 255, 255); font-weight: normal; display:;background-color: rgb(87, 87, 87);">
+      <img class="img-alerta" width="23" height="24" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/ico-alerta-aviso.png" alt="Imagem triangular com exclamação indicando um aviso de alerta" title="Imagem triangular com exclamação indicando um aviso de alerta" style="margin: 4px 0px 7px 15px; float: left;">
+      <div class="textDescription" style="position: absolute; margin: 10px; font-size: 14px; display: inline-table; float: left; left: 40px;">
+        Os termos de uso e nossa política de privacidade foram atualizados.
+        <a href="https://www.itau.com.br/seguranca/termos-de-uso/" target="_blank" id="linkSaibaMais" style="text-decoration: underline; color: rgb(255, 255, 255); font-weight: bold;"> Saiba mais.</a>
+      </div>
+      <img class="btn-fechar" width="11" height="12" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/ico-fechar-branco.png" alt="Imagem em formato X para fechar a mensagem de alerta de termos de uso e política de privacidade" title="Imagem em formato X para fechar a mensagem de alerta de termos de uso e política de privacidade" style="float: right; margin: 11px; width: 11px; cursor: pointer;">
+    </div>
+
+    <div id="wrapper">
+        
+        
+        <hr />
+
+        <header id="header" class="clearfix" style="margin-top: 24px;">
+            <a class="logo-ic" href="/" title="Itaú Cultural">
+              <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/common/logo-itau-cultural.png" alt="Itaú Cultural" width="152" height="73" style="display: inline; margin: 0;"/>
+            </a>
+
+            <a class="skip" href="#content" title="Ir para o conteúdo">Ir para o conteúdo</a>
+
+            <hr />
+
+            <form action="http://www.itaucultural.org.br" class="search" id="searchform" method="get">
+    <fieldset>
+        <legend>Formulário de busca</legend>
+        <input type="text" id="s" name="s" value="" />
+        <span>
+            <input type="submit" value="buscar" id="searchsubmit" />
+        </span>
+    </fieldset>
+</form>
+            <hr />
+
+            <nav class="clearfix">
+                <ul>
+                    <li class="programe">
+                        <a href="/programe-se/">programe-se</a>
+                        <div class="submenu box-blue clearfix">
+                            <span class="content-closed">
+                                <span class="closed">fechar</span>
+                            </span>
+
+                            <div class="submenu-agenda">
+                                <h3><a href="http://www.itaucultural.org.br/programe-se/agenda/" title="agenda">/agenda</a></h3>
+                                Fique por dentro da programação e saiba mais sobre os projetos que estão acontecendo por todo o país                                <ul class="clearfix">
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=artes-visuais" title="">artes visuais</a></li>
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=cinema-e-video" title="">cinema e vídeo</a></li>
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=danca" title="">dança</a></li>
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=educacao" title="">educação</a></li>
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=literatura" title="">literatura</a></li>
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=musica" title="">música</a></li>
+                                    <li><a href="http://www.itaucultural.org.br/programe-se/agenda?term=teatro" title="">teatro</a></li>
+                                </ul>
+                                <a href="http://www.itaucultural.org.br/programe-se/agenda/eventos-anteriores/" class="more" title="Veja também: Eventos anteriores">Veja também: Eventos anteriores</a>
+                                <a href="http://www.itaucultural.org.br/sobre-a-distribuicao-de-ingressos/" class="more" alt="Clique aqui e entenda sobre a nova forma de distribuição de ingressos" title="Clique aqui e entenda sobre a nova forma de distribuição de ingressos">Nova forma de distribuição de ingressos</a>
+                            </div>
+
+                            <div class="submenu-visits">
+                                <h3><a href="http://www.itaucultural.org.br/programe-se/visitas/" title="agenda">/visitas</a></h3>
+                                Acompanhe o nosso roteiro de visitas educativas para público espontâneo e também para grupos agendados
+<br><font color='#fff'>-</font>                                <ul class="clearfix">
+								                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="conheca">
+                        <a title="quem somos" href="/conheca/sobre-o-itau-cultural">quem somos</a>
+                        <div class="submenu box-orange clearfix">
+                            <span class="content-closed">
+                                <span class="closed">fechar</span>
+                            </span>
+                            <ol>
+                                <li>
+                                    <a href="http://www.itaucultural.org.br/conheca/sobre-o-itau-cultural">
+                                        <strong>Itaú Cultural</strong></a>
+                                                                                          Saiba mais sobre os serviços prestados pelo Itaú Cultural no Brasil todo
+                                </li>
+                                <li>
+                                    <a href="http://www.itaucultural.org.br/conheca/auditorio-ibirapuera">
+                                        <strong>Auditório Ibirapuera</strong></a>
+                                                            Sob gestão do Itaú Cultural, Auditório Ibirapuera é um dos símbolos de São Paulo
+                                </li>
+                                <li>
+                                    <a href="http://www.itaucultural.org.br/imprensa">
+                                        <strong>Imprensa</strong></a>
+										Acesse o nosso banco de releases sobre os eventos mais recentes e institucionais
+                                </li>                                <li>
+                                    <a href="http://www.itaucultural.org.br/trabalhe-conosco">
+                                        <strong>Trabalhe conosco</strong></a>
+										Aqui você fica sabendo se há vagas abertas no Itaú Cultural e pode enviar seu currículo
+                                </li>                                <li class="last">
+                                    <a href="http://www.itaucultural.org.br/fale-conosco">
+                                        <strong>Contato</strong></a>
+                                        Aqui você pode nos enviar suas dúvidas, sugestões e críticas.
+                                </li>
+
+                                <li>
+                                    <a href="http://www.itaucultural.org.br/institucional/perfildoinvestimento">
+                                        <strong>Uso da Lei Rouanet</strong></a>
+                                        Entenda como o grupo Itaú Unibanco utiliza esses recursos em seus projetos.
+                                </li>
+
+                            </ol>
+                        </div>
+                    </li>
+
+                    <li class="explore">
+                        <a href="/explore">explore</a>
+                        <div class="submenu box-purple clearfix">
+                            <span class="content-closed">
+                                <span class="closed">fechar</span>
+                            </span>
+                            <ol>
+                                <li>
+                                    <span class="titulos_menu_explore">/áreas de expressão</span>
+                                    <ol>
+                                        <li><a href="http://www.itaucultural.org.br/explore/artes-visuais" title="">/artes visuais</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/musica" title="">/música</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/cinema-e-video" title="">/cinema e vídeo</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/danca" title="">/dança</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/teatro" title="">/teatro</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/literatura" title="">/literatura</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/educacao" title="">/educação</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <span class="titulos_menu_explore">/outros conteúdos</span>
+                                    <ol class="old">
+                                        <li>
+                                          <a href="http://www.itaucultural.org.br/explore/espaco-olavo-setubal/" title="">
+                                            <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2014/12/img-mapa-104x104.jpg" width="auto" height="90" alt="" />
+                                            /espaço olavo setubal
+                                          </a>
+
+                                                                                  </li>
+
+                                        <li><a href="http://enciclopedia.itaucultural.org.br" target="_blank" title="">/enciclopédia</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/biblioteca" title="">/biblioteca</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/observatorio" title="">/observatório</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/canal" title="">/canal</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/blogs" title="">/blogs</a></li>
+                                        <li><a href="http://www.itaucultural.org.br/explore/rumositaucultural" title="">/rumos itaú cultural</a></li>
+                                                                            </ol>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+
+                    <li class="itau">
+                        <a href="/newsletter">newsletter</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+<!-- CSS - Seção Programe-se -->
+<link rel="stylesheet" href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/section/section-programa-se.css?v=1.0.0" media="screen, projection, print" type="text/css">
+<style type="text/css">
+    .list-events.list-style .float-left{
+        float: left;
+    }
+
+    .list-events.list-style > li > div{
+        width: 573px;
+        float: right;
+    }
+
+    .list-events.list-style .places{
+        display: block;
+    }
+
+    .list-events.list-style .places > div{
+        clear: both;
+    }
+
+    .list-events.list-style .places img {
+        float: left;
+        margin-right: 8px;
+    }
+
+    .list-events.list-style .places .margin{
+        float: left;
+        width: 20px;
+        display: block;
+        height: 24px;
+    }
+
+    .list-events.list-style .place-label {
+        float: left;
+        margin-top:3px;
+        height: 33px;
+    }
+
+    .list-events.list-style p{
+        margin-top: 0 !important;
+    }
+    div.ui-datepicker div.ui-datepicker-buttonpane button {
+        font-size: 0.8em;
+    }
+    body .event-category {
+        margin: 0!important;
+        display: block!important;
+        padding-bottom: 7px!important;
+    }
+    body .event-date {
+        display: block!important;
+        margin-top: 0!important;
+        margin-bottom: 5px!important;
+        color: #666!important;
+        font-size:12px!important;
+    }	
+</style>
+<hr />
+<section id="content" class="internal programe-se clearfix">
+    <!-- Barra - Breadcrumb & Share -->
+    <article>
+        <div class="nav-tool clearfix">
+
+    <div class="breadcrumb fl">    
+        <ul>
+            <li><a href="http://www.itaucultural.org.br">Home</a>
+    ></li> <li><span>Agenda</span></li>        </ul>
+    </div>
+</div>    </article>
+    <!-- / Barra - Breadcrumb & Share -->
+    <header class="mb">
+        <h1>Agenda</h1>
+    </header>
+    <div class="column-696 fl text-content">
+        <!-- Ambientação 2 -->
+        <article>
+            <script type="text/javascript" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/libs/jquery.featureList-1.0.0.js?v=1.0.0"></script>
+<script type="text/javascript" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/js/section/featured-list.js?v=1.0.0"></script>
+<link rel="stylesheet" href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/section/featured-list.css?v=1.0.0" media="screen, projection, print" type="text/css">
+
+<div class="featured-list clearfix">
+	<ul class="featured-img" data-local="f-l-a">
+                <li>
+        	            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/fim-de-semana-em-familia-4-e-5-de-marco/"  >
+                <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2017/02/flou_foto-felipe-cohen-696x358.jpg" height="288" width="694" alt="Performance interativa Flou!" /><div class="img-libra"><img class="lb" width="60" height="60" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/logo-libra.png" /></div>            </a>
+            <span class="texto-banner">
+                <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/fim-de-semana-em-familia-4-e-5-de-marco/" style="text-decoration: none;"  ><strong>Fim de Semana em Família – 4 e 5 de março</strong></a>
+                Cores e traços são explorados em oficina e espetáculo            </span>
+        </li>
+                <li>
+        	            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/ocupacao-laura-cardoso/"  >
+                <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2017/02/14032016-_Y1A9727-696x358.jpg" height="288" width="694" alt="Laura Cardoso" /><div class="img-libra"><img class="lb" width="60" height="60" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/logo-libra.png" /></div>            </a>
+            <span class="texto-banner">
+                <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/ocupacao-laura-cardoso/" style="text-decoration: none;"  ><strong>Ocupação Laura Cardoso</strong></a>
+                Conheça mais sobre a trajetória de uma das grandes atrizes brasileiras            </span>
+        </li>
+                <li>
+        	            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/filmes-e-videos-de-artistas-na-colecao-itau-cultural-4/"  >
+                <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2016/12/filmes-e-videos_EderSantos-Cinema-01-696x358.jpg" height="288" width="694" alt="˜Cinema˜, de Eder Santos, obra exibida na exposição" />            </a>
+            <span class="texto-banner">
+                <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/filmes-e-videos-de-artistas-na-colecao-itau-cultural-4/" style="text-decoration: none;"  ><strong>Filmes e Vídeos de Artistas na Coleção Itaú Cultural</strong></a>
+                A mostra leva a Ribeirão Preto obras entre cinema e artes visuais            </span>
+        </li>
+                <li>
+        	            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/cantinho-da-leitura-e-feirinha-de-troca-4/"  >
+                <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2016/03/DSC01756-696x358.jpg" height="288" width="694" alt="No Cantinho da Leitura, 30 publicações infantojuvenis do acervo da biblioteca do instituto ficam disponíveis para o público" />            </a>
+            <span class="texto-banner">
+                <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/cantinho-da-leitura-e-feirinha-de-troca-4/" style="text-decoration: none;"  ><strong>Cantinho da Leitura e Feirinha de Troca</strong></a>
+                Aproveite o acervo infantojuvenil da biblioteca do Itaú Cultural no Fim de Semana em Família            </span>
+        </li>
+        	</ul>
+	<div class="bg-featured"></div>
+</div>
+
+        </article>
+        <!-- /ambientação 2 -->
+        <div class="fl filtros mt">
+            <form style="width: 100%;" class="order-select" method="get" action="" id="filterAgenda">
+                <fieldset>
+                    <select name="term">
+                        <option value="">Todas as áreas de expressão</option>
+                                                    <option value="acessibilidade" >Acessibilidade</option>
+                                                    <option value="arquitetura" >Arquitetura</option>
+                                                    <option value="arte-e-cidade" >Arte e Cidade</option>
+                                                    <option value="arte-e-tecnologia" >Arte e Tecnologia</option>
+                                                    <option value="artes-visuais" >Artes Visuais</option>
+                                                    <option value="cinema-e-video" >Cinema e Vídeo</option>
+                                                    <option value="cultura" >Cultura</option>
+                                                    <option value="danca" >Dança</option>
+                                                    <option value="design" >Design</option>
+                                                    <option value="educacao" >Educação, Cultura e Arte</option>
+                                                    <option value="formacao" >Formação</option>
+                                                    <option value="gastronomia" >Gastronomia</option>
+                                                    <option value="gestao-cultural" >Gestão Cultural</option>
+                                                    <option value="guia-educativo" >Guia Educativo</option>
+                                                    <option value="jornalismo-cultural" >Jornalismo Cultural</option>
+                                                    <option value="jornalismo-on-line" >Jornalismo On-line</option>
+                                                    <option value="libras" >Libras</option>
+                                                    <option value="literatura" >Literatura</option>
+                                                    <option value="memoria" >Memória</option>
+                                                    <option value="midiateca" >Midiateca</option>
+                                                    <option value="moda" >Moda</option>
+                                                    <option value="musica" >Música</option>
+                                                    <option value="observatorio" >Observatório</option>
+                                                    <option value="pesquisa" >Pesquisa</option>
+                                                    <option value="quadrinhos" >Quadrinhos</option>
+                                                    <option value="radio" >Rádio</option>
+                                                    <option value="rumos-2014" >Rumos 2014</option>
+                                                    <option value="sem-categoria" >Sem categoria</option>
+                                                    <option value="teatro" >Teatro</option>
+                                                    <option value="tv" >TV</option>
+                                                    <option value="varias" >Várias</option>
+                                            </select>
+                    <select name="place">
+                        <option value="">Todos os locais</option>
+                                                    <option value="89982" >
+                                Auditório Ibirapuera                            </option>
+                                                    <option value="90754" >
+                                Biblioteca Parque Estadual                            </option>
+                                                    <option value="92482" >
+                                Casa de Cultura de Paraty                            </option>
+                                                    <option value="93303" >
+                                Espaço Cultural Casa das Onze Janelas                            </option>
+                                                    <option value="95236" >
+                                Fundação Pinacoteca Benedicto Calixto                            </option>
+                                                    <option value="90708" >
+                                Instituto Figueiredo Ferraz                            </option>
+                                                    <option value="89976" >
+                                Itaú Cultural                            </option>
+                                                    <option value="92274" >
+                                Museu de Arte Contemporânea do Ceará - Centro Dragão do Mar de Arte e Cultura                            </option>
+                                                    <option value="94121" >
+                                Museu Nacional do Conjunto da República                            </option>
+                                                    <option value="90874" >
+                                Museu Oscar Niemeyer (MON)                            </option>
+                                                    <option value="94124" >
+                                Paço Imperial                            </option>
+                                            </select>
+                </fieldset>
+                <fieldset style="margin-top: 10px">
+                    <input style="color: #014C90!important; width: 73px;" type="text" placeholder="De"
+                           value="" 
+                           class="form-date" id="dt_evento" name="dt_evento" />
+
+                    <input style="color: #014C90!important; width: 73px;" type="text" placeholder="Até"
+                           value="" 
+                           class="form-date" id="dt_evento_fim" name="dt_evento_fim" />
+
+                    <style type="text/css">
+                        ::-webkit-input-placeholder {
+                            color: #014C90 !important;
+                        }
+
+                        :-moz-placeholder {
+                            color: #014C90 !important;
+                        }
+
+                        ::-moz-placeholder {
+                            color: #014C90 !important;
+                        }
+
+                        :-ms-input-placeholder {
+                            color: #014C90 !important;
+                        }
+                    </style>
+                    <script type="text/javascript">
+                        (function( $ ) {
+                          $(function() {
+                            function cleanDatepicker() {
+                              var old_fn = $.datepicker._updateDatepicker;
+
+                              $.datepicker._updateDatepicker = function(inst) {
+                                old_fn.call(this, inst);
+
+                                var buttonPane = $(this).datepicker("widget").find(".ui-datepicker-buttonpane");
+
+                                $("<button type='button' class='ui-datepicker-clean ui-state-default ui-priority-primary ui-corner-all'>Limpar</button>").appendTo(buttonPane).click(function(ev) {
+                                  $.datepicker._clearDate(inst.input);
+                                }) ;
+                              }
+                            }
+ 
+                            cleanDatepicker();
+                            var options = {
+                            dateFormat: 'dd/mm/yy',
+                            dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+                            dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+                            dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+                            monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+                            monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+                            nextText: '',
+                            prevText: '',
+                              duration: 'fast',
+                              showButtonPanel: true
+                            };
+
+                            $("#dt_evento").datepicker(options);
+                            $("#dt_evento_fim").datepicker(options);
+
+                            $('#dt_evento_calendar').live('click', function() {
+                              $('#dt_evento').val('');
+                              $('#dt_evento_fim').val('');
+                        });
+
+                            $('#filterAgenda select').change(function(e){$(e.target).closest('form').submit()});
+                        });
+                        })(jQuery);
+
+                    </script>
+
+                    <a title="Limpar filtro de datas" class="clear-calendar" id="dt_evento_calendar"><span>Calendário</span></a>
+
+                    <span href="javascript:void(0);" class="send-filter" style="float: none">
+                        <input type="submit" value="filtrar">
+                    </span>
+                    <span class="send-filter" style="float: none; margin-left: 20px">
+                        <input type="submit" name="tipo" value="hoje">
+                    </span>
+                    <span class="send-filter" style="float: none">
+                        <input type="submit" name="tipo" value="fim de semana" style="width: auto; padding-left: 10px; padding-right: 10px">
+                    </span>
+                </fieldset>
+            </form>
+            
+                <p class="resposta">
+                                        <!-- entre <strong>"20 de outubro"</strong> e <strong>"20 de novembro"</strong> -->
+                </p>
+
+                    </div>
+        <article class="fl box box-blue mb">
+            <div class="time-line-agenda">
+                <link rel="stylesheet" href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/section/agenda-list.css?v=1.0.0" media="screen, projection, print" type="text/css">
+                <ul class="list-events block list-style">                        <li>
+
+                            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/imagens-impressas-um-percurso-historico-pelas-gravuras-da-colecao-itau-cultural-em-santos/" class="link-img">
+                                <span class="today">hoje</span>                                <img width="104" height="104" alt="" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2016/12/Cristo-Carregando-Cruz-ca.-1475-Martin-Schongauer-Século-XV-é-a-peça-mais-antiga-da-coleção-104x104.jpg">                            </a>
+
+                            <div>
+                                                                <cite class="event-category">Artes Visuais</cite>
+                                <h2>
+                                    <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/imagens-impressas-um-percurso-historico-pelas-gravuras-da-colecao-itau-cultural-em-santos/">
+                                        Percurso Histórico pelas Gravuras da Coleção Itaú Cultural                                    </a>
+                                </h2>
+                                                                    <time class="event-date">15/12/2016 a 5/3/2017</time>
+                                                                                                <span class="places">
+
+                                    
+                                    <span class="place-label">Fundação Pinacoteca Benedicto Calixto</span>
+
+                                                                        <div></div>
+                                </span>
+
+                                <p>A exposição reúne 457 imagens realizadas com as mais diferentes técnicas gráficas</p>
+
+                                                            </div>
+                        </li>
+                                            <li>
+
+                            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/a-arte-da-lembranca-a-saudade-na-fotografia-brasileira-em-fortaleza/" class="link-img">
+                                <span class="today">hoje</span>                                <img width="104" height="104" alt="" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2015/02/34.-Lita-Cerqueira-Lambe-lambe-Terreiro-de-Jesus-Salvador-BA-1976.-Foto-Coleção-da-artista-104x104.jpg">                            </a>
+
+                            <div>
+                                                                <cite class="event-category">Artes Visuais</cite>
+                                <h2>
+                                    <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/a-arte-da-lembranca-a-saudade-na-fotografia-brasileira-em-fortaleza/">
+                                        A Arte da Lembrança – a Saudade na Fotografia Brasileira, em Fortaleza                                    </a>
+                                </h2>
+                                                                    <time class="event-date">18/1/2017 a 26/3/2017</time>
+                                                                                                <span class="places">
+
+                                    
+                                    <span class="place-label">Museu de Arte Contemporânea do Ceará - Centro Dragão do Mar de Arte e Cultura</span>
+
+                                                                        <div></div>
+                                </span>
+
+                                <p>Mostra está em cartaz no Centro Dragão do Mar de Arte e Cultura</p>
+
+                                                            </div>
+                        </li>
+                                            <li>
+
+                            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/cantinho-da-leitura-e-feirinha-de-troca-4/" class="link-img">
+                                <span class="today">hoje</span>                                <img width="104" height="104" alt="" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2016/03/DSC01756-104x104.jpg">                            </a>
+
+                            <div>
+                                                                <cite class="event-category">Literatura</cite>
+                                <h2>
+                                    <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/cantinho-da-leitura-e-feirinha-de-troca-4/">
+                                        Cantinho da Leitura e Feirinha de Troca                                    </a>
+                                </h2>
+                                                                    <time class="event-date">4/2/2017 a 26/2/2017</time>
+                                                                                                <span class="places">
+
+                                    
+                                    <span class="place-label">Itaú Cultural</span>
+
+                                                                        <div></div>
+                                </span>
+
+                                <p>Aproveite o acervo infantojuvenil da biblioteca do Itaú Cultural no Fim de Semana em Família</p>
+
+                                                            </div>
+                        </li>
+                                            <li>
+
+                            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/filmes-e-videos-de-artistas-na-colecao-itau-cultural-4/" class="link-img">
+                                <span class="today">hoje</span>                                <img width="104" height="104" alt="" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2016/12/filmes-e-videos_EderSantos-Cinema-01-104x104.jpg">                            </a>
+
+                            <div>
+                                                                <cite class="event-category">Artes Visuais / Cinema e Vídeo</cite>
+                                <h2>
+                                    <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/filmes-e-videos-de-artistas-na-colecao-itau-cultural-4/">
+                                        Filmes e Vídeos de Artistas na Coleção Itaú Cultural                                    </a>
+                                </h2>
+                                                                    <time class="event-date">18/2/2017 a 29/4/2017</time>
+                                                                                                <span class="places">
+
+                                    
+                                    <span class="place-label">Instituto Figueiredo Ferraz</span>
+
+                                                                        <div></div>
+                                </span>
+
+                                <p>A mostra leva a Ribeirão Preto obras entre cinema e artes visuais</p>
+
+                                                            </div>
+                        </li>
+                                            <li>
+
+                            <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/ocupacao-laura-cardoso/" class="link-img">
+                                <span class="today">hoje</span>                                <img width="104" height="104" alt="" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/uploads/2017/02/14032016-_Y1A9727-104x104.jpg">                            </a>
+
+                            <div>
+                                                                <cite class="event-category">Teatro</cite>
+                                <h2>
+                                    <a href="http://www.itaucultural.org.br/programe-se/agenda/evento/ocupacao-laura-cardoso/">
+                                        Ocupação Laura Cardoso                                    </a>
+                                </h2>
+                                                                    <time class="event-date">22/2/2017 a 30/4/2017</time>
+                                                                                                <span class="places">
+
+                                    
+                                    <span class="place-label">Itaú Cultural</span>
+
+                                                                            <span class="margin"></span>
+                                        <span class="float-left">
+                                            <img border="0" src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/libras-avaliable.png" />
+                                            <span class="place-label">Acessível em Libras</span>
+                                        </span>
+                                                                        <div></div>
+                                </span>
+
+                                <p>Conheça mais sobre a trajetória de uma das grandes atrizes brasileiras</p>
+
+                                                            </div>
+                        </li>
+                    </ul>            </div>
+            <div style="display: table;">
+                <p class="resposta">
+                    <a href="http://www.itaucultural.org.br/programe-se/agenda/eventos-anteriores/?term=">Eventos anteriores</a>
+                </p>
+            </div>
+        </article>
+        <!-- Paginação -->
+        <article class="box box-blue mb">
+            <ul class="pagination-gereric cl">
+                                    <li class="current"><a href="http://www.itaucultural.org.br/programe-se/agenda/?term=&anteriores=0&pagina=1">1</a></li>
+                                            <li><a href="http://www.itaucultural.org.br/programe-se/agenda/?term=&anteriores=0&pagina=2">2</a></li>
+                                            <li><a href="http://www.itaucultural.org.br/programe-se/agenda/?term=&anteriores=0&pagina=3">3</a></li>
+                                            <li><a href="http://www.itaucultural.org.br/programe-se/agenda/?term=&anteriores=0&pagina=4">4</a></li>
+                                            <li class="next"><a href="http://www.itaucultural.org.br/programe-se/agenda/?term=&anteriores=0&pagina=2">Próximo</a></li>
+                                </ul>
+        </article>
+        <!-- / Paginação -->
+    </div>
+    <aside class="column-240 fr">
+        <article class="box box-blue mb">
+            <header>
+                <div>
+                    <h1><a href="" title="">atividades permanentes</a></h1>
+                </div>
+            </header>
+            <link rel="stylesheet" href="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/css/section/permanent-event.css?v=1.0.0" media="screen, projection, print" type="text/css">
+<div class="box-eventos-permamentes">
+	<div class="content">
+		<ul>
+			<li class="first">
+                <a href="http://www.itaucultural.org.br/explore/biblioteca/" title="">
+                    <strong>Biblioteca</strong>
+                    <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/common/img-240x88.jpg" alt="Imagem" /></a>
+					<ol class="clearfix">
+						<li>- DVDs</li>
+						<li>- Catálogos</li>
+						<li>- Revistas</li>
+						<li>- CD´s</li>
+						<li>- Teses</li>
+						<li>- Vídeos</li>
+						<li>- Livros</li>
+						<li>- Jornais</li>
+					</ol>
+				<a title="Saiba Mais" class="more fl" href="http://www.itaucultural.org.br/explore/biblioteca/">Saiba Mais</a>
+			</li>
+			<!-- 
+			<li>
+                <a href="" title="">
+                    <strong>Museu de moedas</strong>
+                    <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/common/img-240x88.jpg" alt="Imagem" /></a>
+				<p>O Itaú Numismática − Museu Herculano Pires, conta com um acervo de cerca de 7 mil itens entre moedas, medalhas e condecorações.</p>
+				<a title="Agende sua visita" class="more fl" href="#">Agende sua visita</a>
+			</li>
+			<li>
+                <a href="" title="">
+                    <strong>Colação brasiliana</strong>
+                    <img src="http://d3nv1jy4u7zmsc.cloudfront.net/wp-content/themes/itau-cultural/_/img/common/img-240x88.jpg" alt="Imagem" /></a>
+				<p>O Itaú Numismática − Museu Herculano Pires, conta com um acervo de cerca de 7 mil itens entre moedas, medalhas e condecorações.</p>
+				<a title="Agende sua visita" class="more fl" href="#">Agende sua visita</a>
+            </li>
+             -->
+        </ul>
+	</div>
+</div>        </article>
+                <hr />
+        <!-- lista de twitters -->
+       <article style="height: 300px;" class="box box-cyan mb" id="twitter-widget">
+            <a class="twitter-timeline" href="https://twitter.com/itaucultural" height="300" data-widget-id="346637226379206656" lang="PT-BR">@ITAUCULTURAL</a>
+
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if (!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </article>
+        <!-- /lista de twitters -->
+        <hr />
+    </aside>
+</section>
+<hr />
+
+<script type="text/javascript">
+/*  jQuery(document).ready(function() {
+        var tw = {
+            'action' : 'retrieve_twitter_widget'
+        };
+        jQuery.get(ajaxurl, tw, function(data) {
+            jQuery("#twitter-widget").html(data);
+        });
+    });*/
+</script>
+
+
+        <footer class="clearfix" id="footer">
+            <ul class="share-footer">
+                <li>
+                    <span>siga o itaú cultural</span>
+                    <ul class="clearfix">
+                        <li class="twitter">
+                            <a href="http://twitter.com/itaucultural" title="twitter" target="_blank">
+                                <strong>twitter</strong>
+                                siga-nos e acompanhe todas as novidades
+                            </a>
+                        </li>
+                        <li class="youtube">
+                            <a href="http://www.youtube.com/itaucultural" title="Youtube" target="_blank">
+                                <strong>Youtube</strong>
+                                vídeos de shows, palestras e muito mais
+                            </a>
+                        </li>
+                        <li class="instagram">
+                            <a href="http://instagram.com/itaucultural" title="instagram" target="_blank">
+                                <strong>instagram</strong>
+                                imagens de atividades e eventos
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/itaucultural" title="facebook" target="_blank">
+                                <strong>facebook</strong>
+                                faça parte da comunidade do instituto
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <hr />
+
+            <nav>
+                <ul class="clearfix general">
+                    <li class="programa">
+                        <span><a href="javascript:void(0);" title="">programe-se</a></span>
+                        <ul>
+                            <li><a href="http://www.itaucultural.org.br/programe-se/agenda" title="">agenda</a></li>
+                            <li><a href="http://www.itaucultural.org.br/programe-se/visitas" title="">visitas</a></li>
+                        </ul>
+                    </li>
+                    <li class="conheca">
+                        <span><a href="javascript:void(0);" title="">quem somos</a></span>
+                        <ul>
+                            <li><a href="http://www.itaucultural.org.br/conheca/sobre-o-itau-cultural" title="">sobre o itaú cultural</a></li>
+                            <li><a href="http://www.itaucultural.org.br/conheca/auditorio-ibirapuera" title="">auditório ibirapuera</a></li>
+                            <li><a href="/imprensa" title="imprensa">imprensa</a></li>
+                            <li><a href="/trabalhe-conosco" title="trabalhe conosco">trabalhe conosco</a></li>
+                            <li><a href="http://www.itaucultural.org.br/fale-conosco" title="contato">contato</a></li>
+                            <li><a href="http://www.itaucultural.org.br/institucional/perfildoinvestimento" title="contato">uso da lei Rouanet</a></li>
+                        </ul>
+                    </li>
+                    <li class="explore">
+                        <span><a href="http://www.itaucultural.org.br/explore/" title="">explore</a></span>
+                        <ul class="first">
+                            <li><a href="http://www.itaucultural.org.br/explore/artes-visuais" title="">artes visuais</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/cinema-e-video" title="">cinema e vídeo</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/arte-e-tecnologia" title="">arte e tecnologia</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/jornalismo-cultural" title="">jornalismo cultural</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/musica" title="">música</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/danca" title="">dança</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/teatro" title="">teatro</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/literatura" title="">literatura</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/educacao" title="">educação</a></li>
+                        </ul>
+                        <ul>
+                            <li><span>Outros Conteúdos:</span></li>
+                                                        <li><a href="http://www.itaucultural.org.br/explore/espaco-olavo-setubal/" title="">espaço olavo setubal</a></li>
+                            <li><a href="http://enciclopedia.itaucultural.org.br" title="" target="_blank">enciclopédia</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/observatorio" title="">observatório</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/blogs" title="">blogs</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/biblioteca" title="">biblioteca</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/canal" title="">canal</a></li>
+                            <li><a href="http://www.itaucultural.org.br/explore/rumositaucultural" title="">rumos itaú cultural</a></li>
+                                                    </ul>
+                    </li>
+                    <li class="newsletter">
+                        <span><a href="javascript:void(0);" title="">newsletter</a></span>
+                        <ul>
+                            <li><a href="/newsletter">acesse aqui</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <hr />
+
+                <ul class="clearfix inf">
+                    <li><a href="https://www.itau.com.br/seguranca/termos-de-uso/" target="_blank" title="política de privacidade">termos de uso e política de privacidade</a></li>
+                    <li><a href="http://www.fundacaoitausocial.org.br" title="itaú social" target="_blank">itaú social</a></li>
+                    <li><a href="http://www.itau.com.br" title="banco itaú" target="_blank">banco itaú</a></li>
+                    <li><a href="http://www.institutounibanco.org.br" title="instituto unibanco" target="_blank">instituto unibanco</a></li>
+                </ul>
+            </nav>
+
+            <hr />
+
+            <div style="display: block; width: 350px; float: left;">
+                <p><span>&copy; 2017 Itaú Cultural</span></p>
+                <p>Atendimento - Email: atendimento@itaucultural.org.br</p>
+                <p>Fones: 11 2168 1777 / 2168 1776</p>
+                <p>Avenida Paulista, 149 - São Paulo/SP</p>
+                <p><a href="http://maps.google.com.br/maps?f=d&source=embed&hl=pt-BR&geocode=%3BCU6S8MY9HAHtFWFYmP4dZD04_SHycq61xJ15kA&q=Ita%C3%BA+Cultural,+Avenida+Paulista,+149,+Para%C3%ADso,+Sao+Paulo&aq=&sll=-3.864255,-70.004883&sspn=21.403661,43.286133&t=m&ie=UTF8&hq=Ita%C3%BA+Cultural,&hnear=Av.+Paulista,+149+-+Bela+Vista,+S%C3%A3o+Paulo,+01311-000&z=17&vpsrc=0&iwloc=A&daddr=Avenida+Paulista,+149+-+Bela+Vista,+S%C3%A3o+Paulo,+01311-000+%28Ita%C3%BA+Cultural%29" class="how-get" title="Veja como chegar" target="_blank"><span>Veja como chegar</span></a></p>
+            </div>
+            <div style="display: block; width: auto; float: left; margin-top: 35px; margin-left: 175px;">
+                <table border="0">
+                <tr>
+                              <td style="padding-right: 0px;">
+                            <a href="http://www.cultura.gov.br" title="Brasil, pátria educadora" target="_blank"><img width="410px" height="73px" src="http://www.itaucultural.org.br/wp-content/themes/itau-cultural/_/img/common/regua_ic_minc_2016.svg" alt="Brasil, pátria educadora"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+
+    </div>
+    <div class="overlay-menu"></div>
+
+<div id="fb-root"></div>
+
+<script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=195561320527524";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script type="text/javascript" charset="utf-8">
+    (function (d, w) {
+        jQuery('a[name=ic_fb_share]').click(function (e) {
+            e.preventDefault();
+            w.open(jQuery(this).attr('href'),'', 'height=350,width=650' );
+        });
+    }(document, window))
+</script>
+
+<script type="text/javascript">
+    jQuery('.c9sharer-link').click(function() {
+        var rede = jQuery(this).attr('rede');
+        var artigo = jQuery(this).attr('artigo');
+        var original = jQuery(this).attr('url');
+        var url = 'action=encurtar_url_ajax&url=' + original;
+        var url_remota = false;
+        $.ajax( {
+            url: 'http://www.itaucultural.org.br/wp-admin/admin-ajax.php',
+            dataType: 'JSON',
+            type: 'GET',
+            cache: false,
+            data: url,
+            success: function(dados) {
+                switch(rede)
+                {
+                    case 'google':
+                        var url_remota = 'https://plus.google.com/share?url=' + dados['short_url'];
+                        break;
+                    case 'twitter':
+                        var url_remota = 'https://twitter.com/intent/tweet?original_referer=' + dados['url'] + '&source=tweetbutton&text=' + artigo + '&url=' + dados['short_url'];
+                        break;
+                    case 'facebook':
+                        var url_remota = 'https://www.facebook.com/sharer/sharer.php?u=' + dados['short_url'];
+                        break;
+                }
+                if(url_remota)
+                {
+                    window.open(url_remota, '', 'width=700,height=550');
+                    // console.log(url_remota);
+                }
+            },
+            error: function(error)
+            {
+                alert('Ocorreu uma falha de comunicação com o servidor.');
+            }
+        });
+    });
+</script>
+
+<script>
+var _prum = [['id', '51a3c9d6abe53daa41000000'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+</script>
+
+<script src="http://arquivos.weblibras.com.br/auto/wl-min.js"></script>
+<script>
+   var wl = new WebLibras({
+      position: WebLibrasIconPosition.Bottom
+   });
+</script>
+
+<!-- Google Tag Remarketing -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 976466742;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/976466742/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Código do Google para tag de remarketing -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 925963643;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/925963643/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- COMPUTER: prod-backup-02 --></body>
+
+
+    <script type='text/javascript'>
+
+        function closeBar(callback, data) {
+            height = 0;
+            callback = callback || $.noop;
+
+            var bar = $("#wpfront-notification-bar");
+            var spacer = $("#wpfront-notification-bar-spacer");
+
+            var fn = callback;
+            callback = function() {
+                fn();
+
+                if (data.keep_closed_for > 0)
+                    $.cookie(keep_closed_cookie, 1, {path: "/", expires: data.keep_closed_for});
+                else
+                    $.cookie(keep_closed_cookie, 1, {path: "/"});
+            };
+
+            //set animation
+            if (data.animate_delay > 0) {
+                bar.stop().animate({"height": height + "px"}, data.animate_delay * 1000, "swing", callback);
+                if (data.fixed_position)
+                    spacer.stop().animate({"height": height + "px"}, data.animate_delay * 1000);
+            }
+            else {
+                bar.height(height);
+                if (data.fixed_position)
+                    spacer.height(height);
+                callback();
+            }
+
+        }
+
+        $('.question_select').on('change', function(){
+            $(".wpfront-message").find("#error").remove();
+            if($(this).val() == "10"){
+                $(this).parent().append("<div id='outro_motivo_label'>Qual?</div> <input id='outro_motivo' type='text'></input>");
+            }else{
+                $(this).parent().find("#outro_motivo_label").remove();
+                $(this).parent().find("#outro_motivo").remove();
+            }
+        });
+
+        $(".wpfront-button").on("click", function(){
+
+            if($('.question_select').val() == "0"){
+               $(".wpfront-message").append("<div id='error'>Por favor, escolha uma opção!</div>")
+               return;
+            }
+
+            if($('.question_select').val() == "10" && $("#outro_motivo").val() == ""){
+               $(".wpfront-message").append("<div id='error'>Por favor, diga-nos qual o motivo da sua visita!</div>")
+               return;
+            }
+
+            var nonce = "aab1209595";
+
+            var data = {
+                 action: 'audience_interview',
+                 audience_motivation: $(".question_select").val(),
+                 different_motivation: $("#outro_motivo").val(),
+                 security: nonce
+            };
+
+            $.post(ajaxurl, data, function(response) {
+                if(response.success){
+                    closeBar(null, window.data_notification_bar);
+                }else{
+                    $(".wpfront-message").append("<div id='error'>Ops! tivemos um problema ao salver sua resposta. Você poderia clicar no botão ao lado para enviar novamente?</div>")
+                }
+            });
+        });
+
+
+    </script>
+
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/suggest.min.js?ver=1.1-20110113'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Pr\u00f3ximo \u00bb","prev":"\u00ab Anterior","image":"Imagem","of":"de","close":"Fechar","noiframes":"Este recurso necessita frames em linha. Os iframes est\u00e3o desativados por voc\u00ea ou seu navegador n\u00e3o os suporta.","loadingAnimation":"http:\/\/www.itaucultural.org.br\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/shortcode.min.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-admin/js/media-upload.min.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://www.itaucultural.org.br/wp-content/plugins/potalic_homeegeral/js/scripts.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://d3nv1jy4u7zmsc.cloudfront.net/wp-includes/js/wp-embed.min.js?ver=9d766a12f56c03d99da28a685190757f'></script>
+	<script type="text/javascript">
+		jQuery.datepicker.setDefaults( jQuery.datepicker.regional[ "pt-BR" ] );
+	</script>
+<script> jQuery(function($){ $(".widget_meta a[href='http://www.itaucultural.org.br/comments/feed/']").parent().remove(); }); </script>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 1699/1712 objects using memcache
+Content Delivery Network via Amazon Web Services: S3: d3nv1jy4u7zmsc.cloudfront.net
+Database Caching 62/93 queries in 0.335 seconds using memcache
+
+ Served from: www.itaucultural.org.br @ 2017-02-26 22:35:31 by W3 Total Cache -->

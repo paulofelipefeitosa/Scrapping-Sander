@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://roteirinhocarioca.com.br/site/xmlrpc.php" />
+<title>Guia de programação infantil do Rio. Roteirinho Carioca!</title>
+
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[231,428] -->
+<meta name="description"  content="O Roteirinho Carioca serve como um guia para as atividades e dicas de programação infantil para crianças no Rio de Janeiro - RJ." />
+
+<meta name="keywords"  content="diversão com as crianças, dicas de programação infantil, lazer crianças rj, dicas de programação para crianças, programas infantis, programação com as crianças, programação infantil" />
+
+<link rel="canonical" href="http://roteirinhocarioca.com.br/" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-27723976-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="Feed de Roteirinho Carioca &raquo;" href="http://roteirinhocarioca.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Roteirinho Carioca &raquo;  Feed de comentários" href="http://roteirinhocarioca.com.br/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/roteirinhocarioca.com.br\/site\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='tie-insta-style-css'  href='http://roteirinhocarioca.com.br/site/wp-content/plugins/instanow/assets/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='taqyeem-style-css'  href='http://roteirinhocarioca.com.br/site/wp-content/plugins/taqyeem/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://roteirinhocarioca.com.br/site/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='taqyeem-buttons-style-css'  href='http://roteirinhocarioca.com.br/site/wp-content/plugins/taqyeem-buttons/assets/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tie-style-css'  href='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tie-ilightbox-skin-css'  href='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/css/ilightbox/dark-skin/skin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='Droid+Sans-css'  href='http://fonts.googleapis.com/css?family=Droid+Sans%3Aregular%2C700' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tie_insta = {"ajaxurl":"http:\/\/roteirinhocarioca.com.br\/site\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/plugins/taqyeem/js/tie.js'></script>
+<link rel='https://api.w.org/' href='http://roteirinhocarioca.com.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://roteirinhocarioca.com.br/site/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://roteirinhocarioca.com.br/site/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+<link rel='shortlink' href='http://roteirinhocarioca.com.br/' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var taqyeem = {"ajaxurl":"http://roteirinhocarioca.com.br/site/wp-admin/admin-ajax.php" , "your_rating":"Your Rating:"};
+/* ]]> */
+</script>
+<style type="text/css" media="screen"> 
+
+</style> 
+<link rel="shortcut icon" href="http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/favicon.ico" title="Favicon" />	
+<!--[if IE]>
+<script type="text/javascript">jQuery(document).ready(function (){ jQuery(".menu-item").has("ul").children("a").attr("aria-haspopup", "true");});</script>
+<![endif]-->	
+<!--[if lt IE 9]>
+<script src="http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/html5.js"></script>
+<script src="http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/selectivizr-min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" media="all" href="http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/css/ie9.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/css/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/css/ie7.css" />
+<![endif]-->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+<style type="text/css" media="screen"> 
+
+::-webkit-scrollbar {
+	width: 8px;
+	height:8px;
+}
+
+#main-nav,
+.cat-box-content,
+#sidebar .widget-container,
+.post-listing,
+#commentform {
+	border-bottom-color: #802d75;
+}
+	
+.search-block .search-button,
+#topcontrol,
+#main-nav ul li.current-menu-item a,
+#main-nav ul li.current-menu-item a:hover,
+#main-nav ul li.current_page_parent a,
+#main-nav ul li.current_page_parent a:hover,
+#main-nav ul li.current-menu-parent a,
+#main-nav ul li.current-menu-parent a:hover,
+#main-nav ul li.current-page-ancestor a,
+#main-nav ul li.current-page-ancestor a:hover,
+.pagination span.current,
+.share-post span.share-text,
+.flex-control-paging li a.flex-active,
+.ei-slider-thumbs li.ei-slider-element,
+.review-percentage .review-item span span,
+.review-final-score,
+.button,
+a.button,
+a.more-link,
+#main-content input[type="submit"],
+.form-submit #submit,
+#login-form .login-button,
+.widget-feedburner .feedburner-subscribe,
+input[type="submit"],
+#buddypress button,
+#buddypress a.button,
+#buddypress input[type=submit],
+#buddypress input[type=reset],
+#buddypress ul.button-nav li a,
+#buddypress div.generic-button a,
+#buddypress .comment-reply-link,
+#buddypress div.item-list-tabs ul li a span,
+#buddypress div.item-list-tabs ul li.selected a,
+#buddypress div.item-list-tabs ul li.current a,
+#buddypress #members-directory-form div.item-list-tabs ul li.selected span,
+#members-list-options a.selected,
+#groups-list-options a.selected,
+body.dark-skin #buddypress div.item-list-tabs ul li a span,
+body.dark-skin #buddypress div.item-list-tabs ul li.selected a,
+body.dark-skin #buddypress div.item-list-tabs ul li.current a,
+body.dark-skin #members-list-options a.selected,
+body.dark-skin #groups-list-options a.selected,
+.search-block-large .search-button,
+#featured-posts .flex-next:hover,
+#featured-posts .flex-prev:hover,
+a.tie-cart span.shooping-count,
+.woocommerce span.onsale,
+.woocommerce-page span.onsale ,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+#check-also-close,
+a.post-slideshow-next,
+a.post-slideshow-prev,
+.widget_price_filter .ui-slider .ui-slider-handle,
+.quantity .minus:hover,
+.quantity .plus:hover,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current,
+#reading-position-indicator  {
+	background-color:#802d75;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color:#802d75 !important;
+}
+	
+#theme-footer,
+#theme-header,
+.top-nav ul li.current-menu-item:before,
+#main-nav .menu-sub-content ,
+#main-nav ul ul,
+#check-also-box { 
+	border-top-color: #802d75;
+}
+	
+.search-block:after {
+	border-right-color:#802d75;
+}
+
+body.rtl .search-block:after {
+	border-left-color:#802d75;
+}
+
+#main-nav ul > li.menu-item-has-children:hover > a:after,
+#main-nav ul > li.mega-menu:hover > a:after {
+	border-color:transparent transparent #802d75;
+}
+	
+.widget.timeline-posts li a:hover,
+.widget.timeline-posts li a:hover span.tie-date {
+	color: #802d75;
+}
+
+.widget.timeline-posts li a:hover span.tie-date:before {
+	background: #802d75;
+	border-color: #802d75;
+}
+
+#order_review,
+#order_review_heading {
+	border-color: #802d75;
+}
+
+	
+body {
+	background-color: #291029 !important;
+	background-image : url(http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/images/patterns/body-bg3.png);
+	background-position: top center;
+}
+
+</style> 
+
+		<script type="text/javascript">
+			/* <![CDATA[ */
+				var sf_position = '0';
+				var sf_templates = "<a href=\"{search_url_escaped}\">Vejas todos os resultados<\/a>";
+				var sf_input = '.search-live';
+				jQuery(document).ready(function(){
+					jQuery(sf_input).ajaxyLiveSearch({"expand":false,"searchUrl":"http:\/\/roteirinhocarioca.com.br\/?s=%s","text":"Search","delay":500,"iwidth":180,"width":315,"ajaxUrl":"http:\/\/roteirinhocarioca.com.br\/site\/wp-admin\/admin-ajax.php","rtl":0});
+					jQuery(".live-search_ajaxy-selective-input").keyup(function() {
+						var width = jQuery(this).val().length * 8;
+						if(width < 50) {
+							width = 50;
+						}
+						jQuery(this).width(width);
+					});
+					jQuery(".live-search_ajaxy-selective-search").click(function() {
+						jQuery(this).find(".live-search_ajaxy-selective-input").focus();
+					});
+					jQuery(".live-search_ajaxy-selective-close").click(function() {
+						jQuery(this).parent().remove();
+					});
+				});
+			/* ]]> */
+		</script>
+		<link rel="icon" href="http://roteirinhocarioca.com.br/site/wp-content/uploads/2015/05/cropped-avatar-RC-e1431009401134-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="http://roteirinhocarioca.com.br/site/wp-content/uploads/2015/05/cropped-avatar-RC-e1431009401134-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://roteirinhocarioca.com.br/site/wp-content/uploads/2015/05/cropped-avatar-RC-e1431009401134-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://roteirinhocarioca.com.br/site/wp-content/uploads/2015/05/cropped-avatar-RC-e1431009401134-270x270.jpg" />
+</head>
+<body id="top" class="home page page-id-31540 page-template-default lazy-enabled">
+
+<div class="wrapper-outer">
+
+	<div class="background-cover"></div>
+
+	<aside id="slide-out">
+	
+			<div class="search-mobile">
+			<form method="get" id="searchform-mobile" action="http://roteirinhocarioca.com.br/">
+				<button class="search-button" type="submit" value="Busca"><i class="fa fa-search"></i></button>	
+				<input type="text" id="s-mobile" name="s" title="Busca" value="Busca" onfocus="if (this.value == 'Busca') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Busca';}"  />
+			</form>
+		</div><!-- .search-mobile /-->
+		
+		
+		<div id="mobile-menu" ></div>
+	</aside><!-- #slide-out /-->
+
+		<div id="wrapper" class="boxed-all">
+		<div class="inner-wrapper">
+
+		<header id="theme-header" class="theme-header full-logo center-logo">
+						<div id="top-nav" class="top-nav">
+				<div class="container">
+
+							<span class="today-date">domingo ,  26/02/17</span>					
+				<div class="top-menu"><ul id="menu-institucional" class="menu"><li id="menu-item-2826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2826"><a href="http://roteirinhocarioca.com.br/sobre/">O Roteirinho</a></li>
+<li id="menu-item-2824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2824"><a href="http://roteirinhocarioca.com.br/fale-com-a-gente/">Fale com a gente</a></li>
+<li id="menu-item-27004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27004"><a href="http://roteirinhocarioca.com.br/cadastro/">Cadastro</a></li>
+<li id="menu-item-31544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31544"><a href="http://roteirinhocarioca.com.br/divulgue-seu-evento/">Divulgue seu evento</a></li>
+<li id="menu-item-31545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31545"><a href="http://roteirinhocarioca.com.br/fale-com-a-gente/">Fale com a gente</a></li>
+</ul></div>
+						<div class="search-block">
+						<form method="get" id="searchform-header" action="http://roteirinhocarioca.com.br/">
+							<button class="search-button" type="submit" value="Busca"><i class="fa fa-search"></i></button>	
+							<input class="search-live" type="text" id="s-header" name="s" title="Busca" value="Busca" onfocus="if (this.value == 'Busca') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Busca';}"  />
+						</form>
+					</div><!-- .search-block /-->
+			<div class="social-icons">
+		<a class="ttip-none" title="Google+" href="https://plus.google.com/u/0/+RoteirinhoCariocaRJ/posts" target="_blank"><i class="fa fa-google-plus"></i></a><a class="ttip-none" title="Facebook" href="https://www.facebook.com/RoteirinhoCarioca" target="_blank"><i class="fa fa-facebook"></i></a><a class="ttip-none" title="Twitter" href="https://twitter.com/roteirinho" target="_blank"><i class="fa fa-twitter"></i></a><a class="ttip-none" title="Pinterest" href="https://br.pinterest.com/roteirinho/" target="_blank"><i class="fa fa-pinterest"></i></a><a class="ttip-none" title="instagram" href="https://www.instagram.com/roteirinhocarioca/" target="_blank"><i class="tieicon-instagram"></i></a>		
+			</div>
+
+		
+	
+				</div><!-- .container /-->
+			</div><!-- .top-menu /-->
+			
+		<div class="header-content">
+		
+					<a id="slide-out-open" class="slide-out-open" href="#"><span></span></a>
+				
+			<div class="logo" style=" margin-top:15px; margin-bottom:15px;">
+			<h1>								<a title="Roteirinho Carioca" href="http://roteirinhocarioca.com.br/">
+					<img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2011/11/topo2.jpg" alt="Roteirinho Carioca"  /><strong>Roteirinho Carioca O mais completo guia de programação infantil no Rio de Janeiro. Teatro, cinema, passeios, eventos, os melhores programas para crianças estão no Roteirinho Carioca.</strong>
+				</a>
+			</h1>			</div><!-- .logo /-->
+						<div class="clear"></div>
+			
+		</div>	
+													<nav id="main-nav" class="fixed-enabled">
+				<div class="container">
+				
+				
+					<div class="main-menu"><ul id="menu-principal" class="menu"><li id="menu-item-36217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-36217"><a href="http://roteirinhocarioca.com.br/category/carnavalzinho/"><i class="fa fa-angellist"></i>Carnavalzinho Carioca</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-143 mega-menu mega-cat "><a href="http://roteirinhocarioca.com.br/category/cinema/"><i class="fa fa-youtube-play"></i>Cinema</a>
+<div class="mega-menu-block menu-sub-content">
+
+<div class="mega-menu-content">
+<div class="mega-cat-wrapper">  <div class="mega-cat-content"><div id="mega-cat-143-14" class="mega-cat-content-tab"><div class="mega-menu-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-bailarina/" title="A Bailarina"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/Ballerina-movie-310x165.jpg" width="310" height="165" alt="A Bailarina" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-bailarina/" title="A Bailarina">A Bailarina</a></h3>
+									<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+							</div> <!-- mega-menu-post --><div class="mega-menu-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/bugigangue-no-espaco/" title="Bugigangue no Espaço *Estreia*"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/image003-2-310x165.jpg" width="310" height="165" alt="Bugigangue no Espaço *Estreia*" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/bugigangue-no-espaco/" title="Bugigangue no Espaço *Estreia*">Bugigangue no Espaço *Estreia*</a></h3>
+									<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+							</div> <!-- mega-menu-post --><div class="mega-menu-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/lego-batman-o-filme/" title="Lego Batman &#8211; O Filme"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/lego-batman-310x165.jpg" width="310" height="165" alt="Lego Batman &#8211; O Filme" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/lego-batman-o-filme/" title="Lego Batman &#8211; O Filme">Lego Batman &#8211; O Filme</a></h3>
+									<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+							</div> <!-- mega-menu-post --><div class="mega-menu-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/moana-um-mar-de-aventuras/" title="Moana, Um Mar de Aventuras"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/moana-310x165.jpg" width="310" height="165" alt="Moana, Um Mar de Aventuras" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/moana-um-mar-de-aventuras/" title="Moana, Um Mar de Aventuras">Moana, Um Mar de Aventuras</a></h3>
+									<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+							</div> <!-- mega-menu-post --></div><!-- .mega-cat-content-tab --> </div> <!-- .mega-cat-content --> 
+								<div class="clear"></div>
+							</div> <!-- .mega-cat-Wrapper --> 
+</div><!-- .mega-menu-content --> 
+</div><!-- .mega-menu-block --> 
+</li>
+<li id="menu-item-145" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-145 mega-menu mega-recent-featured "><a href="http://roteirinhocarioca.com.br/category/eventos/"><i class="fa fa-calendar"></i>Eventos</a>
+<div class="mega-menu-block menu-sub-content">
+
+<div class="mega-menu-content">
+<div class="mega-recent-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/adrenalina-rio-kart-shopping-jardim-guadalupe/" title="Adrenalina Rio Kart &#8211; Shopping Jardim Guadalupe"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/12/Kart-1-kart-660x330.jpg" width="660" height="330" alt="Adrenalina Rio Kart &#8211; Shopping Jardim Guadalupe" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/adrenalina-rio-kart-shopping-jardim-guadalupe/" title="Adrenalina Rio Kart &#8211; Shopping Jardim Guadalupe">Adrenalina Rio Kart &#8211; Shopping Jardim Guadalupe</a></h3>
+						<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+						</div> <!-- mega-recent-post --><div class="mega-check-also"><ul><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/beatles-para-criancas-teatro-bradesco/" title="Beatles para Crianças &#8211; Teatro Bradesco"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/beatles-bradesco-110x75.png" width="110" height="75" alt="Beatles para Crianças &#8211; Teatro Bradesco" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/beatles-para-criancas-teatro-bradesco/" title="Beatles para Crianças &#8211; Teatro Bradesco">Beatles para Crianças &#8211; Teatro Bradesco</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/bondinho-das-criancas-pao-de-acucar/" title="Bondinho das Crianças &#8211; Pão de Açúcar"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/bondinho-110x75.png" width="110" height="75" alt="Bondinho das Crianças &#8211; Pão de Açúcar" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/bondinho-das-criancas-pao-de-acucar/" title="Bondinho das Crianças &#8211; Pão de Açúcar">Bondinho das Crianças &#8211; Pão de Açúcar</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/caixa-gente-arteira-caixa-cultural/" title="Caixa Gente Arteira &#8211; Caixa Cultural"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/caixa-cultural-fev-110x75.png" width="110" height="75" alt="Caixa Gente Arteira &#8211; Caixa Cultural" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/caixa-gente-arteira-caixa-cultural/" title="Caixa Gente Arteira &#8211; Caixa Cultural">Caixa Gente Arteira &#8211; Caixa Cultural</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/colmeia-de-bolinhas-carioca-shopping/" title="Colmeia de Bolinhas &#8211; Carioca Shopping"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/colmeia-carioca-110x75.png" width="110" height="75" alt="Colmeia de Bolinhas &#8211; Carioca Shopping" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/colmeia-de-bolinhas-carioca-shopping/" title="Colmeia de Bolinhas &#8211; Carioca Shopping">Colmeia de Bolinhas &#8211; Carioca Shopping</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/espaco-galinha-pintadinha-via-parque-shopping/" title="Espaço Galinha Pintadinha &#8211; Via Parque Shopping"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/12/Espaço-Galinha-Pintadinha_Via-Parque-Shopping-110x75.jpg" width="110" height="75" alt="Espaço Galinha Pintadinha &#8211; Via Parque Shopping" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/espaco-galinha-pintadinha-via-parque-shopping/" title="Espaço Galinha Pintadinha &#8211; Via Parque Shopping">Espaço Galinha Pintadinha &#8211; Via Parque Shopping</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/exposicao-floresta-protetora-paineiras/" title="Exposição Floresta Protetora — Paineiras"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/12/Centro-de-Visitantes-Paineiras_AlexandreMacieira_Riotur-30-110x75.jpg" width="110" height="75" alt="Exposição Floresta Protetora — Paineiras" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/exposicao-floresta-protetora-paineiras/" title="Exposição Floresta Protetora — Paineiras">Exposição Floresta Protetora — Paineiras</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li></ul></div> <!-- mega-check-also -->
+</div><!-- .mega-menu-content --> 
+</div><!-- .mega-menu-block --> 
+</li>
+<li id="menu-item-146" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-146"><a title="Jogos &#038; Esportes" href="http://roteirinhocarioca.com.br/category/jogos-e-esportes/"><i class="fa fa-gamepad"></i>Jogos</a></li>
+<li id="menu-item-148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148 mega-menu mega-recent-featured "><a title="Passeios &#038; Turismo" href="http://roteirinhocarioca.com.br/category/passeios/"><i class="fa fa-camera-retro"></i>Passeios</a>
+<div class="mega-menu-block menu-sub-content">
+
+<div class="mega-menu-content">
+<div class="mega-recent-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/arca-do-noah-educacao-ambiental/" title="Arca do Noah – Educação Ambiental"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/24052016-IMG_1643-660x330.jpg" width="660" height="330" alt="Arca do Noah – Educação Ambiental" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/arca-do-noah-educacao-ambiental/" title="Arca do Noah – Educação Ambiental">Arca do Noah – Educação Ambiental</a></h3>
+						<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>
+						</div> <!-- mega-recent-post --><div class="mega-check-also"><ul><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/aquario/" title="AquaRio"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/1658165_357121461093273_2071696201_o-110x75.jpg" width="110" height="75" alt="AquaRio" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/aquario/" title="AquaRio">AquaRio</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/bichinho-do-mato/" title="Bichinho do Mato"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/bichinho-do-mato.jpg" width="110" height="75" alt="Bichinho do Mato" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/bichinho-do-mato/" title="Bichinho do Mato">Bichinho do Mato</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/bosque-da-barra/" title="Bosque da Barra"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/Bosque-3.jpg" width="110" height="75" alt="Bosque da Barra" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/bosque-da-barra/" title="Bosque da Barra">Bosque da Barra</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/cristo-redentor/" title="Cristo Redentor"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/06/cristo.jpg" width="110" height="75" alt="Cristo Redentor" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/cristo-redentor/" title="Cristo Redentor">Cristo Redentor</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/espaco-cultural-da-marinha/" title="Espaço Cultural da Marinha"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/Marinha.jpg" width="110" height="75" alt="Espaço Cultural da Marinha" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/espaco-cultural-da-marinha/" title="Espaço Cultural da Marinha">Espaço Cultural da Marinha</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/fazendinha-estacao-natureza/" title="Fazendinha Estação Natureza"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/fazendinha.jpg" width="110" height="75" alt="Fazendinha Estação Natureza" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/01/01/fazendinha-estacao-natureza/" title="Fazendinha Estação Natureza">Fazendinha Estação Natureza</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span></li></ul></div> <!-- mega-check-also -->
+</div><!-- .mega-menu-content --> 
+</div><!-- .mega-menu-block --> 
+</li>
+<li id="menu-item-149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149 mega-menu mega-recent-featured "><a href="http://roteirinhocarioca.com.br/category/teatro/"><i class="fa fa-comments-o"></i>Teatro</a>
+<div class="mega-menu-block menu-sub-content">
+
+<div class="mega-menu-content">
+<div class="mega-recent-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-farra-do-boi-bumba-teatro-glauce-rocha/" title="A Farra do Boi Bumbá &#8211; Teatro Glauce Rocha"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/image-567x330.png" width="660" height="330" alt="A Farra do Boi Bumbá &#8211; Teatro Glauce Rocha" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-farra-do-boi-bumba-teatro-glauce-rocha/" title="A Farra do Boi Bumbá &#8211; Teatro Glauce Rocha">A Farra do Boi Bumbá &#8211; Teatro Glauce Rocha</a></h3>
+						<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+						</div> <!-- mega-recent-post --><div class="mega-check-also"><ul><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci-2/" title="A Pequena Sereia, uma aventura no Rio de Janeiro &#8211; Teatro Vanucci"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/Sereia-8413-110x75.jpg" width="110" height="75" alt="A Pequena Sereia, uma aventura no Rio de Janeiro &#8211; Teatro Vanucci" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci-2/" title="A Pequena Sereia, uma aventura no Rio de Janeiro &#8211; Teatro Vanucci">A Pequena Sereia, uma aventura no Rio de Janeiro &#8211; Teatro Vanucci</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/domingo-divertido-bangu-shopping-o-guarda-chuva-magico-do-palhaco/" title="Domingo Divertido Bangu Shopping “Esquenta de Carnaval”"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/Crédito-Divulgação-110x75.jpg" width="110" height="75" alt="Domingo Divertido Bangu Shopping “Esquenta de Carnaval”" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/domingo-divertido-bangu-shopping-o-guarda-chuva-magico-do-palhaco/" title="Domingo Divertido Bangu Shopping “Esquenta de Carnaval”">Domingo Divertido Bangu Shopping “Esquenta de Carnaval”</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/domingo-kids-via-parque-shopping-2/" title="Domingo Kids &#8211; Via Parque Shopping"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/via-parque-shopping-110x75.jpg" width="110" height="75" alt="Domingo Kids &#8211; Via Parque Shopping" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/domingo-kids-via-parque-shopping-2/" title="Domingo Kids &#8211; Via Parque Shopping">Domingo Kids &#8211; Via Parque Shopping</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/luiz-e-nazinha-luiz-gonzaga-para-criancas-teatro-dulcina/" title="Luiz e Nazinha: Luiz Gonzaga para Crianças – Teatro Dulcina"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/01/Luiz-e-Nazinha-Julio-Ricardo-2-110x75.jpg" width="110" height="75" alt="Luiz e Nazinha: Luiz Gonzaga para Crianças – Teatro Dulcina" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/luiz-e-nazinha-luiz-gonzaga-para-criancas-teatro-dulcina/" title="Luiz e Nazinha: Luiz Gonzaga para Crianças – Teatro Dulcina">Luiz e Nazinha: Luiz Gonzaga para Crianças – Teatro Dulcina</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/mundinho-kids-shopping-metropolitano-barra-4/" title="Mundinho Kids &#8211; Shopping Metropolitano Barra &#8220;Carnaval dos Bichos&#8221;"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/16806648_1434710036593272_6507425845107109595_n-110x75.png" width="110" height="75" alt="Mundinho Kids &#8211; Shopping Metropolitano Barra &#8220;Carnaval dos Bichos&#8221;" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/mundinho-kids-shopping-metropolitano-barra-4/" title="Mundinho Kids &#8211; Shopping Metropolitano Barra &#8220;Carnaval dos Bichos&#8221;">Mundinho Kids &#8211; Shopping Metropolitano Barra &#8220;Carnaval dos Bichos&#8221;</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/mundo-infantil-barrashopping-a-arvore-da-alegria/" title="Mundo Infantil &#8211; BarraShopping “Bel e Tetê”"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/unnamed-5-110x75.jpg" width="110" height="75" alt="Mundo Infantil &#8211; BarraShopping “Bel e Tetê”" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/mundo-infantil-barrashopping-a-arvore-da-alegria/" title="Mundo Infantil &#8211; BarraShopping “Bel e Tetê”">Mundo Infantil &#8211; BarraShopping “Bel e Tetê”</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li></ul></div> <!-- mega-check-also -->
+</div><!-- .mega-menu-content --> 
+</div><!-- .mega-menu-block --> 
+</li>
+<li id="menu-item-15971" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15971 mega-menu mega-recent-featured "><a href="http://roteirinhocarioca.com.br/category/descontinho-carioca/"><i class="fa fa-ticket"></i>Descontinho Carioca</a>
+<div class="mega-menu-block menu-sub-content">
+
+<div class="mega-menu-content">
+<div class="mega-recent-post"><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/peter-pan-teatro-brigitte-blair/" title="Peter Pan &#8211; Teatro Brigitte Blair"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/10/Peter-Pan-BB.png" width="660" height="330" alt="Peter Pan &#8211; Teatro Brigitte Blair" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/peter-pan-teatro-brigitte-blair/" title="Peter Pan &#8211; Teatro Brigitte Blair">Peter Pan &#8211; Teatro Brigitte Blair</a></h3>
+						<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>
+						</div> <!-- mega-recent-post --><div class="mega-check-also"><ul><li><div class="post-thumbnail"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/scooby-doo-ferias-em-paris-teatro-brigitte-blair/" title="Scooby-Doo! Férias em Paris &#8211; Teatro Brigitte Blair"><img src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/image5-110x75.jpg" width="110" height="75" alt="Scooby-Doo! Férias em Paris &#8211; Teatro Brigitte Blair" /><span class="fa overlay-icon"></span></a></div><h3 class="post-box-title"><a class="mega-menu-link" href="http://roteirinhocarioca.com.br/2017/02/01/scooby-doo-ferias-em-paris-teatro-brigitte-blair/" title="Scooby-Doo! Férias em Paris &#8211; Teatro Brigitte Blair">Scooby-Doo! Férias em Paris &#8211; Teatro Brigitte Blair</a></h3><span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span></li></ul></div> <!-- mega-check-also -->
+</div><!-- .mega-menu-content --> 
+</div><!-- .mega-menu-block --> 
+</li>
+<li id="menu-item-27314" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27314"><a href="http://roteirinhocarioca.com.br/category/aconteceu/">Aconteceu</a></li>
+<li id="menu-item-36311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36311"><a href="http://roteirinhocarioca.com.br/cadastro/">Cadastro</a></li>
+</ul></div>					
+					
+				</div>
+			</nav><!-- .main-nav /-->
+					</header><!-- #header /-->
+	
+		
+	
+	
+	<div id="main-content" class="container sidebar-right">
+	
+		
+		<div id="featured-posts" class="featured-posts-disable-nav">
+			<div class="featured-post featured-post-1 fea-1">
+			<div class="featured-post-inner" style="background-image:url(http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/12694932_962513693828156_4778235765141762553_o-660x330.jpg);">	
+				<div class="featured-cover"><a href="http://roteirinhocarioca.com.br/2017/02/01/bandinha-de-ipanema/"><span>Bandinha de Ipanema</span></a></div>
+				<div class="featured-title">
+					<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>					<h2><a href="http://roteirinhocarioca.com.br/2017/02/01/bandinha-de-ipanema/">Bandinha de Ipanema</a></h2>
+					<h3>Reconhecida oficialmente como Patrimônio Cultural Carioca, a Banda de Ipanema é o 1º bem imaterial t&#8230;</h3>
+				</div>
+			</div>
+		</div>
+				<div class="featured-post featured-post-2 fea-2">
+			<div class="featured-post-inner" style="background-image:url(http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/bloco-620x330.jpeg);">	
+				<div class="featured-cover"><a href="http://roteirinhocarioca.com.br/2017/02/01/blocos-infantis/"><span>Blocos Infantis</span></a></div>
+				<div class="featured-title">
+					<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>					<h2><a href="http://roteirinhocarioca.com.br/2017/02/01/blocos-infantis/">Blocos Infantis</a></h2>
+					<h3>Blocos Infantis 2017: Domingo, 26 de fevereiro, às 9h Fanfinha &#8211; Botafogo Praça Chaim Weizman,&#8230;</h3>
+				</div>
+			</div>
+		</div>
+				<div class="featured-post featured-post-3 fea-3">
+			<div class="featured-post-inner" style="background-image:url(http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/16904708_1762321697127087_2329212454308100703_o-660x330.jpg);">	
+				<div class="featured-cover"><a href="http://roteirinhocarioca.com.br/2017/02/01/carnaval-na-fazendinha-estacao-natureza/"><span>Carnaval na Fazendinha &#8211; Estação Natureza</span></a></div>
+				<div class="featured-title">
+					<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>					<h2><a href="http://roteirinhocarioca.com.br/2017/02/01/carnaval-na-fazendinha-estacao-natureza/">Carnaval na Fazendinha &#8211; Estação Natureza</a></h2>
+					<h3>Carnaval 2017 no campo, com muito verde e animais da fazenda. As crianças irão curtir o bailinho de &#8230;</h3>
+				</div>
+			</div>
+		</div>
+				<div class="featured-post featured-post-4 fea-4">
+			<div class="featured-post-inner" style="background-image:url(http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/folia-do-tio-carlos.png);">	
+				<div class="featured-cover"><a href="http://roteirinhocarioca.com.br/2017/02/01/folia-do-tio-carlos-barra-music/"><span>Folia do Tio Carlos &#8211; Barra Music</span></a></div>
+				<div class="featured-title">
+					<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>					<h2><a href="http://roteirinhocarioca.com.br/2017/02/01/folia-do-tio-carlos-barra-music/">Folia do Tio Carlos &#8211; Barra Music</a></h2>
+					<h3>O animador infantil, Tio Carlos, traz a 13° edição do baile infantil Folia do Tio Carlos! Separe o c&#8230;</h3>
+				</div>
+			</div>
+		</div>
+				<div class="featured-post featured-post-5 fea-5">
+			<div class="featured-post-inner" style="background-image:url(http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/image003-2-631x330.jpg);">	
+				<div class="featured-cover"><a href="http://roteirinhocarioca.com.br/2017/02/01/bugigangue-no-espaco/"><span>Bugigangue no Espaço *Estreia*</span></a></div>
+				<div class="featured-title">
+					<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>					<h2><a href="http://roteirinhocarioca.com.br/2017/02/01/bugigangue-no-espaco/">Bugigangue no Espaço *Estreia*</a></h2>
+					<h3>Enquanto Gustavinho (voz de Danilo Gentili), Fefa (voz de Maisa Silva) e os demais integrantes do cl&#8230;</h3>
+				</div>
+			</div>
+		</div>
+			</div>
+	<div class="clear"></div>
+	<script>
+jQuery(document).ready(function() {
+	var featuredItems = jQuery("#featured-posts .featured-post");
+		for(var i = 0; i < featuredItems.length; i+=5) {
+			featuredItems.slice(i, i+5).wrapAll('<div class="featured-posts-single-slide"></div>');
+	}
+  jQuery('#featured-posts').flexslider({
+    animation: "fade",
+	selector: ".featured-posts-single-slide", 
+	slideshowSpeed: 7000,
+	animationSpeed: 600,
+	randomize: false,
+	pauseOnHover: true,
+	prevText: "",
+	nextText: "",
+	slideshow: true ,
+	controlNav: false, 
+  });
+});
+</script>
+	<div class="content">
+					<section class="cat-box wide-box tie-cat-14">
+			<div class="cat-box-title">
+				<h2><a href="http://roteirinhocarioca.com.br/category/cinema/">Cinema</a></h2>
+				<div class="stripe-line"></div>
+			</div>
+			<div class="cat-box-content">
+			
+								<ul>
+													<li class="first-news">
+						<div class="inner-content">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/a-bailarina/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/Ballerina-movie-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="Ballerina-movie" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+											
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/a-bailarina/" rel="bookmark">A Bailarina</a></h2>
+						
+							<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/cinema/" rel="category tag">Cinema</a></span>
+	
+</p>
+					
+							<div class="entry">
+								<p>  Paris, 1869. Uma sonhadora menina órfã toma uma atitude arriscada para conseguir o que quer: foge para Paris para realizar o sonho de ser uma grande bailarina. Lá ela &hellip;</p>
+								<a class="more-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-bailarina/">Mais &raquo;</a>
+							</div>
+						</div>
+					</li><!-- .first-news -->
+																		<li class="other-news">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/bugigangue-no-espaco/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/image003-2-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="image003" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/bugigangue-no-espaco/" rel="bookmark">Bugigangue no Espaço *Estreia*</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/destaque/" rel="category tag">.Destaque.</a>, <a href="http://roteirinhocarioca.com.br/category/cinema/" rel="category tag">Cinema</a></span>
+	
+</p>
+					
+					</li>
+																		<li class="other-news">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/lego-batman-o-filme/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/lego-batman-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="lego batman" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/lego-batman-o-filme/" rel="bookmark">Lego Batman &#8211; O Filme</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/cinema/" rel="category tag">Cinema</a></span>
+	
+</p>
+					
+					</li>
+																		<li class="other-news">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/moana-um-mar-de-aventuras/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/moana-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="moana" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/moana-um-mar-de-aventuras/" rel="bookmark">Moana, Um Mar de Aventuras</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/cinema/" rel="category tag">Cinema</a></span>
+	
+</p>
+					
+					</li>
+																		<li class="other-news">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/monster-trucks/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/CARTAZPROMOCIONAL2236-1-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="CARTAZPROMOCIONAL2236 (1)" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/monster-trucks/" rel="bookmark">Monster Trucks *Estreia*</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/destaque/" rel="category tag">.Destaque.</a>, <a href="http://roteirinhocarioca.com.br/category/cinema/" rel="category tag">Cinema</a></span>
+	
+</p>
+					
+					</li>
+													</ul>
+				<div class="clear"></div>
+
+								</div><!-- .cat-box-content /-->
+		</section><!-- Wide Box -->
+
+				<section class="cat-box recent-box recent-masonry">
+		
+					<div class="cat-box-title">
+				<h2>Teatro</h2>
+				<div class="stripe-line"></div>
+			</div>
+				
+			<div class="cat-box-content">
+			
+								
+				
+			
+				
+				<div class="masonry-grid" id="masonry-grid-mkjLH" >
+									<article class="item-list">
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/a-farra-do-boi-bumba-teatro-glauce-rocha/" rel="bookmark">A Farra do Boi Bumbá &#8211; Teatro Glauce Rocha</a></h2>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/teatro/" rel="category tag">Teatro</a></span>
+	
+</p>
+					
+
+										
+						<div class="post-thumbnail">
+							<a href="http://roteirinhocarioca.com.br/2017/02/01/a-farra-do-boi-bumba-teatro-glauce-rocha/" rel="bookmark">
+								<img width="310" height="205" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/image-310x205.png" class="attachment-tie-large size-tie-large wp-post-image" alt="image" />								<span class="fa overlay-icon"></span>
+							</a>
+						</div><!-- post-thumbnail /-->
+																
+						<div class="entry">
+							<p>Sinopse  &#8211; A história se desenvolve em torno de um rico fazendeiro que tem um boi muito bonito. Pai Chico, trabalhador da fazenda, para satisfazer a sua mulher Catirina, que está grávida e &hellip;</p>
+							<a class="more-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-farra-do-boi-bumba-teatro-glauce-rocha/">Mais &raquo;</a>
+						</div>
+												<div class="clear"></div>
+					</article><!-- .item-list -->
+									<article class="item-list">
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci-2/" rel="bookmark">A Pequena Sereia, uma aventura no Rio de Janeiro &#8211; Teatro Vanucci</a></h2>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/teatro/" rel="category tag">Teatro</a></span>
+	
+</p>
+					
+
+										
+						<div class="post-thumbnail">
+							<a href="http://roteirinhocarioca.com.br/2017/02/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci-2/" rel="bookmark">
+								<img width="310" height="205" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/Sereia-8413-310x205.jpg" class="attachment-tie-large size-tie-large wp-post-image" alt="Sereia-8413" />								<span class="fa overlay-icon"></span>
+							</a>
+						</div><!-- post-thumbnail /-->
+																
+						<div class="entry">
+							<p>Sinopse &#8211; Após um feitiço para se tornar humana, em busca do amor de um príncipe, a jovem sereia chega à superfície na praia de Copacabana, no Rio de Janeiro, e &hellip;</p>
+							<a class="more-link" href="http://roteirinhocarioca.com.br/2017/02/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci-2/">Mais &raquo;</a>
+						</div>
+												<div class="clear"></div>
+					</article><!-- .item-list -->
+									<article class="item-list">
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/domingo-divertido-bangu-shopping-o-guarda-chuva-magico-do-palhaco/" rel="bookmark">Domingo Divertido Bangu Shopping “Esquenta de Carnaval”</a></h2>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/teatro/" rel="category tag">Teatro</a></span>
+	
+</p>
+					
+
+										
+						<div class="post-thumbnail">
+							<a href="http://roteirinhocarioca.com.br/2017/02/01/domingo-divertido-bangu-shopping-o-guarda-chuva-magico-do-palhaco/" rel="bookmark">
+								<img width="310" height="205" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/Crédito-Divulgação-310x205.jpg" class="attachment-tie-large size-tie-large wp-post-image" alt="Crédito  - Divulgação" />								<span class="fa overlay-icon"></span>
+							</a>
+						</div><!-- post-thumbnail /-->
+																
+						<div class="entry">
+							<p>12/02 &#8211; Esquenta de Carnaval com quiz e brincadeiras A galerinha vai esquentar o tamborim com o prézinho de Carnaval do Bangu Shopping. Recreação, quiz e muita diversão vão alegrar a &hellip;</p>
+							<a class="more-link" href="http://roteirinhocarioca.com.br/2017/02/01/domingo-divertido-bangu-shopping-o-guarda-chuva-magico-do-palhaco/">Mais &raquo;</a>
+						</div>
+												<div class="clear"></div>
+					</article><!-- .item-list -->
+									<article class="item-list">
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/domingo-kids-via-parque-shopping-2/" rel="bookmark">Domingo Kids &#8211; Via Parque Shopping</a></h2>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/teatro/" rel="category tag">Teatro</a></span>
+	
+</p>
+					
+
+										
+						<div class="post-thumbnail">
+							<a href="http://roteirinhocarioca.com.br/2017/02/01/domingo-kids-via-parque-shopping-2/" rel="bookmark">
+								<img width="310" height="205" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/via-parque-shopping-310x205.jpg" class="attachment-tie-large size-tie-large wp-post-image" alt="via parque shopping" srcset="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/via-parque-shopping-310x205.jpg 310w, http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/via-parque-shopping-500x330.jpg 500w" sizes="(max-width: 310px) 100vw, 310px" />								<span class="fa overlay-icon"></span>
+							</a>
+						</div><!-- post-thumbnail /-->
+																
+						<div class="entry">
+							<p>Domingo Kids é um evento gratuito que acontece semanalmente no Via Parque Shopping. São oferecidas oficinas de recreação e teatrinhos infantis. Classificação &#8211; Livre Programação: Janeiro 08/01 &#8211; As Férias dos &hellip;</p>
+							<a class="more-link" href="http://roteirinhocarioca.com.br/2017/02/01/domingo-kids-via-parque-shopping-2/">Mais &raquo;</a>
+						</div>
+												<div class="clear"></div>
+					</article><!-- .item-list -->
+									<article class="item-list">
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/luiz-e-nazinha-luiz-gonzaga-para-criancas-teatro-dulcina/" rel="bookmark">Luiz e Nazinha: Luiz Gonzaga para Crianças – Teatro Dulcina</a></h2>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/teatro/" rel="category tag">Teatro</a></span>
+	
+</p>
+					
+
+										
+						<div class="post-thumbnail">
+							<a href="http://roteirinhocarioca.com.br/2017/02/01/luiz-e-nazinha-luiz-gonzaga-para-criancas-teatro-dulcina/" rel="bookmark">
+								<img width="310" height="205" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/01/Luiz-e-Nazinha-Julio-Ricardo-2-310x205.jpg" class="attachment-tie-large size-tie-large wp-post-image" alt="Luiz-e-Nazinha--Julio Ricardo (2)" />								<span class="fa overlay-icon"></span>
+							</a>
+						</div><!-- post-thumbnail /-->
+																
+						<div class="entry">
+							<p>Sinopse &#8211;  conta passagens da infância de Luiz Gonzaga no interior do Nordeste, com destaque para a descoberta do amor, quando o jovem Luizinho (Pedro Henrique Lopes) se apaixona por &hellip;</p>
+							<a class="more-link" href="http://roteirinhocarioca.com.br/2017/02/01/luiz-e-nazinha-luiz-gonzaga-para-criancas-teatro-dulcina/">Mais &raquo;</a>
+						</div>
+												<div class="clear"></div>
+					</article><!-- .item-list -->
+								</div>
+								<script>
+					jQuery(document).ready(function() {
+												var transforms = true;
+											
+						var $container = jQuery('#masonry-grid-mkjLH');
+
+						jQuery($container).imagesLoaded(function() {
+							$container.isotope({
+								itemSelector : '.item-list',
+								resizable: false,
+								transformsEnabled: transforms,
+								animationOptions: {
+									duration: 400,
+									easing: 'swing',
+									queue: false
+								},
+								masonry: {}
+							});
+						});
+						
+						/* Events on Window resize */
+						jQuery(window).smartresize(function(){
+							$container.isotope();
+						});
+					
+					});
+				</script>
+
+					
+			
+						
+			
+			
+				<div class="clear"></div>
+						
+			</div><!-- .cat-box-content /-->
+		</section>
+				<div class="clear"></div>
+			<div class="cat-box-content clear cat-box">
+		<div class="cat-tabs-header">
+			<ul>
+						<li><a href="#catab16">Centros Culturais &amp; Museus</a></li>
+							<li><a href="#catab25">Colônia de Férias</a></li>
+							<li><a href="#catab15">Passeios &amp; Turismo</a></li>
+						</ul>
+		</div>
+					<div id="catab16" class="cat-tabs-wrap cat-tabs-wrap1">
+
+						</div>
+						<div id="catab25" class="cat-tabs-wrap cat-tabs-wrap2">
+
+						</div>
+						<div id="catab15" class="cat-tabs-wrap cat-tabs-wrap3">
+
+							<ul>
+													<li class="first-news">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/01/01/arca-do-noah-educacao-ambiental/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/24052016-IMG_1643-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="24052016-IMG_1643" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+											
+						<h2 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/01/01/arca-do-noah-educacao-ambiental/" rel="bookmark">Arca do Noah – Educação Ambiental</a></h2>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/passeios/" rel="category tag">Passeios &amp; Turismo</a></span>
+	
+</p>
+					
+						<div class="entry">
+							<p>A Arca do Noah é um projeto de Educação Ambiental criado por pessoas que amam e respeitam os animais, a natureza e o meio ambiente Foi inaugurada no final de 2016 com &hellip;</p>
+							<a class="more-link" href="http://roteirinhocarioca.com.br/2017/01/01/arca-do-noah-educacao-ambiental/">Mais &raquo;</a>
+						</div>
+					</li><!-- .first-news -->
+																		<li >
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/01/01/aquario/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/01/1658165_357121461093273_2071696201_o-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="1658165_357121461093273_2071696201_o" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/01/01/aquario/" rel="bookmark">AquaRio</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/passeios/" rel="category tag">Passeios &amp; Turismo</a></span>
+	
+</p>
+					
+					</li>
+																		<li >
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/01/01/bichinho-do-mato/" rel="bookmark"><img width="110" height="64" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/bichinho-do-mato.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="bichinho-do-mato" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/01/01/bichinho-do-mato/" rel="bookmark">Bichinho do Mato</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/passeios/" rel="category tag">Passeios &amp; Turismo</a></span>
+	
+</p>
+					
+					</li>
+																		<li >
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/01/01/bosque-da-barra/" rel="bookmark"><img width="110" height="73" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/Bosque-3.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="Bosque 3" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/01/01/bosque-da-barra/" rel="bookmark">Bosque da Barra</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/passeios/" rel="category tag">Passeios &amp; Turismo</a></span>
+	
+</p>
+					
+					</li>
+																		<li >
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/01/01/cristo-redentor/" rel="bookmark"><img width="110" height="64" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/06/cristo.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="cristo" /><span class="fa overlay-icon"></span></a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/01/01/cristo-redentor/" rel="bookmark">Cristo Redentor</a></h3>
+						<p class="post-meta">
+	
+<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>	<span class="post-cats"><i class="fa fa-folder"></i><a href="http://roteirinhocarioca.com.br/category/passeios/" rel="category tag">Passeios &amp; Turismo</a></span>
+	
+</p>
+					
+					</li>
+													</ul>
+				<div class="clear"></div>
+						</div>
+				</div><!-- #cats-tabs-box /-->
+		<section class="cat-box scroll-box tie-cat-8">
+		
+					<div class="cat-box-title">
+				<h2><a href="http://roteirinhocarioca.com.br/category/jogos-e-esportes/">Jogos &amp; Esportes</a></h2>
+				<div class="stripe-line"></div>
+			</div>
+				
+			<div class="cat-box-content">
+								<div id="slideshow8" class="group_items-box">
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/gecrear-park-barra-da-tijuca/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/12/2017-post-instagram-park-310x165.png" class="attachment-tie-medium size-tie-medium wp-post-image" alt="2017-post-instagram-park" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/gecrear-park-barra-da-tijuca/" rel="bookmark">Gecrear Park &#8211; Barra da Tijuca</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/02/01/jogadeira-parque-madureira/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/10/Jogadeira-2-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="DCIM144GOPRO" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/02/01/jogadeira-parque-madureira/" rel="bookmark">Jogadeira &#8211; Parque Madureira</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2017/01/01/parque-play-kid-bangu-shopping-2/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/12/Bangu-Shopping_Play-Kid_01-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="Bangu Shopping_Play Kid_01" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2017/01/01/parque-play-kid-bangu-shopping-2/" rel="bookmark">Parque Play Kid – Bangu Shopping</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/01/2017</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/bambini-park-shopping-metropolitano/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/05/IMG_0055-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="IMG_0055" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/bambini-park-shopping-metropolitano/" rel="bookmark">Bambini Park &#8211; Shopping Metropolitano</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/hot-zone/" rel="bookmark">
+									<img width="284" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/01/hot-zone.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="hot-zone" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/hot-zone/" rel="bookmark">Hot Zone</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/hot-zone-park-shopping-campo-grande/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2013/10/hotzone003.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="hotzone003" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/hot-zone-park-shopping-campo-grande/" rel="bookmark">Hot Zone &#8211; Park Shopping Campo Grande</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-barra-on-ice/" rel="bookmark">
+									<img width="284" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2011/11/barra_onice.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="barra_onice" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-barra-on-ice/" rel="bookmark">Patinação no Gelo &#8211; Barra On Ice</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-norte-on-ice/" rel="bookmark">
+									<img width="310" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/05/boliche-nortesh-310x165.png" class="attachment-tie-medium size-tie-medium wp-post-image" alt="boliche nortesh" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-norte-on-ice/" rel="bookmark">Patinação no Gelo &#8211; Norte On Ice</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-tijuca-on-ice/" rel="bookmark">
+									<img width="284" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/05/tijuca-on-ice.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt="tijuca-on-ice" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-tijuca-on-ice/" rel="bookmark">Patinação no Gelo &#8211; Tijuca on Ice</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+									<div class="scroll-item">
+									
+							<div class="post-thumbnail">
+								<a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-fun-on-ice-barra-garden/" rel="bookmark">
+									<img width="155" height="165" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2012/05/LOGO-FUN-ON-ICE.png" class="attachment-tie-medium size-tie-medium wp-post-image" alt="LOGO FUN ON ICE" />									<span class="fa overlay-icon"></span>
+								</a>
+							</div><!-- post-thumbnail /-->
+									
+						<h3 class="post-box-title"><a href="http://roteirinhocarioca.com.br/2016/05/01/patinacao-no-gelo-fun-on-ice-barra-garden/" rel="bookmark">Patinação no Gelo &#8211; Fun on Ice Barra Garden</a></h3>
+						<p class="post-meta">
+														<span class="tie-date"><i class="fa fa-clock-o"></i>01/05/2016</span>						</p>
+					</div>
+								<div class="clear"></div>
+				</div>
+				<div id="nav8" class="scroll-nav"></div>
+								</div><!-- .cat-box-content /-->
+		</section>
+		<div class="clear"></div>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		var vids = jQuery("#slideshow8 .scroll-item");
+		for(var i = 0; i < vids.length; i+=3) {
+		  vids.slice(i, i+3).wrapAll('<div class="group_items"></div>');
+		}
+		jQuery(function() {
+			jQuery('#slideshow8').cycle({
+				fx:     'scrollHorz',
+				timeout: 3000,
+				pager:  '#nav8',
+				slideExpr: '.group_items',
+				speed: 300,
+				slideResize: false,
+				pause: true
+			});
+		});
+  });
+</script>
+	</div><!-- .content /-->
+	
+	
+
+<aside id="sidebar">
+	<div class="theiaStickySidebar">
+<div id="author-bio-widget-2" class="widget Author-Bio"><div class="widget-top"><h4>Sobre o roteirinho</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">		<div class="author-avatar">
+			<img alt="" src="">
+		</div>
+		<div class="author-description">
+		Este site é uma iniciativa de gente que ama e vive com crianças, querendo divulgar programações infantis e compartilhar com quem deseja aproveitá-las e colaborar conosco!
+		</div><div class="clear"></div>
+		</div></div><!-- .widget /--><div id="search-13" class="widget widget_search"><div class="widget-top"><h4>Procurando o que fazer?</h4><div class="stripe-line"></div></div>
+						<div class="widget-container"><form role="search" method="get" class="search-form" action="http://roteirinhocarioca.com.br/">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar &hellip;" value="" name="s" title="Pesquisar por:" />
+				</label>
+				<input type="submit" class="search-submit" value="Pesquisar" />
+			</form></div></div><!-- .widget /--><div id="facebook-widget-2" class="widget facebook-widget"><div class="widget-top"><h4>Curta nossa página		</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">			<div class="facebook-box">
+				<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/RoteirinhoCarioca&amp;width=300&amp;height=250&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:250px;" allowTransparency="true"></iframe>
+			</div>
+	</div></div><!-- .widget /-->	<div class="widget" id="tabbed-widget">
+		<div class="widget-container">
+			<div class="widget-top">
+				<ul class="tabs posts-taps">
+				<li class="tabs"><a href="#tab2">Recente</a></li><li class="tabs"><a href="#tab1">Popular</a></li><li class="tabs"><a href="#tab3">comentários</a></li><li class="tabs"><a href="#tab4">Tags</a></li>				</ul>
+			</div>
+			
+						<div id="tab2" class="tabs-wrap">
+				<ul>
+							<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/baile-da-alice-31-festas/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/IMG-20170119-WA0014-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="IMG-20170119-WA0014" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/baile-da-alice-31-festas/">Baile da Alice 3+1 Festas</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/1-baile-de-carnaval-infantil-do-rival/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/baile-infantil-rival-110x75.png" class="attachment-tie-small size-tie-small wp-post-image" alt="baile infantil rival" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/1-baile-de-carnaval-infantil-do-rival/">1° Baile de Carnaval Infantil do Rival</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/bailinho-de-carnaval-dos-fabulosos/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/Bailinho-de-Carnaval-dos-Fabulosos-Fotos-Tathi-Carvalho-2-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="Bailinho de Carnaval dos Fabulosos - Fotos Tathi Carvalho (2)" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/bailinho-de-carnaval-dos-fabulosos/">Bailinho de Carnaval dos Fabulosos &#8211; Leme</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-barra-garden/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/post_carnaval-01-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="post_carnaval-01" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-barra-garden/">Baile de Carnaval Infantil &#8211; Barra Garden</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-brincadeira-de-crianca/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/final-email-mktg-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="final-email-mktg" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-brincadeira-de-crianca/">Baile de Carnaval Infantil &#8211; Brincadeira de Criança</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+			
+				</ul>
+			</div>
+						<div id="tab1" class="tabs-wrap">
+				<ul>
+								<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2016/08/01/elsa-e-anna-uma-aventura-congelante-teatro-brigitte-blair/" title="Elsa e Anna, Uma Aventura Congelante &#8211; Teatro Brigitte Blair" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/01/image4-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="image4" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://roteirinhocarioca.com.br/2016/08/01/elsa-e-anna-uma-aventura-congelante-teatro-brigitte-blair/">Elsa e Anna, Uma Aventura Congelante &#8211; Teatro Brigitte Blair</a></h3>
+				 <span class="tie-date"><i class="fa fa-clock-o"></i>01/08/2016</span>								<span class="post-comments post-comments-widget"><i class="fa fa-comments"></i><a href="http://roteirinhocarioca.com.br/2016/08/01/elsa-e-anna-uma-aventura-congelante-teatro-brigitte-blair/#comments">119</a></span>
+							</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2016/10/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci/" title="A Pequena Sereia &#8211; Uma Aventura no Rio de Janeiro &#8211; Teatro Vanucci" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/03/sereia-110x75.png" class="attachment-tie-small size-tie-small wp-post-image" alt="sereia" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://roteirinhocarioca.com.br/2016/10/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci/">A Pequena Sereia &#8211; Uma Aventura no Rio de Janeiro &#8211; Teatro Vanucci</a></h3>
+				 <span class="tie-date"><i class="fa fa-clock-o"></i>01/10/2016</span>								<span class="post-comments post-comments-widget"><i class="fa fa-comments"></i><a href="http://roteirinhocarioca.com.br/2016/10/01/a-pequena-sereia-uma-aventura-no-rio-de-janeiro-teatro-vanucci/#comments">118</a></span>
+							</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2016/04/01/a-bela-e-a-fera-teatro-brigitte-blair/" title="A Bela e a Fera &#8211; Teatro Brigitte Blair" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/01/image1-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="image1" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://roteirinhocarioca.com.br/2016/04/01/a-bela-e-a-fera-teatro-brigitte-blair/">A Bela e a Fera &#8211; Teatro Brigitte Blair</a></h3>
+				 <span class="tie-date"><i class="fa fa-clock-o"></i>01/04/2016</span>								<span class="post-comments post-comments-widget"><i class="fa fa-comments"></i><a href="http://roteirinhocarioca.com.br/2016/04/01/a-bela-e-a-fera-teatro-brigitte-blair/#comments">112</a></span>
+							</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2016/10/01/dia-das-criancas-novo-rio-country-clube/" title="Dia das Crianças &#8211; Novo Rio Country Clube (Recreio)" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/10/almoço_personagem_dia_das_crianças-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="almoço_personagem_dia_das_crianças" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://roteirinhocarioca.com.br/2016/10/01/dia-das-criancas-novo-rio-country-clube/">Dia das Crianças &#8211; Novo Rio Country Clube (Recreio)</a></h3>
+				 <span class="tie-date"><i class="fa fa-clock-o"></i>01/10/2016</span>								<span class="post-comments post-comments-widget"><i class="fa fa-comments"></i><a href="http://roteirinhocarioca.com.br/2016/10/01/dia-das-criancas-novo-rio-country-clube/#comments">85</a></span>
+							</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2016/08/01/enrolados-teatro-brigitte-blair/" title="Enrolados &#8211; Teatro Brigitte Blair" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2016/04/Enrolados-BBlair-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="Enrolados BBlair" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+							<h3><a href="http://roteirinhocarioca.com.br/2016/08/01/enrolados-teatro-brigitte-blair/">Enrolados &#8211; Teatro Brigitte Blair</a></h3>
+				 <span class="tie-date"><i class="fa fa-clock-o"></i>01/08/2016</span>								<span class="post-comments post-comments-widget"><i class="fa fa-comments"></i><a href="http://roteirinhocarioca.com.br/2016/08/01/enrolados-teatro-brigitte-blair/#comments">77</a></span>
+							</li>
+		
+				</ul>
+			</div>
+						<div id="tab3" class="tabs-wrap">
+				<ul>
+						<li>
+		<div class="post-thumbnail" style="width:55px">
+			<img alt='' src='http://2.gravatar.com/avatar/28a0dc9e41841167edf8fb2742d30a6d?s=55&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/28a0dc9e41841167edf8fb2742d30a6d?s=110&amp;d=mm&amp;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' />		</div>
+		<a href="http://roteirinhocarioca.com.br/2017/02/01/folia-infantil-downtown/#comment-13790">
+		José Roberto de Oliveira: Carnaval 2017 com Bia Bedran foi decepcionante. Não haviam pessoas dançando como... </a>
+	</li>
+	<li>
+		<div class="post-thumbnail" style="width:55px">
+			<img alt='' src='http://2.gravatar.com/avatar/889a8fa16f41bbe49a5b09bb02b91696?s=55&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/889a8fa16f41bbe49a5b09bb02b91696?s=110&amp;d=mm&amp;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' />		</div>
+		<a href="http://roteirinhocarioca.com.br/2017/02/01/scooby-doo-ferias-em-paris-teatro-brigitte-blair/#comment-13787">
+		Leandro: Scooby bidu!!!!!!!!!!!!!!!!!... </a>
+	</li>
+	<li>
+		<div class="post-thumbnail" style="width:55px">
+			<img alt='' src='http://1.gravatar.com/avatar/473fd063df114c851e5f78b1f4f5a1d5?s=55&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/473fd063df114c851e5f78b1f4f5a1d5?s=110&amp;d=mm&amp;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' />		</div>
+		<a href="http://roteirinhocarioca.com.br/2017/02/01/peter-pan-teatro-brigitte-blair/#comment-13786">
+		rachel dos santos brito: PAN,PAN,PARARAN.... </a>
+	</li>
+	<li>
+		<div class="post-thumbnail" style="width:55px">
+			<img alt='' src='http://1.gravatar.com/avatar/473fd063df114c851e5f78b1f4f5a1d5?s=55&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/473fd063df114c851e5f78b1f4f5a1d5?s=110&amp;d=mm&amp;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' />		</div>
+		<a href="http://roteirinhocarioca.com.br/2017/02/01/scooby-doo-ferias-em-paris-teatro-brigitte-blair/#comment-13785">
+		rachel dos santos brito: Scooby eu quero... </a>
+	</li>
+	<li>
+		<div class="post-thumbnail" style="width:55px">
+			<img alt='' src='http://2.gravatar.com/avatar/51d14b51b5ecb37e272fa2d2158aa503?s=55&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/51d14b51b5ecb37e272fa2d2158aa503?s=110&amp;d=mm&amp;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' />		</div>
+		<a href="http://roteirinhocarioca.com.br/2017/02/01/scooby-doo-ferias-em-paris-teatro-brigitte-blair/#comment-13782">
+		Paulette da Silva Papes: Scooby. Eu quero.... </a>
+	</li>
+				</ul>
+			</div>
+						<div id="tab4" class="tabs-wrap tagcloud">
+				<a href='http://roteirinhocarioca.com.br/tag/6-9-anos/' class='tag-link-464' title='85 tópicos' style='font-size: 8pt;'>6 a 9 anos</a>
+<a href='http://roteirinhocarioca.com.br/tag/acima-10-anos/' class='tag-link-465' title='81 tópicos' style='font-size: 8pt;'>acima de 10 anos</a>
+<a href='http://roteirinhocarioca.com.br/tag/2-5-anos/' class='tag-link-463' title='81 tópicos' style='font-size: 8pt;'>2 a 5 anos</a>
+<a href='http://roteirinhocarioca.com.br/tag/4-a-10-anos/' class='tag-link-662' title='80 tópicos' style='font-size: 8pt;'>4 a 10 anos</a>
+<a href='http://roteirinhocarioca.com.br/tag/livre/' class='tag-link-509' title='77 tópicos' style='font-size: 8pt;'>livre</a>
+<a href='http://roteirinhocarioca.com.br/tag/2-anos/' class='tag-link-462' title='77 tópicos' style='font-size: 8pt;'>Até 2 anos</a>
+<a href='http://roteirinhocarioca.com.br/tag/zona-oeste/' class='tag-link-484' title='43 tópicos' style='font-size: 8pt;'>zona oeste</a>
+<a href='http://roteirinhocarioca.com.br/tag/gratuito/' class='tag-link-453' title='37 tópicos' style='font-size: 8pt;'>gratuito</a>
+<a href='http://roteirinhocarioca.com.br/tag/carnaval/' class='tag-link-685' title='30 tópicos' style='font-size: 8pt;'>carnaval</a>
+<a href='http://roteirinhocarioca.com.br/tag/zona-norte/' class='tag-link-485' title='29 tópicos' style='font-size: 8pt;'>zona norte</a>
+<a href='http://roteirinhocarioca.com.br/tag/zona-sul/' class='tag-link-483' title='21 tópicos' style='font-size: 8pt;'>zona sul</a>
+<a href='http://roteirinhocarioca.com.br/tag/atividades-fisicas/' class='tag-link-317' title='20 tópicos' style='font-size: 8pt;'>atividades físicas</a>
+<a href='http://roteirinhocarioca.com.br/tag/ate-20/' class='tag-link-467' title='19 tópicos' style='font-size: 8pt;'>Até 20 reais</a>
+<a href='http://roteirinhocarioca.com.br/tag/dia-das-criancas/' class='tag-link-631' title='15 tópicos' style='font-size: 8pt;'>dia das crianças</a>
+<a href='http://roteirinhocarioca.com.br/tag/ate-60-reais/' class='tag-link-508' title='10 tópicos' style='font-size: 8pt;'>até 60 reais</a>
+<a href='http://roteirinhocarioca.com.br/tag/ciencia/' class='tag-link-314' title='10 tópicos' style='font-size: 8pt;'>ciência</a>
+<a href='http://roteirinhocarioca.com.br/tag/ar-livre/' class='tag-link-308' title='10 tópicos' style='font-size: 8pt;'>ar livre</a>
+<a href='http://roteirinhocarioca.com.br/tag/ate-30-reais/' class='tag-link-537' title='9 tópicos' style='font-size: 8pt;'>até 30 reais</a>
+<a href='http://roteirinhocarioca.com.br/tag/shopping-metropolitano-barra/' class='tag-link-682' title='8 tópicos' style='font-size: 8pt;'>Shopping Metropolitano Barra</a>
+<a href='http://roteirinhocarioca.com.br/tag/norte-shopping/' class='tag-link-482' title='8 tópicos' style='font-size: 8pt;'>Norte Shopping</a>
+<a href='http://roteirinhocarioca.com.br/tag/barra-shopping/' class='tag-link-472' title='8 tópicos' style='font-size: 8pt;'>barra shopping</a>
+<a href='http://roteirinhocarioca.com.br/tag/teatro-2/' class='tag-link-544' title='6 tópicos' style='font-size: 8pt;'>teatro</a>
+<a href='http://roteirinhocarioca.com.br/tag/via-parque-shopping/' class='tag-link-605' title='6 tópicos' style='font-size: 8pt;'>via parque shopping</a>
+<a href='http://roteirinhocarioca.com.br/tag/musical/' class='tag-link-352' title='6 tópicos' style='font-size: 8pt;'>musical</a>
+<a href='http://roteirinhocarioca.com.br/tag/shopping-via-brasil/' class='tag-link-529' title='6 tópicos' style='font-size: 8pt;'>Shopping Via Brasil</a>			</div>
+			
+		</div>
+	</div><!-- .widget /-->
+<div id="posts-list-widget-2" class="widget posts-list"><div class="widget-top"><h4>Os mais acessados		</h4><div class="stripe-line"></div></div>
+						<div class="widget-container">				<ul>
+							<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/baile-da-alice-31-festas/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/IMG-20170119-WA0014-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="IMG-20170119-WA0014" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/baile-da-alice-31-festas/">Baile da Alice 3+1 Festas</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/1-baile-de-carnaval-infantil-do-rival/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/baile-infantil-rival-110x75.png" class="attachment-tie-small size-tie-small wp-post-image" alt="baile infantil rival" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/1-baile-de-carnaval-infantil-do-rival/">1° Baile de Carnaval Infantil do Rival</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/bailinho-de-carnaval-dos-fabulosos/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/Bailinho-de-Carnaval-dos-Fabulosos-Fotos-Tathi-Carvalho-2-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="Bailinho de Carnaval dos Fabulosos - Fotos Tathi Carvalho (2)" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/bailinho-de-carnaval-dos-fabulosos/">Bailinho de Carnaval dos Fabulosos &#8211; Leme</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-barra-garden/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/post_carnaval-01-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="post_carnaval-01" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-barra-garden/">Baile de Carnaval Infantil &#8211; Barra Garden</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+				<li >
+						
+				<div class="post-thumbnail">
+					<a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-brincadeira-de-crianca/" rel="bookmark"><img width="110" height="75" src="http://roteirinhocarioca.com.br/site/wp-content/uploads/2017/02/final-email-mktg-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt="final-email-mktg" /><span class="fa overlay-icon"></span></a>
+				</div><!-- post-thumbnail /-->
+						<h3><a href="http://roteirinhocarioca.com.br/2017/02/01/baile-de-carnaval-infantil-brincadeira-de-crianca/">Baile de Carnaval Infantil &#8211; Brincadeira de Criança</a></h3>
+			 <span class="tie-date"><i class="fa fa-clock-o"></i>01/02/2017</span>		</li>
+			
+				</ul>
+		<div class="clear"></div>
+	</div></div><!-- .widget /-->	</div><!-- .theiaStickySidebar /-->
+</aside><!-- #sidebar /-->	<div class="clear"></div>
+</div><!-- .container /-->
+
+				
+<div class="clear"></div>
+<div class="footer-bottom">
+	<div class="container">
+		<div class="alignright">
+			Não nos responsabilizamos por possíveis mudanças de horário, local e preço das programações aqui divulgadas. 
+Solicitamos que, sempre que possível, confirmem as informações com os organizadores dos eventos.		</div>
+				<div class="social-icons">
+		<a class="ttip-none" title="Google+" href="https://plus.google.com/u/0/+RoteirinhoCariocaRJ/posts" target="_blank"><i class="fa fa-google-plus"></i></a><a class="ttip-none" title="Facebook" href="https://www.facebook.com/RoteirinhoCarioca" target="_blank"><i class="fa fa-facebook"></i></a><a class="ttip-none" title="Twitter" href="https://twitter.com/roteirinho" target="_blank"><i class="fa fa-twitter"></i></a><a class="ttip-none" title="Pinterest" href="https://br.pinterest.com/roteirinho/" target="_blank"><i class="fa fa-pinterest"></i></a><a class="ttip-none" title="instagram" href="https://www.instagram.com/roteirinhocarioca/" target="_blank"><i class="tieicon-instagram"></i></a>		
+			</div>
+
+		
+		<div class="alignleft">
+			Roteirinho Carioca © - Produzido por Roteirinho Carioca Produções Culturais		</div>
+		<div class="clear"></div>
+	</div><!-- .Container -->
+</div><!-- .Footer bottom -->
+
+</div><!-- .inner-Wrapper -->
+</div><!-- #Wrapper -->
+</div><!-- .Wrapper-outer -->
+	<div id="topcontrol" class="fa fa-angle-up" title="Deslizar para o topo"></div>
+<div id="fb-root"></div>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/roteirinhocarioca.com.br\/site\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Enviando ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tie = {"mobile_menu_active":"true","mobile_menu_top":"","lightbox_all":"true","lightbox_gallery":"true","woocommerce_lightbox":"","lightbox_skin":"dark","lightbox_thumb":"vertical","lightbox_arrows":"","sticky_sidebar":"1","is_singular":"1","SmothScroll":"true","reading_indicator":"","lang_no_results":"Sem resultados","lang_results_found":"Resultados encontrados"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/tie-scripts.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/ilightbox.packed.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/search.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/isotope.js'></script>
+<script type='text/javascript' src='http://roteirinhocarioca.com.br/site/wp-content/themes/sahifa/js/jquery.cycle.all.js'></script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.793 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-02-26 22:04:51 -->
+
+<!-- Compression = gzip -->

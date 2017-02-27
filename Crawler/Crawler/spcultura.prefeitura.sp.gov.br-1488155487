@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>SP Cultura</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="shortcut icon" href="http://spcultura.prefeitura.sp.gov.br/assets/img/favicon.ico" />
+        
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+ <meta name="description" content="O SP Cultura &eacute; a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria Municipal de Cultura de S&atilde;o Paulo sobre o cen&aacute;rio cultural paulistano. Ficou mais f&aacute;cil se programar para conhecer as op&ccedil;&otilde;es culturais que a cidade oferece: shows musicais, espet&aacute;culos teatrais, sess&otilde;es de cinema, saraus, entre outras. Al&eacute;m de conferir a agenda de eventos, voc&ecirc; tamb&eacute;m pode colaborar na gest&atilde;o da cultura da cidade, basta criar seu perfil de agente cultural." />
+ <meta name="keywords" content="SP Cultura" />
+ <meta name="author" content="SP Cultura" />
+ <meta name="copyright" content="SP Cultura" />
+ <meta name="application-name" content="SP Cultura" />
+ <meta itemprop="author" content="SP Cultura" />
+ <meta itemprop="description" content="O SP Cultura &eacute; a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria Municipal de Cultura de S&atilde;o Paulo sobre o cen&aacute;rio cultural paulistano. Ficou mais f&aacute;cil se programar para conhecer as op&ccedil;&otilde;es culturais que a cidade oferece: shows musicais, espet&aacute;culos teatrais, sess&otilde;es de cinema, saraus, entre outras. Al&eacute;m de conferir a agenda de eventos, voc&ecirc; tamb&eacute;m pode colaborar na gest&atilde;o da cultura da cidade, basta criar seu perfil de agente cultural." />
+ <meta itemprop="image" content="http://spcultura.prefeitura.sp.gov.br/assets/img/share.png" />
+ <meta name="twitter:card" content="SP Cultura" />
+ <meta name="twitter:title" content="SP Cultura" />
+ <meta name="twitter:description" content="O SP Cultura &eacute; a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria Municipal de Cultura de S&atilde;o Paulo sobre o cen&aacute;rio cultural paulistano. Ficou mais f&aacute;cil se programar para conhecer as op&ccedil;&otilde;es culturais que a cidade oferece: shows musicais, espet&aacute;culos teatrais, sess&otilde;es de cinema, saraus, entre outras. Al&eacute;m de conferir a agenda de eventos, voc&ecirc; tamb&eacute;m pode colaborar na gest&atilde;o da cultura da cidade, basta criar seu perfil de agente cultural." />
+ <meta name="twitter:image" content="http://spcultura.prefeitura.sp.gov.br/assets/img/share.png" />
+ <meta property="og:title" content="SP Cultura" />
+ <meta property="og:type" content="article" />
+ <meta property="og:image" content="http://spcultura.prefeitura.sp.gov.br/assets/img/share.png" />
+ <meta property="og:image:url" content="http://spcultura.prefeitura.sp.gov.br/assets/img/share.png" />
+ <meta property="og:description" content="O SP Cultura &eacute; a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria Municipal de Cultura de S&atilde;o Paulo sobre o cen&aacute;rio cultural paulistano. Ficou mais f&aacute;cil se programar para conhecer as op&ccedil;&otilde;es culturais que a cidade oferece: shows musicais, espet&aacute;culos teatrais, sess&otilde;es de cinema, saraus, entre outras. Al&eacute;m de conferir a agenda de eventos, voc&ecirc; tamb&eacute;m pode colaborar na gest&atilde;o da cultura da cidade, basta criar seu perfil de agente cultural." />
+ <meta property="og:site_name" content="SP Cultura" />
+ <link href='http://spcultura.prefeitura.sp.gov.br/assets/css/vendor-e689fb1871f581da0443eb78b4eeaa96.css' media='all' rel='stylesheet' type='text/css' />
+ <link href='http://spcultura.prefeitura.sp.gov.br/assets/css/app-b09809fa2a0a2ea49a0fb12208b439b4.css' media='all' rel='stylesheet' type='text/css' />
+<script type="text/javascript">
+ var MapasCulturais = {"baseURL":"http:\/\/spcultura.prefeitura.sp.gov.br\/","assetURL":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/","maxUploadSize":81920,"maxUploadSizeFormatted":"80 MB","infoboxFields":"id,singleUrl,name,subTitle,type,shortDescription,terms,project.name,project.singleUrl","EntitiesDescription":{"agent":{"id":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"integer","length":null,"label":"Id"},"_type":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Tipo","@select":"type"},"name":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"string","length":255,"label":"Nome"},"publicLocation":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"boolean","length":null,"label":""},"location":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"point","length":null,"label":"Coordenada Geogr\u00e1fica"},"shortDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Curta"},"longDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Longa"},"createTimestamp":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"datetime","length":null,"label":"Data de Cria\u00e7\u00e3o"},"status":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Status"},"isVerified":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"userId":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"integer","length":null,"label":""},"parent":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Agent","isOwningSide":true,"label":""},"_children":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Agent","isOwningSide":false,"label":""},"user":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"User","isOwningSide":true,"label":""},"_spaces":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Space","isOwningSide":false,"label":""},"_projects":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Project","isOwningSide":false,"label":""},"_events":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Event","isOwningSide":false,"label":""},"__metadata":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"AgentMeta","isOwningSide":false,"label":""},"__files":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"AgentFile","isOwningSide":false,"label":""},"__agentRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"AgentAgentRelation","isOwningSide":false,"label":""},"__termRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"AgentTermRelation","isOwningSide":false,"label":""},"nomeCompleto":{"required":false,"type":"string","length":null,"private":true,"label":"Nome completo ou Raz\u00e3o Social","isMetadata":true,"isEntityRelation":false},"documento":{"required":false,"type":"string","length":null,"private":true,"label":"CPF ou CNPJ","isMetadata":true,"isEntityRelation":false},"idade":{"required":false,"type":"string","length":null,"private":true,"label":"Idade","isMetadata":true,"isEntityRelation":false},"raca":{"required":false,"type":"select","length":null,"private":true,"options":{"":"N\u00e3o Informar","Branca":"Branca","Preta":"Preta","Amarela":"Amarela","Parda":"Parda","Ind\u00edgena":"Ind\u00edgena"},"optionsOrder":["","Branca","Preta","Amarela","Parda","Ind\u00edgena"],"label":"Ra\u00e7a\/cor","isMetadata":true,"isEntityRelation":false},"dataDeNascimento":{"required":false,"type":"date","length":null,"private":true,"label":"Data de Nascimento\/Funda\u00e7\u00e3o","isMetadata":true,"isEntityRelation":false},"precisao":{"required":false,"type":"select","length":null,"private":false,"options":{"":"N\u00e3o Informar","Precisa":"Precisa","Aproximada":"Aproximada"},"optionsOrder":["","Precisa","Aproximada"],"label":"Localiza\u00e7\u00e3o","isMetadata":true,"isEntityRelation":false},"localizacao":{"required":false,"type":"select","length":null,"private":false,"options":{"":"N\u00e3o Informar","P\u00fablica":"P\u00fablica","Privada":"Privada"},"optionsOrder":["","P\u00fablica","Privada"],"label":"Localiza\u00e7\u00e3o","isMetadata":true,"isEntityRelation":false},"genero":{"required":false,"type":"select","length":null,"private":true,"options":{"":"N\u00e3o Informar","Mulher Transexual":"Mulher Transexual","Mulher":"Mulher","Homem Transexual":"Homem Transexual","Homem":"Homem","N\u00e3o Bin\u00e1rio":"N\u00e3o Bin\u00e1rio","Travesti":"Travesti","Outras":"Outras"},"optionsOrder":["","Mulher Transexual","Mulher","Homem Transexual","Homem","N\u00e3o Bin\u00e1rio","Travesti","Outras"],"label":"G\u00eanero","isMetadata":true,"isEntityRelation":false},"orientacaoSexual":{"required":false,"type":"select","length":null,"private":true,"options":{"":"N\u00e3o Informar","Heterossexual":"Heterossexual","L\u00e9sbica":"L\u00e9sbica","Gay":"Gay","Bissexual":"Bissexual","Assexual":"Assexual","Outras":"Outras"},"optionsOrder":["","Heterossexual","L\u00e9sbica","Gay","Bissexual","Assexual","Outras"],"label":"Orienta\u00e7\u00e3o Sexual","isMetadata":true,"isEntityRelation":false},"emailPublico":{"required":false,"type":"string","length":null,"private":false,"label":"Email P\u00fablico","isMetadata":true,"isEntityRelation":false},"emailPrivado":{"required":false,"type":"string","length":null,"private":true,"label":"Email Privado","isMetadata":true,"isEntityRelation":false},"telefonePublico":{"required":false,"type":"string","length":null,"private":false,"label":"Telefone P\u00fablico","isMetadata":true,"isEntityRelation":false},"telefone1":{"required":false,"type":"string","length":null,"private":true,"label":"Telefone 1","isMetadata":true,"isEntityRelation":false},"telefone2":{"required":false,"type":"string","length":null,"private":true,"label":"Telefone 2","isMetadata":true,"isEntityRelation":false},"endereco":{"required":false,"type":"text","length":null,"private":{},"label":"Endere\u00e7o","isMetadata":true,"isEntityRelation":false},"En_CEP":{"required":false,"type":"string","length":null,"private":{},"label":"CEP","isMetadata":true,"isEntityRelation":false},"En_Nome_Logradouro":{"required":false,"type":"string","length":null,"private":{},"label":"Logradouro","isMetadata":true,"isEntityRelation":false},"En_Num":{"required":false,"type":"string","length":null,"private":{},"label":"N\u00famero","isMetadata":true,"isEntityRelation":false},"En_Complemento":{"required":false,"type":"string","length":null,"private":{},"label":"Complemento","isMetadata":true,"isEntityRelation":false},"En_Bairro":{"required":false,"type":"string","length":null,"private":{},"label":"Bairro","isMetadata":true,"isEntityRelation":false},"En_Municipio":{"required":false,"type":"string","length":null,"private":{},"label":"Munic\u00edpio","isMetadata":true,"isEntityRelation":false},"En_Estado":{"required":false,"type":"select","length":null,"private":{},"options":{"AC":"Acre","AL":"Alagoas","AP":"Amap\u00e1","AM":"Amazonas","BA":"Bahia","CE":"Cear\u00e1","DF":"Distrito Federal","ES":"Esp\u00edrito Santo","GO":"Goi\u00e1s","MA":"Maranh\u00e3o","MT":"Mato Grosso","MS":"Mato Grosso do Sul","MG":"Minas Gerais","PA":"Par\u00e1","PB":"Para\u00edba","PR":"Paran\u00e1","PE":"Pernambuco","PI":"Piau\u00ed","RJ":"Rio de Janeiro","RN":"Rio Grande do Norte","RS":"Rio Grande do Sul","RO":"Rond\u00f4nia","RR":"Roraima","SC":"Santa Catarina","SP":"S\u00e3o Paulo","SE":"Sergipe","TO":"Tocantins"},"optionsOrder":["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"],"label":"Estado","isMetadata":true,"isEntityRelation":false},"site":{"required":false,"type":"string","length":null,"private":false,"label":"Site","isMetadata":true,"isEntityRelation":false},"facebook":{"required":false,"type":"string","length":null,"private":false,"label":"Facebook","isMetadata":true,"isEntityRelation":false},"twitter":{"required":false,"type":"string","length":null,"private":false,"label":"Twitter","isMetadata":true,"isEntityRelation":false},"googleplus":{"required":false,"type":"string","length":null,"private":false,"label":"Google+","isMetadata":true,"isEntityRelation":false},"geoZona":{"required":false,"type":"string","length":null,"private":false,"label":"Zona","isMetadata":true,"isEntityRelation":false},"geoSubprefeitura":{"required":false,"type":"string","length":null,"private":false,"label":"Subprefeitura","isMetadata":true,"isEntityRelation":false},"geoDistrito":{"required":false,"type":"string","length":null,"private":false,"label":"Distrito","isMetadata":true,"isEntityRelation":false}},"event":{"id":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"integer","length":null,"label":"Id"},"_type":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Tipo","@select":"type"},"name":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"string","length":255,"label":"Nome"},"shortDescription":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Curta"},"longDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Longa"},"rules":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":""},"createTimestamp":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"datetime","length":null,"label":"Data de Cria\u00e7\u00e3o"},"status":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Status"},"isVerified":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"occurrences":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"EventOccurrence","isOwningSide":false,"label":""},"owner":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Agent","isOwningSide":true,"label":""},"project":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Project","isOwningSide":true,"label":""},"__metadata":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"EventMeta","isOwningSide":false,"label":""},"__files":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"EventFile","isOwningSide":false,"label":""},"__agentRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"EventAgentRelation","isOwningSide":false,"label":""},"__termRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"EventTermRelation","isOwningSide":false,"label":""},"subTitle":{"required":false,"type":"text","length":null,"private":false,"label":"Sub-T\u00edtulo","isMetadata":true,"isEntityRelation":false},"registrationInfo":{"required":false,"type":"text","length":null,"private":false,"label":"Inscri\u00e7\u00f5es","isMetadata":true,"isEntityRelation":false},"classificacaoEtaria":{"required":true,"type":"select","length":null,"private":false,"options":{"Livre":"Livre","18 anos":"18 anos","16 anos":"16 anos","14 anos":"14 anos","12 anos":"12 anos","10 anos":"10 anos"},"optionsOrder":["Livre","18 anos","16 anos","14 anos","12 anos","10 anos"],"label":"Classifica\u00e7\u00e3o Et\u00e1ria","isMetadata":true,"isEntityRelation":false},"telefonePublico":{"required":false,"type":"string","length":null,"private":false,"label":"Mais Informa\u00e7\u00f5es","isMetadata":true,"isEntityRelation":false},"preco":{"required":false,"type":"string","length":null,"private":false,"label":"Pre\u00e7o","isMetadata":true,"isEntityRelation":false},"traducaoLibras":{"required":false,"type":"select","length":null,"private":false,"options":{"":"N\u00e3o Informado","Sim":"Sim","N\u00e3o":"N\u00e3o"},"optionsOrder":["","Sim","N\u00e3o"],"label":"Tradu\u00e7\u00e3o para LIBRAS","isMetadata":true,"isEntityRelation":false},"descricaoSonora":{"required":false,"type":"select","length":null,"private":false,"options":{"":"N\u00e3o Informado","Sim":"Sim","N\u00e3o":"N\u00e3o"},"optionsOrder":["","Sim","N\u00e3o"],"label":"\u00c1udio descri\u00e7\u00e3o","isMetadata":true,"isEntityRelation":false},"site":{"required":false,"type":"string","length":null,"private":false,"label":"Site","isMetadata":true,"isEntityRelation":false},"facebook":{"required":false,"type":"string","length":null,"private":false,"label":"Facebook","isMetadata":true,"isEntityRelation":false},"twitter":{"required":false,"type":"string","length":null,"private":false,"label":"Twitter","isMetadata":true,"isEntityRelation":false},"googleplus":{"required":false,"type":"string","length":null,"private":false,"label":"Google+","isMetadata":true,"isEntityRelation":false}},"space":{"id":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"integer","length":null,"label":"Id"},"location":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"point","length":null,"label":"Coordenada Geogr\u00e1fica"},"name":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"string","length":255,"label":"Nome"},"public":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"shortDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Curta"},"longDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Longa"},"createTimestamp":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"datetime","length":null,"label":"Data de Cria\u00e7\u00e3o"},"status":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Status"},"_type":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Tipo","@select":"type"},"isVerified":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"eventOccurrences":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"EventOccurrence","isOwningSide":false,"label":""},"parent":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Space","isOwningSide":true,"label":""},"_children":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Space","isOwningSide":false,"label":""},"owner":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Agent","isOwningSide":true,"label":""},"__metadata":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"SpaceMeta","isOwningSide":false,"label":""},"__files":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"SpaceFile","isOwningSide":false,"label":""},"__agentRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"SpaceAgentRelation","isOwningSide":false,"label":""},"__termRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"SpaceTermRelation","isOwningSide":false,"label":""},"emailPublico":{"required":false,"type":"string","length":null,"private":false,"label":"Email P\u00fablico","isMetadata":true,"isEntityRelation":false},"emailPrivado":{"required":false,"type":"string","length":null,"private":false,"label":"Email Privado","isMetadata":true,"isEntityRelation":false},"telefonePublico":{"required":false,"type":"string","length":null,"private":false,"label":"Telefone P\u00fablico","isMetadata":true,"isEntityRelation":false},"telefone1":{"required":false,"type":"string","length":null,"private":false,"label":"Telefone 1","isMetadata":true,"isEntityRelation":false},"telefone2":{"required":false,"type":"string","length":null,"private":false,"label":"Telefone 2","isMetadata":true,"isEntityRelation":false},"acessibilidade":{"required":false,"type":"select","length":null,"private":false,"options":{"":"N\u00e3o Informado","Sim":"Sim","N\u00e3o":"N\u00e3o"},"optionsOrder":["","Sim","N\u00e3o"],"label":"Acessibilidade","isMetadata":true,"isEntityRelation":false},"acessibilidade_fisica":{"required":false,"type":"multiselect","length":null,"private":false,"options":{"Banheiros adaptados":"Banheiros adaptados","Rampa de acesso":"Rampa de acesso","Elevador":"Elevador","Sinaliza\u00e7\u00e3o t\u00e1til":"Sinaliza\u00e7\u00e3o t\u00e1til","Bebedouro adaptado":"Bebedouro adaptado","Cadeira de rodas para uso do visitante":"Cadeira de rodas para uso do visitante","Circuito de visita\u00e7\u00e3o adaptado":"Circuito de visita\u00e7\u00e3o adaptado","Corrim\u00e3o nas escadas e rampas":"Corrim\u00e3o nas escadas e rampas","Elevador adaptado":"Elevador adaptado","Sanit\u00e1rio adaptado":"Sanit\u00e1rio adaptado","Telefone p\u00fablico adaptado":"Telefone p\u00fablico adaptado","Vaga de estacionamento exclusiva para deficientes":"Vaga de estacionamento exclusiva para deficientes","Vaga de estacionamento exclusiva para idosos":"Vaga de estacionamento exclusiva para idosos"},"optionsOrder":["Banheiros adaptados","Rampa de acesso","Elevador","Sinaliza\u00e7\u00e3o t\u00e1til","Bebedouro adaptado","Cadeira de rodas para uso do visitante","Circuito de visita\u00e7\u00e3o adaptado","Corrim\u00e3o nas escadas e rampas","Elevador adaptado","Sanit\u00e1rio adaptado","Telefone p\u00fablico adaptado","Vaga de estacionamento exclusiva para deficientes","Vaga de estacionamento exclusiva para idosos"],"label":"Acessibilidade f\u00edsica","allowOther":true,"allowOtherText":"Outros","isMetadata":true,"isEntityRelation":false},"capacidade":{"required":false,"type":"string","length":null,"private":false,"label":"Capacidade","isMetadata":true,"isEntityRelation":false},"endereco":{"required":false,"type":"text","length":null,"private":false,"label":"Endere\u00e7o","isMetadata":true,"isEntityRelation":false},"En_CEP":{"required":false,"type":"string","length":null,"private":false,"label":"CEP","isMetadata":true,"isEntityRelation":false},"En_Nome_Logradouro":{"required":false,"type":"string","length":null,"private":false,"label":"Logradouro","isMetadata":true,"isEntityRelation":false},"En_Num":{"required":false,"type":"string","length":null,"private":false,"label":"N\u00famero","isMetadata":true,"isEntityRelation":false},"En_Complemento":{"required":false,"type":"string","length":null,"private":false,"label":"Complemento","isMetadata":true,"isEntityRelation":false},"En_Bairro":{"required":false,"type":"string","length":null,"private":false,"label":"Bairro","isMetadata":true,"isEntityRelation":false},"En_Municipio":{"required":false,"type":"string","length":null,"private":false,"label":"Munic\u00edpio","isMetadata":true,"isEntityRelation":false},"En_Estado":{"required":false,"type":"select","length":null,"private":false,"options":{"AC":"Acre","AL":"Alagoas","AP":"Amap\u00e1","AM":"Amazonas","BA":"Bahia","CE":"Cear\u00e1","DF":"Distrito Federal","ES":"Esp\u00edrito Santo","GO":"Goi\u00e1s","MA":"Maranh\u00e3o","MT":"Mato Grosso","MS":"Mato Grosso do Sul","MG":"Minas Gerais","PA":"Par\u00e1","PB":"Para\u00edba","PR":"Paran\u00e1","PE":"Pernambuco","PI":"Piau\u00ed","RJ":"Rio de Janeiro","RN":"Rio Grande do Norte","RS":"Rio Grande do Sul","RO":"Rond\u00f4nia","RR":"Roraima","SC":"Santa Catarina","SP":"S\u00e3o Paulo","SE":"Sergipe","TO":"Tocantins"},"optionsOrder":["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"],"label":"Estado","isMetadata":true,"isEntityRelation":false},"horario":{"required":false,"type":"text","length":null,"private":false,"label":"Hor\u00e1rio de funcionamento","isMetadata":true,"isEntityRelation":false},"criterios":{"required":false,"type":"text","length":null,"private":false,"label":"Crit\u00e9rios de uso do espa\u00e7o","isMetadata":true,"isEntityRelation":false},"site":{"required":false,"type":"string","length":null,"private":false,"label":"Site","isMetadata":true,"isEntityRelation":false},"facebook":{"required":false,"type":"string","length":null,"private":false,"label":"Facebook","isMetadata":true,"isEntityRelation":false},"twitter":{"required":false,"type":"string","length":null,"private":false,"label":"Twitter","isMetadata":true,"isEntityRelation":false},"googleplus":{"required":false,"type":"string","length":null,"private":false,"label":"Google+","isMetadata":true,"isEntityRelation":false},"geoZona":{"required":false,"type":"string","length":null,"private":false,"label":"Zona","isMetadata":true,"isEntityRelation":false},"geoSubprefeitura":{"required":false,"type":"string","length":null,"private":false,"label":"Subprefeitura","isMetadata":true,"isEntityRelation":false},"geoDistrito":{"required":false,"type":"string","length":null,"private":false,"label":"Distrito","isMetadata":true,"isEntityRelation":false}},"project":{"id":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"integer","length":null,"label":"Id"},"_type":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Tipo","@select":"type"},"name":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"string","length":255,"label":"Nome"},"shortDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Curta"},"longDescription":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"text","length":null,"label":"Descri\u00e7\u00e3o Longa"},"registrationFrom":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"datetime","length":null,"label":""},"registrationTo":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"datetime","length":null,"label":""},"useRegistrations":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"publishedRegistrations":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"createTimestamp":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"datetime","length":null,"label":"Data de Cria\u00e7\u00e3o"},"registrationCategories":{"isMetadata":false,"isEntityRelation":false,"required":false,"type":"json_array","length":null,"label":""},"status":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"smallint","length":null,"label":"Status"},"isVerified":{"isMetadata":false,"isEntityRelation":false,"required":true,"type":"boolean","length":null,"label":""},"parent":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Project","isOwningSide":true,"label":""},"_children":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Project","isOwningSide":false,"label":""},"owner":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Agent","isOwningSide":true,"label":""},"_events":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"Event","isOwningSide":false,"label":""},"registrationFileConfigurations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"RegistrationFileConfiguration","isOwningSide":false,"label":""},"__metadata":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"ProjectMeta","isOwningSide":false,"label":""},"__files":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"ProjectFile","isOwningSide":false,"label":""},"__agentRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"ProjectAgentRelation","isOwningSide":false,"label":""},"__termRelations":{"isMetadata":false,"isEntityRelation":true,"targetEntity":"ProjectTermRelation","isOwningSide":false,"label":""},"introInscricoes":{"required":false,"type":"text","length":null,"private":false,"label":"Texto introdut\u00f3rio das inscri\u00e7\u00f5es","isMetadata":true,"isEntityRelation":false},"registrationCategTitle":{"required":false,"type":"string","length":null,"private":false,"label":"T\u00edtulo das op\u00e7\u00f5es (ex: Categorias)","isMetadata":true,"isEntityRelation":false},"registrationCategDescription":{"required":false,"type":"string","length":null,"private":false,"label":"Descri\u00e7\u00e3o das op\u00e7\u00f5es (ex: Selecione uma categoria)","isMetadata":true,"isEntityRelation":false},"registrationLimitPerOwner":{"required":false,"type":"string","length":null,"private":false,"label":"N\u00famero m\u00e1ximo de inscri\u00e7\u00f5es por agente respons\u00e1vel","isMetadata":true,"isEntityRelation":false},"site":{"required":false,"type":"string","length":null,"private":false,"label":"Site","isMetadata":true,"isEntityRelation":false},"facebook":{"required":false,"type":"string","length":null,"private":false,"label":"Facebook","isMetadata":true,"isEntityRelation":false},"twitter":{"required":false,"type":"string","length":null,"private":false,"label":"Twitter","isMetadata":true,"isEntityRelation":false},"googleplus":{"required":false,"type":"string","length":null,"private":false,"label":"Google+","isMetadata":true,"isEntityRelation":false},"useAgentRelationInstituicao":{"required":false,"type":"select","length":null,"private":false,"options":{"dontUse":"N\u00e3o utilizar","required":"Obrigat\u00f3rio","optional":"Opcional"},"optionsOrder":["dontUse","required","optional"],"label":"Institui\u00e7\u00e3o respons\u00e1vel","isMetadata":true,"isEntityRelation":false},"useAgentRelationColetivo":{"required":false,"type":"select","length":null,"private":false,"options":{"dontUse":"N\u00e3o utilizar","required":"Obrigat\u00f3rio","optional":"Opcional"},"optionsOrder":["dontUse","required","optional"],"label":"Coletivo","isMetadata":true,"isEntityRelation":false}}},"assets":{"fundo":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/fundo.png","instituto-tim":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/instituto-tim-white.png","verifiedIcon":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/verified-icon.png","avatarAgent":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/avatar--agent.png","avatarSpace":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/avatar--space.png","avatarEvent":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/avatar--event.png","avatarProject":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/avatar--project.png","logo-prefeitura":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/logo-prefeitura.png"},"templateUrl":[],"spinnerUrl":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/spinner.gif","isEditable":false,"isSearch":false,"angularAppDependencies":["entity.module.relatedAgents","entity.module.changeOwner","entity.directive.editableMultiselect","entity.directive.editableSingleselect","mc.directive.singleselect","mc.directive.multiselect","mc.directive.editBox","mc.directive.mcSelect","mc.module.notifications","mc.module.findEntity","ngSanitize"],"mapsDefaults":{"zoomMax":18,"zoomMin":5,"zoomDefault":11,"zoomPrecise":16,"zoomApproximate":14,"includeGoogleLayers":true,"latitude":-23.584440678511,"longitude":-46.637992858887},"mapMaxClusterRadius":40,"mapSpiderfyDistanceMultiplier":1.3,"mapMaxClusterElements":6,"mapGeometryFieldQuery":"ST_SimplifyPreserveTopology(geom, 0.001)","labels":{"agent":{"id":"Id","type":"Tipo","name":"Nome","publicLocation":"","location":"Coordenada Geogr\u00e1fica","shortDescription":"Descri\u00e7\u00e3o Curta","longDescription":"Descri\u00e7\u00e3o Longa","createTimestamp":"Data de Cria\u00e7\u00e3o","status":"Status","isVerified":"","userId":"","parent":"","_children":"","user":"","_spaces":"","_projects":"","_events":"","__metadata":"","__files":"","__agentRelations":"","__termRelations":"","nomeCompleto":"Nome completo ou Raz\u00e3o Social","documento":"CPF ou CNPJ","idade":"Idade","raca":"Ra\u00e7a\/cor","dataDeNascimento":"Data de Nascimento\/Funda\u00e7\u00e3o","precisao":"Localiza\u00e7\u00e3o","localizacao":"Localiza\u00e7\u00e3o","genero":"G\u00eanero","orientacaoSexual":"Orienta\u00e7\u00e3o Sexual","emailPublico":"Email P\u00fablico","emailPrivado":"Email Privado","telefonePublico":"Telefone P\u00fablico","telefone1":"Telefone 1","telefone2":"Telefone 2","endereco":"Endere\u00e7o","En_CEP":"CEP","En_Nome_Logradouro":"Logradouro","En_Num":"N\u00famero","En_Complemento":"Complemento","En_Bairro":"Bairro","En_Municipio":"Munic\u00edpio","En_Estado":"Estado","site":"Site","facebook":"Facebook","twitter":"Twitter","googleplus":"Google+","geoZona":"Zona","geoSubprefeitura":"Subprefeitura","geoDistrito":"Distrito"},"project":{"id":"Id","type":"Tipo","name":"Nome","shortDescription":"Descri\u00e7\u00e3o Curta","longDescription":"Descri\u00e7\u00e3o Longa","registrationFrom":"","registrationTo":"","useRegistrations":"","publishedRegistrations":"","createTimestamp":"Data de Cria\u00e7\u00e3o","registrationCategories":"","status":"Status","isVerified":"","parent":"","_children":"","owner":"","_events":"","registrationFileConfigurations":"","__metadata":"","__files":"","__agentRelations":"","__termRelations":"","introInscricoes":"Texto introdut\u00f3rio das inscri\u00e7\u00f5es","registrationCategTitle":"T\u00edtulo das op\u00e7\u00f5es (ex: Categorias)","registrationCategDescription":"Descri\u00e7\u00e3o das op\u00e7\u00f5es (ex: Selecione uma categoria)","registrationLimitPerOwner":"N\u00famero m\u00e1ximo de inscri\u00e7\u00f5es por agente respons\u00e1vel","site":"Site","facebook":"Facebook","twitter":"Twitter","googleplus":"Google+","useAgentRelationInstituicao":"Institui\u00e7\u00e3o respons\u00e1vel","useAgentRelationColetivo":"Coletivo"},"event":{"id":"Id","type":"Tipo","name":"Nome","shortDescription":"Descri\u00e7\u00e3o Curta","longDescription":"Descri\u00e7\u00e3o Longa","rules":"","createTimestamp":"Data de Cria\u00e7\u00e3o","status":"Status","isVerified":"","occurrences":"","owner":"","project":"","__metadata":"","__files":"","__agentRelations":"","__termRelations":"","subTitle":"Sub-T\u00edtulo","registrationInfo":"Inscri\u00e7\u00f5es","classificacaoEtaria":"Classifica\u00e7\u00e3o Et\u00e1ria","telefonePublico":"Mais Informa\u00e7\u00f5es","preco":"Pre\u00e7o","traducaoLibras":"Tradu\u00e7\u00e3o para LIBRAS","descricaoSonora":"\u00c1udio descri\u00e7\u00e3o","site":"Site","facebook":"Facebook","twitter":"Twitter","googleplus":"Google+"},"space":{"id":"Id","location":"Coordenada Geogr\u00e1fica","name":"Nome","public":"","shortDescription":"Descri\u00e7\u00e3o Curta","longDescription":"Descri\u00e7\u00e3o Longa","createTimestamp":"Data de Cria\u00e7\u00e3o","status":"Status","type":"Tipo","isVerified":"","eventOccurrences":"","parent":"","_children":"","owner":"","__metadata":"","__files":"","__agentRelations":"","__termRelations":"","emailPublico":"Email P\u00fablico","emailPrivado":"Email Privado","telefonePublico":"Telefone P\u00fablico","telefone1":"Telefone 1","telefone2":"Telefone 2","acessibilidade":"Acessibilidade","acessibilidade_fisica":"Acessibilidade f\u00edsica","capacidade":"Capacidade","endereco":"Endere\u00e7o","En_CEP":"CEP","En_Nome_Logradouro":"Logradouro","En_Num":"N\u00famero","En_Complemento":"Complemento","En_Bairro":"Bairro","En_Municipio":"Munic\u00edpio","En_Estado":"Estado","horario":"Hor\u00e1rio de funcionamento","criterios":"Crit\u00e9rios de uso do espa\u00e7o","site":"Site","facebook":"Facebook","twitter":"Twitter","googleplus":"Google+","geoZona":"Zona","geoSubprefeitura":"Subprefeitura","geoDistrito":"Distrito"},"registration":{"id":"Id","category":"","createTimestamp":"Data de Cria\u00e7\u00e3o","sentTimestamp":"","agentsData":"","status":"Status","project":"","owner":"","__metadata":"","__files":""}},"routes":{"default_controller_id":"site","default_action_name":"index","shortcuts":{"james-bond":["agent","single",{"id":7}],"evento":["event","single"],"usuario":["user","single"],"agente":["agent","single"],"espaco":["space","single"],"projeto":["project","single"],"sair":["auth","logout"],"busca":["site","search"],"sobre":["site","page",["sobre"]],"como-usar":["site","page",["como-usar"]],"aprovar-notificacao":["notification","approve"],"rejeitar-notificacao":["notification","reject"],"inscricao":["registration","view"]},"controllers":{"painel":"panel","autenticacao":"auth","site":"site","eventos":"event","agentes":"agent","espacos":"space","arquivos":"file","projetos":"project","inscricoes":"registration","anexos":"registrationfileconfiguration"},"actions":{"lista":"list","apaga":"delete","edita":"edit","espacos":"spaces","agentes":"agents","eventos":"events","projetos":"projects","inscricoes":"registrations"},"readableNames":{"panel":"Painel","auth":"Autentica\u00e7\u00e3o","site":"Site","event":"Evento","events":"Eventos","agent":"Agente","agents":"Agentes","space":"Espa\u00e7o","spaces":"Espa\u00e7os","project":"Projeto","projects":"Projetos","registration":"Inscri\u00e7\u00e3o","registrations":"Inscri\u00e7\u00f5es","file":"Arquivo","files":"Arquivos","list":"Listando","index":"\u00cdndice","delete":"Apagando","edit":"Editando","create":"Criando novo","search":"Busca"}},"userId":null,"vectorLayersURL":"http:\/\/spcultura.prefeitura.sp.gov.br\/geojson","request":{"controller":"site","action":"index"},"spinner":"http:\/\/spcultura.prefeitura.sp.gov.br\/assets\/img\/spinner_192.gif"};
+</script>
+
+ <script type='text/javascript' src='http://spcultura.prefeitura.sp.gov.br/assets/js/vendor-e192efacbe3bff46ff3af1072ed3eab6.js'></script>
+ <script type='text/javascript' src='http://spcultura.prefeitura.sp.gov.br/assets/js/app-18877b73296a0bf3f903507759bf118c.js'></script>        <!--[if lt IE 9]>
+        <script src="http://spcultura.prefeitura.sp.gov.br/assets/js/html5-1418247331.js" type="text/javascript"></script>
+        <![endif]-->
+    </head>
+
+    <body class="controller-site action-index" >
+               <header id="main-header" class="clearfix"  ng-class="{'sombra':data.global.viewMode !== 'list'}">
+            <h1 id="brand-logo"><a href="http://spcultura.prefeitura.sp.gov.br/"><img src="http://spcultura.prefeitura.sp.gov.br/assets/img/logo-spcultura.png" /></a></h1>            <nav id="about-nav" class="alignright clearfix">
+    <h1 id="organization-logo"><a href="http://www.prefeitura.sp.gov.br" target="_blank"><img src="http://spcultura.prefeitura.sp.gov.br/assets/img/logo-prefeitura.png" /></a></h1>
+    <ul id="secondary-menu">
+        <li><a class="icon icon-about hltip" href="http://spcultura.prefeitura.sp.gov.br/sobre/" title="Sobre o SP Cultura"></a></li>
+        <li><a class="icon icon-help hltip" href="http://spcultura.prefeitura.sp.gov.br/como-usar/" title="Como usar"></a></li>
+    </ul>
+</nav>            
+<nav id="main-nav" class="clearfix">
+    <ul class="menu entities-menu clearfix">
+                                <li id="entities-menu-event" ng-class="{'active':data.global.filterEntity === 'event'}" ng-click="tabClick('event')">
+                <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(event:!t),filterEntity:event))">
+                    <div class="icon icon-event"></div>
+                    <div class="menu-item-label">Eventos</div>
+                </a>
+            </li>
+                                
+                                <li id="entities-menu-space" ng-class="{'active':data.global.filterEntity === 'space'}" ng-click="tabClick('space')">
+                <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(space:!t),filterEntity:space))">
+                    <div class="icon icon-space"></div>
+                    <div class="menu-item-label">Espaços</div>
+                </a>
+            </li>
+                            
+                                <li id="entities-menu-agent" ng-class="{'active':data.global.filterEntity === 'agent'}" ng-click="tabClick('agent')">
+                <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
+                    <div class="icon icon-agent"></div>
+                    <div class="menu-item-label">Agentes</div>
+                </a>
+            </li>
+                                
+                                <li id="entities-menu-project"  ng-class="{'active':data.global.filterEntity === 'project'}" ng-click="tabClick('project')">
+                <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(project:!t),filterEntity:project,viewMode:list))">
+                    <div class="icon icon-project"></div>
+                    <div class="menu-item-label">Projetos</div>
+                </a>
+            </li>
+                        </ul>
+    <!--.menu.entities-menu-->
+    <ul class="menu session-menu clearfix">
+                                <li class="login">
+                <a href="http://spcultura.prefeitura.sp.gov.br/painel/">
+                    <div class="icon icon-login"></div>
+                    <div class="menu-item-label">Entrar</div>
+                </a>
+                            </li>
+            <!--.login-->
+                        </ul>
+    <!--.menu.session-menu-->
+</nav>
+        </header>
+        <section id="main-section" class="clearfix">
+            <section id="home-watermark">
+
+</section>
+
+<section id="home-intro" class="js-page-menu-item home-entity clearfix">
+    <div class="box">
+        <h1>Bem-vind@!</h1>
+        <p>O SP Cultura é a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria Municipal de Cultura de São Paulo sobre o cenário cultural paulistano. Ficou mais fácil se programar para conhecer as opções culturais que a cidade oferece: shows musicais, espetáculos teatrais, sessões de cinema, saraus, entre outras. Além de conferir a agenda de eventos, você também pode colaborar na gestão da cultura da cidade: basta criar seu perfil de <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(agent:!t),filterEntity:agent))" >agente cultural</a>. A partir deste cadastro, fica mais fácil participar dos editais de fomento às artes da Prefeitura e também divulgar seus <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(event:!t),filterEntity:event))">eventos</a>, <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(space:!t),filterEntity:space))">espaços</a> ou <a href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(filterEntity:project,viewMode:list))">projetos</a>.</p>
+        <form id="home-search-form" class="clearfix" ng-non-bindable>
+            <input tabindex="1" id="campo-de-busca" class="search-field" type="text" name="campo-de-busca" placeholder="Digite uma palavra-chave"/>
+            <div id="home-search-filter" class="dropdown" data-searh-url-template="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:({{entity}}:!t),filterEntity:{{entity}}),{{entity}}:(keyword:'{{keyword}}'))">
+                <div class="placeholder"><span class="icon icon-search"></span> Buscar</div>
+                <div class="submenu-dropdown">
+                    <ul>
+                                                    <li tabindex="2" id="events-filter"  data-entity="event"><span class="icon icon-event"></span> Eventos</li>
+                                                
+                                                    <li tabindex="3" id="agents-filter"  data-entity="agent"><span class="icon icon-agent"></span> Agentes</li>
+                                                
+                                                    <li tabindex="4" id="spaces-filter"  data-entity="space"><span class="icon icon-space"></span> Espaços</li>
+                                                
+                                                    <li tabindex="5" id="projects-filter" data-entity="project" data-searh-url-template="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:({{entity}}:!t),filterEntity:{{entity}},viewMode:list),{{entity}}:(keyword:'{{keyword}}'))"><span class="icon icon-project"></span> Projetos</li>
+                                            </ul>
+                </div>
+            </div>
+        </form>
+        <a class="btn btn-accent btn-large" href="http://spcultura.prefeitura.sp.gov.br/painel/">Colabore com o SpCultura</a>
+    </div>
+    <div class="view-more"><a class="hltip icon icon-select-arrow" href="#home-events" title="Saiba mais"></a></div>
+</section>
+
+<article id="home-events" class="js-page-menu-item home-entity clearfix">
+    <div class="box">
+        <h1><span class="icon icon-event"></span> Eventos</h1>
+        <div class="clearfix">
+            <div class="statistics">
+                <div class="statistic">241</div>
+                <div class="statistic-label">eventos agendados</div>
+            </div>
+            <div class="statistics">
+                <div class="statistic">196</div>
+                <div class="statistic-label">eventos da SMC</div>
+            </div>
+        </div>
+        <p>Você pode pesquisar eventos culturais da cidade nos campos de busca combinada. Como usuário cadastrado, você pode incluir seus eventos na plataforma e divulgá-los gratuitamente.</p>
+        <h4>Encontre eventos por</h4>
+        <ul class="abas clearfix">
+            <li class="active"><a href="#event-terms">Linguagem</a></li>
+        </ul>
+        <div id="event-terms" class="tag-box">
+            <div>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(0)),global:(enabled:(event:!t),filterEntity:event))">Artes Circenses</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(1)),global:(enabled:(event:!t),filterEntity:event))">Artes Integradas</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(2)),global:(enabled:(event:!t),filterEntity:event))">Artes Visuais</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(3)),global:(enabled:(event:!t),filterEntity:event))">Audiovisual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(4)),global:(enabled:(event:!t),filterEntity:event))">Cinema</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(5)),global:(enabled:(event:!t),filterEntity:event))">Cultura Digital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(6)),global:(enabled:(event:!t),filterEntity:event))">Cultura Indígena</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(7)),global:(enabled:(event:!t),filterEntity:event))">Cultura Tradicional</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(8)),global:(enabled:(event:!t),filterEntity:event))">Curso ou Oficina</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(9)),global:(enabled:(event:!t),filterEntity:event))">Dança</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(10)),global:(enabled:(event:!t),filterEntity:event))">Exposição</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(11)),global:(enabled:(event:!t),filterEntity:event))">Hip Hop</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(12)),global:(enabled:(event:!t),filterEntity:event))">Livro e Literatura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(13)),global:(enabled:(event:!t),filterEntity:event))">Música Erudita</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(14)),global:(enabled:(event:!t),filterEntity:event))">Música Popular</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(15)),global:(enabled:(event:!t),filterEntity:event))">Outros</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(16)),global:(enabled:(event:!t),filterEntity:event))">Palestra, Debate ou Encontro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(17)),global:(enabled:(event:!t),filterEntity:event))">Rádio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(event:(linguagens:!(18)),global:(enabled:(event:!t),filterEntity:event))">Teatro</a>
+                            </div>
+        </div>
+    </div>
+    <div class="box">
+                <a href="http://spcultura.prefeitura.sp.gov.br/evento/30252/">
+            <div class="random-feature no-image">
+                <div class="feature-content">
+                    <h3>destaque</h3>
+                    <h2>CCJ Visita | Rolê no Masp, Casa das Rosas e Paulista Aberta</h2>
+                    <p>O CCJ Visita no mês de março o MASP - Museu de Arte de São Paulo - e para a Casa das Rosas, ambos localizados na Avenida Paulista que recebe todos os domingos o programa Rua Aberta, que fecha a via para o trafego e amplia a área de convivência da cidade.</p>
+                </div>
+            </div>
+        </a>
+                <a class="btn btn-accent btn-large add" href="http://spcultura.prefeitura.sp.gov.br/eventos/create/">Adicionar evento</a>
+        <a class="btn btn-accent btn-large" href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(event:!t),filterEntity:event))">Ver tudo</a>
+    </div>
+</article>
+
+<article id="home-agents" class="js-page-menu-item home-entity clearfix">
+    <div class="box">
+        <h1><span class="icon icon-agent"></span> Agentes</h1>
+        <div class="clearfix">
+            <div class="statistics">
+                <div class="statistic">23157</div>
+                <div class="statistic-label">agentes cadastrados</div>
+            </div>
+            <div class="statistics">
+                <div class="statistic">102</div>
+                <div class="statistic-label">agentes da SMC</div>
+            </div>
+        </div>
+        <p>Você pode colaborar na gestão da cultura da cidade com suas próprias informações, preenchendo seu perfil de agente cultural. Neste espaço, estão registrados artistas, gestores e produtores; uma rede de atores envolvidos na cena cultural paulistana. Você pode cadastrar um ou mais agentes (grupos, coletivos, bandas instituições, empresas, etc.), além de associar ao seu perfil eventos e espaços culturais com divulgação gratuita.</p>
+        <h4>Encontre agentes por</h4>
+        <ul class="abas clearfix">
+            <li class="active"><a href="#agent-terms">Área de atuação</a></li>
+            <li><a href="#agent-types">Tipo</a></li>
+        </ul>
+        <div id="agent-terms" class="tag-box">
+            <div>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(0)),global:(enabled:(agent:!t),filterEntity:agent))">Antropologia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(1)),global:(enabled:(agent:!t),filterEntity:agent))">Arqueologia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(2)),global:(enabled:(agent:!t),filterEntity:agent))">Arquitetura-Urbanismo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(3)),global:(enabled:(agent:!t),filterEntity:agent))">Arquivo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(4)),global:(enabled:(agent:!t),filterEntity:agent))">Arte Digital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(5)),global:(enabled:(agent:!t),filterEntity:agent))">Arte de Rua</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(6)),global:(enabled:(agent:!t),filterEntity:agent))">Artes Visuais</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(7)),global:(enabled:(agent:!t),filterEntity:agent))">Artesanato</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(8)),global:(enabled:(agent:!t),filterEntity:agent))">Audiovisual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(9)),global:(enabled:(agent:!t),filterEntity:agent))">Cinema</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(10)),global:(enabled:(agent:!t),filterEntity:agent))">Circo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(11)),global:(enabled:(agent:!t),filterEntity:agent))">Comunicação</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(12)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura Cigana</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(13)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura Digital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(14)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura Estrangeira (imigrantes)</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(15)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura Indígena</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(16)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura LGBT</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(17)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura Negra</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(18)),global:(enabled:(agent:!t),filterEntity:agent))">Cultura Popular</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(19)),global:(enabled:(agent:!t),filterEntity:agent))">Dança</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(20)),global:(enabled:(agent:!t),filterEntity:agent))">Design</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(21)),global:(enabled:(agent:!t),filterEntity:agent))">Direito Autoral</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(22)),global:(enabled:(agent:!t),filterEntity:agent))">Economia Criativa</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(23)),global:(enabled:(agent:!t),filterEntity:agent))">Educação</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(24)),global:(enabled:(agent:!t),filterEntity:agent))">Esporte</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(25)),global:(enabled:(agent:!t),filterEntity:agent))">Filosofia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(26)),global:(enabled:(agent:!t),filterEntity:agent))">Fotografia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(27)),global:(enabled:(agent:!t),filterEntity:agent))">Gastronomia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(28)),global:(enabled:(agent:!t),filterEntity:agent))">Gestão Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(29)),global:(enabled:(agent:!t),filterEntity:agent))">História</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(30)),global:(enabled:(agent:!t),filterEntity:agent))">Jogos Eletrônicos</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(31)),global:(enabled:(agent:!t),filterEntity:agent))">Jornalismo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(32)),global:(enabled:(agent:!t),filterEntity:agent))">Leitura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(33)),global:(enabled:(agent:!t),filterEntity:agent))">Literatura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(34)),global:(enabled:(agent:!t),filterEntity:agent))">Livro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(35)),global:(enabled:(agent:!t),filterEntity:agent))">Meio Ambiente</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(36)),global:(enabled:(agent:!t),filterEntity:agent))">Moda</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(37)),global:(enabled:(agent:!t),filterEntity:agent))">Museu</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(38)),global:(enabled:(agent:!t),filterEntity:agent))">Mídias Sociais</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(39)),global:(enabled:(agent:!t),filterEntity:agent))">Música</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(40)),global:(enabled:(agent:!t),filterEntity:agent))">Novas Mídias</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(41)),global:(enabled:(agent:!t),filterEntity:agent))">Outros</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(42)),global:(enabled:(agent:!t),filterEntity:agent))">Patrimônio Imaterial</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(43)),global:(enabled:(agent:!t),filterEntity:agent))">Patrimônio Material</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(44)),global:(enabled:(agent:!t),filterEntity:agent))">Pesquisa</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(45)),global:(enabled:(agent:!t),filterEntity:agent))">Produção Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(46)),global:(enabled:(agent:!t),filterEntity:agent))">Rádio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(47)),global:(enabled:(agent:!t),filterEntity:agent))">Saúde</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(48)),global:(enabled:(agent:!t),filterEntity:agent))">Sociologia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(49)),global:(enabled:(agent:!t),filterEntity:agent))">Teatro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(50)),global:(enabled:(agent:!t),filterEntity:agent))">Televisão</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(areas:!(51)),global:(enabled:(agent:!t),filterEntity:agent))">Turismo</a>
+                            </div>
+        </div>
+        <div id="agent-types" class="tag-box">
+            <div>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(type:1),global:(enabled:(agent:!t),filterEntity:agent))">Individual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(agent:(type:2),global:(enabled:(agent:!t),filterEntity:agent))">Coletivo</a>
+                            </div>
+        </div>
+    </div>
+    <div class="box">
+                <a href="http://spcultura.prefeitura.sp.gov.br/agente/17793/">
+            <div class="random-feature no-image">
+                <div class="feature-content">
+                    <h3>destaque</h3>
+                    <h2>Italo Ribeiro</h2>
+                    <p>Assistente de programação - SMC</p>
+                </div>
+            </div>
+        </a>
+                <a class="btn btn-accent btn-large add" href="http://spcultura.prefeitura.sp.gov.br/agentes/create/">Adicionar agente</a>
+        <a class="btn btn-accent btn-large" href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">Ver tudo</a>
+    </div>
+</article>
+
+<article id="home-spaces" class="js-page-menu-item home-entity clearfix">
+    <div class="box">
+        <h1><span class="icon icon-space"></span> Espaços</h1>
+        <div class="clearfix">
+            <div class="statistics">
+                <div class="statistic">2858</div>
+                <div class="statistic-label">espaços cadastrados</div>
+            </div>
+            <div class="statistics">
+                <div class="statistic">934</div>
+                <div class="statistic-label">espaços da SMC</div>
+            </div>
+        </div>
+        <p>Procure por espaços culturais incluídos na plataforma, acessando os campos de busca combinada que ajudam na precisão de sua pesquisa. Cadastre também os espaços onde desenvolve suas atividades artísticas e culturais na cidade.</p>
+        <h4>Encontre espaços por</h4>
+        <ul class="abas clearfix">
+            <li class="active"><a href="#space-terms">Área de atuação</a></li>
+            <li><a href="#space-types">Tipo</a></li>
+        </ul>
+        <div id="space-terms" class="tag-box">
+            <div>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(0)),global:(enabled:(space:!t),filterEntity:space))">Antropologia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(1)),global:(enabled:(space:!t),filterEntity:space))">Arqueologia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(2)),global:(enabled:(space:!t),filterEntity:space))">Arquitetura-Urbanismo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(3)),global:(enabled:(space:!t),filterEntity:space))">Arquivo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(4)),global:(enabled:(space:!t),filterEntity:space))">Arte Digital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(5)),global:(enabled:(space:!t),filterEntity:space))">Arte de Rua</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(6)),global:(enabled:(space:!t),filterEntity:space))">Artes Visuais</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(7)),global:(enabled:(space:!t),filterEntity:space))">Artesanato</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(8)),global:(enabled:(space:!t),filterEntity:space))">Audiovisual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(9)),global:(enabled:(space:!t),filterEntity:space))">Cinema</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(10)),global:(enabled:(space:!t),filterEntity:space))">Circo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(11)),global:(enabled:(space:!t),filterEntity:space))">Comunicação</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(12)),global:(enabled:(space:!t),filterEntity:space))">Cultura Cigana</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(13)),global:(enabled:(space:!t),filterEntity:space))">Cultura Digital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(14)),global:(enabled:(space:!t),filterEntity:space))">Cultura Estrangeira (imigrantes)</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(15)),global:(enabled:(space:!t),filterEntity:space))">Cultura Indígena</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(16)),global:(enabled:(space:!t),filterEntity:space))">Cultura LGBT</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(17)),global:(enabled:(space:!t),filterEntity:space))">Cultura Negra</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(18)),global:(enabled:(space:!t),filterEntity:space))">Cultura Popular</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(19)),global:(enabled:(space:!t),filterEntity:space))">Dança</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(20)),global:(enabled:(space:!t),filterEntity:space))">Design</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(21)),global:(enabled:(space:!t),filterEntity:space))">Direito Autoral</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(22)),global:(enabled:(space:!t),filterEntity:space))">Economia Criativa</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(23)),global:(enabled:(space:!t),filterEntity:space))">Educação</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(24)),global:(enabled:(space:!t),filterEntity:space))">Esporte</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(25)),global:(enabled:(space:!t),filterEntity:space))">Filosofia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(26)),global:(enabled:(space:!t),filterEntity:space))">Fotografia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(27)),global:(enabled:(space:!t),filterEntity:space))">Gastronomia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(28)),global:(enabled:(space:!t),filterEntity:space))">Gestão Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(29)),global:(enabled:(space:!t),filterEntity:space))">História</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(30)),global:(enabled:(space:!t),filterEntity:space))">Jogos Eletrônicos</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(31)),global:(enabled:(space:!t),filterEntity:space))">Jornalismo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(32)),global:(enabled:(space:!t),filterEntity:space))">Leitura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(33)),global:(enabled:(space:!t),filterEntity:space))">Literatura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(34)),global:(enabled:(space:!t),filterEntity:space))">Livro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(35)),global:(enabled:(space:!t),filterEntity:space))">Meio Ambiente</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(36)),global:(enabled:(space:!t),filterEntity:space))">Moda</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(37)),global:(enabled:(space:!t),filterEntity:space))">Museu</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(38)),global:(enabled:(space:!t),filterEntity:space))">Mídias Sociais</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(39)),global:(enabled:(space:!t),filterEntity:space))">Música</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(40)),global:(enabled:(space:!t),filterEntity:space))">Novas Mídias</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(41)),global:(enabled:(space:!t),filterEntity:space))">Outros</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(42)),global:(enabled:(space:!t),filterEntity:space))">Patrimônio Imaterial</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(43)),global:(enabled:(space:!t),filterEntity:space))">Patrimônio Material</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(44)),global:(enabled:(space:!t),filterEntity:space))">Pesquisa</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(45)),global:(enabled:(space:!t),filterEntity:space))">Produção Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(46)),global:(enabled:(space:!t),filterEntity:space))">Rádio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(47)),global:(enabled:(space:!t),filterEntity:space))">Saúde</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(48)),global:(enabled:(space:!t),filterEntity:space))">Sociologia</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(49)),global:(enabled:(space:!t),filterEntity:space))">Teatro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(50)),global:(enabled:(space:!t),filterEntity:space))">Televisão</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(areas:!(51)),global:(enabled:(space:!t),filterEntity:space))">Turismo</a>
+                            </div>
+        </div>
+        <div id="space-types" class="tag-box">
+            <div>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(10)),global:(enabled:(space:!t),filterEntity:space))">Cine itinerante</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(11)),global:(enabled:(space:!t),filterEntity:space))">Cineclube</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(12)),global:(enabled:(space:!t),filterEntity:space))">Drive-in</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(13)),global:(enabled:(space:!t),filterEntity:space))">Espaço Público Para Projeção de Filmes</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(14)),global:(enabled:(space:!t),filterEntity:space))">Sala de cinema</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(20)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Pública</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(21)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Privada</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(22)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Comunitária (incluí­dos os pontos de leitura)</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(23)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Escolar</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(24)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Nacional</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(25)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Universitária</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(26)),global:(enabled:(space:!t),filterEntity:space))">Biblioteca Especializada</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(30)),global:(enabled:(space:!t),filterEntity:space))">Teatro Público</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(31)),global:(enabled:(space:!t),filterEntity:space))">Teatro Privado</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(90)),global:(enabled:(space:!t),filterEntity:space))">Circo Itinerante</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(91)),global:(enabled:(space:!t),filterEntity:space))">Circo Fixo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(92)),global:(enabled:(space:!t),filterEntity:space))">Terreno para Circo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(93)),global:(enabled:(space:!t),filterEntity:space))">Circo Tradicional</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(94)),global:(enabled:(space:!t),filterEntity:space))">Circo Moderno</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(40)),global:(enabled:(space:!t),filterEntity:space))">Centro Cultural Público</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(41)),global:(enabled:(space:!t),filterEntity:space))">Centro Cultural Privado</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(50)),global:(enabled:(space:!t),filterEntity:space))">Arquivo Público</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(51)),global:(enabled:(space:!t),filterEntity:space))">Arquivo Privado</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(60)),global:(enabled:(space:!t),filterEntity:space))">Museu Público</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(61)),global:(enabled:(space:!t),filterEntity:space))">Museu Privado</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(100)),global:(enabled:(space:!t),filterEntity:space))">Galeria de arte</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(101)),global:(enabled:(space:!t),filterEntity:space))">Livraria</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(102)),global:(enabled:(space:!t),filterEntity:space))">Sebo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(103)),global:(enabled:(space:!t),filterEntity:space))">Videolocadora</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(104)),global:(enabled:(space:!t),filterEntity:space))">Lan-house</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(105)),global:(enabled:(space:!t),filterEntity:space))">Antiquário</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(106)),global:(enabled:(space:!t),filterEntity:space))">Ateliê</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(107)),global:(enabled:(space:!t),filterEntity:space))">Centro de artesanato</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(108)),global:(enabled:(space:!t),filterEntity:space))">Casa de espetáculo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(109)),global:(enabled:(space:!t),filterEntity:space))">Danceteria</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(110)),global:(enabled:(space:!t),filterEntity:space))">Estúdio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(111)),global:(enabled:(space:!t),filterEntity:space))">Concha acústica</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(112)),global:(enabled:(space:!t),filterEntity:space))">Banca de jornal</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(113)),global:(enabled:(space:!t),filterEntity:space))">Espaço para Eventos</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(114)),global:(enabled:(space:!t),filterEntity:space))">Creative Bureau</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(115)),global:(enabled:(space:!t),filterEntity:space))">Ponto de Leitura Afro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(116)),global:(enabled:(space:!t),filterEntity:space))">Centro Comunitário</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(117)),global:(enabled:(space:!t),filterEntity:space))">Casa do Patrimônio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(125)),global:(enabled:(space:!t),filterEntity:space))">Ponto de Cultura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(118)),global:(enabled:(space:!t),filterEntity:space))">Usina Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(119)),global:(enabled:(space:!t),filterEntity:space))">Praça dos esportes e da cultura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(120)),global:(enabled:(space:!t),filterEntity:space))">Espaço Mais Cultura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(121)),global:(enabled:(space:!t),filterEntity:space))">Sala de dança</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(122)),global:(enabled:(space:!t),filterEntity:space))">Gafieira</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(123)),global:(enabled:(space:!t),filterEntity:space))">Espaço para apresentação de dança</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(126)),global:(enabled:(space:!t),filterEntity:space))">Centro cultural itinerante</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(127)),global:(enabled:(space:!t),filterEntity:space))">Trio elétrico</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(128)),global:(enabled:(space:!t),filterEntity:space))">Clube social</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(129)),global:(enabled:(space:!t),filterEntity:space))">Centro de tradições</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(130)),global:(enabled:(space:!t),filterEntity:space))">Sala Multiuso</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(124)),global:(enabled:(space:!t),filterEntity:space))">Rádio Comunitária</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(131)),global:(enabled:(space:!t),filterEntity:space))">Audioteca</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(132)),global:(enabled:(space:!t),filterEntity:space))">Centro de Artes e Esportes Unificados - CEUs</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(133)),global:(enabled:(space:!t),filterEntity:space))">Coreto</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(134)),global:(enabled:(space:!t),filterEntity:space))">Ginásio Poliesportivo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(135)),global:(enabled:(space:!t),filterEntity:space))">Sala de Leitura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(70)),global:(enabled:(space:!t),filterEntity:space))">Centro de Documentação Público</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(71)),global:(enabled:(space:!t),filterEntity:space))">Centro de Documentação Privado</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(80)),global:(enabled:(space:!t),filterEntity:space))">Templo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(81)),global:(enabled:(space:!t),filterEntity:space))">Terreiro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(82)),global:(enabled:(space:!t),filterEntity:space))">Mesquitas</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(83)),global:(enabled:(space:!t),filterEntity:space))">Sinagoga</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(84)),global:(enabled:(space:!t),filterEntity:space))">Igreja</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(85)),global:(enabled:(space:!t),filterEntity:space))">Centro Espírita</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(300)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública de Ensino Regular Federal</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(301)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública de Ensino Regular Estadual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(302)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública de Ensino Regular Municipal</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(303)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública de Ensino Regular Distrital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(400)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Particular</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(401)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Comunitária</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(402)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Confessional</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(403)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Filantrópica</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(601)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública Federal exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(602)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública Estadual exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(603)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública Municipal exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(604)),global:(enabled:(space:!t),filterEntity:space))">Instituição Pública Distrital exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(700)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Particular exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(701)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Comunitária exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(702)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Confessional exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(703)),global:(enabled:(space:!t),filterEntity:space))">Instituição Privada Filantrópica exclusivamente voltada para formação artistica e cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(800)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Artes Cênicas</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(801)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Artes Visuais</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(802)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Audiovisual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(803)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Hip Hop</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(804)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Cultura Digital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(805)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Música</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(806)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Cultura Popular</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(807)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Gestão Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(808)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Pontinhos de cultura</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(809)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Patrimônio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(810)),global:(enabled:(space:!t),filterEntity:space))">Escola livre de Design</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(200)),global:(enabled:(space:!t),filterEntity:space))">Bens culturais de natureza material</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(201)),global:(enabled:(space:!t),filterEntity:space))">Bem Imóvel</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(202)),global:(enabled:(space:!t),filterEntity:space))">Bem Arqueológico</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(203)),global:(enabled:(space:!t),filterEntity:space))">Bem Paisagístico</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(204)),global:(enabled:(space:!t),filterEntity:space))">Bem Móvel ou Integrado</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(205)),global:(enabled:(space:!t),filterEntity:space))">Sitio Histórico</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(206)),global:(enabled:(space:!t),filterEntity:space))">Documentação</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(207)),global:(enabled:(space:!t),filterEntity:space))">Coleções</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(space:(types:!(501)),global:(enabled:(space:!t),filterEntity:space))">Palco de Rua</a>
+                            </div>
+        </div>
+
+    </div>
+    <div class="box">
+                    <a href="http://spcultura.prefeitura.sp.gov.br/espaco/109/">
+                <div class="random-feature" style="background-image: url(http://spcultura.prefeitura.sp.gov.br/files/space/109/file/23306/bp_belmonte_sylvia_masini-4740bd7643f13380ce4ba5128e0c8104.jpg);">
+                    <div class="feature-content">
+                        <h3>destaque</h3>
+                        <h2>Biblioteca Pública Municipal Belmonte  (Temática em Cultura Popular)</h2>
+                        <p>A Biblioteca Belmonte, localizada no eixo cultural e comercial do bairro de Santo Amaro, zona sul de São Paulo, tornou-se temática em cultura popular a partir de agosto de 2007. Além de investir na cultura popular, a biblioteca atua na formação dos jovens, orientando pesquisas, trabalhos escolares e acadêmicos, e com crianças, por meio de leitura e de contação de histórias.</p>
+                    </div>
+                </div>
+            </a>
+                <a class="btn btn-accent btn-large add" href="http://spcultura.prefeitura.sp.gov.br/espacos/create/">Adicionar espaço</a>
+        <a class="btn btn-accent btn-large" href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(enabled:(space:!t),filterEntity:space))">Ver tudo</a>
+    </div>
+</article>
+
+<article id="home-projects" class="js-page-menu-item home-entity clearfix">
+    <div class="box">
+        <h1><span class="icon icon-project"></span> Projetos</h1>
+        <div class="clearfix">
+            <div class="statistics">
+                <div class="statistic">1675</div>
+                <div class="statistic-label">projetos cadastrados</div>
+            </div>
+            <div class="statistics">
+                <div class="statistic">277</div>
+                <div class="statistic-label">projetos da SMC</div>
+            </div>
+        </div>
+        <p>Reúne projetos culturais ou agrupa eventos de todos os tipos. Neste espaço, você encontra leis de fomento, mostras, convocatórias e editais criado pela Secretaria Municipal de Cultura, além de diversas iniciativas cadastradas pelos usuários da plataforma. Cadastre-se e divulgue seus projetos.</p>
+        <h4>Encontre projetos por</h4>
+        <ul class="abas clearfix">
+            <li class="active"><a href="#project-types">Tipo</a></li>
+        </ul>
+        <div id="project-types"  class="tag-box">
+            <div>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(1)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Festival</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(2)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Encontro</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(3)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Sarau</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(4)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Reunião</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(5)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Mostra</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(6)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Convenção</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(7)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Ciclo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(8)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Programa</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(9)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Edital</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(10)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Concurso</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(11)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Exposição</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(12)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Jornada</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(13)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Exibição</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(14)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Feira</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(15)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Intercâmbio Cultural</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(16)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Festa Popular</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(17)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Festa Religiosa</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(18)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Seminário</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(19)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Congresso</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(20)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Palestra</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(21)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Simpósio</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(22)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Fórum</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(23)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Curso</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(24)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Oficina</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(25)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Jornada</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(26)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Conferência Pública Setorial</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(27)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Conferência Pública Nacional</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(28)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Conferência Pública Estadual</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(29)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Conferência Pública Municipal</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(30)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Parada e Desfile Militar</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(31)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Parada e Desfile Cívico</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(32)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Parada e Desfile Festivo</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(33)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Parada e Desfile Político</a>
+                                    <a class="tag" href="http://spcultura.prefeitura.sp.gov.br/busca/##(project:(types:!(34)),global:(enabled:(project:!t),filterEntity:project,viewMode:list))">Parada e Desfile de Ações Afirmativas</a>
+                            </div>
+        </div>
+    </div>
+
+    <div class="box">
+                    <a href="http://spcultura.prefeitura.sp.gov.br/projeto/1946/">
+                <div class="random-feature no-image">
+                    <div class="feature-content">
+                        <h3>destaque</h3>
+                        <h2>Spcine  Linha 1 - 2016 - CANCELADO</h2>
+                        <p>PROGRAMA DE INVESTIMENTO SPCINE 2016 + BRASIL DE TODAS AS TELAS
+
+LINHA 1 | Produção de Longas-metragens | Processo Seletivo | Proponentes: Produtoras | Total de Recursos: R$ 7 milhões</p>
+                    </div>
+                </div>
+            </a>
+                <a class="btn btn-accent btn-large add" href="http://spcultura.prefeitura.sp.gov.br/projetos/create/">Adicionar projeto</a>
+        <a class="btn btn-accent btn-large" href="http://spcultura.prefeitura.sp.gov.br/busca/##(global:(filterEntity:project,viewMode:list))">Ver tudo</a>
+    </div>
+</article>
+
+<article id="home-developers" class="js-page-menu-item home-entity clearfix">
+    <div class="box">
+        <h1><span class="icon icon-developers"></span> Desenvolvedores</h1>
+        <p>Existem algumas maneiras de desenvolvedores interagirem com o SP Cultura. A primeira é através da nossa <a href="https://github.com/hacklabr/mapasculturais/blob/master/doc/api.md" target="_blank">API</a>. Com ela você pode acessar os dados públicos no nosso banco de dados e utilizá-los para desenvolver aplicações externas. Além disso, o SP Cultura é construído a partir do sofware livre <a href="http://institutotim.org.br/project/mapas-culturais/" target="_blank">Mapas Culturais</a>, criado em parceria com o <a href="http://institutotim.org.br" target="_blank">Instituto TIM</a>, e você pode contribuir para o seu desenvolvimento através do <a href="https://github.com/hacklabr/mapasculturais/" target="_blank">GitHub</a>. </p>
+    </div>
+</article>
+<nav id="home-nav">
+    <ul>
+        <li><a class="up icon icon-arrow-up" href="#"></a></li>
+        <li id="nav-intro">
+            <a class="icon icon-home" href="#home-intro"></a>
+            <span class="nav-title">Introdução</span>
+        </li>
+        
+                    <li id="nav-events">
+                <a class="icon icon-event" href="#home-events"></a>
+                <span class="nav-title">Eventos</span>
+            </li>
+                    
+                    <li id="nav-agents">
+                <a class="icon icon-agent" href="#home-agents"></a>
+                <span class="nav-title">Agentes</span>
+            </li>
+                    
+                    <li id="nav-spaces">
+                <a class="icon icon-space" href="#home-spaces"></a>
+                <span class="nav-title">Espaços</span>
+            </li>
+                    
+                    <li id="nav-projects">
+                <a class="icon icon-project" href="#home-projects"></a>
+                <span class="nav-title">Projetos</span>
+            </li>
+                    
+        <li id="nav-developers">
+            <a class="icon icon-developers" href="#home-developers"></a>
+            <span class="nav-title">Desenvolvedores</span>
+        </li>
+        <li><a class="down icon icon-select-arrow" href="#"></a></li>
+    </ul>
+</nav>
+</section>
+<footer id="main-footer"></footer>
+<script type="text/html" id="agent-search-result-template">
+    <div class="search-agent clearfix">
+        <img class="search-agent-thumb" src='{{thumbnail}}' alt="{{name}}" />
+        <h1>{{name}}</h1>
+        <div class="objeto-meta">
+            <div>
+                <span class="label">área de atuação:</span>
+                {{areas}}
+            </div>
+            <div><span class="label">tipo:</span>{{type.name}}</div>
+        </div>
+    </div>
+</script>
+<iframe id="require-authentication" src="" style="display:none; position:fixed; top:0%; left:0%; width:100%; height:100%; z-index:100000"></iframe>
+</body>
+<!-- (GET) / - executed in 0.0854 seconds. (MEM: 9.25MB) --></html>

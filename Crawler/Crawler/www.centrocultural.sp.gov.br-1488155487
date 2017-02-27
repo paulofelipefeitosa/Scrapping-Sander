@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br"><!-- InstanceBegin template="/Templates/templadePROGRAMACAOINDEX.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Centro Cultural São Paulo ________________________________________________________________________________________________________</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><style type="text/css">
+<!--
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFFFFF;
+}
+-->
+</style><!-- InstanceEndEditable -->
+<link href="camadasPROGRAMACAOindex.css" rel="stylesheet" type="text/css" />
+
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #FF9900}
+-->
+</style>
+
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+
+</head>
+
+<body onload="MM_preloadImages('imagens/icone_imagens_GG2.png','imagens/icone_video_GG2.png','imagens/icone_face_GG2.png','imagens/icone_twitter_GG2.png')">
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="http://cluster-piwik.locaweb.com.br/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 13336]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<div id="topocinza">
+<div id="menuroda" style="" >
+<a href="http://www.centrocultural.sp.gov.br/agenda_sonora/">AGENDA SONORA</a> | <a href="http://www.centrocultural.sp.gov.br/livreacesso/">ACESSIBILIDADE</a> | <a href="#menuprincipal">MENU PRINCIPAL</a> | <a href="#centro">CONTEÚDO</a> | <a href="#mapa">MAPA DO SITE</a> | <a href="http://www.centrocultural.sp.gov.br/">HOME</a></div>
+</div>
+
+<div id="pesquisa">
+<form action="http://www.google.com.br/custom" method="get" target="google_window" id="form"> 
+<p align="left"> <input type="hidden" name="domains2" value="www.centrocultural.sp.gov.br"> 
+<input name="q" type="text" id="pesquisainput" value="" size="20" maxlength="255">
+&nbsp; 
+<input name="sa" type="submit" id="pesquisainputboton" value="BUSCAR"> 
+<input type="radio" name="sitesearch" value="www.centrocultural.sp.gov.br" checked /> 
+<span class="style1" color="#000000"><font face="Arial, Helvetica, sans-serif"><b class="titulo">CCSP</b></font></span> 
+<input type="radio" name="sitesearch" value=""> <span color="#000000"><span class="style1"><font face="Arial, Helvetica, sans-serif"><b class="titulo">WEB</b></font></span></span> 
+<input type="hidden" name="client" value="pub-3170367829209785"> <input type="hidden" name="forid" value="1"> 
+<input type="hidden" name="ie" value="ISO-8859-1"> <input type="hidden" name="oe" value="ISO-8859-1"> 
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:CC0000;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:50;LW:242;L:http://http://www.centrocultural.sp.gov.br/imagens/banner_top.swf;S:http://;FORID:1;"> 
+<input type="hidden" name="hl2" value="pt"> <!-- SiteSearch Google --> </p></form>
+</div>
+
+<!-- InstanceBeginEditable name="banner" -->
+<div id="topobanner">
+<a name="topo" id="topo"></a>
+<!-- Begin DWUser_EasyRotator -->
+<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+<div class="dwuserEasyRotator" style="width: 906px; height: 490px; position:relative; text-align: left;" data-erconfig="{autoplayEnabled:true, pro_infiniteLoop:true, pro_mouseWheelAndSwipeEnabled:true, autoplayDelay:4000, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-100-54-55-53-48-54-54-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-ername="banner_programacao" data-ertid="{rf6g485vk0267620071531}">
+  <div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+	<li>
+		<img class="main" src="ima-fev/TEATRO-leite-derramado.jpg" />
+		<img class="thumb" src="ima-fev/TEATRO-leite-derramado.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/TEATRO-tempo-de-viver.jpg" />
+		<img class="thumb" src="ima-fev/TEATRO-tempo-de-viver.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/TEATRO-sobre-o-voo.jpg" />
+		<img class="thumb" src="ima-fev/TEATRO-sobre-o-voo.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/MUSICA-brasil-prog-festival.jpg" />
+		<img class="thumb" src="ima-fev/MUSICA-brasil-prog-festival.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/LITERATURA-meu-primeiro-ass.jpg" />
+		<img class="thumb" src="ima-fev/LITERATURA-meu-primeiro-ass.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/INFANTO-JUVENIL-sobre-o-voo.jpg" />
+		<img class="thumb" src="ima-fev/INFANTO-JUVENIL-sobre-o-voo.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/INFANTO-JUVENIL-contacao-de.jpg" />
+		<img class="thumb" src="ima-fev/INFANTO-JUVENIL-contacao-de.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/DANCA-generica.jpg" />
+		<img class="thumb" src="ima-fev/DANCA-generica.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/CINEMA-PV-o-vigador-do-futu.jpg" />
+		<img class="thumb" src="ima-fev/CINEMA-PV-o-vigador-do-futu.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/CINEMA-PV-Instinto-selvagem.jpg" />
+		<img class="thumb" src="ima-fev/CINEMA-PV-Instinto-selvagem.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/CINEMA-Paul-Verhoeven.jpg" />
+		<img class="thumb" src="ima-fev/CINEMA-Paul-Verhoeven.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/ARTES-VISUAIS-EXPOSICOES-fo.jpg" />
+		<img class="thumb" src="ima-fev/ARTES-VISUAIS-EXPOSICOES-fo.jpg" />
+	</li>
+	<li>
+		<img class="main" src="ima-fev/ACAOEDUCATIVA-beatbox.jpg" />
+		<img class="thumb" src="ima-fev/ACAOEDUCATIVA-beatbox.jpg" />
+	</li>
+</ul>
+</div>
+  <div data-ertype="layout" data-ertemplatename="NONE" style="">
+    <div class="erimgMainOneUp" style="position: absolute; left: 0; right: 0; top:0; bottom:0;" data-erconfig="{___numTiles:3, scaleMode:'fillArea', transition:'random', crossFade:false, imgType:'main', loopNextButton:true, __alwaysPreviousButton:true, arrowButtonMode:'always'}">
+      <div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
+        <div class="erimgMainOneUp_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+      </div>
+      <div class="erimgMain_arrowLeft" style="position:absolute; left: 5px; top: 50%; margin-top: -30px;" data-erconfig="{image:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/min_arrow_small/left_up.png', image2:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/min_arrow_small/left_over.png'}"></div>
+      <div class="erimgMain_arrowRight" style="position:absolute; right: 5px; top: 50%; margin-top: -30px;" data-erconfig="{image:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/min_arrow_small/right_up.png', image2:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/min_arrow_small/right_over.png'}"></div>
+    </div>
+    <div style="position: absolute; left:0;right:0;bottom:0; background: #000; background: rgba(0,0,0,0.7); padding: 10px; font-size: 10px; font-family: 'Lucida Grande', 'Lucida Sans', Arial, _sans; color: #FFF;">
+      <div class="erdynamicText" data-erfield="title" style="font-weight: bold; padding:0; margin:0;"></div>
+      <div class="erdynamicText" data-erfield="desc" style="color: #CCC; padding:0; margin: 6px 0 0 0;"></div>
+    </div>
+    <div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;"> This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com. <br />
+      <br />
+      Need a powerful <a style="color:#FFF;" href="http://www.dwuser.com/flashslideshow/" target="_blank">Flash slideshow</a> creator with built-in iPhone/iPad/Android support?  EasyRotator is supported by the <a style="color:#FFF;" href="http://www.dwuser.com/flashslideshow/" target="_blank">XML Flash Slideshow v4 Software</a>. <br />
+      <br />
+      <a style="color:#FFF;" href="#" class="erabout_ok">OK</a></div>
+    <noscript>
+      Rotator powered by <a href="http://www.dwuser.com/easyrotator/">EasyRotator</a>, a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+      </noscript>
+    <script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+  </div>
+</div>
+<!-- End DWUser_EasyRotator -->
+</div>
+<!-- InstanceEndEditable -->
+</div>
+</div>
+<div id="menu">
+  <h1><a name="menuprincipal" id="menuprincipal"></a>&nbsp;<a href="Bibliotecas.html">BIBLIOTECAS</a> | <a href="Colecoes.html">COLEÇÕES</a> | <a href="programacao.html">PROGRAMAÇÃO</a> | <a href="Acao_Educativa.html">AÇÃO EDUCATIVA</a> | <a href="http://www.ccsplab.org/maisccsp/">+CCSP</a> | <a href="Sobre_o_CCSP.html">SOBRE O CCSP</a> | <a href="CCSP_editais.html">EDITAIS</a></h1>
+</div>
+
+<!-- InstanceBeginEditable name="conteudo" -->
+<div id="conteudo" >
+  <p><a name="abril" id="abril"></a></p>
+  <p>&nbsp;</p>
+  <div id="h0">Programação por dia  </div>
+  <div class="caixinhaDIA">
+    <p><a href="http://www.centrocultural.sp.gov.br/programacao_diaria.html">PROGRAMAÇÃO COMPLETA DIA A DIA</a></p>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  
+   <p>&nbsp;</p>
+    <p id="h2">Programação por área</p>
+    <div class="caixinha2">
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_artes_visuais_1.html">ARTES VISUAIS E EXPOSIÇÕES</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_cinema_1.html">CINEMA</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_danca_1.html">DANÇA</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_literatura_1.html">LITERATURA </a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_musica_1.html">MÚSICA </a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_teatro_1.html">TEATRO</a></p>
+  </div>
+    <div class="caixinha2">
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_cursos_e_oficinas_1.html">CURSOS E OFICINAS</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_debates_e_palestras_1.html">DEBATES E PALESTRAS</a></p>
+  </div>
+    <div class="caixinha2">
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_acaoeducativa_1.html">AÇÃO EDUCATIVA</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/livreacesso/programacao_livre_acesso.html">ACESSIBILIDADE</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_especial_1.html">ESPECIAL</a></p>
+      <p><a href="http://www.centrocultural.sp.gov.br/programacao_infanto_juvenil_1.html"> INFANTO-JUVENIL</a></p>
+  </div>
+  <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</div>
+  <p></p>
+</div>
+<!-- InstanceEndEditable -->
+<div id="rodape">
+<div id="menuroda" style="" >
+  <table width="907" border="0" align="center" cellpadding="10" cellspacing="2">
+    <tr>
+      <td width="181" valign="top"><p><strong><a name="mapa" id="mapa"></a></strong><strong><img src="bolinha_vermelha.jpg" alt="bolinha_vermelha" width="9" height="9" align="absmiddle" />&nbsp;<a href="Bibliotecas.html">BIBLIOTECAS</a></strong></p>
+          <p> <a href="Biblioteca_Sergio_Milliet.html">Sérgio Milliet</a> <br />
+            <a href="Biblioteca_Alfredo_Volpi.html">Alfredo Volpi</a> </p>
+        <p><a href="Biblioteca_Louis_Braille.html">Louis Braille </a><br />
+              <a href="Biblioteca_Gibiteca_Henfil.html">Gibiteca Henfil</a><br />
+              <a href="Sala_de_Leitura.html">Sala de leitura infanto-juvenil</a><br />
+              <a href="Audiovisuais_laboratorio_de_linguas.html">Laboratório de línguas</a><br />
+            <a href="Biblioteca_Culturas_Surdas.html">Culturas Surdas</a></p>
+        <p><a href="Bibliotecas_horarios.html">Horários</a></p>
+        <p align="left">&nbsp;</p></td>
+      <td width="155" valign="top"><p align="left"><strong><img src="bolinha_vermelha.jpg" alt="bolinha_vermelha" width="9" height="9" align="absmiddle" />&nbsp;<a href="Colecoes.html">COLEÇÕES</a></strong></p>
+          <p align="left"> <a href="Colecoes_arquivo_multimeios.html">Arquivo Multimeios</a> <br />
+              <a href="Colecoes_arte_da_cidade.html">Cole&ccedil;&atilde;o de Arte da Cidade </a><br />
+              <a href="Colecoes_Discoteca.html">Discoteca Oneyda Alvarenga</a><br />
+              <a href="Colecoes_Missao_de_Pesquisa_Folclorica.html">Miss&atilde;o de Pesquisas Folcl&oacute;ricas </a><br />
+              <a href="Colecoes_Laboratorio_de_Conservacao_e_Restauro.html">Laborat&oacute;rio de Conserva&ccedil;&atilde;o e Restauro</a><br />
+              <a href="Colecoes_Memoria_CCSP.html">Núcleo Memória do CCSP</a></p></td>
+      <td width="150" valign="top"><p align="left"><strong><img src="bolinha_vermelha.jpg" alt="bolinha_vermelha" width="9" height="9" align="absmiddle" />&nbsp;<a href="programacao.html">PROGRAMAÇÃO</a></strong></p>
+          <p align="left"><a href="http://www.centrocultural.sp.gov.br/programacao_diaria.html">Por dia </a><br />
+</p>
+          <p align="left">Por &aacute;rea <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_acaoeducativa_1.html">Aç&atilde;o educativa</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_livre_acesso.html">Acessibilidade</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_artes_visuais_1.html">Artes   visuais e exposições</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_cinema_1.html">Cinema</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_cursos_e_oficinas_1.html">Cursos e Oficinas</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_danca_1.html">Dan&ccedil;a </a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_debates_e_palestras_1.html">Debates e palestras</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_especial_1.html">Especial </a><br />
+&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_infanto_juvenil_1.html">&nbsp;Infanto-juvenil </a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_literatura_1.html">Literatura</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_musica_1.html">M&uacute;sica</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/programacao_teatro_1.html">Teatro</a></p></td>
+      <td width="152" valign="top"><p><strong><img src="bolinha_vermelha.jpg" alt="bolinha_vermelha" width="9" height="9" align="absmiddle" />&nbsp;<a href="Acao_Educativa.html">AÇÃO EDUCATIVA</a></strong></p>
+          <p> <a href="Acao_Educativa_Eixo_Cruzado.html">Eixo Cruzado</a><br />
+              <a href="Acao_Educativa_C_C_S_P.html">Centro Cultural, Seu Pr&oacute;prio</a> <br />
+              <a href="Acao_Educativa_Professor_no_Centro.html">Professor no Centro </a><br />
+              <a href="Acao_Educativa_Encontros_Mediados.html">Encontros Mediados </a><br />
+            <a href="Acao_Educativa_Edital_Mediacao_em_Arte.html">Edital Media&ccedil;&atilde;o em Arte</a></p>
+        <p><strong><img src="bolinha_vermelha.jpg" alt="bolinha_vermelha" width="9" height="9" align="absmiddle" />&nbsp;<a href="http://www.ccsplab.org/maisccsp/">+ CCSP</a></strong></p>
+        <p><a href="http://www.ccsplab.org/maisccsp/pagina-exemplo/">O que é?</a><br />
+              <a href="http://www.ccsplab.org/maisccsp/">Seletas</a><br />
+              <a href="http://www.ccsplab.org/maisccsp/category/hotsites/">Hotsites</a><br />
+          <a href="http://www.ccsplab.org/maisccsp/category/exposicoes-online/">Exposições online</a></p></td>
+      <td width="157" valign="top"><p><strong><img src="bolinha_vermelha.jpg" alt="bolinha_vermelha" width="9" height="9" align="absmiddle" />&nbsp;<a href="Sobre_o_CCSP.html">SOBRE O CCSP</a></strong></p>
+          <p><a href="Sobre_o_CCSP.html">Bem-vindo ao CCSP </a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="CCSP_O_que_e_o_Centro_Cultural_Sao_Paulo.html">O que &eacute;&nbsp;</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="CCSP_historico.html">Hist&oacute;rico</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="CCSP_plantas.html">Plantas</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_quer_se_apresentar_no_ccsp.html">Envio de propostas artísticas</a> <br />
+&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_espacos.html">&nbsp;Espaços do CCSP</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_usos.html">Usos dos espaços</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="programacao_calendario.html">Abre e fecha 2017</a> <br />
+<a href="CCSP_contato.html">Contato</a><br />
+<a href="CCSP_servicos.html">Servi&ccedil;os</a> <br />
+&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_servicos.html#rede_sem_fio">&nbsp;Rede sem fio </a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_servicos.html#central">Central de informa&ccedil;&otilde;es</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_servicos.html#restaurante">Restaurante</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_servicos.html#bilheteria">Bilheteria Ingresso Rápido</a> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.centrocultural.sp.gov.br/CCSP_servicos.html#bicicletario">Biciclet&aacute;rio</a><br />
+<a href="http://www.centrocultural.sp.gov.br/livreacesso/">Livre Acesso</a><br />
+<a href="CCSP_folhetaria.html">Folhetaria</a><br />
+<a href="http://www.centrocultural.sp.gov.br/CCSP_fablab.html">FabLab</a><br />
+<a href="CCSP_editais.html">Editais</a><br />
+<a href="CCSP_informativo.html">Informativos</a><br />
+<a href="CCSP_Cessao_de_espaco.html">Cessão 
+              de espaço</a><br />
+              <a href="http://www.aaccsp.org.br/" target="_blank">Associa&ccedil;&atilde;o 
+              Amigos do CCSP</a><br />
+              <a href="CCSP_Parcerias.html">Parcerias</a><br />
+          <a href="CCSP_Sala_de_imprensa.html">Sala de imprensa</a></p></td>
+    </tr>
+    <tr>
+      <td colspan="3" valign="top">Rua Vergueiro 1000&nbsp;&nbsp; -&nbsp;&nbsp; CEP 01504-000&nbsp;&nbsp; tel 3397 4002&nbsp;&nbsp; - &nbsp;&nbsp;Paraíso São Paulo - SP<br />
+        ccsp@prefeitura.sp.gov.br</td>
+      <td colspan="2" valign="top">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</div>
+
+<div id="mapaicones">
+  <div id="TabbedPanels1" class="TabbedPanels">
+    <ul class="TabbedPanelsTabGroup">
+      <li class="TabbedPanelsTab" tabindex="0">Mapa de ícones</li>
+      <li class="TabbedPanelsTab" tabindex="0">Ficha técnica</li>
+    </ul>
+    <div class="TabbedPanelsContentGroup">
+      <div class="TabbedPanelsContent">
+        <table width="951" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="47"><div align="center"><img src="imagens/icone_face_P.png" alt="ícone facebook" width="28" height="29" /><br />
+            </div></td>
+            <td width="51"><div align="center"><img src="imagens/icone_twitter_P.png" alt="ícone twitter" width="29" height="29" /></div></td>
+            <td width="46"><div align="center"><img src="imagens/icone_email_P.png" alt="ícone enciar e-mail" width="29" height="29" /></div></td>
+            <td width="43"><div align="center"><img src="imagens/icone_imagens_P.png" alt="ícone imagens" width="29" height="29" /></div></td>
+            <td width="40"><div align="center"><img src="imagens/icone_audio_P.png" alt="ícone audio" width="29" height="29" /></div></td>
+            <td width="45"><div align="center"><img src="imagens/icone_webradio_P.png" alt="ícone webrádio" width="29" height="29" /></div></td>
+            <td width="43"><div align="center"><img src="imagens/icone_video_P.png" alt="ícone vídeo" width="29" height="29" /></div></td>
+            <td width="49"><div align="center"><img src="imagens/icone_destaque_P.png" alt="destaque" width="29" height="29" /></div></td>
+            <td width="43"><div align="center"><img src="imagens/icone_saibamais_P.png" alt="ícone saiba mais" width="29" height="29" /></div></td>
+            <td width="41"><div align="center"><img src="imagens/icone_vejatambem_P.png" alt="ícone veja também" width="26" height="29" /></div></td>
+            <td width="49"><div align="center"><img src="imagens/icone_aviso_P.png" alt="ícone aviso" width="29" height="29" /></div></td>
+            <td width="36"><div align="center"><img src="imagens/icone_obs_P.png" alt="ícone obs" width="29" height="29" /></div></td>
+            <td width="64"><div align="center"><img src="imagens/icone_audiodescricao_P.png" alt="audiodescricao" width="38" height="31" /></div></td>
+            <td width="44"><div align="center"><img src="imagens/icone_libras_P.png" alt="libras" width="32" height="30" /></div></td>
+            <td width="49"><div align="center"><img src="imagens/icone_download_P.png" alt="ícone download" width="29" height="29" /></div></td>
+            <td width="48"><div align="center"><img src="imagens/icone_www_P.png" alt="endereço eletrônico" width="27" height="29" /></div></td>
+            <td width="47"><div align="center"><img src="imagens/icone_inscricoes_abertas_P.png" alt="ícone inscrições abertas" width="29" height="29" /></div></td>
+            <td width="60"><div align="center"><img src="imagens/icone_sem_necessidade_de_in.png" alt="sem necessidade de inscrição" width="29" height="29" /></div></td>
+            <td width="49"><div align="center"><img src="imagens/icone_inscricoes_encerradas.png" alt="ícone inscrições encerradas" width="29" height="29" /></div></td>
+            <td width="57"><div align="center"><img src="imagens/icone_selecionados_P.png" alt="selecionados" width="25" height="24" /></div></td>
+          </tr>
+          <tr>
+            <td><div align="center">facebook</div></td>
+            <td><div align="center">twitter</div></td>
+            <td><div align="center">boletim</div></td>
+            <td><div align="center">imagens</div></td>
+            <td><div align="center">áudio</div></td>
+            <td><div align="center">lab.rádio</div></td>
+            <td><div align="center">vídeo</div></td>
+            <td><div align="center">destaque</div></td>
+            <td><div align="center">saiba mais</div></td>
+            <td><div align="center">veja também</div></td>
+            <td><div align="center">aviso</div></td>
+            <td><div align="center">obs</div></td>
+            <td><div align="center">audiodescrição</div></td>
+            <td><div align="center">libras</div></td>
+            <td><div align="center">download</div></td>
+            <td><div align="center">www ou email</div></td>
+            <td><div align="center">oficinas<br />
+              abertas</div></td>
+            <td><div align="center">oficinas com inscrição</div></td>
+            <td><div align="center">inscrições<br />
+              encerradas</div></td>
+            <td><div align="center">selecionados</div></td>
+          </tr>
+        </table>
+      </div>
+      <div class="TabbedPanelsContent">
+        <table width="112%" border="0" align="center" cellpadding="5" cellspacing="0">
+          <tr>
+            <td width="13%" valign="top">&nbsp;</td>
+            <td width="87%" valign="top"><p><span class="style1">Divisão de Informação e Comunicação</span><br />
+              Direção: Márcio Yonamine<br />
+              Coordenação: Juliene Codognotto</p>
+              <p><span class="style1">Conteúdo online</span> <br />
+                Álvaro Olintho, Danilo Satou, Márcia Dutra, Vinícius Máximo  e Sabrina Haick<br />
+                <br />
+                <span class="style1">Imagens - Núcleo de Fotografia do CCSP </span><br />
+                Edição de imagens: Sossô Parma <br />
+                Fotógrafos: João Mussolin, João Silva e Sossô Parma<br />
+                <br />
+                <span class="style1">Materiais impressos </span><br />
+                Projeto gráfico: Adriane Bertini ,Solange Azevedo e Yeda  Gonçalves <br />
+                Edição de textos: Camile Rodrigues Aragão Costa, Danilo  Satou e Emi Sakai <br />
+              Revisão: Paulo Vinicio de Brito</p>
+              <p><span class="style1">Layout e manutenção </span><br />
+              Web design: Edmarcio da Silva</p>
+              <p><span class="style1">Ateliê sonoro</span><br />
+                Mediação: Marta Fonterrada e Rodrigo Taguchi <br />
+              Coordenação técnica: Eduardo Neves</p>
+              <p><span class="style1">Narrativas CCSP</span><br />
+                Coordenação: Chicão Santos <br />
+                Captação: Celso Toquetti, Giovanni Belleza, José Amador  Martins e Thaís Orchi<br />
+                Edição: Chicão Santos, Giovanni Belleza e Thaís Orchi<br />
+                <br />
+                <span class="style1">Marcia Dutra </span><br />
+                Coordenadora do Site   - 11 3397.4066 <br />
+                Divisão de Informação e Comunicação<br />
+                Rua Vergueiro 1000    -   CEP 01504-000   tel 3397 4002 <br />
+              Paraíso São Paulo – SP</p>              
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <p>&nbsp;</p>
+</div>
+
+<div id="menulateral">
+<div id="menulateral a">
+  <div id="menulateral2">
+    <p>&nbsp;</p>
+    <p><br />
+<a href="http://www.centrocultural.sp.gov.br/programacao_diaria_1.html"><img src="imagens/icone_agenda_GG.png" alt="vídeos" name="Image21" width="42" height="42" border="0" id="Image21" onmouseover="MM_swapImage('Image21','','imagens/icone_agenda_GG2.png',1)" onmouseout="MM_swapImgRestore()" /></a><br />
+                
+            <a href="Bibliotecas_carregando.html"><img src="imagens/icone_biblioteca_GG.png" alt="imagens" name="Image11" width="42" height="42" border="0" id="Image11" onmouseover="MM_swapImage('Image111','','imagens/icone_biblioteca_GG2.png','Image11','','imagens/icone_biblioteca_GG2.png',1)" onmouseout="MM_swapImgRestore()" /></a><br />
+            <a href="GALERIA_fotos_areas_de_convivência.html"><img src="imagens/icone_imagens_GG.png" alt="imagens" name="Image1" width="42" height="42" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','imagens/icone_imagens_GG2.png',1)" onmouseout="MM_swapImgRestore()" /></a><br />
+    <a href="VIDEO.html"><img src="imagens/icone_video_GG.png" alt="vídeos" name="Image2" width="42" height="42" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','imagens/icone_video_GG2.png',1)" onmouseout="MM_swapImgRestore()" /></a><br />
+          <a href="http://www.facebook.com/CentroCulturalSaoPaulo" target="_blank"><img src="imagens/icone_face_GG_colorido1.png" alt="facebook" name="Image4" width="42" height="42" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','imagens/icone_face_GG2.png',1)" onmouseout="MM_swapImgRestore()" /></a><br />
+        <a href="https://twitter.com/centrocultural" target="_blank"><img src="imagens/icone_twitter_GG.png" alt="twitter" name="Image5" width="42" height="42" border="0" id="Image5" onmouseover="MM_swapImage('Image5','','imagens/icone_twitter_GG2.png',1)" onmouseout="MM_swapImgRestore()" /></a><br />
+    </p>
+  </div>
+  <script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+  </script>
+</div>
+</div>
+
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>
+</body>
+<!-- InstanceEnd -->

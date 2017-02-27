@@ -1,0 +1,1084 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- desabilita cache -->
+		<meta http-equiv="PRAGMA" content="NO-CACHE" />
+		<meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+		<!-- padrão de doc IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+		<!-- content type UTF-8 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="/public/favicon.ico" />
+		<title>Sistema de Exposições e Feiras</title>
+		<script>
+			var baseUrl = '';
+			var serverUrl = 'http://expofeiras.gov.br';
+			var dateToday = '26/02/2017';
+			var locale = 'pt_BR';
+			var messages = [];
+			var populateForm = [];
+			var translate = {"required":"Por favor, preencher campo(s) obrigat&oacute;rio(s).","remote":"Por favor, corrija este campo.","email":"Por favor, forne&ccedil;a um endere&ccedil;o eletr&ocirc;nico v&aacute;lido.","url":"Por favor, forne&ccedil;a uma URL v&aacute;lida.","date":"Por favor, forne&ccedil;a uma data v&aacute;lida.","dateISO":"Por favor, forne&ccedil;a uma data v&aacute;lida.","number":"Por favor, forne&ccedil;a um n&uacute;mero v&aacute;lida.","digits":"Por favor, forne&ccedil;a somente d&iacute;gitos.","creditcard":"Por favor, forne&ccedil;a um cart&atilde;o de cr&eacute;dito v&aacute;lido.","equalTo":"Por favor, forne&ccedil;a o mesmo valor novamente.","accept":"Por favor, forne&ccedil;a um valor com uma extens&atilde;o v&aacute;lida.","maxlength":"Por favor, forne&ccedil;a n&atilde;o mais que {0} caracteres.","minlength":"Por favor, forne&ccedil;a ao menos {0} caracteres.","rangelength":"Por favor, forne&ccedil;a um valor entre {0} e {1} caracteres de comprimento.","range":"Por favor, forne&ccedil;a um valor entre {0} e {1}.","max":"Por favor, forne&ccedil;a um valor menor ou igual a {0}.","min":"Por favor, forne&ccedil;a um valor maior ou igual a {0}.","cpfCnpj":"Por favor, forne&ccedil;a um cpf\/cnpj v&aacute;lido.","cpf":"Por favor, forne&ccedil;a um cpf v&aacute;lido.","cnpj":"Por favor, forne&ccedil;a um cnpj v&aacute;lido.","beforeDate":"A data inicial n&atilde;o pode ser maior que a data final.","afterDate":"A data inicial n&atilde;o pode ser maior que a data final.","time":"Por favor, forne&ccedil;a uma hora v&aacute;lida.","beforeDateToday":"A data n&atilde;o pode ser menor que a data de hoje.","afterTime":"O hor&aacute;rio final n&atilde;o pode ser maior que o hor&aacute;rio inicial.","invalidCaptcha":"Captcha inv\u00e1lida","containerMessage":"Preencha corretamente o(s) campo(s) marcado(s)","maximoDe":"m\u00e1ximo de","caracteres":"caracteres","perguntas-frequentes-expandir":"Expandir todas","perguntas-frequentes-fechar":"Recolher todas","perguntas-e-respostas-editSucesso":"Pergunta e Resposta Editada com Sucesso","perguntas-e-respostas-saveSucesso":"Pergunta e Resposta Inserida com Sucesso","msgAguarde":"Aguarde por favor...","msgDescadastrar":"Descadastrar","msgDescadastrarEmail":"Descadastrar e-mail","monthNames":["Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"],"monthNamesShort":["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov.","Dez"],"dayNamesMin":["D","S","T","Q","Q","S","S"]};
+			var urlVoltar = {"referer":false,"uri":"\/calendario-de-eventos"};
+		</script>
+		<!-- Style inserido para evitar que o botão incluir apareça na hora de imprimir os relatórios -->
+		<style>
+			@media print {
+				.btIncluir {
+					display: none !important;
+				}
+			}
+			.espacoBarraGoverno {
+				width: 100% !important;
+				height:20px !important;
+				float: none;
+				padding: 0;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="/public/css/jquery-ui-1.8.13.custom.css" /> 
+		<link rel="stylesheet" type="text/css" href="/public/css/reset.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/base.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/util.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/typography.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/forms.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/box.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/jcarousel.css" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/jquery.fancybox-1.3.4.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/public/css/global.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/public/css/print.css" media="print" />
+		<link rel="stylesheet" type="text/css" href="/public/css/our.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/public/css/jquery.autocomplete.css" />
+		<link rel="stylesheet" type="text/css" href="/public/css/jquery.colorPicker.css" />
+		<link rel="stylesheet" type="text/css" href="/public/css/jquery.tinycarousel.css" />
+		<link rel="stylesheet" type="text/css" href="/public/css/jquery.tokenize.css" />
+
+		<!-- <script type="text/javascript" src="/public/js/jquery-1.6.min.js"></script> -->
+		<script type="text/javascript" src="/public/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="/public/js/LAB/LAB.min.js"></script>
+		<script type="text/javascript" src="/public/js/jquery-ui-1.8.7.custom.min.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.blockUI.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.easing-1.3.pack.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.tablednd_0_5.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.tablesorter.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.autocomplete.min.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.colorPicker.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.tinycarousel.min.js"></script>
+		<script type="text/javascript" src="/public/js/global.js"></script>
+		<script type="text/javascript" src="/public/js/jquery.tokenize.js"></script>
+		<script type="text/javascript" src="/public/js/ckeditor/ckeditor.js"></script>
+		<script type="text/javascript" src="/public/js/ckeditor/lang/pt-br.js"></script>
+		<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/public/css/ie7.css" media="screen"/>
+		<![endif]-->
+		<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/public/css/ie8.css" media="screen"/>
+		<![endif]-->
+		<script type="text/javascript" src="/public/js/ui.dropdownchecklist-1.4-min.js"></script>
+		<script type="text/javascript" src="/public/library/jquery.populate/jquery.populate.pack.js"></script>
+		<script type="text/javascript" src="/public/library/jquery.alphanumeric/jquery.alphanumeric.js"></script>
+		<script type="text/javascript" src="/public/library/jquery.form/jquery.form.js"></script>
+		<script type="text/javascript" src="/public/library/jquery.maskedinput/jquery.maskedinput-1.2.2.min.js"></script>
+		<script type="text/javascript" src="/public/js/our.js"></script>
+	</head>
+	<body id="cale" class="interna mdic">
+		<div id="telhado">
+			<div class="espacoBarraGoverno"></div>
+			<div id="header">
+				<h1>Exposições e Feiras</h1>
+								<div class="boxImagem"><img src="/public/img/logo/LogoExpofeiras-pt_BR.png" width="421" height="96" alt="" /></div>
+                <ul class="menuTopo inline">
+										<li>
+						<a href="/perguntas">
+						<img src="/public/img/ico/perguntas.gif" alt="" /> Perguntas e Respostas</a>
+					</li>
+										<li>
+						<a href="/fale-conosco">
+						<img src="/public/img/ico/fale.gif" alt="" />Fale Conosco</a>
+					</li>
+					<li>
+						<a href="/mapa-do-site">
+						<img src="/public/img/ico/mapa.gif" alt="" />Mapa do Site</a>
+					</li>
+									</ul>
+					<!-- se o usuario nao esta logado exibe o formulario para login  -->
+	<form id="login" method="post" action="/login/logar">
+		<fieldset class="hBox">
+			<div class="campotTexto"><label>E-mail</label>
+				<input type="text" value="" name="tx_email" class="required email" style="width:216px" maxlength="255" />
+			</div>
+			<div class="campotTexto"><label>Senha</label>
+				<input type="password" value="" name="tx_senha" class="required" style="width:150px" maxlength="45" />
+			</div>
+			<div class="noMargin">
+				<input type="submit" class="botao" value="Entrar" />
+			</div>
+			<p><a href="/esqueci-minha-senha">Esqueci minha senha</a></p>
+		</fieldset>
+	</form><!-- #login -->
+				<ul class="menuPrincipal inline">
+	<li class="inic"><a href="/index">Início</a></li>
+					<li class="oque">
+			<a href="/o-que-e">O que é? </a>
+		</li>
+							<li class="cale">
+			<a href="/calendario-de-eventos">Pesquisar Eventos</a>
+		</li>
+							<li class="info">
+			<a href="/informacoes-uteis">Versão para Impressão</a>
+		</li>
+							<li class="avis">
+			<a href="/avisos">Avisos</a>
+		</li>
+							<li class="noti">
+			<a href="/noticias">Notícias</a>
+		</li>
+						</ul>			</div><!-- end #header -->
+		</div><!-- end #telhado -->
+		<div id="asfalto">
+			<div id="geral"><div class="content">
+
+    <div class="headerInt">
+        <img src="/public/img/pic/calen.gif" alt="" class="floatLeft" />
+        <h2 class="titulo floatLeft">Pesquisar Eventos</h2>
+        <p class="rss">
+            <a href="/index/rss" class="indent btRss" title="assine o Feed" target="_blank">RSS</a>
+        </p>
+        <ul class="inline">
+    <li>
+        <a href="#" class="icoVoltar" title="voltar para página anterior">Voltar</a>
+    </li>
+    <li>
+        <a addthis:title="Expofeiras" class="icoComp addthis_button compartilharBox">Compartilhar</a>
+    <li>
+        <a href="#" class="icoAum indent" title="Aumentar texto">Aumentar</a></li>
+    <li>
+        <a href="#" class="icoRedu indent" title="Reduzir texto">Reduzir</a></li>
+    <li>
+        <a href="#enviarPorEmail" class="icoEnviar openEmailMsg2" title="Enviar por e-mail">Enviar por e-mail</a></li>
+    <li>
+        <a href="/calendario-de-eventos/gerar-pdf" class="icoGerar gerarPdf" title="Gerar PDF" target="_blank">Gerar PDF</a></li>
+    <li>
+        <a href="#" class="icoImprimir" title="Imprimir" class="imprimir">Imprimir</a></li>
+</ul>
+<div class="hide"><!-- AddThis novo-->
+<script type="text/javascript">
+var addthis_config = {
+     ui_language: "pr",
+     pubid: "ra-4e3b00666f3fa855",
+     services_compact: 'email, facebook, twitter'
+
+}
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e3b00666f3fa855"></script>
+
+<!--/////////////
+Antigo
+<div id="divBoxCompartilhar" class="modalCont">
+
+</div>
+
+<script>
+/* Código Antigo @Pedro fancyBox substituido por addThis
+    var twitterImg = "";
+    var facebookImg = "";
+    var orkutImg = "";
+    var buzzImg = "";
+
+    $(function(){
+    
+
+        //Código do fancyBox do compartilhar
+        $(".compartilharBox").fancybox({
+            'autoDimensions': true,
+            'transitionIn' : 'none',
+            'transitionOut' : 'none',
+            'titleShow' : false,
+            'onStart': reternoLinkClick
+        });
+
+    });
+
+    //Classe para colocar nos botões para fechar a fancybox
+    $("#divBoxCompartilhar").click(function(){
+
+        $.fancybox.close();
+
+    });
+
+    //Quando clica no link para compartilhar
+    function reternoLinkClick(obj)
+    {
+        //caminho das imagens
+        $("#divBoxCompartilhar").html(null);
+           
+        var url = $(obj).attr('url');
+        var titulo = $(obj).attr('titulo');
+
+        var twitterb = ' <a class="twittershare" href="http://twitter.com/share?count=horizontal&text='+titulo+'&url='+url+'" title="Compartilhe no Twitter" target="_blank"><img alt="Compartilhe no Twitter" src="'+twitterImg+'" border="0" class="sharebutton"/></a> ';
+        var facebookb = ' <a class="facebookshare" href="http://www.facebook.com/sharer.php?u='+url+'&t='+titulo+'" title="Compartilhe no Facebook" target="_blank"><img alt="Compartilhe no Facebook" src="'+facebookImg+'" border="0" class="sharebutton"/></a> ';
+        var orkutb = ' <a class="orkutshare" href="http://promote.orkut.com/preview?nt=orkut.com&tt='+titulo+'&du='+url+'" title="Compartilhe no Orkut" target="_blank"><img alt="Compartilhe no Orkut" src="'+orkutImg+'" border="0" class="sharebutton"/></a> ';
+        var buzzb = ' <a class="buzzshare" href="http://www.google.com/buzz/post?url='+url+'&message='+titulo+'" title="Compartilhe no Google Buzz" target="_blank"><img alt="Compartilhe no Google Buzz" src="'+buzzImg+'" border="0" class="sharebutton"/></a> ';
+        var incorporarHtml = "<br><center>"+twitterb+" "+facebookb+" "+orkutb+" "+buzzb+"</center><br>";
+
+        $("#divBoxCompartilhar").html(incorporarHtml);
+    }
+*/
+</script>
+--></div>
+
+<script>
+$(function(){
+  $(".icoImprimir").print();
+});
+
+$(".icoAum").click(function(){
+  var size= parseInt($(".content").css("font-size"));
+  if(size < 18) {
+    $(".content").css("font-size",size+1)
+  }
+});
+
+$(".icoRedu").click(function(){
+  var size= parseInt($(".content").css("font-size"));
+  if(size >14){
+    $(".content").css("font-size",size-1)
+  }
+});
+
+$('a.icoVoltar').click(function(){
+    urlVoltar = {"referer":false,"uri":"\/calendario-de-eventos"};
+    window.location = urlVoltar.referer;
+})
+
+$('.gerarPdf').click(function () {
+
+    var comp = 'resultado(s)';
+
+    if($(".resultadoBusca ul li").html()!= comp){
+
+        window.open($(this).attr('href'),'_blank');
+        return false;
+
+    }else{
+        return false;
+    }
+});
+</script>
+
+
+
+
+<!-- AddThis Button END -->        <div class="clearBoth"></div>
+    </div><!-- .headerInt -->
+
+    <span class="btFiltrar">Filtrar por:</span>
+    <a href="#setores" class="botamOpen openSet">
+        <img src="/public/img/bot/openSet.gif" alt="" />
+        <span>Setores</span>
+    </a>
+
+    <div id="setores" class="set">
+        <form class="formFiltroSetores">
+            <label for=""><input type="checkbox" name="todos_s" id="todos_s" value="todos_s" />Todos os setores</label>
+            <div class="lista">
+                                <div class="clearBoth"></div>
+                <h4>A</h4>
+                <ul>
+                                        <li><label for="setores-59"><input type="checkbox" name="setores" id="setores-59" value="59">Administração de Empresas e de Recursos Humanos</label></li>
+                                        <li><label for="setores-204"><input type="checkbox" name="setores" id="setores-204" value="204">Agronegócio</label></li>
+                                        <li><label for="setores-2"><input type="checkbox" name="setores" id="setores-2" value="2">Alimentos e Bebidas</label></li>
+                                        <li><label for="setores-3"><input type="checkbox" name="setores" id="setores-3" value="3">Animais Domésticos</label></li>
+                                        <li><label for="setores-6"><input type="checkbox" name="setores" id="setores-6" value="6">Artesanato, Artes e Coleções</label></li>
+                                        <li><label for="setores-5"><input type="checkbox" name="setores" id="setores-5" value="5">Artes Gráficas, Papelarias, Embalagem de Papel, Livro, Material Didático e Educativo</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>B</h4>
+                <ul>
+                                        <li><label for="setores-8"><input type="checkbox" name="setores" id="setores-8" value="8">Bares, Hotéis e Restaurantes</label></li>
+                                        <li><label for="setores-9"><input type="checkbox" name="setores" id="setores-9" value="9">Beleza e Estética</label></li>
+                                        <li><label for="setores-12"><input type="checkbox" name="setores" id="setores-12" value="12">Brindes, Presentes e Brinquedos</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>C</h4>
+                <ul>
+                                        <li><label for="setores-14"><input type="checkbox" name="setores" id="setores-14" value="14">Cine, Foto, Imagem e Som</label></li>
+                                        <li><label for="setores-201"><input type="checkbox" name="setores" id="setores-201" value="201">Comércio Varejista, Atacadista e Franquias</label></li>
+                                        <li><label for="setores-15"><input type="checkbox" name="setores" id="setores-15" value="15">Comunicação, Divulgação e Publicidade</label></li>
+                                        <li><label for="setores-47"><input type="checkbox" name="setores" id="setores-47" value="47">Conservação, Higiene e Limpeza</label></li>
+                                        <li><label for="setores-17"><input type="checkbox" name="setores" id="setores-17" value="17">Coureiro / Calçadista - Calçados e Artefatos, Máquinas e Componentes</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>E</h4>
+                <ul>
+                                        <li><label for="setores-19"><input type="checkbox" name="setores" id="setores-19" value="19">Eletro, Eletrônico e Mecânico</label></li>
+                                        <li><label for="setores-205"><input type="checkbox" name="setores" id="setores-205" value="205">Energia</label></li>
+                                        <li><label for="setores-16"><input type="checkbox" name="setores" id="setores-16" value="16">Engenharia e Arquitetura</label></li>
+                                        <li><label for="setores-206"><input type="checkbox" name="setores" id="setores-206" value="206">Esporte, Lazer e Náutica</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>I</h4>
+                <ul>
+                                        <li><label for="setores-48"><input type="checkbox" name="setores" id="setores-48" value="48">Informática, Tecnologia da Informação e Telecomunicações</label></li>
+                                        <li><label for="setores-24"><input type="checkbox" name="setores" id="setores-24" value="24">Instrumentos Musicais</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>J</h4>
+                <ul>
+                                        <li><label for="setores-207"><input type="checkbox" name="setores" id="setores-207" value="207">Joias, Bijuterias, Pedras e Metais Preciosos</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>L</h4>
+                <ul>
+                                        <li><label for="setores-52"><input type="checkbox" name="setores" id="setores-52" value="52">Lavanderia</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>M</h4>
+                <ul>
+                                        <li><label for="setores-25"><input type="checkbox" name="setores" id="setores-25" value="25">Madeira e Móveis</label></li>
+                                        <li><label for="setores-53"><input type="checkbox" name="setores" id="setores-53" value="53">Meio Ambiente e Saneamento</label></li>
+                                        <li><label for="setores-54"><input type="checkbox" name="setores" id="setores-54" value="54">Metalurgia e Siderurgia</label></li>
+                                        <li><label for="setores-28"><input type="checkbox" name="setores" id="setores-28" value="28">Mineração</label></li>
+                                        <li><label for="setores-202"><input type="checkbox" name="setores" id="setores-202" value="202">Multisetores</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>O</h4>
+                <ul>
+                                        <li><label for="setores-46"><input type="checkbox" name="setores" id="setores-46" value="46">Óptico</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>Q</h4>
+                <ul>
+                                        <li><label for="setores-33"><input type="checkbox" name="setores" id="setores-33" value="33">Químico, Plástico e Petroquímica</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>S</h4>
+                <ul>
+                                        <li><label for="setores-208"><input type="checkbox" name="setores" id="setores-208" value="208">Saúde</label></li>
+                                        <li><label for="setores-27"><input type="checkbox" name="setores" id="setores-27" value="27">Segurança Nacional, Civil e Patrimonial</label></li>
+                                        <li><label for="setores-35"><input type="checkbox" name="setores" id="setores-35" value="35">Sucroalcooleiro</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>T</h4>
+                <ul>
+                                        <li><label for="setores-209"><input type="checkbox" name="setores" id="setores-209" value="209">Têxtil,  Confecção e Vestuário</label></li>
+                                        <li><label for="setores-40"><input type="checkbox" name="setores" id="setores-40" value="40">Transporte e Logística</label></li>
+                                        <li><label for="setores-41"><input type="checkbox" name="setores" id="setores-41" value="41">Turismo</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>U</h4>
+                <ul>
+                                        <li><label for="setores-42"><input type="checkbox" name="setores" id="setores-42" value="42">Utilidades do Lar</label></li>
+                                    </ul>
+                                <div class="clearBoth"></div>
+                <h4>V</h4>
+                <ul>
+                                        <li><label for="setores-58"><input type="checkbox" name="setores" id="setores-58" value="58">Veículos Automotores, Autopeças, Retíficas e Acessórios</label></li>
+                                    </ul>
+                            </div>
+            <button type="submit" class="botao">Filtrar</button>
+        </form>
+    </div><!-- #setores -->
+
+
+    <a href="#" class="botamOpen openEst">
+        <img src="/public/img/bot/openEst.gif" alt="" />
+        <span>Estado</span>
+    </a>
+
+
+    <div id="estados" class="set">
+        <form class="formFiltroSetores">
+            <label for=""><input type="checkbox" name="todos_e" id="todos_e" value="todos_e" />Todos os estados</label>
+            <div class="lista">
+                <ul>
+                                        <li><label for="estados-AC"><input type="checkbox" name="estados" id="estados-AC" value="AC" />Acre</label></li>
+                                        <li><label for="estados-AL"><input type="checkbox" name="estados" id="estados-AL" value="AL" />Alagoas</label></li>
+                                        <li><label for="estados-AP"><input type="checkbox" name="estados" id="estados-AP" value="AP" />Amapá</label></li>
+                                        <li><label for="estados-AM"><input type="checkbox" name="estados" id="estados-AM" value="AM" />Amazonas</label></li>
+                                        <li><label for="estados-BA"><input type="checkbox" name="estados" id="estados-BA" value="BA" />Bahia</label></li>
+                                        <li><label for="estados-CE"><input type="checkbox" name="estados" id="estados-CE" value="CE" />Ceará</label></li>
+                                        <li><label for="estados-DF"><input type="checkbox" name="estados" id="estados-DF" value="DF" />Distrito Federal</label></li>
+                                        <li><label for="estados-ES"><input type="checkbox" name="estados" id="estados-ES" value="ES" />Espírito Santo</label></li>
+                                        <li><label for="estados-GO"><input type="checkbox" name="estados" id="estados-GO" value="GO" />Goiás</label></li>
+                                        <li><label for="estados-MA"><input type="checkbox" name="estados" id="estados-MA" value="MA" />Maranhão</label></li>
+                                        <li><label for="estados-MT"><input type="checkbox" name="estados" id="estados-MT" value="MT" />Mato Grosso</label></li>
+                                        <li><label for="estados-MS"><input type="checkbox" name="estados" id="estados-MS" value="MS" />Mato Grosso do Sul</label></li>
+                                        <li><label for="estados-MG"><input type="checkbox" name="estados" id="estados-MG" value="MG" />Minas Gerais</label></li>
+                                        <li><label for="estados-PA"><input type="checkbox" name="estados" id="estados-PA" value="PA" />Pará</label></li>
+                                        <li><label for="estados-PB"><input type="checkbox" name="estados" id="estados-PB" value="PB" />Paraíba</label></li>
+                                        <li><label for="estados-PR"><input type="checkbox" name="estados" id="estados-PR" value="PR" />Paraná</label></li>
+                                        <li><label for="estados-PE"><input type="checkbox" name="estados" id="estados-PE" value="PE" />Pernambuco</label></li>
+                                        <li><label for="estados-PI"><input type="checkbox" name="estados" id="estados-PI" value="PI" />Piauí</label></li>
+                                        <li><label for="estados-RJ"><input type="checkbox" name="estados" id="estados-RJ" value="RJ" />Rio de Janeiro</label></li>
+                                        <li><label for="estados-RN"><input type="checkbox" name="estados" id="estados-RN" value="RN" />Rio Grande do Norte</label></li>
+                                        <li><label for="estados-RS"><input type="checkbox" name="estados" id="estados-RS" value="RS" />Rio Grande do Sul</label></li>
+                                        <li><label for="estados-RO"><input type="checkbox" name="estados" id="estados-RO" value="RO" />Rondônia</label></li>
+                                        <li><label for="estados-RR"><input type="checkbox" name="estados" id="estados-RR" value="RR" />Roraima</label></li>
+                                        <li><label for="estados-SC"><input type="checkbox" name="estados" id="estados-SC" value="SC" />Santa Catarina</label></li>
+                                        <li><label for="estados-SP"><input type="checkbox" name="estados" id="estados-SP" value="SP" />São Paulo</label></li>
+                                        <li><label for="estados-SE"><input type="checkbox" name="estados" id="estados-SE" value="SE" />Sergipe</label></li>
+                                        <li><label for="estados-TO"><input type="checkbox" name="estados" id="estados-TO" value="TO" />Tocantins</label></li>
+                                    </ul>
+            </div>
+            <button type="submit" class="botao">Filtrar</button>
+        </form>
+    </div><!-- #estados -->
+
+
+    <div class="resultadoBusca">
+        <h4>Resultado da Busca</h4>
+        <ul>
+            <li>290 resultado(s)</li>
+                                            </ul>
+    </div><!-- #resultadoBusca -->
+
+    <table class="boxEvento">
+                			<tr class="tituloMes">
+				<td>
+					::
+										03					de					2017				</td>
+			</tr>
+                        <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4716" id="btLembreMe-4716" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                  
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4716">
+                         EXPO PARANAVAÍ                    </a>
+                </h2>
+                        
+                    <img src="/m2brimagem/redimensionar/arquivo/0670be2a638a7deb2c87a767d13b370d.jpg/largura/182/altura/92" class="floatRight" alt="EXPO PARANAVAÍ" />
+                
+                <p class="clearLeft bold">
+                     46ª Exposição Feira Agropecuária e Industrial de Paranavaí                    </p>
+                    <p>
+                    03/03/2017 até 12/03/2017<br />
+                    Paranavaí - PR                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4716">Gostei</a>
+							                            <span>588 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4603" id="btLembreMe-4603" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4603" id="btLembreMe-4603" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4603">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4603">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4603">
+                         EXPODIRETO COTRIJAL                    </a>
+                </h2>
+                
+                <p class="clearLeft bold">
+                     18ª Expodireto Cotrijal                    </p>
+                    <p>
+                    06/03/2017 até 10/03/2017<br />
+                    Não-Me-Toque - RS                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4603">Gostei</a>
+							                            <span>522 gostaram deste evento</span>
+                        </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4646" id="btLembreMe-4646" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4646" id="btLembreMe-4646" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4646">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4646">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4646">
+                         FEIRA DO BEBE E GESTANTE BH                    </a>
+                </h2>
+                
+                <p class="clearLeft bold">
+                     60ª Feira do Bebê e Gestante e Moda Infato Juvenil                    </p>
+                    <p>
+                    07/03/2017 até 12/03/2017<br />
+                    Belo Horizonte - MG                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4646">Gostei</a>
+							                            <span>601 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4762" id="btLembreMe-4762" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4762" id="btLembreMe-4762" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4762">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4762">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4762">
+                         EXPO-UMUARAMA                    </a>
+                </h2>
+                        
+                    <img src="/m2brimagem/redimensionar/arquivo/cef0a713d275d2f6630c3817d73423ee.jpg/largura/182/altura/92" class="floatRight" alt="EXPO-UMUARAMA" />
+                
+                <p class="clearLeft bold">
+                     43ª Exposição Feira Agropecuária, Industrial e Comercial de Umuarama                    </p>
+                    <p>
+                    09/03/2017 até 19/03/2017<br />
+                    UMUARAMA - PR                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4762">Gostei</a>
+							                            <span>568 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4425" id="btLembreMe-4425" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4425" id="btLembreMe-4425" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4425">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4425">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4425">
+                         MOVELPAR                    </a>
+                </h2>
+                        
+                    <img src="/m2brimagem/redimensionar/arquivo/bfc2152db85d54d29ed5c85e443cc69e.jpg/largura/182/altura/92" class="floatRight" alt="MOVELPAR" />
+                
+                <p class="clearLeft bold">
+                     11ª Feira de Móveis do Estado do Paraná                    </p>
+                    <p>
+                    13/03/2017 até 16/03/2017<br />
+                    Arapongas - PR                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4425">Gostei</a>
+							                            <span>808 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4493" id="btLembreMe-4493" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4493" id="btLembreMe-4493" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4493">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4493">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4493">
+                         RIO ARTES MANUAIS                    </a>
+                </h2>
+                
+                <p class="clearLeft bold">
+                     11ª Rio Artes Manuais                    </p>
+                    <p>
+                    15/03/2017 até 19/03/2017<br />
+                    Rio de janeiro - RJ                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4493">Gostei</a>
+							                            <span>711 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4465" id="btLembreMe-4465" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4465" id="btLembreMe-4465" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4465">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4465">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4465">
+                         Expoagro Afubra                    </a>
+                </h2>
+                        
+                    <img src="/m2brimagem/redimensionar/arquivo/af003f2ea1a05f50c7fc164ea1885d86.jpg/largura/182/altura/92" class="floatRight" alt="Expoagro Afubra" />
+                
+                <p class="clearLeft bold">
+                     17ª Expoagro Afubra                    </p>
+                    <p>
+                    21/03/2017 até 23/03/2017<br />
+                    Rio Pardo - RS                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4465">Gostei</a>
+							                            <span>770 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                <tr width="50px">
+                    <td>
+                        <!--<a href="/calendario-de-eventos/lembrete/sq_eventos/4655" id="btLembreMe-4655" class="btLembreMe  indent">Lembre-me do evento</a>-->
+
+
+                                          <a href="/calendario-de-eventos/lembrete/sq_eventos/4655" id="btLembreMe-4655" class="btLembreMe ">
+                            <span class="lembrar" style="display: block;" id="lembrar-4655">
+                                Lembre-me do evento                            </span>
+                            <span class="marcado" style="display: none;" id="marcado-4655">
+                                Evento marcado                            </span>
+                        </a>
+                
+
+                        <h2 class="floatLeft">
+                            <a href="/calendario-de-eventos/evento/sq_eventos/4655">
+                         SHOW SAFRA BR 163                    </a>
+                </h2>
+                        
+                    <img src="/m2brimagem/redimensionar/arquivo/edcc57b6957f3cb7fcf6cfd55e1152d3.jpg/largura/182/altura/92" class="floatRight" alt="SHOW SAFRA BR 163" />
+                
+                <p class="clearLeft bold">
+                     4ª Show Safra BR 163                    </p>
+                    <p>
+                    21/03/2017 até 24/03/2017<br />
+                    Lucas do Rio Verde - MT                    </p>
+                    <ul class="inline eventOpt">
+                        <li>
+							<a class="icoGostei" href="/calendario-de-eventos/gostei/sq_eventos/4655">Gostei</a>
+							                            <span>579 gostaram deste evento</span>
+                        </li>
+                                                <li>
+                                <a class="acess" href="#" onclick="return false;">Local acessível a portadores de necessidade especiais</a>
+                            </li>
+                                            </ul>
+                    </td>
+                </tr>
+                                </table>
+    
+                           
+<p class="paginacao">
+            <input type="text" href="/calendario-de-eventos/index/page/0" value="1" class="txPaginacao" param="1"> /
+    <span class="itemTotal">37</span>
+            <a title="Próximo item" href="/calendario-de-eventos/index/page/2"><img alt="" src="/public/img/bot/itemProximo.gif"></a>
+        <a title="Último item" href="/calendario-de-eventos/index/page/37"><img alt="" src="/public/img/bot/itemUltimo.gif"></a>
+    </p>
+    
+
+                            <div class="contentBot"></div>
+                        </div><!-- end .content -->
+
+<div class="hide">
+    <div id="enviarPorEmail" class="modalCont">
+	<h3 class="upperCase">Enviar por e-mail</h3>
+    <p id="containerMessage" class="boxWidth-16"></p>
+	<form id="formEnviarPorEmail" action="/calendario-de-eventos/envio-email" style="clear:both;">
+		<fieldset>
+			<div class="vbox boxWidth-8 labelWidth-8 inputWidth-8 floatLeft">
+				<label for="nome">Seu nome</label>
+				<input type="text" name="txt_nome" id="nome" class="required"/>
+			</div>
+			<div class="vbox boxWidth-8 labelWidth-8 inputWidth-8 floatLeft">
+				<label for="email">Seu e-mail</label>
+				<input type="text" name="txt_email" id="email" class="required email"/>
+			</div>
+			<div class="vbox boxWidth-8 labelWidth-8 inputWidth-8 floatLeft">
+				<label for="nome_amigo">Nome do seu amigo</label><input type="text" name="txt_nome_amigo" id="nome_amigo" class="required"/>
+			</div>
+			<div class="vbox boxWidth-8 labelWidth-8 inputWidth-8 floatLeft">
+				<label for="email_amigo">E-mail do seu amigo</label><input type="text" name="txt_email_amigo" id="email_amigo" class="required email"/>
+			</div>
+			<div class="vbox boxWidth-16 labelWidth-16 inputWidth-16">
+				<label for="msg">Escreva sua mensagem <em>Campo opcional</em></label>
+				<textarea name="txt_msg" id="msg" cols="50" rows="5"></textarea>
+			</div>
+
+			<!-- captcha -->
+			<div class="vBox boxWidth-5 inputWidth-4">
+	<label for="captcha">Digite os caracteres abaixo:</label>
+	<input type="text" id="captcha" name="captcha" maxlength="6" class="required"/>
+</div>
+<div class="vBox boxWidth-5 clearBoth">
+	<div id="captchaimage"><img src="/captcha/image/img1488156423.png" height="65" alt="Captcha Image" /></div>
+	<a href="/calendario-de-eventos" id="refreshimg" onclick="refreshimg(); return false;" title="Clique para atualizar o captcha">Se os caracteres estiverem ilegíveis, clique para gerar outra imagem.</a>
+</div>
+<div class="clearBoth"></div>
+<script type="text/javascript">
+	$(function(){
+		$("#refreshimg").click(function(){
+			refreshimg();
+			return false;
+		});
+	});
+	//atualia a imagem da captcha
+	function refreshimg() {
+		$("#captchaimage").load(baseUrl + '/captcha/rand');
+		return false;
+	}
+</script>
+<style type="text/css">
+	#refreshimg {
+		font-size: 70%;
+		text-align: center;
+	}
+</style>
+			<div class="botoes">
+				<input type="submit" value="Enviar" class="botao enviar" />
+				<input type="button" value="Cancelar" onclick="" class="botao btnCancelar" />
+			</div>
+		</fieldset>
+        <input type='hidden' name="link_evento" value="http://expofeiras.gov.br/calendario-de-eventos">
+	</form>
+	<div class="sucesso">
+		<h4>Mensagem enviada com Sucesso!</h4>
+		<input type="button" value="Fechar" class="botao"  onclick="$.fancybox.close();" />
+	</div>
+</div>
+<script>
+    $(function(){
+            $('.btnCancelar').click(function(){
+                    Message.hide();
+                    $('#formEnviarPorEmail div').removeClass('erro');
+                    $('#formEnviarPorEmail span.erro').remove();
+                    $('#formEnviarPorEmail').resetForm();
+                    $.fancybox.close();
+            })
+    })
+</script></div>
+
+<div class="lateralDir">
+    <div id="selectCal" class="abas">
+    <ul class="inline">
+        <li>
+            <a href="#calAtual">2017</a></li>
+        <li>
+            <a href="#calProxAno">2018</a></li>
+    </ul>
+    <div id="calAtual" class="widgetCalendar2">
+    </div><!-- .widgetCalendar -->
+    <div id="calProxAno" class="widgetCalendar2">
+    </div><!-- .widgetCalendar -->
+</div>
+
+<script>
+    var year = '2017';
+    var data = '';
+    if(data != ''){
+        data = data.substr(5);
+    }
+
+    $(function(){
+        $( "#calAtual"). datepicker({
+            dateFormat: 'mm-dd',
+            /* DESENVOLVIMENTO: tradução dos dias */
+            dayNamesMin: translate.dayNamesMin,
+            onSelect: function(dateText, inst){
+                //remove todos os inputs hiddens do form
+                $('#buscaEvento').find('input:hidden').remove();
+                $('#buscaEvento').find('input:not(:submit)').val('');
+                $('#buscaEvento').append("<input type='hidden' name='data' value='"+ year + '-' + dateText +"'/>")
+                $('#buscaEvento').submit();
+                //Util.redirect('/calendario-de-eventos/index/data/' + year + '-' + dateText + '#calAtual') 
+            },
+            //defaultDate: ''
+            defaultDate: data,
+            /* DESENVOLVIMENTO: tradução dos meses */
+            monthNames: translate.monthNames,
+            monthNamesShort: translate.monthNamesShort
+        });
+
+        $( "#calProxAno"). datepicker({
+            dateFormat: 'mm-dd',
+            /* DESENVOLVIMENTO: tradução dos dias */
+            dayNamesMin: translate.dayNamesMin,
+            onSelect: function(dateText, inst){ Util.redirect('/calendario-de-eventos/index/data/' + (parseInt(year, 10) + 1) + '-' + dateText + '#calProxAno') },
+            //defaultDate: ''
+            defaultDate: data,
+            /* DESENVOLVIMENTO: tradução dos meses */
+            monthNames: translate.monthNames,
+            monthNamesShort: translate.monthNamesShort
+        });        
+        $( "#calProxAno").datepicker( "setDate" , '+1y');
+        
+    })
+</script>
+
+<style>
+    .widgetCalendar2 {
+        clear:both;
+        margin:10px 0;
+        width:180px;
+    }
+</style>    <p class="linkCal">
+        <a href="/calendario-de-eventos"><img src="/public/img/ico/indica.gif" alt="" />Calendário de Eventos</a>
+    </p>
+    <div id="divMsgDadosParaPreencher" class="inputWidth-4">
+        <br/>  <!--<p class="msgErro"> Os campos marcados abaixo são obrigatorios. </p> <br/>-->
+        <p id="pMessage" class="boxWidth-4 containerMessage" ></p>
+    </div>
+    <form id="buscaEvento" method="post" class="buscaAviso" action="/calendario-de-eventos">
+        <p class="bold">Busca de eventos</p>
+        <fieldset class="hBox boxWidth-5">
+            <div class="vBox boxWidth-5 inputWidth-5">
+                <label for="buscaEvent">Evento</label>
+                <input type="text" id="buscaEvent" name="tx_fantasia" value="" />
+            </div>
+            <div class="vBox boxWidth-5 inputWidth-5">
+                <label for="buscaPalavra">Palavra Chave</label>
+                <input type="text" id="buscaPalavra" name="palavra_chave" value="" />
+            </div>
+            <div class="hBox boxWidth-4 labelWidth-4">
+                <label for="buscaInicial">Data Inicial</label>
+                <input type="text" id="buscaInicial" class="datepick date" name="dt_inicio" value=""/>
+            </div>
+            <div class="hBox boxWidth-4 labelWidth-4">
+                <label for="buscaFinal">Data Final</label>
+                <input type="text" id="buscaFinal" class="datepick date" afterDate="#buscaInicial" name="dt_fim" value="" />
+            </div>
+            <div class="vBox boxWidth-4">
+                <input type="submit" class="botao" value="Buscar"  />
+                <!-- <input type="reset" class="botao" value="Limpar"  /> -->
+            </div>
+        </fieldset>
+    </form>
+</div><!-- .lateralDir -->
+
+<script>
+    $(function(){
+        /* $('#divMsgDadosParaPreencher').hide();
+       
+       $('#buscaEvento').submit(function(){
+           al$('#buscaInicial').requiredIf('#buscaFinal');
+            /*if($('#buscaFinal').val() != ''){
+                if($('#buscaInicial').val() == ''){
+                    $('#buscaInicial')
+                    .addClass('required')
+                    .focus()
+                    .parent('div')
+                    .addClass('erro');
+                    $('#divMsgDadosParaPreencher').show();                    
+                    return false;
+                }
+               
+            }            
+            return true
+        return false;
+        });*/
+        
+        Message._container = '#pMessage'
+        $('#buscaInicial').requiredIf('#buscaFinal');
+        $('#buscaEvento').validateForm();
+    })
+</script><script>
+    $(function(){
+        //Janela modal para o enviar email
+    	$(".openEmailMsg2").fancybox({
+    		'autoDimensions': true,
+    		'transitionIn' : 'none',
+    		'transitionOut' : 'none',
+    		'titleShow' : false,
+    		'onComplete': Enviar.enviarEmail.validar,
+    		'onCleanup': Enviar.enviarEmail.reset
+    	});
+
+        $('a.icoGostei').click(function(){
+            //guarda o obj elemento para ser usado na function de retorno
+            var icoGostei = $(this);
+            //faz requisicao ajax para incrementar e pegar o valor incrementado
+            $.getJSON($(this).attr('href'), null, function(r){
+                if(r.type == 'success'){
+                    //em caso de sucesso atualiza o span
+					var labelGostou = 'gostou deste evento';
+					var labelGostaram = 'gostaram deste evento';
+					if (r.nu_acessoweb > 1)
+						icoGostei.parent().find('span').html(r.nu_acessoweb + ' ' + labelGostaram);
+					else
+						icoGostei.parent().find('span').html(r.nu_acessoweb + ' ' + labelGostou);
+                }else{
+                    //em caso de erro exibe a mensagem vinda do php
+                    Modal.message('Erro', r.msg);
+                }
+            });
+            return false;
+        });
+
+        $("#a_filtro_setores").toggle(abreFiltro,fechaFiltro);
+        $("#a_filtro_estados").toggle(abreFiltro,fechaFiltro);
+
+        //tira a seleção de outros estados
+        //caso seja selecionado 'todos'
+        $("#todos_e").click(function(){
+            if($(this).is(':checked')){
+                $("input[name^='estados']").removeAttr('checked');
+                $("input[name^='estados']").attr('disabled', 'true');
+            }else{
+                $("input[name^='estados']").removeAttr('disabled');
+            }
+        });
+
+        //seleciona todos os setores
+        $("#todos_s").click(function(){
+            if($(this).is(':checked')){
+                $("input[name^='setores']").removeAttr('checked');
+                $("input[name^='setores']").attr('disabled', 'true');
+            }else{
+                $("input[name^='setores']").removeAttr('disabled');
+            }
+        });
+
+        $(".formFiltroSetores").submit(function(){
+            var arrInputs = $(this).serializeArray();
+            
+            //remove todos os inputs hiddens do form
+            $('#buscaEvento').find('input:hidden').remove();
+            
+            $.each(arrInputs, function(index, campo){
+                $('#buscaEvento').append("<input type='hidden' name="+campo.name+"[] value='"+campo.value+"'/>")
+            })
+            $('#buscaEvento').submit();
+            //var data = Util.urlZend($(this).serializeArray());
+           // Util.redirect('/calendario-de-eventos/index'+data);
+            return false;
+        });
+
+        paginacaoSemAjax();
+    });
+
+    function abreFiltro(){
+        $(".filtrosCalendario:visible").hide();
+        $("#"+$(this).attr('href')).show();
+        return false;
+    }
+
+    function fechaFiltro(){
+        $("#"+$(this).attr('href')).hide();
+        return false;
+    }
+</script>
+
+
+<style>
+    .filtrosCalendario {
+        background:#eaf4fa;
+        border:1px solid #a3c7e2;
+        text-decoration:none;
+        margin: 0 0 10px 94px;
+        width: 358px;
+        height: 225px;
+    }
+    .tableFiltro td, table.boxEvento tr.par tr.impar td {
+        background:#eaf4fa !important;
+    }
+
+
+    .ui-dialog {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #435862;
+        margin: 5px 0;
+        padding: 5px;
+        width: 170px;
+    }
+
+</style>				<div id="footer">
+					<ul>
+						<li><a style="cursor:default;text-decoration:none;">Departamento de<br /><strong>Promoção Comercial<br />e Investimentos</strong></a></li>
+						<li><a style="cursor:default;text-decoration:none;">Subsecretaria-Geral de<br /><strong>Cooperação, Cultura<br />e Promoção Comercial</strong></a></li>
+						<li><a href="http://www.mre.gov.br" target="_blank">Ministério das<br /><strong>Relações Exteriores</strong></a></li>
+						<li><a style="cursor:default;text-decoration:none;">Departamento de<br /><strong>Políticas de Comércio<br />e Serviços</strong></a></li>
+						<li><a style="cursor:default;text-decoration:none;">Secretaria de<br /><strong>Comércio e Serviços</strong></a></li>
+						<li><a href="http://www.mdic.gov.br" target="_blank" class="lm">Ministério da<br /><strong>Indústria, Comércio Exterior<br> e Serviços</strong></a></li>
+						<li><a href="http://www.brasil.gov.br" target="_blank"><img src="/public/img/logo/governo-federal.png" alt="Brasil.gov" /></a></li>
+					</ul>
+				</div><!-- #footer-->
+				<div class="clearBoth"></div>
+			</div><!-- #geral -->
+			<!-- Formulário para edição rápida de itens nas tabelas -->
+			<div class="hide">
+				<div id="migracao" class="modalCont">
+					<img src="/public/img/ico/informacao.png" class="icon" alt=""/>
+					<p style="padding-top:15px;">
+						Existe(m) formulário(s) vinculado(s) a esta tabela. Para excluir este item é preciso migrar o(s) formulário(s) vinculado(s).<br />
+						Tem certeza que deseja migrar?
+					</p>
+					<p class="clearLeft"><strong>Administração de Empresas e de Recursos Humanos</strong></p>
+					<form action="#">
+						<fieldset class="hBox alignCenter">
+							<input type="button" class="botao" onclick="location.href = 'EXFEI_ADMIN_BUSCA_REGI.php';" value="Sim">
+							<input type="button" class="botao" onclick="$.fancybox.close();" value="Não">
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div><!-- end #asfalto -->
+	</body>
+</html>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32767253-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>

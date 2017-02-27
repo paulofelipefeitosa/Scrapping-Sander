@@ -1,0 +1,1303 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+	
+	<head>
+		<meta charset="utf-8" />
+		
+		<meta http-equiv="language" content="pt">
+		<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.goethe.de/ins/br/pt/m/sta/sap/ver.cfm" >
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width"/>
+		<!-- $$customhtml:metadescription$$ --> <!-- $$customhtml:metakeywords$$ -->
+
+		
+		<script src="//www.goethe.de/resources/relaunch/js/jquery-1.10.2.min.js"></script>
+
+
+		<script src="//www.goethe.de/resources/relaunch/js/gi/queryString/jquery.gi.queryString.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/cookie/jquery.cookie.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/gi/browser/jquery.gi.detectBrowser.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/socialmedia/jquery.socialshareprivacy.js"></script>
+
+		<!-- $$customhtml:sharifffunction$$ -->
+		<script src="//www.goethe.de/resources/relaunch/js/jquery.goethesocial.js"></script>
+
+
+
+		
+		<link rel="shortcut icon" href="//www.goethe.de/resources/relaunch/img/favicon.ico"/>
+		<link rel="icon" sizes="16x16" href="//www.goethe.de/resources/relaunch/img/icon-16x16.png"/>
+		<link rel="shortcut icon" sizes="16x16" href="//www.goethe.de/resources/relaunch/img/icon-16x16.ico" type="image/ico"/>
+		<link rel="shortcut icon" sizes="32x32" href="//www.goethe.de/resources/relaunch/img/icon-32x32.ico" type="image/ico"/>
+		<link rel="icon" sizes="192x192" href="//www.goethe.de/resources/relaunch/img/touch-icon-192x192.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-180x180-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-152x152-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-144x144-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-120x120-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-114x114-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-76x76-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-72x72-precomposed.png"/>
+		<link rel="apple-touch-icon-precomposed" href="//www.goethe.de/resources/relaunch/img/apple-touch-icon-precomposed.png"/>
+		
+				<link rel="alternate" hreflang="pt-BR" href="https://www.goethe.de/ins/br/pt/sta/sap/ver.cfm?" />
+				
+			
+				<link rel="alternate" hreflang="de-BR" href="https://www.goethe.de/ins/br/de/sta/sap/ver.cfm?" />
+				
+			
+
+		
+			<script language="javascript">
+				$.redirectMobileURL('https://www.goethe.de/ins/br/pt/m/sta/sap/ver.cfm?');
+			</script>
+		
+
+		<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+		<link rel="stylesheet" type="text/css" href="//www.goethe.de/resources/relaunch/css/shariff.complete.css">
+		<link rel="stylesheet" type="text/css" href="//www.goethe.de/resources/relaunch/js/fancybox/jquery.fancybox.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="//www.goethe.de/resources/relaunch/css/flexslider.css" media="screen" />
+		
+		
+		<script src="//www.goethe.de/resources/relaunch/js/jwplayer-7.6.1/jwplayer.js" type="text/javascript"></script>
+		<script type="text/javascript">jwplayer.key="yhyT16ral1VPwwowVnsJwHLh+1bCvXVcGir98klQoL8=";</script>
+		
+		
+			<link rel="stylesheet" type="text/css" href="//www.goethe.de/resources/relaunch/css/styles.css"/>
+
+			
+
+			<link rel="stylesheet" type="text/css" href="//www.goethe.de/resources/relaunch/css/dropkick.2.1.7.css"/>
+			<link rel="stylesheet" type="text/css" href="//www.goethe.de/resources/relaunch/js/datepicker/css/datepicker3.css"/>
+
+		
+
+		<!-- Facebook Meta -->
+		<!-- $$customhtml:metadata_facebook$$ -->
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		  <script src="//www.goethe.de/resources/relaunch/js/html5shiv.js"></script>
+		  <link href="//www.goethe.de/resources/relaunch/css/styles_ie.css" rel="stylesheet">
+		<![endif]-->
+		<!--[if IE 9]>
+		  <link href="//www.goethe.de/resources/relaunch/css/styles_ie9.css" rel="stylesheet">
+		<![endif]-->
+
+
+		<link rel="stylesheet" type="text/css" href="//www.goethe.de/css3/relaunch/styles_update.css">
+		<link rel="stylesheet" type="text/css" href="//www.goethe.de/css3/relaunch/print.css">
+		<style type="text/css">
+		.hidden { display:none; }
+		.flexslider { border:0; box-shadow:none;}
+		.flex-control-nav { bottom:-30px; }
+
+		
+
+		</style>
+	<meta name="CONTENS CMS" pid="679398" />
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2017 (c) Relaunch LP Brasilien - Published by CONTENS 4.5.3 - www.contens.com
+Last Update: 2017-02-24 19:14 (Generated: 2017-02-24 21:19, Published: 2017-02-24 21:19)
+sta/sap/ver.cfm (PID: 679398 / FID: 20333046 / HTML / Public / pt )
+<meta name="generator" content="CONTENS 4.5.3" />
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<title>Eventos - Goethe-Institut Brasilien</title>
+		</head>
+
+		<body>
+
+					<script type="text/javascript">
+						var webtrekk = {"contentId":"www_goethe_de.ins.br.pt.sta.sap.event","domain":"REGEXP:\\w*\\.goethe.de","contentGroup":[null,"www.goethe.de","ins","br","pt","sta","sap","event","list"],"trackDomain":"goetheinstitut01.webtrekk.net","trackId":382202390743064,"linkTrack":"standard","customParameter":[null,"de"]};
+					</script>
+					<script type="text/javascript" src="//www.goethe.de/skripte/webtrekk.js"></script><script type="text/javascript">if(typeof(wt_sendinfo) != "undefined")wt_sendinfo();</script>
+					<noscript><div><img src="//goetheinstitut01.webtrekk.net/382202390743064/wt.pl?p=212,&amp;ov=&amp;cr=&amp;oi=&amp;ba=&amp;co=&amp;qn=&amp;ca=&amp;pi=&amp;st=&amp;cd=&amp;cg=" height="1" width="1" alt="" /></div></noscript>
+		<div class="masterContainer" dir="ltr">
+		<div style="display:none" id="kalendertext">
+		  
+		</div>
+
+	<h1 class="hide">Acesso rápido:</h1>
+	<a class="hide zeig" href="#inhalt" tabindex="1" accesskey="1">Ir diretamente ao contéudo (Alt 1)</a><a class="hide zeig" href="#hauptNavigation" accesskey="2">Ir diretamente à navegação secundária (Alt 3)</a><a class="hide zeig" href="#sekundaerNavigation" accesskey="3">Ir diretamente à navegação principal (Alt 2)</a>
+
+
+	<header class="masthead lp">
+		<div class="container" role="navigation">
+			<div class="serviceNavbar">
+				
+<h2 class="hide">Meta navegação:</h2>
+<ul class="metaNavigation">
+
+	
+</ul>
+ 
+
+<h2 class="hide">Mein Goethe.de Account:</h2>
+
+
+<ul class="giAccount">
+
+	
+	<li id="giAccountLoggedIn" class="anmelden dropdown hide"><a data-toggle="dropdown" class="angemeldet-toggle name" role="button" href="#" id="dropAngemeldet">John George</a>
+		<div class="dropdown-menu angemeldet" aria-labelledby="dropAngemeldet" role="menu">
+			<ul>
+				
+				<li><a href="../../../pt/myg.html">Meu Goethe.de</a></li>
+				<li><a href="/services/sso/logout/">Sair</a></li>
+				
+			</ul>
+		</div>
+	</li>
+
+	
+	<li id="giAccountNotLoggedIn" class="anmelden dropdown"><a data-toggle="dropdown" class="login-toggle" role="button" href="#" id="dropAnmeldung">Mein Goethe.de • Login</a>
+		<div id="giSSOLoginBox">
+		<div class="dropdown-menu login" aria-labelledby="dropAnmeldung" role="menu">
+
+			
+			<div class="fancyBoxIntroHeader">
+				<h1>Log-In</h1>
+			</div>
+
+			<a href="#" class="close" onclick="GI_SSO.hideLoginScreen(); return false"></a>
+
+			
+
+		</div>
+		</div>
+	</li>
+</ul>
+
+
+<h2 class="hide">Escolha de língua:</h2>
+	<ul class="sprachauswahl">
+		
+				
+				<li class="aktiv"><span>PT</span></li>
+			
+				
+				<li><a href="../../../de/sta/sap/ver.cfm?">DE</a></li>
+			
+		
+	</ul>
+
+	 
+			</div>
+			<div class="logoClaim" role="banner">
+				<a href="../../../pt/index.html" accesskey="0">
+						
+					
+						<object type="image/svg+xml" data="//www.goethe.de/resources/relaunch/img/gi_logo.svg" title="Logo:Goethe-Institut" class="logo">
+							
+							<img src="//www.goethe.de/resources/relaunch/img/gi_logo_55.png" alt="Logo: Goethe-Institut" class="logo" />
+							
+						</object>
+	 			</a>
+			
+			<div class="lpName">Brasilien</div>
+			
+			<div class="giClaim"><p>Sprache. Kultur. Deutschland.</p></div>
+			</div>
+			<div class="navbar" role="navigation" id="hauptNavigation">
+ 				
+
+
+					<h2 class="hide">Navegação principal:</h2>
+					<ul class="navigation">
+					
+								<li  class=""><a href="../../../pt/index.html">Principal</a></li>
+	
+							
+								<li class="dropdown "><a  class="dropdown-toggle" role="button" href="../../../pt/spr.html" onmouseup="location.href='../../../pt/spr.html';" id="drop2">Língua alemã</a>
+									<span class="abdeckung"></span>
+									<div class="dropdown-menu" aria-labelledby="drop2" role="menu">
+										<div class="hdlContainer"><h1><a href="../../../pt/spr.html">Língua alemã</a></h1></div>
+								
+									<div class="navContainer">
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/spr/kur.html" tabindex="-1" role="menuitem">Cursos de alemão</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/spr/kur/gia.html" tabindex="-1" role="menuitem">no Brasil</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/kur/deu.html" tabindex="-1" role="menuitem">na Alemanha</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/kur/fer.html" tabindex="-1" role="menuitem">Aprender alemão online</a></li>
+							
+									</ul>
+								
+	
+										<ul >
+											<li role="presentation"><h2><a href="../../../pt/spr/prf.html" tabindex="-1" role="menuitem">Exames de alemão</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul  class="last">
+											<li role="presentation"><h2><a href="../../../pt/spr/unt.html" tabindex="-1" role="menuitem">Ensinar alemão</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/spr/unt/ber.html" tabindex="-1" role="menuitem">Assessoria e serviços</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/unt/for.html" tabindex="-1" role="menuitem">Aperfeiçoamento</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/unt/kum.html" tabindex="-1" role="menuitem">Conceitos e materiais</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/unt/ver.html" tabindex="-1" role="menuitem">Concursos e eventos</a></li>
+							
+									</ul>
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/spr/ueb.html" tabindex="-1" role="menuitem">Praticar alemão gratuitamente</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul >
+											<li role="presentation"><h2><a href="../../../pt/spr/eng.html" tabindex="-1" role="menuitem">Nosso engajamento para alemão</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/spr/eng/pas.html" tabindex="-1" role="menuitem">Iniciativa “Escolas: parceiras para o futuro”</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/eng/apd.html" tabindex="-1" role="menuitem">Portal Alumni Alemanha</a></li>
+							
+									</ul>
+								
+	
+										<ul  class="last">
+											<li role="presentation"><h2><a href="../../../pt/spr/wdl.html" tabindex="-1" role="menuitem">Por que aprender alemão?</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/spr/pqe.html" tabindex="-1" role="menuitem">Estudar na Alemanha</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/spr/pqe/por.html" tabindex="-1" role="menuitem">Motivos para estudar na Alemanha</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/osc.html" tabindex="-1" role="menuitem">O que fazer para estudar na Alemanha?</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/osi.html" tabindex="-1" role="menuitem">O sistema de ensino superior na Alemanha</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/ost.html" tabindex="-1" role="menuitem">O Studienkolleg</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/vis.html" tabindex="-1" role="menuitem">Visto e Financiamento</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/mor.html" tabindex="-1" role="menuitem">Morar na Alemanha</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/pen.html" tabindex="-1" role="menuitem">Pensando em ir para a área das artes?</a></li>
+							
+								<li role="presentation"><a href="../../../pt/spr/pqe/rev.html" tabindex="-1" role="menuitem">Revalidação do diploma alemão</a></li>
+							
+									</ul>
+									</div>
+								
+									</div>
+								</li>
+								
+								<li class="dropdown "><a  class="dropdown-toggle" role="button" href="../../../pt/kul.html" onmouseup="location.href='../../../pt/kul.html';" id="drop27">Cultura</a>
+									<span class="abdeckung"></span>
+									<div class="dropdown-menu" aria-labelledby="drop27" role="menu">
+										<div class="hdlContainer"><h1><a href="../../../pt/kul.html">Cultura</a></h1></div>
+								
+									<div class="navContainer">
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/kul/mag.html" tabindex="-1" role="menuitem">Revista</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul >
+											<li role="presentation"><h2><a href="../../../pt/kul/sup.html" tabindex="-1" role="menuitem">Projetos</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/kul/sup/b17.html" tabindex="-1" role="menuitem">Blog da Berlinale 2017</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/hau.html" tabindex="-1" role="menuitem">Visita em Casa</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/fok.html" tabindex="-1" role="menuitem">Em foco</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/gnv.html" tabindex="-1" role="menuitem">Goethe na Vila</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/gbl.html" tabindex="-1" role="menuitem">Goethe bloggt</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/game-mixer.html" tabindex="-1" role="menuitem">Game Mixer</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/tal.html" tabindex="-1" role="menuitem">Talent Press</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/sds.html" tabindex="-1" role="menuitem">Jogos do Sul</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/eps.html" tabindex="-1" role="menuitem">Episódios do Sul</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/fut.html" tabindex="-1" role="menuitem">Future Perfect</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/180sec.html" tabindex="-1" role="menuitem">180 segundos da cidade</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/pmk.html" tabindex="-1" role="menuitem">The Power of Printmaking</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/sup/zkv.html" tabindex="-1" role="menuitem">Visões de futuro</a></li>
+							
+									</ul>
+								
+	
+										<ul  class="last">
+											<li role="presentation"><h2><a href="../../../pt/kul/ser.html" tabindex="-1" role="menuitem">Serviços</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/kul/ser/onl.html" tabindex="-1" role="menuitem">Onleihe</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/ser/uef.html" tabindex="-1" role="menuitem">Fomento à tradução</a></li>
+							
+								<li role="presentation"><a href="../../../pt/kul/ser/flm.html" tabindex="-1" role="menuitem">Filmoteca</a></li>
+							
+									</ul>
+									</div>
+								
+									</div>
+								</li>
+								
+								<li class=""><a href="../../../pt/ver.cfm" >Eventos</a><div>
+								
+									</div>
+								</li>
+								
+								<li class="dropdown "><a  class="dropdown-toggle" role="button" href="../../../pt/ueb.html" onmouseup="location.href='../../../pt/ueb.html';" id="drop48">Quem somos</a>
+									<span class="abdeckung"></span>
+									<div class="dropdown-menu" aria-labelledby="drop48" role="menu">
+										<div class="hdlContainer"><h1><a href="../../../pt/ueb.html">Quem somos</a></h1></div>
+								
+									<div class="navContainer">
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/ueb/auf.html" tabindex="-1" role="menuitem">Tarefas e objetivos</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul >
+											<li role="presentation"><h2><a href="../../../pt/ueb/prs.html" tabindex="-1" role="menuitem">Imprensa</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul  class="last">
+											<li role="presentation"><h2><a href="../../../pt/ueb/kar.html" tabindex="-1" role="menuitem">Carreira</a></h2></li>
+								
+									</ul>
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/ueb/foe.html" tabindex="-1" role="menuitem">Parceiros e patrocinadores</a></h2></li>
+								
+									</ul>
+									</div>
+								
+									</div>
+								</li>
+								
+								<li class="dropdown aktiv"><a  class="dropdown-toggle" role="button" href="../../../pt/sta.html" onmouseup="location.href='../../../pt/sta.html';" id="drop53">Locais</a>
+									<span class="abdeckung"></span>
+									<div class="dropdown-menu" aria-labelledby="drop53" role="menu">
+										<div class="hdlContainer"><h1><a href="../../../pt/sta.html">Locais</a></h1></div>
+								
+									<div class="navContainer">
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/sta/cur.html" tabindex="-1" role="menuitem">Curitiba</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/sta/cur/kur.html" tabindex="-1" role="menuitem">Cursos de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/cur/prf.html" tabindex="-1" role="menuitem">Exames de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/cur/ver.cfm" tabindex="-1" role="menuitem">Eventos</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/cur/bib.html" tabindex="-1" role="menuitem">Biblioteca</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/cur/ueb.html" tabindex="-1" role="menuitem">Quem somos</a></li>
+							
+									</ul>
+								
+	
+										<ul >
+											<li role="presentation"><h2><a href="../../../pt/sta/poa.html" tabindex="-1" role="menuitem">Porto Alegre</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/sta/poa/kur.html" tabindex="-1" role="menuitem">Cursos de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/poa/prf.html" tabindex="-1" role="menuitem">Exames de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/poa/ver.cfm" tabindex="-1" role="menuitem">Eventos</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/poa/bib.html" tabindex="-1" role="menuitem">Biblioteca</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/poa/ueb.html" tabindex="-1" role="menuitem">Quem somos</a></li>
+							
+									</ul>
+								
+	
+										<ul  class="last">
+											<li role="presentation"><h2><a href="../../../pt/sta/rio.html" tabindex="-1" role="menuitem">Rio de Janeiro</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/sta/rio/kur.html" tabindex="-1" role="menuitem">Cursos de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/rio/prf.html" tabindex="-1" role="menuitem">Exames de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/rio/ver.cfm" tabindex="-1" role="menuitem">Eventos</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/rio/bib.html" tabindex="-1" role="menuitem">Biblioteca</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/rio/ueb.html" tabindex="-1" role="menuitem">Quem somos</a></li>
+							
+									</ul>
+								
+	
+										<ul  class="nav4n">
+											<li role="presentation"><h2><a href="../../../pt/sta/sal.html" tabindex="-1" role="menuitem">Salvador</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/sta/sal/kur.html" tabindex="-1" role="menuitem">Cursos de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sal/prf.html" tabindex="-1" role="menuitem">Exames de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sal/res.html" tabindex="-1" role="menuitem">Residência</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sal/ver.cfm" tabindex="-1" role="menuitem">Eventos</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sal/bib.html" tabindex="-1" role="menuitem">Biblioteca</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sal/ser.html" tabindex="-1" role="menuitem">Serviços</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sal/ueb.html" tabindex="-1" role="menuitem">Quem somos</a></li>
+							
+									</ul>
+								
+	
+										<ul >
+											<li role="presentation"><h2><a href="../../../pt/sta/sap.html" tabindex="-1" role="menuitem">São Paulo</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/sta/sap/kur.html" tabindex="-1" role="menuitem">Cursos de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sap/prf.html" tabindex="-1" role="menuitem">Exames de alemão</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sap/ver.cfm" tabindex="-1" role="menuitem">Eventos</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sap/bib.html" tabindex="-1" role="menuitem">Biblioteca</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sap/ser.html" tabindex="-1" role="menuitem">Serviços</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/sap/ueb.html" tabindex="-1" role="menuitem">Quem somos</a></li>
+							
+									</ul>
+								
+	
+										<ul  class="last">
+											<li role="presentation"><h2><a href="../../../pt/sta/koo.html" tabindex="-1" role="menuitem">Parceiros e patrocinadores</a></h2></li>
+								
+								<li role="presentation"><a href="../../../pt/sta/koo/goz.html" tabindex="-1" role="menuitem">Centros Goethe</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/koo/kgs.html" tabindex="-1" role="menuitem">Sociedades Culturais</a></li>
+							
+								<li role="presentation"><a href="../../../pt/sta/koo/pfz.html" tabindex="-1" role="menuitem">Centros de Provas</a></li>
+							
+						</ul>
+						</div>
+					
+					<!-- closing -->
+					
+						</div>
+					</li>
+					
+					</ul>
+ 
+				<div class="suche" id="headersuche">
+
+				</div>
+			</div>
+		</div>
+	</header>
+
+		
+		<div class="container inhaltsContainer">
+			
+			<div class="row">
+
+
+
+
+
+
+<nav class="span6" role="navigation" id="sekundaerNavigation">
+	<h2 class="hide">Área de navegação:</h2>
+
+
+	<h2 class="subNavigationBereich"><a href="../../../pt/sta/sap.html">São Paulo</a></h2> 
+	<ul class="subNavigation">
+	
+
+		<li >
+			<a href="../../../pt/sta/sap/kur.html">Cursos de alemão</a>
+
+	
+			</li>
+		
+
+		<li >
+			<a href="../../../pt/sta/sap/prf.html">Exames de alemão</a>
+
+	
+			</li>
+		
+
+		<li  class="aktiv">
+			<a href="../../../pt/sta/sap/ver.cfm">Eventos</a>
+
+	
+			</li>
+		
+
+		<li >
+			<a href="../../../pt/sta/sap/bib.html">Biblioteca</a>
+
+	
+			</li>
+		
+
+		<li >
+			<a href="../../../pt/sta/sap/ser.html">Serviços</a>
+
+	
+			</li>
+		
+
+		<li >
+			<a href="../../../pt/sta/sap/ueb.html">Quem somos</a>
+
+	
+		</li></ul><!--test2-->
+		
+</nav>
+
+
+				<div class="span18 inhalt" role="main">
+					<article role="article">
+						<a id="inhalt" href=""></a>
+						
+								
+								<h1>
+									<span class="spitzmarke"></span>
+									Eventos 
+										<br/>
+										<span class="hdlDunkelGrau">
+											São Paulo
+										</span>
+									
+								</h1>
+								<div class="row">
+									<div class="vkTeaser">
+										<a class="cms-object-anchor" id="i4221473" style="height: 0px; width: 0px; border: 0; padding:0; line-height:0px;"></a>
+<div class="aufmacher">
+			<span class="teaserBildContainer">
+				<img class="aufmacherBild" src="//www.goethe.de/resources/files/jpg513/Veranstaltungen_-_FatzerBraz_-_Fotograf_Caca_Bernardes_737x320.jpg" alt="Eventos" title="Eventos" > <span class="bildnachweis">Foto: Cacá Bernardes</span>
+			</span>
+			
+	
+</div>
+
+ 
+									</div>
+								<a class="cms-object-anchor" id="i4224539" style="height: 0px; width: 0px; border: 0; padding:0; line-height:0px;"></a>
+		<div class="application">
+	
+
+	
+<style>
+
+#vkalenderAuswahl_div {
+margin-bottom: 5px;
+}
+ 
+#formEventFilters {
+margin-bottom: 5px;
+}
+
+.vreihetitel{
+text-decoration:none;
+font-weight: normal;
+}
+
+.paging .next, .paging .previous {
+margin-top: 20px;
+font-size: 12px;
+}
+.paging .previous {
+float: left;
+}
+.paging .next {
+float: right;
+}
+
+
+
+</style>
+		
+
+	<div class="vk">
+		<div class="veranstaltungen">
+			<div class="veranstaltungsHeader">
+				<div class="jahr"><h2>2017</h2></div>
+				<div class="vkAuswahl">
+					
+					
+	<script>
+		$(window).load(function() {
+			$('.calendardropdown').dropkick({
+				change:function(){
+						$('#formEventFilters').submit();
+					}
+
+			});
+
+		});
+	</script>
+
+
+
+	<form action="/ins/br/pt/sta/sap/ver.cfm" method="get" id="formEventFilters" name="formEventFilters" accept-charset="utf-8" class="example_form">
+	
+	
+	
+	<!-- frontendfilter: category_IDtxt -->
+
+	
+			<select name="category_IDtxt" class="calendardropdown vklist_2" style="visibility:hidden;" onchange="document.formEventFilters.submit();" tabindex="2">
+				<option disabled selected class="hidden-option">
+					Rubrica 
+				</option>
+				<option value="">
+					Todos 
+				</option>
+				
+							<option value="178928" >Dança e teatro</option>
+						
+							<option value="179289" >Kinder- und Jugendtheater</option>
+						
+							<option value="179204" >Menschenrechte</option>
+						
+							<option value="179205" >Migration</option>
+						
+							<option value="179206" >Nachhaltigkeit</option>
+						
+							<option value="179209" >Politk</option>
+						
+							<option value="179292" >Tanz</option>
+						
+							<option value="179255" >Tradition</option>
+						
+			</select>
+			
+	</form>
+
+				</div>
+			</div>
+
+			
+			<ul class="veranstaltungsListe">
+				
+						<li class="cs-objCalendarEdit" data-eventid="20932781">
+							<div class="datum">
+								<h5 title="04.03.2017">
+									04.03
+								</h5>
+								
+									<span class="eventEnde">
+									- 04.03.2017
+									</span>
+								
+							</div>
+							<div class="event">
+								<a href="/ins/br/pt/sta/sap/ver.cfm?fuseaction=events.detail&event_id=20932781" class="vkalendertitel" target="_self"><h3>#2 Samba de roda e Capoeira</h3></a>
+								<h4>
+									13:00 - Goethe na Vila | Ensaio Aberto 
+								</h4>
+								
+									<p>A Casa na bela Vila" - Residência Goethe na Vila<br>
+								
+								</p>
+							</div>
+						</li>
+						
+						<li class="cs-objCalendarEdit" data-eventid="20932771">
+							<div class="datum">
+								<h5 title="11.03.2017">
+									11.03
+								</h5>
+								
+									<span class="eventEnde">
+									- 11.03.2017
+									</span>
+								
+							</div>
+							<div class="event">
+								<a href="/ins/br/pt/sta/sap/ver.cfm?fuseaction=events.detail&event_id=20932771" class="vkalendertitel" target="_self"><h3>Urgências! "Terra"</h3></a>
+								<h4>
+									10:00 - Goethe-Institut Sấo Paulo | Encontro 
+								</h4>
+								
+									<p><br>
+								
+								</p>
+							</div>
+						</li>
+						
+						<li class="cs-objCalendarEdit" data-eventid="20932784">
+							<div class="datum">
+								<h5 title="11.03.2017">
+									11.03
+								</h5>
+								
+									<span class="eventEnde">
+									- 11.03.2017
+									</span>
+								
+							</div>
+							<div class="event">
+								<a href="/ins/br/pt/sta/sap/ver.cfm?fuseaction=events.detail&event_id=20932784" class="vkalendertitel" target="_self"><h3>#3 Samba de roda e Capoeira</h3></a>
+								<h4>
+									13:00 - Goethe na Vila | Ensaio Aberto 
+								</h4>
+								
+									<p>A Casa na bela Vila" - Residência Goethe na Vila<br>
+								
+								</p>
+							</div>
+						</li>
+						
+						<li class="cs-objCalendarEdit" data-eventid="20932779">
+							<div class="datum">
+								<h5 title="20.03.2017">
+									20.03
+								</h5>
+								
+									<span class="eventEnde">
+									- 21.03.2017
+									</span>
+								
+							</div>
+							<div class="event">
+								<a href="/ins/br/pt/sta/sap/ver.cfm?fuseaction=events.detail&event_id=20932779" class="vkalendertitel" target="_self"><h3>Discursos sobre o não dito: </h3></a>
+								<h4>
+									14:00 - Itaú Cultural | Seminário 
+								</h4>
+								
+									<p>Racismo e a descolonização do pensamento<br>
+								
+								</p>
+							</div>
+						</li>
+						
+			</ul>
+			
+		</div>
+
+		
+
+
+		<aside role="complementary" class="kalender">
+
+			<table class="kalender">
+				<caption>
+					<form action="/ins/br/pt/sta/sap/ver.cfm" method="get" id="prevMonthForm" name="prevMonthForm" accept-charset="utf-8" class="example_form">
+						<input type="hidden" name="fuseaction" value="events.displayoutputtype" /> 
+					<input name="date_start" type="hidden" value="{ts '2017-01-01 00:00:00'}" />
+					<input name="date_end" type="hidden" value="{ts '2017-01-31 23:59:59'}" />
+					<a href="javascript:document.prevMonthForm.submit()" class="vMonat"><span class="icon-double-arrow-left"></span><span class="hide">Vorheriger Monat</span></a>
+
+					</form>
+
+
+					<form action="/ins/br/pt/sta/sap/ver.cfm" method="get" id="nextMonthForm" name="nextMonthForm" accept-charset="utf-8" class="example_form">
+						<input type="hidden" name="fuseaction" value="events.displayoutputtype" /> 
+					<input name="date_start" type="hidden" value="{ts '2017-03-01 00:00:00'}" />
+					<input name="date_end" type="hidden" value="{ts '2017-03-31 23:59:59'}" />
+					<a href="javascript:document.nextMonthForm.submit()" class="nMonat"><span class="icon-double-arrow-right"></span><span class="hide">Naechster Monat</span></a>
+
+					</form>
+					
+					
+
+					Fevereiro de 2017 
+				</caption>
+				<thead>
+					<tr>
+						<th class="start">S</th>
+						<th>T</th>
+						<th>Q</th>
+						<th>Q</th>
+						<th>S</th>
+						<th>S</th>
+						<th class="ende">D</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr class="ersteWoche">
+						
+							<td class="start leer"></td>
+						
+							<td class="leer"></td>
+						
+							<td class="">
+								
+										<a>&nbsp;1&nbsp;</a>
+									
+							</td>
+							
+							<td class="">
+								
+										<a>&nbsp;2&nbsp;</a>
+									
+							</td>
+							
+							<td class="">
+								
+										<a>&nbsp;3&nbsp;</a>
+									
+							</td>
+							
+							<td class="">
+								
+										<a>&nbsp;4&nbsp;</a>
+									
+							</td>
+							
+							<td class="ende">
+								
+										<a>&nbsp;5&nbsp;</a>
+									
+							</td>
+						
+					</tr>
+
+
+					
+					
+							<tr>
+								
+							<td class="start">
+								
+										<a>&nbsp;6&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;7&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;8&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;9&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;10&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;11&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="ende">
+								
+										<a>&nbsp;12&nbsp;</a>
+									
+							</td>
+
+						
+							</tr>
+						
+							<tr>
+								
+							<td class="start">
+								
+										<a>&nbsp;13&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;14&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;15&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;16&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;17&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;18&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="ende">
+								
+										<a>&nbsp;19&nbsp;</a>
+									
+							</td>
+
+						
+							</tr>
+						
+							<tr>
+								
+							<td class="start">
+								
+										<a>&nbsp;20&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;21&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;22&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;23&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;24&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;25&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="ende">
+								
+										<a>&nbsp;26&nbsp;</a>
+									
+							</td>
+
+						
+							</tr>
+						
+							<tr>
+								
+							<td class="start heute">
+								
+										<a>&nbsp;27&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="">
+								
+										<a>&nbsp;28&nbsp;</a>
+									
+							</td>
+
+						
+							<td class="leer"></td>
+						
+							<td class="leer"></td>
+						
+							<td class="leer"></td>
+						
+							<td class="leer"></td>
+						
+						<td class="ende leer"></td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</aside>
+	</div>
+
+
+
+
+		</div>
+	 
+
+						<aside class="<!-- $$customhtml:asideclass$$ -->" role="complementary">
+							
+									 <!-- $$locationSnippet.rightcontent$$ --> 
+									
+						</aside>
+						</div>
+					</article>
+				</div>
+				<div class="row">
+
+	
+	<div class="span24 seitenIcons"> 
+        
+        <a class="nachOben" href="#top"><span>Top<span class="icon-double-arrow-up"></span></span></a> 
+    </div>
+
+
+				</div>
+			</div>
+
+			<div class="container footer" role="contentinfo">
+
+				<footer>
+					
+
+<h2 class="hide">#oI18n.getText(7, "GI 2.0 Templates")#:</h2>
+<div class="serviceNavigation" role="navigation">
+	<span class="copyright">&copy; 2017 Goethe-Institut</span>
+	<ul>
+
+
+	
+				<li ><a href="../../../pt/imp.html" title="Expediente">Expediente</a></li>
+			
+				<li ><a href="../../../pt/dat.html" title="Proteção de dados">Proteção de dados</a></li>
+			
+				<li ><a href="../../../pt/nut.html" title="Condições de uso">Condições de uso</a></li>
+			
+				<li ><a href="../../../pt/rss.html" title="RSS">RSS</a></li>
+			
+				<li ><a href="../../../pt/som.html" title="Mídias sociais">Mídias sociais</a></li>
+			
+				<li ><a href="../../../pt/new.html" title="Informativos via e-mail">Informativos via e-mail</a></li>
+			
+				<li class="last"><a href="../../../pt/sho.html" title="Loja">Loja</a></li>
+			
+
+
+	</ul>
+</div>
+ 
+
+
+
+
+
+					<nav class="footerNavigation" role="navigation">
+					<h2 class="hide">Visão geral da área de navegação:</h2>
+					<ul class="navigation">
+					
+								<li><h5><a href="../../../pt/spr.html">Língua alemã</a></h5></li>
+								
+								<li ><a href="../../../pt/spr/kur.html">Cursos de alemão</a></li>
+							
+								<li ><a href="../../../pt/spr/prf.html">Exames de alemão</a></li>
+							
+								<li ><a href="../../../pt/spr/unt.html">Ensinar alemão</a></li>
+							
+								<li ><a href="../../../pt/spr/ueb.html">Praticar alemão gratuitamente</a></li>
+							
+								<li ><a href="../../../pt/spr/eng.html">Nosso engajamento para alemão</a></li>
+							
+								<li ><a href="../../../pt/spr/wdl.html">Por que aprender alemão?</a></li>
+							
+								<li ><a href="../../../pt/spr/pqe.html">Estudar na Alemanha</a></li>
+							
+									</ul><ul class="navigation">
+								
+								<li><h5><a href="../../../pt/kul.html">Cultura</a></h5></li>
+								
+								<li ><a href="../../../pt/kul/mag.html">Revista</a></li>
+							
+								<li ><a href="../../../pt/kul/sup.html">Projetos</a></li>
+							
+								<li ><a href="../../../pt/kul/ser.html">Serviços</a></li>
+							
+									</ul><ul class="navigation">
+								
+								<li><h5><a href="../../../pt/ver.cfm">Eventos</a></h5></li>
+								
+									</ul><ul class="navigation">
+								
+								<li><h5><a href="../../../pt/ueb.html">Quem somos</a></h5></li>
+								
+								<li ><a href="../../../pt/ueb/auf.html">Tarefas e objetivos</a></li>
+							
+								<li ><a href="../../../pt/ueb/prs.html">Imprensa</a></li>
+							
+								<li ><a href="../../../pt/ueb/kar.html">Carreira</a></li>
+							
+								<li ><a href="../../../pt/ueb/foe.html">Parceiros e patrocinadores</a></li>
+							
+									</ul><ul class="navigation">
+								
+								<li><h5><a href="../../../pt/sta.html">Locais</a></h5></li>
+								
+								<li ><a href="../../../pt/sta/cur.html">Curitiba</a></li>
+							
+								<li ><a href="../../../pt/sta/poa.html">Porto Alegre</a></li>
+							
+								<li ><a href="../../../pt/sta/rio.html">Rio de Janeiro</a></li>
+							
+								<li ><a href="../../../pt/sta/sal.html">Salvador</a></li>
+							
+								<li ><a href="../../../pt/sta/sap.html">São Paulo</a></li>
+							
+								<li ><a href="../../../pt/sta/koo.html">Parceiros e patrocinadores</a></li>
+							
+					<!-- closing -->
+					
+					</ul>
+					</nav>
+ 
+
+				</footer>
+
+			</div>
+
+		<script src="//www.goethe.de/resources/relaunch/js/bootstrap_dropdown.min.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/bootstrap_collapse.min.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/bootstrap_tooltip.min.js"></script>
+		
+		<script src="//www.goethe.de/resources/relaunch/js/dropkick.2.1.7.min.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/fancybox/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="//www.goethe.de/resources/relaunch/js/mousewheel/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add flexslider JS and CSS files -->
+		<script type="text/javascript" src="//www.goethe.de/resources/relaunch/js/flexslider/jquery.flexslider-min.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/gi/fixPageHeading/jquery.gi.fixPageHeading.min.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/gi/tools/jquery.gi.tools.js"></script>
+		<script src="//www.goethe.de/resources/relaunch/js/gi/search/jquery.gi.search.js"></script>
+
+		<script src="//www.goethe.de/resources/relaunch/js/datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="/services/sso/assets/js/sso.js"></script>
+			<script type="text/javascript" src="//www.goethe.de/resources/relaunch/js/socialmedia/jquery.socialshareprivacy.js"></script>
+
+		<script type="text/javascript">
+		
+		  $(window).load(function() {
+			$('.dropdown-toggle').dropdown();
+			//$(".accordion").collapse();
+			<!-- $$customhtml:footerJSWindow$$ -->
+			
+		  });
+		$(document).ready(function(){
+
+			var elementID = "ul.sprachauswahl li a";
+			var url = window.location.href;
+			if (url.indexOf(".cfm") == -1) {
+					$('ul.sprachauswahl').find('li').find('a').each(function(index){
+   					var previousLink = $(this).attr('href');
+
+   					var newLink =  previousLink.concat(window.location.search);
+   					$(this).attr("href", newLink);
+				});
+			}
+
+
+		  $('div.navbar ul.navigation li.dropdown').hover(function() {
+		  jQuery(this).find('span.dropdown-menu').stop(true, true).show();
+		  jQuery(this).addClass('open');
+		}, function() {
+		  jQuery(this).find('span.dropdown-menu').stop(true, true).hide();
+		  jQuery(this).removeClass('open');
+		});
+
+
+		$("a[href='#top']").click(function() {
+			$("html, body").animate({ scrollTop: 0 }, "slow");
+			return false;
+		});
+
+
+		$(".inhalt h1:first").giFixPageHeadingWidth();
+			<!-- $$customhtml:footerJSDocument$$ -->
+		
+		});
+
+		<!-- $$customhtml:footerJS$$ -->
+		</script>
+
+		
+		
+		<script>
+		var GI_SSO_SETTINGS = {
+			lang			: 93,
+			
+			i18n			: {
+				'login'					: 'Mein Goethe.de • Login',
+				'loginCommentingHint' 	: 'Por favor, inscreva-se com seu Goethe-ID para poder comentar',
+				'signupSuccess'			: 'Sua inscrição foi bem sucedida',
+				'signupSuccessHint' 	: 'Você pode se inscrever usando diretamente seu Goethe-ID',
+				'userLoggedInText'	 	: 'Mein Goethe.de - [username]'
+
+			}
+		};
+
+		
+		</script>
+		
+		<script language="javascript">
+			$('#headersuche').dynamicSearch({url:'https://www.goethe.de/ins/br/pt/suche.cfm',text:'Pesquisa', icon:'\ue700'});
+
+		</script>
+		
+
+</div>
+
+	</body>
+</html> 

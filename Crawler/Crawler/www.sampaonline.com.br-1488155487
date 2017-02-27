@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="pt">
+<html itemscope itemtype="http://schema.org/TheaterEvent">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>É grátis ! Shows, espetáculos musicais e peças de teatro grátuitos em São Paulo - SP</title>
+<meta NAME="description" CONTENT="Guia de Espetáculos e eventos gratuitos na cidade de São Paulo">
+<meta itemprop="name" content="Eventos Culturais Gratuitos em São Paulo SP">
+<meta itemprop="description" content="Guia de Espetáculos e eventos gratuitos na cidade de São Paulo">
+
+<meta NAME="description" CONTENT="Sinopses, horários e avaliações de espetáculos de Teatro e Dramaturgia (comédia, drama, stand up comedy, etc) na cidade de São Paulo">
+<meta itemprop="name" content="Peças de Teatro em São Paulo SP">
+<meta itemprop="description" content="Sinopses, horários e avaliações de espetáculos de Teatro e Dramaturgia (comédia, drama, stand up comedy, etc) na cidade de São Paulo">
+<meta itemprop="image" content="http://www.sampaonline.com.br/images/logodobairro.gif">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="funcoesBoxPesquisa.js"></script>
+<script src="../responsiveBoletimScript.js"></script>
+<script src="../js/responsive-nav.js"></script>
+<link rel="stylesheet" href="../js/responsive-nav.css">
+<link rel="stylesheet" href="../reset.css">
+<link rel="stylesheet" href="../style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+
+<div id='fb-root'></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = '//connect.facebook.net/pt_BR/all.js#xfbml=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<header class='container'>
+<div class='topobox'>
+			<div class='logo'><a href='http://www.sampaonline.com.br/index.php'><img src='http://www.sampaonline.com.br/img/logo.png' alt='Sampa Online'></a></div>
+	<div class='banner-publicidade'>
+<a target=_blank href='http://www.sampaingressos.com.br?idPartner=907' target='_blank'><img src='http://www.sampaingressos.com.br/bannergenerico.gif' width='468' height='60' border='1'></a>	</div>
+</div>
+		<div class='menu-header'>
+			<div class='menu-lista'>
+				<ul>
+					<li><a href='http://www.sampaonline.com.br/guiaSampaOnline.php'>Comércio e Serviços</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/guiaGratis.php'>É grátis!</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/teatro_em_sp.php'>Teatro</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/guiacultural_infantil.php'>Atividades Infantis</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/shows_em_sp.php'>Shows</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/danca_em_sp.php'>Dança</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/musicaclassica.php'>Música Clássica</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/exposicoes_em_sp.php'>Exposições</a></li>
+					<li><a href='http://www.sampaonline.com.br/cultura/cinema_em_sp.php'>Cinema</a></li>
+					<li><a rel='nofollow' href='http://www.sampaonline.com.br/faleconosco.php'>Contato</a></li>
+					<li><a href='http://www.sampaonline.com.br/passeios+em+sp.php'>Passeios</a></li>
+				</ul>
+			</div>
+		</div>
+<form name='FormOpcoes' id='FormOpcoes'>
+		<div class='pesquisa-header'>
+			<div class='pesquisabox'>
+				<select name='categoria' class='pesquisa-espeta' id='categoria'>
+					<option selected value='NULL'>Tipo de espetáculo?</option>
+					<option value='TODAS'>Tudo (Teatro, shows, etc.)</option>
+					<option  value='Shows'>Shows</option>
+					<option style='background-color:#EEF3F2' value='28'>Axé</option>
+					<option style='background-color:#EEF3F2' value='27'>Choro</option>
+					<option style='background-color:#EEF3F2' value='15'>Funk, rap, hip hop</option>
+					<option style='background-color:#EEF3F2' value='12'>Jazz, Soul</option>
+					<option style='background-color:#EEF3F2' value='10'>MPB</option>
+					<option style='background-color:#EEF3F2' value='18'>Música caribenha </option>
+					<option style='background-color:#EEF3F2' value='17'>Música Eletrônica</option>
+					<option style='background-color:#EEF3F2' value='13'>Música étnica</option>
+					<option style='background-color:#EEF3F2' value='19'>Música Folclórica Latinoamericana</option>
+					<option style='background-color:#EEF3F2' value='23'>Música Gospel, Evangélica ou Cristã</option>
+					<option style='background-color:#EEF3F2' value='21'>Música Romântica</option>
+					<option style='background-color:#EEF3F2' value='14'>Música Sertaneja / Caipira</option>
+					<option style='background-color:#EEF3F2' value='29'>Pagode</option>
+					<option style='background-color:#EEF3F2' value='16'>Pop, disco, dance</option>
+					<option style='background-color:#EEF3F2' value='24'>Reggae </option>
+					<option style='background-color:#EEF3F2' value='11'>Rock, folk, metal, blues</option>
+					<option style='background-color:#EEF3F2' value='26'>Samba</option>
+					<option style='background-color:#EEF3F2' value='25'>Sarau</option>
+					<option style='background-color:#EEF3F2' value='20'>Tango</option>
+					<option  value='Teatro'>Teatro</option>
+					<option style='background-color:#EEF3F2' value='1'>Comédia</option>
+					<option style='background-color:#EEF3F2' value='7'>Comédia dramática</option>
+					<option style='background-color:#EEF3F2' value='55'>Comédia Romântica</option>
+					<option style='background-color:#EEF3F2' value='4'>Drama</option>
+					<option style='background-color:#EEF3F2' value='54'>Espírita</option>
+					<option style='background-color:#EEF3F2' value='6'>Humor</option>
+					<option style='background-color:#EEF3F2' value='53'>Improviso</option>
+					<option style='background-color:#EEF3F2' value='50'>Leitura</option>
+					<option style='background-color:#EEF3F2' value='56'>LGBT</option>
+					<option style='background-color:#EEF3F2' value='5'>Mágica e ilusionismo</option>
+					<option style='background-color:#EEF3F2' value='2'>Musical</option>
+					<option style='background-color:#EEF3F2' value='49'>Pantomima</option>
+					<option style='background-color:#EEF3F2' value='8'>Romance</option>
+					<option style='background-color:#EEF3F2' value='3'>Stand-up Comedy</option>
+					<option style='background-color:#EEF3F2' value='52'>Suspense</option>
+					<option style='background-color:#EEF3F2' value='9'>Tragédia</option>
+					<option  value='Infantis'>Infantis</option>
+					<option style='background-color:#EEF3F2' value='22'>Circo</option>
+					<option style='background-color:#EEF3F2' value='51'>Contação de Histórias</option>
+					<option  value='MusicaClassica'>Música Clássica</option>
+					<option style='background-color:#EEF3F2' value='36'>Canto Coral</option>
+					<option style='background-color:#EEF3F2' value='31'>Concertos</option>
+					<option style='background-color:#EEF3F2' value='39'>Coral de Natal</option>
+					<option style='background-color:#EEF3F2' value='32'>Música Barroca</option>
+					<option style='background-color:#EEF3F2' value='37'>Música Contemporânea</option>
+					<option style='background-color:#EEF3F2' value='34'>Música de Câmara</option>
+					<option style='background-color:#EEF3F2' value='33'>Música Medieval</option>
+					<option style='background-color:#EEF3F2' value='30'>Ópera</option>
+					<option style='background-color:#EEF3F2' value='35'>Recital</option>
+					<option  value='Danca'>Dança</option>
+					<option  value='Exposicoes'>Exposições</option>
+				</select>
+				<select name='zona' class='pesquisa-onde' id='zona'>
+					<option value='NULL' selected>Onde</option>
+					<option value = 'SAMPA'>Em qualquer lugar</option>
+					<option value='ABC'>no ABC</option>
+					<option value='Centro'>no Centro</option>
+					<option value='Grande SP'>na Grande SP</option>
+					<option value='Leste'>na Zona Leste</option>
+					<option value='Norte'>na Zona Norte</option>
+					<option value='Oeste'>na Zona Oeste</option>
+					<option value='Paulista'>na região da Paulista</option>
+					<option value='Sul'>na Zona Sul</option>
+				</select>
+				<select name='datas' class='pesquisa-quando' id='datas'>
+					<option value='NULL'>Quando?</option>
+					<option  value='20170226'>Só hoje</option>
+					<option  value='apartirHoje'>A partir de hoje</option>
+					<option value='20170227'>segunda, dia 27</option>
+					<option value='20170228'>terça, dia 28</option>
+					<option value='20170301'>quarta, dia 1</option>
+					<option value='20170302'>quinta, dia 2</option>
+					<option value='20170303'>sexta, dia 3</option>
+					<option value='20170304'>sábado, dia 4</option>
+				</select>
+				<select name='valorMaximo' class='pesquisa-quanto' id='valorMaximo'>
+					<option SELECTED value='1000'>Quanto?</option>
+					<option value='1000'>Tanto faz</option>
+					<option  value='0'>Grátis</option>
+					<option value='15'>Até R$ 15,00</option>
+					<option value='25'>Até R$ 25,00</option>
+					<option value='30'>Até R$ 30,00</option>
+					<option value='50'>Até R$ 50,00</option>
+				</select>
+				<input name='keywords' class='pesquisa-opci' placeholder='Contendo?' type='text'>
+				<div class='pesquisa-botao-box'>
+				<a class='pesquisa-botao' href='javascript:processarOpcoes();'>Pesquisar</a>
+				</div>
+			</div>
+</form>
+		</div>
+	</header>
+	<div class='header-mobile'>
+		<div class='topobox'>
+			<div class='logo-box'>
+			<div class='botao-menu'>
+				<a href='javascript:void(0)' id='toggle' ></a>
+			</div>
+			<div class='logo'><a href='http://www.sampaonline.com.br/index.php'><img src='http://www.sampaonline.com.br/img/logo.png' alt='Sampa Online'></a>
+			</div>
+			<div  id='4' class='botao-pesquisa'>
+				<a href='' id='toggle-pesquisa' ></a>
+			</div>
+			</div>
+			</div>
+			<div class='banner-publicidade2'>
+			</div>
+				
+				<nav class='hide-menu'>
+					<div class='menu-mobile'>
+	<ul>
+<a href='http://www.sampaonline.com.br/guiaSampaOnline.php'><li>Comércio e Serviços</a></li>
+<a href='http://www.sampaonline.com.br/cultura/guiaGratis.php'><li>É grátis!</a></li>
+<a href='http://www.sampaonline.com.br/cultura/teatro_em_sp.php'><li>Teatro</a></li>
+<a href='http://www.sampaonline.com.br/cultura/guiacultural_infantil.php'><li>Atividades Infantis</a></li>
+<a href='http://www.sampaonline.com.br/cultura/shows_em_sp.php'><li>Shows</a></li>
+<a href='http://www.sampaonline.com.br/cultura/danca_em_sp.php'><li>Dança</a></li>
+<a href='http://www.sampaonline.com.br/cultura/musicaclassica.php'><li>Música Clássica</a></li>
+<a href='http://www.sampaonline.com.br/cultura/exposicoes_em_sp.php'><li>Exposições</a></li>
+<a href='http://www.sampaonline.com.br/cultura/cinema_em_sp.php'><li>Cinema</a></li>
+<a rel='nofollow' href='http://www.sampaonline.com.br/faleconosco.php'><li>Contato</a></li>
+<a href='http://www.sampaonline.com.br/passeios+em+sp.php'><li>Passeios</a></li>
+				</ul>
+				</div>
+			</nav>
+		</div>
+		
+	</div>
+<div class='pesquisa-header-mobile'>
+	<div class='hide-pesquisa-mobile'>
+			<div class='pesquisabox-mobile'>
+				<select name='categoria' class='pesquisa-espeta-mobile' id=''>
+					<option selected value='NULL'>Tipo de espetáculo?</option>
+					<option value='TODAS'>Tudo (Teatro, shows, etc.)</option>
+					<option  value='Shows'>Shows</option>
+					<option style='background-color:#EEF3F2' value='28'>Axé</option>
+					<option style='background-color:#EEF3F2' value='27'>Choro</option>
+					<option style='background-color:#EEF3F2' value='15'>Funk, rap, hip hop</option>
+					<option style='background-color:#EEF3F2' value='12'>Jazz, Soul</option>
+					<option style='background-color:#EEF3F2' value='10'>MPB</option>
+					<option style='background-color:#EEF3F2' value='18'>Música caribenha </option>
+					<option style='background-color:#EEF3F2' value='17'>Música Eletrônica</option>
+					<option style='background-color:#EEF3F2' value='13'>Música étnica</option>
+					<option style='background-color:#EEF3F2' value='19'>Música Folclórica Latinoamericana</option>
+					<option style='background-color:#EEF3F2' value='23'>Música Gospel, Evangélica ou Cristã</option>
+					<option style='background-color:#EEF3F2' value='21'>Música Romântica</option>
+					<option style='background-color:#EEF3F2' value='14'>Música Sertaneja / Caipira</option>
+					<option style='background-color:#EEF3F2' value='29'>Pagode</option>
+					<option style='background-color:#EEF3F2' value='16'>Pop, disco, dance</option>
+					<option style='background-color:#EEF3F2' value='24'>Reggae </option>
+					<option style='background-color:#EEF3F2' value='11'>Rock, folk, metal, blues</option>
+					<option style='background-color:#EEF3F2' value='26'>Samba</option>
+					<option style='background-color:#EEF3F2' value='25'>Sarau</option>
+					<option style='background-color:#EEF3F2' value='20'>Tango</option>
+					<option  value='Teatro'>Teatro</option>
+					<option style='background-color:#EEF3F2' value='1'>Comédia</option>
+					<option style='background-color:#EEF3F2' value='7'>Comédia dramática</option>
+					<option style='background-color:#EEF3F2' value='55'>Comédia Romântica</option>
+					<option style='background-color:#EEF3F2' value='4'>Drama</option>
+					<option style='background-color:#EEF3F2' value='54'>Espírita</option>
+					<option style='background-color:#EEF3F2' value='6'>Humor</option>
+					<option style='background-color:#EEF3F2' value='53'>Improviso</option>
+					<option style='background-color:#EEF3F2' value='50'>Leitura</option>
+					<option style='background-color:#EEF3F2' value='56'>LGBT</option>
+					<option style='background-color:#EEF3F2' value='5'>Mágica e ilusionismo</option>
+					<option style='background-color:#EEF3F2' value='2'>Musical</option>
+					<option style='background-color:#EEF3F2' value='49'>Pantomima</option>
+					<option style='background-color:#EEF3F2' value='8'>Romance</option>
+					<option style='background-color:#EEF3F2' value='3'>Stand-up Comedy</option>
+					<option style='background-color:#EEF3F2' value='52'>Suspense</option>
+					<option style='background-color:#EEF3F2' value='9'>Tragédia</option>
+					<option  value='Infantis'>Infantis</option>
+					<option style='background-color:#EEF3F2' value='22'>Circo</option>
+					<option style='background-color:#EEF3F2' value='51'>Contação de Histórias</option>
+					<option  value='MusicaClassica'>Música Clássica</option>
+					<option style='background-color:#EEF3F2' value='36'>Canto Coral</option>
+					<option style='background-color:#EEF3F2' value='31'>Concertos</option>
+					<option style='background-color:#EEF3F2' value='39'>Coral de Natal</option>
+					<option style='background-color:#EEF3F2' value='32'>Música Barroca</option>
+					<option style='background-color:#EEF3F2' value='37'>Música Contemporânea</option>
+					<option style='background-color:#EEF3F2' value='34'>Música de Câmara</option>
+					<option style='background-color:#EEF3F2' value='33'>Música Medieval</option>
+					<option style='background-color:#EEF3F2' value='30'>Ópera</option>
+					<option style='background-color:#EEF3F2' value='35'>Recital</option>
+					<option  value='Danca'>Dança</option>
+					<option  value='Exposicoes'>Exposições</option>
+				</select>
+				<select name='zona' class='pesquisa-onde-mobile' id=''>
+					<option value='NULL' selected>Onde</option>
+					<option value = 'SAMPA'>Em qualquer lugar</option>
+					<option value='ABC'>no ABC</option>
+					<option value='Centro'>no Centro</option>
+					<option value='Grande SP'>na Grande SP</option>
+					<option value='Leste'>na Zona Leste</option>
+					<option value='Norte'>na Zona Norte</option>
+					<option value='Oeste'>na Zona Oeste</option>
+					<option value='Paulista'>na região da Paulista</option>
+					<option value='Sul'>na Zona Sul</option>
+				</select>
+				<select name='datas' class='pesquisa-quando-mobile' id=''>
+					<option value='NULL'>Quando?</option>
+					<option  value='20170226'>Só hoje</option>
+					<option  value='apartirHoje'>A partir de hoje</option>
+					<option value='20170227'>segunda, dia 27</option>
+					<option value='20170228'>terça, dia 28</option>
+					<option value='20170301'>quarta, dia 1</option>
+					<option value='20170302'>quinta, dia 2</option>
+					<option value='20170303'>sexta, dia 3</option>
+					<option value='20170304'>sábado, dia 4</option>
+				</select>
+				<select name='valorMaximo' class='pesquisa-quanto-mobile' id='valorMaximo'>
+					<option SELECTED value='1000'>Quanto?</option>
+					<option value='1000'>Tanto faz</option>
+					<option  value='0'>Grátis</option>
+					<option value='15'>Até R$ 15,00</option>
+					<option value='25'>Até R$ 25,00</option>
+					<option value='30'>Até R$ 30,00</option>
+					<option value='50'>Até R$ 50,00</option>
+				</select>
+				<input name='keywords' class='pesquisa-opci-mobile' placeholder='Contendo?'  type='text'>
+				<div class='pesquisa-botao-box-mobile'>
+				<a class='botao-mobile-title' href='javascript:processarOpcoes();'>
+					<div class='botao-mobile'>
+						<p>Pesquisar</p>
+					</div>
+				</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class='container'>
+			<div class='ad-boletim'>
+<form id='formBoletim'>
+				<div class='receber-boletim'>
+					<p>Receba, gratuitamente, o Boletim Sampa Online</p>
+					<input name='emailBoletim' type='text' placeholder='Seu e-mail?'>
+					<div class='botao-boletim'>
+						<a rel='nofollow' href='JavaScript:processaAssinaturaBoletim()'>
+						<div class='boletim-ok'>Receber boletim</div>
+					</a>
+					</div>
+				</div>
+</form>
+			<div class='google-ad'>
+
+<script type='text/javascript'><!--
+google_ad_client = 'ca-pub-5234187582262793';
+/* 728x90home */
+google_ad_slot = '3993447314';
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type='text/javascript'
+src='http://pagead2.googlesyndication.com/pagead/show_ads.js'>
+</script>
+			</div>
+		</div>
+			<div class='container'>
+				<script type='text/javascript' src='https://apis.google.com/js/plusone.js' gapi_processed='true'></script>
+				<div class='social-likes'>
+					<p><strong>Nos acompanhe nas redes sociais:</strong></p>
+					<div class='gplus'>
+						<div id='___plusone_0' style='text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 106px; height: 24px; background: transparent;'><iframe frameborder='0' hspace='0' marginheight='0' marginwidth='0' scrolling='no' style='position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;' tabindex='0' vspace='0' width='100%' id='I0_1432765496482' name='I0_1432765496482' src='https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;origin=http%3A%2F%2Fwww.sampaonline.com.br&amp;url=http%3A%2F%2Fwww.sampaonline.com.br%2Fcultura%2Fteatro_em_sp.php&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.pt_BR.SH3gSxZApjA.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCMDDqt7cEU9PP-onKcRbdpcUVq5pQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1432765496482&amp;parent=http%3A%2F%2Fwww.sampaonline.com.br&amp;pfname=&amp;rpctoken=36185539' data-gapiattached='true' title='+1'></iframe></div>
+					</div>
+					<div class='fb-like'>
+						<div class='fb-like fb_iframe_widget' data-href='http://www.facebook.com/guiasampaonline' data-send='true' data-layout='button_count' data-width='250' data-show-faces='false' data-font='arial'></div>
+					</div>
+				</div>
+			</div>
+	<div class='container'>	
+		<div class='sidebar'>
+			<span>
+				<p>Guia de Comércio e Serviços</p>
+					<p><a id='alimentacao' href='javascript:void(0)'>Alimentação</a></p>
+					<ul id='alimentacao-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/acougues.php'><li>Açougues</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/adegas.php'><li>Adegas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/aguapotavel.php'><li>Agua Mineral</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/congelados.php'><li>Alimentos Congelados</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/barzinhos.php'><li>Barzinhos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cafetarias.php'><li>Cafeterias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/churrascarias.php'><li>Churrascarias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/docerias.php'><li>Docerias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/doces.php'><li>Doces</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/hamburguerias.php'><li>Hamburguerias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lanchonetes.php'><li>Lanchonetes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/padarias.php'><li>Padarias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pizzarias.php'><li>Pizzarias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/produtosnaturais.php'><li>Produtos Naturais</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/restaurantes.php'><li>Restaurantes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/restaurantesporkilo.php'><li>Restaurantes por Quilo</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/rotisseries.php'><li>Rotisserias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/sorveterias.php'><li>Sorveterias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/suplementosalimentares.php'><li>Suplementos Alimentares</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='aluguel' href='javascript:void(0)'>Aluguel</a></p>
+					<ul id='aluguel-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/aluguelfestas.php'><li>Aluguel de Acessórios para Festa</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/locacaodebrinquedos.php'><li>Aluguel de Brinquedos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/locacaodecacambas.php'><li>Aluguel de Caçambas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/alugueldecarros.php'><li>Aluguel de Carros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/aluguelderoupas.php'><li>Aluguel de Trajes a Rigor</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/videolocadoras.php'><li>Videolocadoras</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='artigosparaolar' href='javascript:void(0)'>Artigos para o lar</a></p>
+					<ul id='artigosparaolar-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/acessoriosparabanheiros.php'><li>Acessórios para banheiros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/utensiliosparagourmets.php'><li>Artigos para Cozinha</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/camamesabanho.php'><li>Cama Mesa e Banho</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/colchoes.php'><li>Colchões</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cortinas.php'><li>Cortinas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/espelhos.php'><li>Espelhos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/ferragens.php'><li>Ferragens</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/gesso.php'><li>Gesso</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/produtosdelimpeza.php'><li>Material de Limpeza</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/molduras.php'><li>Molduras</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/moveis.php'><li>Móveis</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/persianas.php'><li>Persianas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/piscinas.php'><li>Piscinas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/produtosparapiscina.php'><li>Produtos para Piscinas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/quadrosemolduras.php'><li>Quadros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/moveisinfantis.php'><li>Quarto de Bebê</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/toldos.php'><li>Toldos</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='beleza' href='javascript:void(0)'>Beleza</a></p>
+					<ul id='beleza-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/bronzeamento.php'><li>Bronzeamento artificial</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cabeleireiros.php'><li>Cabeleireiros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/estetica.php'><li>Clínicas de Estética</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cosmeticos.php'><li>Cosméticos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/depilacao.php'><li>Depilação</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/diadanoiva.php'><li>Dia da Noiva</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/ioga.php'><li>Ioga (Yoga)</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/manicure.php'><li>Manicure</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/massagem.php'><li>Massagem Terapêutica</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/ofuro.php'><li>Ofurô</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/oticas.php'><li>Óticas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/perfumarias.php'><li>Perfumarias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/podologos.php'><li>Podólogos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/tatuagens.php'><li>Tatuagem</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='carros' href='javascript:void(0)'>Carros</a></p>
+					<ul id='carros-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/acessoriosparacarros.php'><li>Acessórios Para Carros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/acessoriosparamotos.php'><li>Acessórios Para Motos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/autopecas.php'><li>Auto Peças</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/bloqueador.php'><li>Bloqueador de Veículos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/insulfilm.php'><li>Filme de Proteção</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/peliculadeprotecaosolar.php'><li>Filme de Proteção</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lavagemdecarros.php'><li>Lavagem de Carros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/mecanica.php'><li>Mecânica e Funilaria</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/motopecas.php'><li>Moto Peças</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pneus.php'><li>Pneus </li></a>
+						<a href='http://www.sampaonline.com.br/comercios/revendadeautomoveis.php'><li>Revenda de automóveis</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/somautomotivo.php'><li>Som Automotivo</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='computadores' href='javascript:void(0)'>Computadores</a></p>
+					<ul id='computadores-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/assistenciatecnicacomputadores.php'><li>Assistência técnica de computadores</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cartuchos.php'><li>Cartuchos reciclados</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/informatica.php'><li>Computadores</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lanhouses.php'><li>Lan Houses</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='consertos' href='javascript:void(0)'>Consertos</a></p>
+					<ul id='consertos-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/afiacao.php'><li>Afiação de facas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/assistenciatecnica.php'><li>Assistencia técnica de Eletrodomésticos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/consertocelulares.php'><li>Assistência técnica de celulares</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/elevadores.php'><li>Elevadores</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/refrigeracao.php'><li>Refrigeração</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/relojoarias.php'><li>Relojoarias</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='construcao' href='javascript:void(0)'>Construção</a></p>
+					<ul id='construcao-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/azulejos.php'><li>Azulejos Antigos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/coberturas.php'><li>Coberturas e Telhados</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/construtoras.php'><li>Construtoras</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/materiaisdeconstrucao.php'><li>Material de construção</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/materiaiseletricos.php'><li>Material Elétrico</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pedras.php'><li>Mármore</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/parafusos.php'><li>Parafusos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pisos.php'><li>Pisos e Assoalhos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/portasejanelas.php'><li>Portas e Janelas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/tintas.php'><li>Tintas</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='ensino' href='javascript:void(0)'>Ensino</a></p>
+					<ul id='ensino-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/aulasecursos.php'><li>Aulas e Cursos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/autoescolas.php'><li>Auto Escolas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/bercarios.php'><li>Berçários</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/colegios.php'><li>Colégios</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cursodeenfermagem.php'><li>Curso de Enfermagem</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cursosdeinformatica.php'><li>Cursos de Informática</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/danca.php'><li>Escolas de Dança</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/escolasdefutebol.php'><li>Escolas de futebol</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/escolasdemusica.php'><li>Escolas de Música</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/estudiomusical.php'><li>Estúdio Musical</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/idiomas.php'><li>Idiomas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/instrumentosmusicais.php'><li>Instrumentos Musicais</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/materiaisartisticos.php'><li>Materiais para Artesanato</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/reforcoescolar.php'><li>Reforço Escolar</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/supletivo.php'><li>Supletivo</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/faculdades.php'><li>Universidades</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='esportes' href='javascript:void(0)'>Esportes</a></p>
+					<ul id='esportes-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/academias.php'><li>Academias de Ginástica</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/natacao.php'><li>Academias de Natação</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/artesmarciais.php'><li>Artes Marciais</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/artigosesportivos.php'><li>Artigos Esportivos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/bicicletas.php'><li>Bicicletas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/boxe.php'><li>Boxe</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/capoeira.php'><li>Capoeira</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/personaltrainer.php'><li>Personal Trainer</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pesca.php'><li>Pesca Camping e Mergulho</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pilates.php'><li>Pilates</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/quadradeesportes.php'><li>Quadras de Esporte</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/tenis.php'><li>Quadras de Tênis e Squash</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='festas' href='javascript:void(0)'>Festas</a></p>
+					<ul id='festas-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/animadoresdefestas.php'><li>Animação de Festas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/buffets.php'><li>Buffets</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/buffetsadomicilio.php'><li>Buffets em domicílio</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/aniversarios.php'><li>Buffets Infantis</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/decoracaodefestas.php'><li>Decoração de Eventos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cds.php'><li>Discos, CDs e DVDs</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/eventos.php'><li>Espaços para Eventos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/fogosdeartificio.php'><li>Fogos de Artifício</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lembrancinhas.php'><li>Lembrancinhas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/produtosparaaniversarios.php'><li>Produtos para Aniversários</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='hospedagem' href='javascript:void(0)'>Hospedagem</a></p>
+					<ul id='hospedagem-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/flats.php'><li>Flats</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/hoteis.php'><li>Hotéis</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/moteis.php'><li>Motéis</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pensionatos.php'><li>Pensionatos</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='moda' href='javascript:void(0)'>Moda</a></p>
+					<ul id='moda-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/alfaiates.php'><li>Alfaiates</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/armarinhos.php'><li>Armarinhos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/bijouterias.php'><li>Bijouterias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/bolsas.php'><li>Bolsas e acessórios</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/bordados.php'><li>Bordados</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/brechos.php'><li>Brechós</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/calcados.php'><li>Calçados e acessórios</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/costura.php'><li>Costureiras</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/expositores.php'><li>Expositores e Manequins</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/fantasias.php'><li>Fantasias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lingerie.php'><li>Lingerie e Moda Íntima</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/malhas.php'><li>Malhas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/modafeminina.php'><li>Moda Feminina</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/modagestante.php'><li>Moda Gestante</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/modainfantil.php'><li>Moda Infantil</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/modainfantojuvenil.php'><li>Moda Infanto Juvenil</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/modamasculina.php'><li>Moda Masculina</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/sapatarias.php'><li>Sapatarias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/tecidos.php'><li>Tecidos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/uniformes.php'><li>Uniformes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/vestidosdenoiva.php'><li>Vestidos de Noiva</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='pets' href='javascript:void(0)'>Pets</a></p>
+					<ul id='pets-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/aquarios.php'><li>Aquários</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/dogwalker.php'><li>Passeio de Cães</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/petshops.php'><li>Pet Shops</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/veterinarios.php'><li>Veterinários</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='presentes' href='javascript:void(0)'>Presentes</a></p>
+					<ul id='presentes-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/artesanato.php'><li>Artesanato</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/brinquedos.php'><li>Brinquedos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/brinquedoseducativos.php'><li>Brinquedos Educativos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cestas.php'><li>Cestas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/floriculturas.php'><li>Floriculturas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/presentes.php'><li>Presentes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/telemensagens.php'><li>Telemensagem</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='religiao' href='javascript:void(0)'>Religião e esoterismo</a></p>
+					<ul id='religiao-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/produtosesotericos.php'><li>Artigos Esotéricos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/artigosreligiosos.php'><li>Artigos religiosos</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='saude' href='javascript:void(0)'>Saúde</a></p>
+					<ul id='saude-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/acupuntura.php'><li>Acupuntura</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/equipamentosmedicos.php'><li>Aparelhos ortopédicos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/casasderepouso.php'><li>Casas de Repouso</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/vacinacao.php'><li>Clínicas de Vacinação</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/dentistas.php'><li>Dentistas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/drogarias.php'><li>Drogarias e Farmácias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/farmacias.php'><li>Farmácias de Manipulação</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/fisioterapia.php'><li>Fisioterapia</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/hospitais.php'><li>Hospitais</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/nutricionistas.php'><li>Nutricionistas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/produtosparaalergicos.php'><li>Produtos para alérgicos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/psicologos.php'><li>Psicólogos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/regressao.php'><li>Regressão</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/reiki.php'><li>Reiki</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='servicosgraficos' href='javascript:void(0)'>Serviços gráficos</a></p>
+					<ul id='servicosgraficos-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/brindes.php'><li>Brindes personalizados</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/carimbos.php'><li>Carimbos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/comunicacaovisual.php'><li>Comunicação Visual</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/convites.php'><li>Convites</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/xerox.php'><li>Cópias (Xerox)</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/embalagens.php'><li>Embalagens</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/encadernacao.php'><li>Encadernação</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/graficas.php'><li>Gráficas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/plotagem.php'><li>Plotagem</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/silkscreen.php'><li>Silk Screen</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='servicosparaolar' href='javascript:void(0)'>Serviços para o lar</a></p>
+					<ul id='servicosparaolar-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/automacaoresidencial.php'><li>Automação Residencial</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/boxparabanheiro.php'><li>Box para banheiro</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/capasparasofa.php'><li>Capas para sofá</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/chaveiros.php'><li>Chaveiros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/controledepragas.php'><li>Dedetizadoras</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/desentupidoras.php'><li>Desentupidoras</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/divisorias.php'><li>Divisórias e forros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/eletricistas.php'><li>Eletricistas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/encanador.php'><li>Encanador</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/extintores.php'><li>Extintores</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/hidraulica.php'><li>Hidráulica</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/hometheater.php'><li>Home Theater</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/imobiliarias.php'><li>Imobiliárias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/impermeabilizacao.php'><li>Impermeabilização</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lavagemdesofas.php'><li>Lavagem de Sofá</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/lavanderias.php'><li>Lavanderias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/iluminacao.php'><li>Lustres</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/marcenarias.php'><li>Marceneiros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/paisagismo.php'><li>Paisagismo e Jardinagem</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pintores.php'><li>Pintores</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/portoesautomaticos.php'><li>Portões Automáticos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/redesdeprotecao.php'><li>Redes de Proteção</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/serralherias.php'><li>Serralherias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/sistemasdeseguranca.php'><li>Sistemas de Segurança</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/tapecarias.php'><li>Tapeçarias</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/tapetes.php'><li>Tapetes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/varais.php'><li>Varais</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/vidracarias.php'><li>Vidraçarias</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='servicosprofissionais' href='javascript:void(0)'>Serviços profissionais</a></p>
+					<ul id='servicosprofissionais-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/advogados.php'><li>Advogados</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/agenciadeempregos.php'><li>Agências de Emprego</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/arquitetos.php'><li>Arquitetos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/contabilidade.php'><li>Assessoria Contábil</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cartorios.php'><li>Cartórios e Tabeliães</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cirurgiaplastica.php'><li>Cirurgia Plástica</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/coaching.php'><li>Coaching</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/seguros.php'><li>Corretores de Seguros</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/criacaodesites.php'><li>Criação e manutenção de sites</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/decoracao.php'><li>Decoração</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/despachantes.php'><li>Despachantes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/cobrancas.php'><li>Escritórios de Cobrança</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/fonoaudiologos.php'><li>Fonoaudiólogos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/fotografos.php'><li>Fotógrafos</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/hipnose.php'><li>Hipnose</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/marcasepatentes.php'><li>Marcas e Patentes</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/medicinaestetica.php'><li>Medicina Estética</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/medicinaocupacional.php'><li>Medicina Ocupacional</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/psicanalistas.php'><li>Psicanalistas</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/terapia.php'><li>Terapia</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/traducaodedocumentos.php'><li>Tradução de documentos</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+					<p><a id='transportes' href='javascript:void(0)'>Transportes</a></p>
+					<ul id='transportes-hide' class='lista-hide-side'>
+						<a href='http://www.sampaonline.com.br/comercios/agenciasdeturismo.php'><li>Agências de Viagem</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/carreto.php'><li>Carreto</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/motoboys.php'><li>Motoboys</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/mudancasecarretos.php'><li>Mudanças</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/pontosdetaxi.php'><li>Táxi</li></a>
+						<a href='http://www.sampaonline.com.br/comercios/transportes.php'><li>Transportes</li></a>
+					</ul>
+					<div class='underline-lgray-80'></div>
+			</span>
+		</div>
+
+      <script>
+      var navigation = responsiveNav(".hide-menu", {
+      	 customToggle: "#toggle",
+      	 transition: 1000,
+      });
+    </script>
+     <script>
+      var navigation = responsiveNav(".hide-pesquisa-mobile", {
+      	 customToggle: "#toggle-pesquisa",
+      	 transition: 1000,
+      });
+    </script>
+	
+		<div class='container-espetaculo'>
+			<div class='teatrossp'>
+				<h2>Espetáculos e eventos gratuitos na Cidade de São Paulo</h2>
+				<p>Guia Cultural Sampa Online.</p>
+<!-- <em>Confira, também, espetáculos apresentados hoje, ou espetáculos em cartaz.</em>  -->
+<!-- 				<div class='underline-gray-90'></div>  -->
+<!-- 				<h3>Espetáculos com desconto e ingresso garantido</h3>  -->
+				<div class='underline-gray-90'></div>
+			</div>
+
+			<h2>Teatro</h2><div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=85936'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_85936.jpg' alt='A Gira da Rainha'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=85936'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_85936.jpg' alt='A Gira da Rainha'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=85936'>A Gira da Rainha</a></h1>
+					<p class='genero2'>Comédia, 75 minutos, Livre.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=85936'>A Gira da Rainha</a></h1>
+				<span>
+					<p class='genero'>Comédia, 75 minutos, Livre.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>A peça narra a trajetória de Maria Padilha, que de amante de um Rei de Castela, em 1350, transforma-se na mítica Pomba-Gira da umbanda.</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=83'>Parque da Luz</a> (Centro)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 12 de Março; Sábados e domingos, às 15h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=83231'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_83231.png' alt='Peer Gynt'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=83231'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_83231.png' alt='Peer Gynt'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=83231'>Peer Gynt</a></h1>
+					<p class='genero2'>Drama, 100 minutos, 14 anos.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=83231'>Peer Gynt</a></h1>
+				<span>
+					<p class='genero'>Drama, 100 minutos, 14 anos.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Peer Gynt narra as aventuras e desventuras desse jovem sonhador que dá título à peça. Ao sair de uma pequena vila na Noruega para ganhar o mundo, ele encontra seres mágicos, como duendes e ninfas, passa por diferentes paisagens, enriquece de maneira ilegal e perde tudo em seguida. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=83231'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=80'>Centro Cultural Fiesp – Ruth Cardoso (SESI)</a> (Paulista)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 19 de Março; Quartas, quintas, sextas e sábados, às 20h; domingos, às 19h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86981'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/centroCulturalSaoPaulo.jpg' alt='Desterrados Ur Ex Des Machine'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86981'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/centroCulturalSaoPaulo.jpg' alt='Desterrados Ur Ex Des Machine'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86981'>Desterrados Ur Ex Des Machine</a></h1>
+					<p class='genero2'>Drama, 120 minutos, 16 anos.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86981'>Desterrados Ur Ex Des Machine</a></h1>
+				<span>
+					<p class='genero'>Drama, 120 minutos, 16 anos.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>O espetáculo parte de engrenagens kantorianas, molas propulsoras de uma máquina inventiva que visa a ocupar o espaço da realidade do palco. Desafiando a realidade cotidiana com os expedientes do sono, sonho e criatividade como forma de resistência à realidade degradada. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86981'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=54'>Centro Cultural São Paulo - Sala Jardel Filho</a> (Paulista)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 12 de Março; Sextas e sábados, às 21h; Domingos, às 20h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='espetaculo-box'><p>Confira <a href='http://www.sampaonline.com.br/cultura/guiaGratis.php?tipoEspetaculo=1'>Mais espetáculos gratuitos</a> deste tipo.</p></div>
+<h2>Espetáculos e atividades infantis</h2><div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86125'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86125.jpg' alt='Fora dos Trilhos'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86125'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86125.jpg' alt='Fora dos Trilhos'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86125'>Fora dos Trilhos</a></h1>
+					<p class='genero2'>Circo, Livre.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86125'>Fora dos Trilhos</a></h1>
+				<span>
+					<p class='genero'>Circo, Livre.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Intervenção circense, que tem como cenário um Trenzinho de passeio, ponto de partida para dois artistas circenses que serão os exploradores da Unidade, em busca da Praia Perdida. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86125'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=40'>SESC Interlagos</a> (Sul)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 28 de Fevereiro; Sábados e domingos das 10h às 12h e das 13h às 16h (Itinerante)</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86225'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86225.jpg' alt='Eu Sei o Que Vocês Fizeram no Verão Passado'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86225'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86225.jpg' alt='Eu Sei o Que Vocês Fizeram no Verão Passado'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86225'>Eu Sei o Que Vocês Fizeram no Verão Passado</a></h1>
+					<p class='genero2'>Circo, 60 minutos, Livre.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86225'>Eu Sei o Que Vocês Fizeram no Verão Passado</a></h1>
+				<span>
+					<p class='genero'>Circo, 60 minutos, Livre.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Intervenções circenses com uma roupagem vintage, num retorno ao passado, relembrando trajes, estilos, músicas e comportamento que as pessoas usavam no início dos passeios e pic-nics na praia e que marcaram uma época. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86225'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=40'>SESC Interlagos</a> (Sul)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 28 de Fevereiro; Sábados, às 12h; Domingos, às 15h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86552'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/centroCulturalSaoPaulo.jpg' alt='Toda forma de amor'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86552'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/centroCulturalSaoPaulo.jpg' alt='Toda forma de amor'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86552'>Toda forma de amor</a></h1>
+					<p class='genero2'>60 minutos.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86552'>Toda forma de amor</a></h1>
+				<span>
+					<p class='genero'>60 minutos.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Uma pessoa pode comer um peixe e se apaixonar? Um grão de areia pode querer se casar com uma estrela? Uma princesa pode não querer noivar e, ainda assim, amar? Uma galinha pode deixar toda sua pompa de lado para ver que o que interessa é se sujar na lama? O amor pode responder todas essas questões e é nisso que se debruça essa temporada de contação de histórias com a Cia. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86552'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=7'>Centro Cultural São Paulo</a> (Paulista)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 26 de Fevereiro; Sábados e domingos, às 14h30</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='espetaculo-box'><p>Confira <a href='http://www.sampaonline.com.br/cultura/guiaGratis.php?tipoEspetaculo=2'>Mais espetáculos gratuitos</a> deste tipo.</p></div>
+<h2>Dança</h2><div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86033'><img src='http://www.sampaonline.com.br/cultura/images/iconepadrao3.jpg' alt='Residência Esculturas do Inconsciente Com Cia Artesãos do Corpo'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86033'><img src='http://www.sampaonline.com.br/cultura/images/iconepadrao3.jpg' alt='Residência Esculturas do Inconsciente Com Cia Artesãos do Corpo'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86033'>Residência Esculturas do Inconsciente Com Cia Artesãos do Corpo</a></h1>
+					<p class='genero2'></p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86033'>Residência Esculturas do Inconsciente Com Cia Artesãos do Corpo</a></h1>
+				<span>
+					<p class='genero'></p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>A Cia Artesãos do Corpo ocupa o Vão Livre da Praça das Artes de janeiro a março como parte do processo de criação do espetáculo “Esculturas do Inconsciente” que integra o projeto Tempo Suspenso, contemplado pelo 18° edital de Fomento à Dança para a Cidade de São Paulo. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86033'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=850'>Praça das Artes</a> (Centro)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 22 de Março; quartas, das 10h às 13h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86857'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86857.jpg' alt='Maracatu Nação Cambinda'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86857'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86857.jpg' alt='Maracatu Nação Cambinda'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86857'>Maracatu Nação Cambinda</a></h1>
+					<p class='genero2'>Livre.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86857'>Maracatu Nação Cambinda</a></h1>
+				<span>
+					<p class='genero'>Livre.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>O Maracatu é uma dança de origem banto e mostra a coroação dos Reis e Rainhas negras desde 1674. Surgiram e se desenvolveram ligados às irmandades negras do Rosário com forte componente religioso. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86857'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=33'>SESC Belenzinho</a> (Leste)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>Dia 26 de Fevereiro (domingo). às 18h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87011'><img src='http://www.sampaonline.com.br/cultura/images/iconepadrao3.jpg' alt='Dança de São Paulo'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87011'><img src='http://www.sampaonline.com.br/cultura/images/iconepadrao3.jpg' alt='Dança de São Paulo'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87011'>Dança de São Paulo</a></h1>
+					<p class='genero2'></p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87011'>Dança de São Paulo</a></h1>
+				<span>
+					<p class='genero'></p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>De 4 a 26 de março, a dança de São Paulo – suas manifestações em várias regiões da cidade e em diversas épocas – está em foco no Itaú Cultural. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87011'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=18'>Itaú Cultural</a> (Paulista)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>Estreia dia 4 de Março (sábado); até 26 de Março; quintas, sextas e sábados, às 20h, domingos, às 19h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='espetaculo-box'><p>Confira <a href='http://www.sampaonline.com.br/cultura/guiaGratis.php?tipoEspetaculo=3'>Mais espetáculos gratuitos</a> deste tipo.</p></div>
+<h2>Música Popular, Shows e Espetáculos</h2><div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86824'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86824.jpg' alt='Carnaval de Rua'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86824'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86824.jpg' alt='Carnaval de Rua'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86824'>Carnaval de Rua</a></h1>
+					<p class='genero2'>Samba</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86824'>Carnaval de Rua</a></h1>
+				<span>
+					<p class='genero'>Samba</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>– 18 de fevereiro<br>
+Tributo ao “Seu Carlão”, expoente do carnaval paulistano, com a Banda Redonda<br>
+Participação especial: Germano Mathias<br>
+Apresentação: Moises da Rocha<br>
+– Baile do Pará – Manoel e Felipe Cordeiro, Beto Barbosa e Fafá de Belém<br>
+– 19 de fevereiro:<br>
+Troça Elétrica – Nação Zumbi convida Siba e a Orquestra de Frevo Henrique Dias<br>
+– 25 de fevereiro:<br>
+Baile do Tropikillaz: Branko (Portugal – Buraka Som Sistema) + MC Carol<br>
+– 26 de fevereiro:<br>
+CarnaSka com Orquestra Brasileira de Música Jamaicana (OBMJ) + Os Paralamas do Sucesso<br>
+– 27 de fevereiro:<br>
+Baile do Fioti: com MC Beijinho e convidados<br>
+Mad Professor (Guiana/UK)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=646'>Anhangabaú</a> (Centro)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 27 de Fevereiro; sábados, domingos e segunda (27), das 19h às 23h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86825'><img src='http://www.sampaonline.com.br/cultura/images/iconepadrao4.jpg' alt='Carnaval de Rua'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86825'><img src='http://www.sampaonline.com.br/cultura/images/iconepadrao4.jpg' alt='Carnaval de Rua'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86825'>Carnaval de Rua</a></h1>
+					<p class='genero2'>Samba</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86825'>Carnaval de Rua</a></h1>
+				<span>
+					<p class='genero'>Samba</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>– 18 de fevereiro:<br>
+Baile do Bixiga 70 com Fred 04 e Jorge Du Peixe<br>
+– 19 de fevereiro:<br>
+Baile do Bixiga 70 com Liniker e convidados<br>
+– 25 de fevereiro:<br>
+Baile da Tulipa com Céu, Anelis Assumpção e convidados<br>
+– 26 de fevereiro:<br>
+Baile do Bixiga 70 e convidados<br>
+– 27 de fevereiro:<br>
+Baile do Bixiga 70 e Elza Soares</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=1682'>Largo da Batata</a> (Oeste)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 27 de Fevereiro; sábados, domingos e segunda (27), das 19h às 23h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86895'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86895.jpg' alt='Discotecagem com DJ Mr. Rabbit'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86895'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86895.jpg' alt='Discotecagem com DJ Mr. Rabbit'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86895'>Discotecagem com DJ Mr. Rabbit</a></h1>
+					<p class='genero2'>Jazz, Soul, Livre.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86895'>Discotecagem com DJ Mr. Rabbit</a></h1>
+				<span>
+					<p class='genero'>Jazz, Soul, Livre.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Além de pesquisar e discotecar música brasileira, Mr. Rabbit está preparando um álbum de Remixes, feitos com pérolas do samba e do groove brasileiro. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86895'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=34'>SESC Consolação</a> (Centro)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 28 de Fevereiro; Segunda, terça e sábado, às 12h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='espetaculo-box'><p>Confira <a href='http://www.sampaonline.com.br/cultura/guiaGratis.php?tipoEspetaculo=4'>Mais espetáculos gratuitos</a> deste tipo.</p></div>
+<h2>Música Clássica</h2><div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87002'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/bandasinfonica.jpg' alt='Banda Sinfônica da Polícia Militar'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87002'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/bandasinfonica.jpg' alt='Banda Sinfônica da Polícia Militar'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87002'>Banda Sinfônica da Polícia Militar</a></h1>
+					<p class='genero2'>Concertos</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87002'>Banda Sinfônica da Polícia Militar</a></h1>
+				<span>
+					<p class='genero'>Concertos</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Programa: Elmer BERNSTEIN<br>
+The Magnificent Theme (Arranjo: Subten PM Marcos Roberto Silva de Oliveira)<br>
+Dmitri SHOSTAKOVICH<br>
+Jazz Suíte nº 2 - II: Lyric Waltz<br>
+Jazz Suíte nº 2 - III: Dance 1<br>
+Jazz Suíte nº 2 - VI: Waltz 2<br>
+Jazz Suíte nº 2 - VIII: Finale<br>
+Jef PENDERS<br>
+Tripartite Waltz<br>
+Jean SIBELIUS<br>
+Finlândia (Transcrição: Ten PM Samuel Nascimento de Lima)<br>
+Akito MATSUDA<br>
+Crescent Moon Dance<br>
+Alfred REED<br>
+El Camino Real<br>
+Georg Friedrich HÄNDEL<br>
+O Messias: Aleluia do Oratório</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=27'>Sala São Paulo</a> (Centro)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>Dia 5 de Março (domingo). às 11h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86808'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86808.jpg' alt='Bachiana Filarmônica SESI-SP'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86808'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_86808.jpg' alt='Bachiana Filarmônica SESI-SP'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86808'>Bachiana Filarmônica SESI-SP</a></h1>
+					<p class='genero2'>Concertos, 60 minutos, Livre.</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86808'>Bachiana Filarmônica SESI-SP</a></h1>
+				<span>
+					<p class='genero'>Concertos, 60 minutos, Livre.</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Mantida pelo SESI-SP, a orquestra, formada por jovens e experientes instrumentistas de diversas idades, sob a direção do maestro João Carlos Martins, representa ação relevante no apoio à música erudita e ao desenvolvimento de seus integrantes. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=86808'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=835'>SESI São Bernardo</a> (ABC)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>Dia 9 de Março (quinta). às 20h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87000'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/orquestraexperimentalderepertorio.jpg' alt='Orquestra Experimental de Repertório'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87000'><img src='http://www.sampaonline.com.br/cultura/bancoDeImagens/orquestraexperimentalderepertorio.jpg' alt='Orquestra Experimental de Repertório'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87000'>Orquestra Experimental de Repertório</a></h1>
+					<p class='genero2'>Concertos</p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87000'>Orquestra Experimental de Repertório</a></h1>
+				<span>
+					<p class='genero'>Concertos</p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Happy Hour: A Orquestra Experimental de Repertório – OER realizará uma série de ensaios abertos no Vão Livre da Praça das Artes, que irão ocorrer em algumas sextas-feiras ao longo do ano. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=87000'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=850'>Praça das Artes</a> (Centro)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>Dia 10 de Março (sexta). às 18h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='espetaculo-box'><p>Confira <a href='http://www.sampaonline.com.br/cultura/guiaGratis.php?tipoEspetaculo=5'>Mais espetáculos gratuitos</a> deste tipo.</p></div>
+<h2>Exposições</h2><div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=67521'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_67521.jpg' alt='A mulher na Revolução de 32'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=67521'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_67521.jpg' alt='A mulher na Revolução de 32'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=67521'>A mulher na Revolução de 32</a></h1>
+					<p class='genero2'></p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=67521'>A mulher na Revolução de 32</a></h1>
+				<span>
+					<p class='genero'></p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>A mulher na Revolução de 32 reúne, entre fotografias e arquivos de áudio, trocas de correspondências (exclusivas do acervo do MIS) relatando o dia a dia de voluntárias da Revolução. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=67521'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=99'>MIS - Museu da Imagem e do Som</a> (Oeste)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 31 de Dezembro; Terças, quartas, quintas, sextas e sábados, das 12h às 21h e domingos e feriados, das 11h às 20h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=79645'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_79645.jpg' alt='Classicismo, Realismo, Vanguarda: Pintura Italiana no Entreguerras'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=79645'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_79645.jpg' alt='Classicismo, Realismo, Vanguarda: Pintura Italiana no Entreguerras'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=79645'>Classicismo, Realismo, Vanguarda: Pintura Italiana no Entreguerras</a></h1>
+					<p class='genero2'></p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=79645'>Classicismo, Realismo, Vanguarda: Pintura Italiana no Entreguerras</a></h1>
+				<span>
+					<p class='genero'></p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>O Museu de Arte Contemporânea da USP inaugura a exposição Classicismo, Realismo, Vanguarda: Pintura Italiana no Entreguerras, apresentando as 71 pinturas italianas adquiridas entre 1946 e 1947, por Francisco Matarazzo Sobrinho, o Ciccillo, e sua esposa Yolanda Penteado, para a criação do antigo MAM de São Paulo. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=79645'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=191'>MAC USP Ibirapuera</a> (Sul)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 2 de Abril; Terças, quartas, quintas, sextas, sábados e domingos, das 10h às 18h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='item-espetaculo'>
+	<div class='espetaculo-box'>
+		<div class='imagem-espetaculo'>
+			<div class='img-box'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=80525'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_80525.jpg' alt='Idas e vindas'></a></div>
+				<div class='img-box2'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=80525'><img src='http://www.sampaonline.com.br/cultura/fotosEspetaculos/foto_80525.jpg' alt='Idas e vindas'></a></div>
+				<div class='conteudo-espetaculo2'>
+					<div  class='info2'>
+						<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=80525'>Idas e vindas</a></h1>
+					<p class='genero2'></p>
+					</div>
+				</div>
+			</div>
+			<div class='conteudo-espetaculo'>
+			<div  class='info'>
+				<h1 class='titulo'><a href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=80525'>Idas e vindas</a></h1>
+				<span>
+					<p class='genero'></p>
+					<div class='hide-sino'><p> <strong>Sinopse: </strong>Essa mostra apresenta um panorama da produção de Lasar Segall, com enfoque especial na "Fase Brasileira" e seus desdobramentos, sem deixar de lado períodos e tendências importantes, como a sua produção inicial, fortemente influenciada pelo impressionismo e pelo período expressionista, até obras dos fins da década de 1950. ..... (<a style='font-size: 16px' href='http://www.sampaonline.com.br/cultura/espetaculo.php?id=80525'>mais</a>)</p></div>
+					<div class='local-box'><p><strong>Local: </strong><a  class='local-link' href='http://www.sampaonline.com.br/cultura/local.php?id=91'>Museu Lasar Segall</a> (Sul)</p></div>
+					<div class='data-box'><p><strong>Data: </strong>até 22 de Maio; De quarta à segunda, das 11h às 19h</p></div>
+				</span>
+	<div class='precos-fora'>
+		<div class='fora-box'><span><p><strong>Preço</strong>: Grátis</p></span></div>
+	</div>
+		</div>
+	</div>
+</div> <!-- fecha  class='item-espetaculo -->
+<div class='underline-gray-100'></div>
+<div class='espetaculo-box'><p>Confira <a href='http://www.sampaonline.com.br/cultura/guiaGratis.php?tipoEspetaculo=6'>Mais espetáculos gratuitos</a> deste tipo.</p></div>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+$("#alimentacao").click(function(){
+$("#alimentacao-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#aluguel").click(function(){
+$("#aluguel-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#artigosparaolar").click(function(){
+$("#artigosparaolar-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#beleza").click(function(){
+$("#beleza-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#carros").click(function(){
+$("#carros-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#computadores").click(function(){
+$("#computadores-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#consertos").click(function(){
+$("#consertos-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#construcao").click(function(){
+$("#construcao-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#ensino").click(function(){
+$("#ensino-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#esportes").click(function(){
+$("#esportes-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#festas").click(function(){
+$("#festas-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#hospedagem").click(function(){
+$("#hospedagem-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#moda").click(function(){
+$("#moda-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#pets").click(function(){
+$("#pets-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#presentes").click(function(){
+$("#presentes-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#religiao").click(function(){
+$("#religiao-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#saude").click(function(){
+$("#saude-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#servicosgraficos").click(function(){
+$("#servicosgraficos-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#servicosparaolar").click(function(){
+$("#servicosparaolar-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#servicosprofissionais").click(function(){
+$("#servicosprofissionais-hide").toggle(200);
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#transportes").click(function(){
+$("#transportes-hide").toggle(200);
+});
+});
+</script>
+</div>
+
+</body>
+

@@ -1,0 +1,1032 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html><html xmlns:fb="https://www.facebook.com/2008/fbml"><head><meta property="fb:app_id" content="298808840257887" /><!-- META-CONTENT: E--><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="/css/senac_print.css" media="print" /><link rel="stylesheet" href="/css/senac2014.css" media="screen" /><link rel="stylesheet" href="/css/normalize.css" media="screen" /><link rel="stylesheet" type="text/css" href="/css/m-senac.css" media="(max-width:767px)" /><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" ><title>Calendário de Eventos: Fevereiro de 2017 - Senac São Paulo</title>
+
+
+<!-- Mega Menu Stylesheet --><link rel="stylesheet" href="/menu/css/2014/megamenu2014.css?v=1.0" type="text/css" media="screen" /><link rel="stylesheet" href="/menu/css/2014/menu-senac-styles2014.css?v=1.0" type="text/css" media="screen" /><!-- jQuery --><script type="text/javascript" src="/menu/js/2014/jquery.js?v=1.0"></script><!-- Mega Menu Plugins --><script type="text/javascript" src="/menu/js/2014/megamenu_plugins.js?v=1.0"></script><!-- Mega Menu Script --><script type="text/javascript" src="/menu/js/2014/megamenu.min.js?v=1.0"></script><!-- JS E CSS SENAC --><script type="text/javascript" src="/js/senac.js?v=1.0"></script><script type="text/javascript" src="/menu/js/2014/senac-menu.js?v=1.0"></script><script type="text/javascript" src="/menu/js/2014/font.js?v=1.0"></script><script type="text/javascript"> 
+//Inicializa menu
+$(document).ready(function($){
+$('.megamenu').megaMenuCompleteSet({
+menu_speed_show : 300, // Time (in milliseconds) to show a drop down
+menu_speed_hide : 200, // Time (in milliseconds) to hide a drop down
+menu_speed_delay : 200, // Time (in milliseconds) before showing a drop down
+menu_click_outside : 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+menu_show_onload : 0 // Drop down to show on page load (type the number of the drop down, 0 for none)
+});
+});
+
+ function getCleanWords(txt)
+ {
+ var w=(txt!=null?txt:'');
+ while(w.indexOf('-')!=-1) w=w.replace('-',' ');
+ return w;
+ }
+
+ var codtesteira = "453";
+
+function buscaGeral()
+{
+var keywords= document.buscageral.keywords;
+var txt_busca= document.busca.txt_busca;
+
+keywords.value = getCleanWords(txt_busca.value);
+
+if( codtesteira == "" )
+{
+document.buscageral.testeira.value="453";
+}
+ else
+ {
+ document.buscageral.testeira.value = codtesteira;
+ }
+
+if ( txt_busca.value.length >= 2 )
+{
+document.buscageral.submit();
+}
+else
+{
+alert("Para efetuar a busca digite no mínimo 2 letras.");
+}
+}
+
+ var isHome=false;
+
+var tipo = "";
+if((tipo==null)||(tipo=="")){
+tipo="NONE";
+}
+
+var newsIDValue = 'DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvents';
+
+if( newsIDValue=='0' ){
+ isHome=true;
+newsIDValue = ',F0';
+}else{
+newsIDValue = newsIDValue.substring(1,newsIDValue.indexOf(".htm"));
+if(newsIDValue != '') newsIDValue = ",C" + newsIDValue;
+}
+
+var RCD_ADs_sitepage = 'T300' + newsIDValue;
+var RCD_ADs_listpos = 'LE-Posicao01,LE-Posicao02,LE-Posicao03,LE-Posicao04,LE-Posicao05,LE-Posicao06,LE-Posicao07,LE-Posicao08,LE-Posicao09,LE-Posicao10,LE-HOME-Posicao01,LE-HOME-Posicao02,LE-HOME-Posicao03,LE-HOME-Posicao04,LE-HOME-Posicao05,LE-HOME-Posicao06,LE-HOME-Posicao07,LE-HOME-Posicao08,LE-HOME-Posicao09,LE-HOME-Posicao10';
+var RCD_ADs_rn = new String(Math.random());
+var RCD_ADs_rns = RCD_ADs_rn.substring(2);
+var RCD_ADs_version = 10;
+
+function RCD_NORMAL(position){}
+
+RCD_ADs_version=11;
+if(navigator.userAgent.indexOf('Mozilla/3')!=-1) RCD_ADs_version=10;
+if(RCD_ADs_version==11){
+document.write('<SCRIPT LANGUAGE=JavaScript1.1 SRC=' + '/jsp/senacADjsscript.jsp?sitepage=' + RCD_ADs_sitepage + '&extra=' + RCD_ADs_rns + '><\/SCRIPT>');
+ }
+
+ function RCD_AD(position){
+ if(RCD_ADs_version==11) RCD_RICH(position);
+ else RCD_NORMAL(position);
+ }
+
+function doSubmit2(url){
+var r=new Date().getTime();
+MM_openBrWindow(url+'&r='+r,'','scrollbars=yes,location=yes,toolbar=yes,menubar=yes');
+//document.location=url+'&r='+r;
+ }
+
+var myId = "453";
+var myUnit = "NONE";
+
+function showBanner1(){
+if(myId!="722" && myId!="723" && myId!="724" && myId!="725"){
+document.write("<a href=\"#\"><img src=\"/imagens/ban-tudo-new.jpg\" border=\"0\" width=\"142\" height=\"36\" onclick=\"mostraDropDown();\" border=\"0\" alt=\"Acesse as &aacute;reas que o Senac oferece\" title=\"Acesse as &aacute;reas que o Senac oferece\"></a><br>");
+} 
+}
+
+function showBanner2(){
+if(myId!="722" && myId!="723" && myId!="724" && myId!="725"){
+document.write("<a class=\"ver-unidades\" href=\"#\"><img src=\"/imagens/bn-unidades-new.jpg\" width=\"142\" height=\"36\" border=\"0\" alt=\"Acesse as Unidades\" title=\"Acesse as Unidades\"></a><br>");
+}
+}
+
+function showBanner3(){
+if(myId!="722" && myId!="723" && myId!="724" && myId!="725"){
+document.write("<a href=\"/psg\"><img src=\"/imagens/bt-home-bolsas.jpg\" border=\"0\" width=\"142\" height=\"36\" border=\"0\" alt=\"Bolsas de Estudo\" title=\"Bolsas de Estudo\"></a><br>");
+}
+}
+
+function showBanner4(){
+if(myId!="722" && myId!="723" && myId!="724" && myId!="725"){
+document.write("<a href=\"/jsp/default.jsp?tab=00002&newsID=a18758.htm&subTab=00200&uf=&local=&testeira=453&l=&template=&unit=\"><img src=\"/imagens/bn-home-parecer.jpg\" border=\"0\" width=\"142\" height=\"36\" border=\"0\"></a><br>");
+}
+}
+
+function showEventos(){
+if(myId!="722" && myId!="723" && myId!="724" && myId!="725"){
+document.getElementById("eventos").style.display = 'block';
+}else{
+document.getElementById("eventos").style.display = 'none';
+}
+}
+
+</script><style type="text/css">#menuTemas{float:left; width:235px;}#eventosPrincipal{ float:right; width:745px !important; }#eventosContent{ height:auto !important; }#sociais {float: left; width: 235px;}@media screen and (max-width:767px){#menuTemas{ display:none;}}</style></head><body background="/imagens/pattern1.gif" topmargin="10"><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-GT8K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-GT8K');</script><!-- End Google Tag Manager --><form method="GET" name="formDefault"><input type="hidden" name="tab" value=""><input type="hidden" name="newsID" value=""><input type="hidden" name="subTab" value=""><input type="hidden" name="uf" value=""><input type="hidden" name="local" value=""><input type="hidden" name="testeira" value="453"><input type="hidden" name="l"><input type="hidden" name="template"><input type="hidden" name="unit"></form><form method="get" name="buscageral" action="/jsp/search.jsp"><input type="hidden" name="template" value="477.dwt"><input type="hidden" name="context" value="A"><input type="hidden" name="keywords" value=""><input type="hidden" name="testeira" value="453"></form><!-- TOPO E MENU -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="blue"><center><div id="blueContent"><a href="http://www.sp.senac.br" alt="Home" title="Home" class="bt_links"><div id="capaHome">Home</div></a><a href="http://www.ead.senac.br/" alt="Educação a Distância" title="Educação a Distância" target="_blank" class="bt_links"><div class="eadMenu">EAD</div></a><a href="http://www.grandehotelsenac.com.br/" alt="Hotéis" title="Hotéis" target="_blank" class="bt_links"><div class="hoteisMenu">Hotéis</div></a><a href="http://www.editorasenacsp.com.br/portal/principal.do?appAction=vwPrincipal" alt="Editora" title="Editora" target="_blank" class="bt_links"><div class="editoraMenu">Editora</div></a><div class="separadorMenu"><img src="/menu/img/separador2013.jpg" width="5" height="20" border="0" /></div><div class="lbBusca">Busca</div><div class="fld-busca"><form name="busca" action="javascript:buscaGeral();"><input name="txt_busca" type="text" id="txt_busca" maxlength="50" alt="Busca" title="Busca"><input type="hidden" name="testeira" value=""></form></div><a href="#" onclick="buscaGeral();"><div class="btLopaMenu" alt="Busca" title="Busca">&nbsp;</div></a><div class="separadorMenu"><img src="/menu/img/separador2013.jpg" width="5" height="20" border="0" /></div><div class="tit-login" id="tit-login"><a href="http://www.sp.senac.br/jsp/login/Login" alt="Acesse seu Login ou Cadastre-se" title="Acesse seu Login ou Cadastre-se" target="_self"><strong>Acesse seu Login ou Cadastre-se</strong></a></div><div class="tit-acessibilidade" alt="Acessibilidade" title="Acessibilidade">Acessibilidade</div><div class="upper"><a href="#" onClick="increaseFontSizeCustom();" alt="Aumentar fonte" title="Aumentar fonte">A</a></div><div class="low"><a href="#" onClick="decreaseFontSizeCustom();" alt="Diminuir fonte" title="Diminuir fonte">A</a></div></div></center></div><div id="menuPortal"><center><div id="lightBlue"><div class="megamenu_container menu_blue" align="center"><ul class="megamenu"><li style="width: 10%; "><a href="#" class="drop">INSTITUCIONAL</a><div class="drop3columns dropcontent dropfirst"><div class="col_1"><a href="/jsp/default.jsp?newsID=a724.htm&testeira=457" target="_self"><span class="menuItem">Conheça o Senac</span></a><ul class="categories"><li><a href="/jsp/default.jsp?newsID=a724.htm&testeira=457" target="_self"><img src="/menu/img/ico_brasil.jpg" width="20" height="15" border="0" alt="Versão em Português" title="Versão em Português"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/jsp/default.jsp?newsID=a13157.htm&testeira=1064" target="_self"><img src="/menu/img/ico_espanha.jpg" width="20" height="15" border="0" alt="Version Espanõl" title="Version Espanõl"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/jsp/default.jsp?newsID=a13156.htm&testeira=1063" target="_self"><img src="/menu/img/ico_inglaterra.jpg" width="20" height="15" border="0" alt="English Version" title="English Version"></a></li><li><a href="/jsp/default.jsp?newsID=a714.htm&testeira=457" target="_self"><div>Mensagem do Diretor</div></a></li><li><a href="/jsp/default.jsp?newsID=a716.htm&testeira=457" target="_self"><div>Quem faz o Senac</div></a></li><li><a href="/jsp/default.jsp?newsID=a718.htm&testeira=457" target="_self"><div>Histórico</div></a></li><li><a href="/jsp/default.jsp?newsID=a13115.htm&testeira=457" target="_self"><div>Estrutura</div></a></li><li><a href="/jsp/default.jsp?newsID=a19369.htm&testeira=457" target="_self"><div>Prêmios Conquistados</div></a></li><li><a href="/jsp/default.jsp?newsID=a21184.htm&testeira=1832" target="_self"><div>Cooperação Institucional</div></a></li><li><a href="/jsp/default.jsp?newsID=a22514.htm&testeira=2221&sub=0" target="_self"><div>Centro de Memória</div></a></li><li><a href="/jsp/default.jsp?newsID=a15636.htm&testeira=457" target="_self"><div>Ações Internas</div></a></li><li><a href="/unidades/expansao/" target="_self"><div>Expansão e Modernização</div></a></li><li><a href="/jsp/default.jsp?newsID=a16557.htm&testeira=457" target="_self"><div>Relatórios Institucionais<br/>e de Gestão</div></a></li></ul></div><div class="col_1"><span class="menuItem">Serviços</span><ul class="categories"><li><a href="/jsp/default.jsp?template=976.dwt&testeira=1461&unit=CNAL" target="_self"><div>Fale Conosco</div></a></li><li><a href="/trabalheconosco" target="_self"><div>Trabalhe Conosco</div></a></li><li><a href="/jsp/default.jsp?newsID=a18863.htm&testeira=453&sub=" target="_self"><div>Assessoria de Imprensa</div></a></li><li><a href="/jsp/default.jsp?newsID=a17344.htm&testeira=457" target="_self"><div>Licitações</div></a></li></ul></div><div class="col_1"><span class="menuItem">Sites</span><ul class="categories"><li><a href="http://www.ead.sp.senac.br/" target="_blank"><div>Senac EAD</div></a></li><li><a href="http://www.editorasenacsp.com.br/" target="_blank"><div>Editora Senac</div></a></li><li><a href="http://www.grandehotelsenac.com.br/" target="_blank"><div>Hotéis</div></a></li><li><a href="http://www.setor3.com.br/jsp/default.jsp?newsID=a355.htm&testeira=94" target="_self"><div>Setor 3</div></a></li><li><a href="http://www.blog.sp.senac.br" target="_self"><div>Blog Senac São Paulo</div></a></li><li><a href="http://www.sp.senac.br/artenosenac" target="_self"><div>Arte no Senac</div></a></li><li><a href="/patrimoniohistorico" target="_blank"><div>Patrimônio Histórico</div></a></li></ul><ul class="categories"><li><a href="/jsp/default.jsp?temCat=T&template=2266.dwt&testeira=2268" target="_blank"><div>Perguntas Frequentes</div></a></li></ul></div></div></li><li style="width: 7.9%; "><a href="#" class="drop">UNIDADES</a><div class="drop3columns dropcontent dropfirst"><div class="col_1"><span class="menuItem">Grande São Paulo</span><ul class="categories"><li><a href="/24demaio" target="_self"><div>24 de Maio</div></a></li><li><a href="/aclimacao" target="_self"><div>Aclimação</div></a></li><!-- <li><a href="/consolacao" target="_self"><div>Consolação</div></a></li>--><li><a href="/franciscomatarazzo" target="_self"><div>Francisco Matarazzo</div></a></li><li><a href="/guarulhos" target="_self"><div>Guarulhos</div></a></li><li><a href="/jardimprimavera" target="_self"><div>Jardim Primavera</div></a></li><li><a href="/itaquera" target="_self"><div>Itaquera</div></a></li><li><a href="/jabaquara" target="_self"><div>Jabaquara</div></a></li><li><a href="/lapafaustolo" target="_self"><div>Lapa Faustolo</div></a></li><li><a href="/lapascipiao" target="_self"><div>Lapa Scipião</div></a></li><li><a href="/lapatito" target="_self"><div>Lapa Tito</div></a></li><li><a href="/largotreze" target="_self"><div>Largo Treze</div></a></li><li><a href="/nacoesunidas" target="_self"><div>Nações Unidas</div></a></li><li><a href="/osasco" target="_self"><div>Osasco</div></a></li><li><a href="/penha" target="_self"><div>Penha</div></a></li><li><a href="/santacecilia" target="_self"><div>Santa Cecília</div></a></li><li><a href="/santana" target="_self"><div>Santana</div></a></li><li><a href="/santoandre" target="_self"><div>Santo André</div></a></li><li><a href="/sbc" target="_self"><div>São Bernardo do Campo</div></a></li><li><a href="/taboaodaserra" target="_self"><div>Taboão da Serra</div></a></li><li><a href="/tatuape" target="_self"><div>Tatuapé</div></a></li><li><a href="/tiradentes" target="_self"><div>Tiradentes</div></a></li><li><a href="/vilaprudente" target="_self"><div>Vila Prudente</div></a></li></ul></div><div class="col_1"><span class="menuItem">Interior</span><ul class="categories"><li><a href="/americana" target="_self"><div>Americana</div></a></li><li><a href="/aracatuba" target="_self"><div>Araçatuba</div></a></li><li><a href="/araraquara" target="_self"><div>Araraquara</div></a></li><li><a href="/barretos" target="_self"><div>Barretos</div></a></li><li><a href="/bauru" target="_self"><div>Bauru</div></a></li><li><a href="/bebedouro" target="_self"><div>Bebedouro</div></a></li><li><a href="/bertioga" target="_self"><div>Bertioga</div></a></li><li><a href="/birigui" target="_self"><div>Birigui</div></a></li><li><a href="/botucatu" target="_self"><div>Botucatu</div></a></li><li><a href="/campinas" target="_self"><div>Campinas</div></a></li><li><a href="/catanduva" target="_self"><div>Catanduva</div></a></li><li><a href="/franca" target="_self"><div>Franca</div></a></li><li><a href="/guaratingueta" target="_self"><div>Guaratinguetá</div></a></li><li><a href="/itapetininga" target="_self"><div>Itapetininga</div></a></li><li><a href="/itapira" target="_self"><div>Itapira</div></a></li><li><a href="/itu" target="_self"><div>Itu</div></a></li><li><a href="/jaboticabal" target="_self"><div>Jaboticabal</div></a></li><li><a href="/jau" target="_self"><div>Jaú</div></a></li><li><a href="/jundiai" target="_self"><div>Jundiaí</div></a></li><li><a href="/limeira" target="_self"><div>Limeira</div></a></li><li><a href="/marilia" target="_self"><div>Marília</div></a></li><li><a href="/mogiguacu" target="_self"><div>Mogi Guaçu</div></a></li><li><a href="/piracicaba" target="_self"><div>Piracicaba</div></a></li></ul></div><div class="col_1"><ul class="categories"><li><a href="/presidenteprudente" target="_self"><div>Presidente Prudente</div></a></li><li><a href="/registro" target="_self"><div>Registro</div></a></li><li><a href="/ribeiraopreto" target="_self"><div>Ribeirão Preto</div></a></li><li><a href="/rioclaro" target="_self"><div>Rio Claro</div></a></li><li><a href="/santos" target="_self"><div>Santos</div></a></li><li><a href="/saocarlos" target="_self"><div>São Carlos</div></a></li><li><a href="/saojoaodaboavista" target="_self"><div>São João da Boa Vista</div></a></li><li><a href="/saojosedoriopreto" target="_self"><div>São José do Rio Preto</div></a></li><li><a href="/saojosedoscampos" target="_self"><div>São José dos Campos</div></a></li><li><a href="/sorocaba" target="_self"><div>Sorocaba</div></a></li><li><a href="/taubate" target="_self"><div>Taubaté </div></a></li><li><a href="/votuporanga" target="_self"><div>Votuporanga</div></a></li></ul><span class="menuItem">Campi</span><ul class="categories"><li><a href="/jsp/default.jsp?newsID=a2030.htm&testeira=726&sub=0sub=0&unit=CAP" target="_self"><div>Águas de S&atilde;o Pedro</div></a></li><li><a href="/jsp/default.jsp?newsID=a2029.htm&testeira=728&sub=0&unit=CAJ" target="_self"><div>Campos do Jordão</div></a></li><li><a href="/jsp/default.jsp?newsID=a3663.htm&testeira=727&sub=0&unit=CAS" target="_self"><div>Santo Amaro</div></a></li></ul><ul class="categories"><li><a href="http://www.editorasenacsp.com.br/" target="_blank"><div>Editora Senac</div></a></li><li><a href="http://www.grandehotelsenac.com.br/" target="_blank"><div>Hotéis</div></a></li></ul><ul class="categories"><li><a href="/unidades/expansao/" target="_self"><div>Expansão e modernização da rede</div></a></li></ul></div></div></li><li style="width: 12.1%; "><a href="#" class="drop">CURSOS E EVENTOS</a><div class="drop4columns dropcontent dropfirst" style="width:740px !important;"><div class="col_1"><a href="/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvents&template=932.dwt" target="_self"><span class="menuItem">Agenda de Eventos</span></a><ul class="categories"><span class="menuItem">Cursos <br>por modalidade</span><ul class="categories"><li><a href="/cursoslivres" target="_self"><div>Livres</div></a></li><li><a href="/tecnicos" target="_self"><div>Técnicos</div></a></li><li><a href="/idiomas" target="_self"><div>Idiomas</div></a></li><li><a href="/aprendizagem" target="_self"><div>Aprendizagem</div></a></li><li><a href="/graduacao" target="_self"><div>Graduação</div></a></li><li><a href="/posgraduacao" target="_self"><div>Pós-graduação</div></a></li><li><a href="/extensao" target="_self"><div>Extensão Universitária</div></a></li><li><a href="http://www.ead.senac.br/" target="_blank"><div>Educação a Distância</div></a></li><li><a href="/jsp/default.jsp?newsID=a20605.htm&testeira=696&sub=0" target="_self"><div>Cursos in Company</div></a></li></ul></ul></div><div class="col_1" style="width:170px !important;"><span class="menuItem">Cursos por Tema</span><ul class="categories"><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&theme=112&type=NONE&unit=NONE" target="_self"><div><strong>Gestão e Negócios</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=533&theme_name=Administração Geral&sub=2" target="_self"><div>Administração Geral</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=610&theme_name=Comércio Exterior&sub=2" target="_self"><div>Comércio Exterior</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=611&theme_name=Contabilidade&sub=2" target="_self"><div>Contabilidade</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=432&theme_name=Empreendedorismo&sub=2" target="_self"><div>Empreendedorismo</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=612&theme_name=Finanças&sub=2" target="_self"><div>Finanças</div></a></li><li><a href="/jsp/default.jsp?template=1886.dwt&testeira=1606&theme=152&type=NONE&unit=NONE" target="_self"><div>Gestão Executiva</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=613&theme_name=Gestão de Pessoas&sub=2" target="_self"><div>Gestão de Pessoas</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=614&theme_name=Liderança&sub=2" target="_self"><div>Liderança</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=615&theme_name=Logística&sub=2" target="_self"><div>Logística</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=616&theme_name=Marketing&sub=2" target="_self"><div>Marketing</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=617&theme_name=Relações Internacionais&sub=2" target="_self"><div>Relações Internacionais</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=430&theme_name=Técnicas Secretariais&sub=2" target="_self"><div>Técnicas Secretariais</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=618&theme_name=Vendas&sub=2" target="_self"><div>Vendas</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1469&theme=150&type=NONE&unit=NONE" target="_self"><div><b>Arquitetura e Urbanismo</b></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1469&unit=NONE&type=NONE&speciality=620&theme_name=Design%20de%20Interiores&sub=2" target="_self"><div>Design de Interiores</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1469&unit=NONE&type=NONE&speciality=619&theme_name=Paisagismo%20e%20Jardinagem&sub=2" target="_self"><div>Paisagismo e Jardinagem</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1469&unit=NONE&type=NONE&speciality=621&theme_name=Vitrinismo&sub=2" target="_self"><div>Vitrinismo</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1011&theme=156&type=NONE&unit=NONE" target="_self"><div><strong>Comunicação e Artes</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1011&unit=NONE&type=NONE&speciality=625&theme_name=Arte e Cultura&sub=2" target="_self"><div>Arte e Cultura</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1011&unit=NONE&type=NONE&speciality=626&theme_name=Audiovisual&sub=2" target="_self"><div>Audiovisual</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1011&unit=NONE&type=NONE&speciality=627&theme_name=Comunica%E7%E3o%20Social&sub=2" target="_self"><div>Comunicação Social</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1011&unit=NONE&type=NONE&speciality=628&theme_name=Fotografia&sub=2" target="_self"><div>Fotografia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1011&unit=NONE&type=NONE&speciality=629&theme_name=R%E1dio&sub=2" target="_self"><div>Rádio</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=309&theme=111&type=NONE&unit=NONE" target="_self"><div><strong>Design</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=309&unit=NONE&type=NONE&speciality=422&theme_name=Design%20Digital&sub=2" target="_self"><div>Design Digital</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=309&unit=NONE&type=NONE&speciality=420&theme_name=Design%20Gr%E1fico&sub=2" target="_self"><div>Design Gráfico</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=309&unit=NONE&type=NONE&speciality=423&theme_name=Design%20de%20Interiores&sub=2" target="_self"><div>Design de Interiores</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=309&unit=NONE&type=NONE&speciality=421&theme_name=Design%20de%20Produtos&sub=2" target="_self"><div>Design de Produtos</div></a></li></ul></div><div class="col_1" style="width:170px !important;"><ul class="categories"><li><a href="/jsp/default.jsp?template=971.dwt&testeira=990&theme=126&type=NONE&unit=NONE" target="_self"><div><strong>Desenvolvimento Social</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=991&theme=125&type=NONE&unit=NONE" target="_self"><div><strong>Educação</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=996&theme=101&type=NONE&unit=NONE" target="_self"><div><strong>Gastronomia</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=996&unit=NONE&type=NONE&speciality=400&theme_name=Bebidas,%20Servi%E7os%20e%20Gest%E3o&sub=2" target="_self"><div>Bebidas, Serviços e Gestão</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=996&unit=NONE&type=NONE&speciality=632&theme_name=Confeitaria&sub=2" target="_self"><div>Confeitaria</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=996&unit=NONE&type=NONE&speciality=399&theme_name=Cozinha&sub=2" target="_self"><div>Cozinha</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=996&unit=NONE&type=NONE&speciality=631&theme_name=Panifica%E7%E3o&sub=2" target="_self"><div>Panificação</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=996&unit=NONE&type=NONE&speciality=633&theme_name=Nutri%E7%E3o&sub=2" target="_self"><div>Nutrição</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=993&theme=104&type=NONE&unit=NONE" target="_self"><div><strong>Eventos e Lazer</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=998&theme=100&type=NONE&unit=NONE" target="_self"><div><strong>Hotelaria e Turismo</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&theme=153&type=NONE&unit=NONE" target="_self"><div><strong>Saúde e Bem-Estar</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=605&theme_name=Atividades Físicas&sub=2" target="_self"><div>Atividades Físicas</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=983&theme=122&type=NONE&unit=NONE" target="_self"><div>Beleza e Estética</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=636&theme_name=Enfermagem&sub=2" target="_self"><div>Enfermagem</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=457&theme_name=Farmácia&sub=2" target="_self"><div>Farmácia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=458&theme_name=Gestão de Serviços de Saúde&sub=2" target="_self"><div>Gestão de Serviços de Saúde</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=454&theme_name=Hemoterapia&sub=2" target="_self"><div>Hemoterapia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=450&theme_name=Massoterapia&sub=2" target="_self"><div>Massoterapia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=459&theme_name=Nutrição&sub=2" target="_self"><div>Nutrição</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=637&theme_name=Odontologia&sub=2" target="_self"><div>Odontologia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=456&theme_name=Óptica&sub=2" target="_self"><div>Óptica</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=449&theme_name=Podologia&sub=2" target="_self"><div>Podologia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=455&theme_name=Radiodiagnóstico&sub=2" target="_self"><div>Radiodiagnóstico</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1015&unit=NONE&type=NONE&speciality=451&theme_name=Terapias Complementares&sub=2" target="_self"><div>Terapias Complementares</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=994&theme=157&type=NONE&unit=NONE" target="_self"><div><strong>Limpeza, Conservação e Zeladoria</strong></div></a></li></ul></div><div class="col_1" style="width:170px !important;"><ul class="categories"><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&theme=158&type=NONE&unit=NONE" target="_self"><div><strong>Tecnologia da Informação</strong></div></a></li><li><a href="/jsp/default.jsp?tab=00002&newsID=a17855.htm&testeira=985" target="_self"><div>Certificações em Tecnologia</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&unit=NONE&type=NONE&speciality=638&theme_name=Computa%E7%E3o%20Gr%E1fica&sub=2" target="_self"><div>Computação Gráfica</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&unit=NONE&type=NONE&speciality=639&theme_name=Desenvolvimento de Sistemas&sub=2" target="_self"><div>Desenvolvimento de Sistemas</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&unit=NONE&type=NONE&speciality=640&theme_name=Gest%E3o%20em%20TI&sub=2" target="_self"><div>Gestão em TI</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&unit=NONE&type=NONE&speciality=641&theme_name=Internet&sub=2" target="_self"><div>Internet</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&unit=NONE&type=NONE&speciality=642&theme_name=Inform%E1tica%20para%20Escrit%F3rio&sub=2" target="_self"><div>Informática para Escritório</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1415&unit=NONE&type=NONE&speciality=643&theme_name=Redes e Infraestrutura&sub=2" target="_self"><div>Redes e Infraestrutura</div></a></li><li><a href="/jsp/default.jsp?template=1681.dwt&testeira=999&unit=NONE" target="_self"><div><strong>Idiomas</strong></div></a></li><li><a href="/jsp/default.jsp?template=536.dwt&testeira=999&unit=NONE&type=NONE&speciality=408&theme_name=Espanhol&sub=2" target="_self"><div>Espanhol</div></a></li><li><a href="/jsp/default.jsp?template=536.dwt&testeira=999&unit=NONE&type=NONE&speciality=409&theme_name=Franc%EAs&sub=2" target="_self"><div>Francês</div></a></li><li><a href="/jsp/default.jsp?template=536.dwt&testeira=999&unit=NONE&type=NONE&speciality=410&theme_name=Ingl%EAs&sub=2" target="_self"><div>Inglês</div></a></li><li><a href="/jsp/default.jsp?template=536.dwt&testeira=999&unit=NONE&type=NONE&speciality=412&theme_name=Portugu%EAs&sub=2" target="_self"><div>Português</div></a></li><li><a href="/jsp/default.jsp?template=536.dwt&testeira=999&unit=NONE&type=NONE&speciality=587&theme_name=Libras&sub=2" target="_self"><div>Libras</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1006&theme=123&type=NONE&unit=NONE" target="_self"><div><strong>Moda</strong></div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1006&unit=NONE&type=NONE&speciality=465&theme_name=Cria%E7%E3o%20e%20Desenvolvimento%20de%20Produto&sub=2" target="_self"><div>Criação e Desenv. de Produtos</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1006&unit=NONE&type=NONE&speciality=467&theme_name=Cultura e Comportamento de Moda&sub=2" target="_self"><div>Cultura e Comportamento</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1006&unit=NONE&type=NONE&speciality=466&theme_name=Modelagem&sub=2" target="_self"><div>Modelagem</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1006&unit=NONE&type=NONE&speciality=464&theme_name=Neg%F3cios%20de%20moda&sub=2" target="_self"><div>Negócios da Moda</div></a></li><li><a href="/jsp/default.jsp?template=971.dwt&testeira=1016&theme=127&type=NONE&unit=NONE" target="_self"><div><strong>Meio Ambiente, Segurança e Saúde no Trabalho</strong></div></a></li></ul></div></div></li><li style="width: 14.3%; "><a href="#" class="drop">CENTRO UNIVERSITÁRIO</a><div class="drop1column dropcontent dropfirst"><div class="col_1"><span class="menuItem">Modalidades</span><ul class="categories"><li><a href="/graduacao" target="_self"><div>Graduação</div></a></li><li><a href="/jsp/webcas/default.jsp?newsID=a2052.htm&testeira=724&type=P,M,PE&unit=NONE&sub=0" target="_self"><div>Pós-graduação</div></a></li><li><a href="/extensao" target="_self"><div>Extensão Universitária</div></a></li></ul><ul class="categories"><li><a href="/jsp/default.jsp?newsID=a1978.htm&testeira=722&sub=0&unit=NONE&type=PE,P,M,G,X" target="_self"><div>Conheça os Campi</div></a></li><li><a href="/jsp/default.jsp?newsID=a2030.htm&testeira=726&sub=0&unit=CAP" target="_self"><div>Águas de São Pedro</div></a></li><li><a href="/jsp/default.jsp?newsID=a2029.htm&testeira=728&sub=0&unit=CAJ" target="_self"><div>Campos do Jordão</div></a></li><li><a href="/jsp/default.jsp?newsID=a3663.htm&testeira=727&sub=0&unit=CAS" target="_self"><div>Santo Amaro</div></a></li></ul><ul class="categories"><li><a href="/jsp/default.jsp?template=1512.dwt&testeira=1911&pag=0" target="_self"><div>Vestibular</div></a></li><li><a target="_self" href="/jsp/default.jsp?template=1512.dwt&amp;testeira=1911&amp;pag=5"><div>Transferências</div></a></li><li><a href="/jsp/default.jsp?tab=00002&newsID=a22326.htm&subTab=00000&uf=&local=&testeira=2092&l=&template=&unit=" target="_self"><div>FIES</div></a></li><li><a href="/jsp/default.jsp?newsID=a22665.htm&testeira=2237&sub=0" target="_self"><div>Comissão Própria de Avaliação (CPA)</div></a></li><li><a href="/jsp/default.jsp?newsID=a22759.htm&testeira=2265&sub=0" target="_self"><div>ENADE</div></a></li><li><a href="/parcerias" target="_self"><div>Parcerias</div></a></li><li><a href="/jsp/default.jsp?newsID=a19838.htm&testeira=1953&sub=0" target="_self"><div>Programa de Relacionamento</div></a></li><li><a href="/blogs/divulgacaocientifica/" target="_blank"><div>Divulgação Científica</div></a></li></ul><ul class="categories"><li><a href="/jsp/default.jsp?temCat=T&template=2266.dwt&testeira=2268" target="_blank"><div>Perguntas Frequentes</div></a></li></ul></div></div></li><li style="width: 14.3%; "><a href="#" class="drop">EDUCAÇÃO A DISTÂNCIA</a><div class="drop1column dropcontent dropfirst"><div class="col_1"><ul class="categories"><li><a href="http://www.ead.senac.br/" target="_self"><div>Senac EAD</div></a></li></ul><ul class="categories"><li><a href="http://www.ead.senac.br/graduacao" target="_blank"><div>Cursos de Graduação</div></a></li><li><a href="http://www.ead.senac.br/pos-graduacao" target="_blank"><div>Cursos de Pós-graduação</div></a></li><li><a href="http://www.ead.senac.br/extensao-universitaria" target="_blank"><div>Cursos de Extensão</div></a></li></ul><ul class="categories"><li><a href="/boletim" target="_self"><div>Boletim Universo EAD</div></a></li><li><a href="/jsp/default.jsp?template=976.dwt&testeira=1461&unit=CNAL" target="_self"><div>Fale Conosco</div></a></li><li><a href="https://www.sp.senac.br/jsp/login/Login" target="_self"><div>Acesso do Aluno</div></a></li></ul><ul class="categories"><li><a href="/jsp/default.jsp?temCat=T&template=2266.dwt&testeira=2268" target="_blank"><div>Perguntas Frequentes</div></a></li></ul></div></div></li><li style="width: 16.6%; "><a href="#" class="drop">ATENDIMENTO CORPORATIVO</a><div class="drop1column dropcontent dropfirst"><div class="col_1"><ul class="categories"><li><a href="/jsp/default.jsp?newsID=a20605.htm&testeira=696&sub=0" target="_self"><div>Conheça o Atendimento</div></a></li><li><a href="/jsp/default.jsp?newsID=a23333.htm&testeira=696&sub=0" target="_self"><div>Desenvolvimento de Líderes</div></a></li><li><a href="/jsp/default.jsp?newsID=a23501.htm&testeira=696&sub=0" target="_self"><div>Desenvolvimento em Vendas</div></a></li><li><a href="/jsp/default.jsp?newsID=a23502.htm&testeira=696&sub=0" target="_self"><div>Gestão do Relacionamento com Clientes</div></a></li><li><a href="/jsp/default.jsp?newsID=a20573.htm&testeira=696&sub=0" target="_self"><div>Capilaridade</div></a></li><li><a href="/jsp/default.jsp?newsID=a22919.htm&testeira=696&sub=0" target="_self"><div>Setor Público</div></a></li><li><a href="/jsp/default.jsp?newsID=a20593.htm&testeira=696&sub=0" target="_self"><div>Cases e Clientes</div></a></li><li><a href="/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.BreakingNewsDataServer,selectBreakingNews&order=datepublished&long=&template=377.dwt&unit=ATE&testeira=696&speciality=&sub=1" target="_self"><div>Notícias</div></a></li><li><a href="/jsp/default.jsp?newsID=a20575.htm&testeira=696&sub=0" target="_self"><div>Premiações</div></a></li><li><a href="/jsp/default.jsp?newsID=a20627.htm&testeira=696&sub=0" target="_self"><div>Fale Conosco</div></a></li></ul></div></div></li><li style="width: 15.5%; "><a href="#" class="drop">DESENVOLVIMENTO SOCIAL</a><div class="drop1column dropcontent dropfirst"><div class="col_1"><ul class="categories"><li><a href="/jsp/default.jsp?newsID=a24023.htm&testeira=1029" target="_self"><div>Acesse o Site</div></a></li><li><a href="/psg" target="_self"><div>Bolsas de Estudo</div></a></li><li><a href="/jsp/default.jsp?newsID=a21669.htm&testeira=1409" target="_self"><div>Programa Aprendizagem</div></a></li><li><a href="/jsp/default.jsp?newsID=a19633.htm&testeira=1928" target="_self"><div>Programa Rede Social</div></a></li><li><a href="/jsp/default.jsp?tab=00002&newsID=a2022.htm&subTab=00466&uf=&local=&testeira=1029&l=&template=&unit=" target="_self"><div>Iniciativas Sociais</div></a></li><li><a href="/jsp/default.jsp?newsID=a18662.htm&testeira=1847&sub=0" target="_self"><div>Amamentação</div></a></li><li><a href="http://www.setor3.com.br/jsp/default.jsp?newsID=a355.htm&testeira=94" target="_self"><div>Portal Setor 3</div></a></li></ul></div></div></li><li style="width: 9%;"><a href="#" class="drop">BIBLIOTECA</a><div class="drop1column dropcontent" style="left: auto; display: none; margin-left: -8.1%;" id="mBibliotec"><div class="col_1"><ul class="categories" style="width:150px;"><li ><a target="_self" href="/jsp/default.jsp?newsID=a18511.htm&amp;testeira=386"><div>Acesse o site</div></a></li><li ><a target="_self" href="/jsp/default.jsp?newsID=a377.htm&amp;testeira=386"><div>Nossas Bibliotecas</div></a></li><li ><a target="_self" href="/jsp/default.jsp?tab=00002&amp;newsID=a376.htm&amp;subTab=00466&amp;uf=&amp;local=&amp;testeira=386&amp;l=&amp;template=&amp;unit="><div>Regulamento</div></a></li><li ><a target="_self" href="/jsp/default.jsp?template=2222.dwt&testeira=386"><div>Busca Integrada</div></a></li><li ><a target="_self" href="http://www.sp.senac.br/jsp/default.jsp?template=1745.dwt&amp;testeira=386"><div>Acervo Senac</div></a></li><li ><a target="_self" href="/jsp/default.jsp?newsID=a6081.htm&amp;testeira=386"><div>Biblioteca Virtual</div></a></li><li ><a target="_self" href="http://www.sp.senac.br/jsp/login/default.jsp?template=1734.dwt&amp;testeira=386"><div>Bases - Acesso Remoto</div></a></li><li ><a target="_self" href="/jsp/default.jsp?newsID=a21381.htm&amp;testeira=386"><div>Espaço Braille</div></a></li><li ><a target="_self" href="/jsp/default.jsp?newsID=a21437.htm&amp;testeira=2134&amp;sub=0"><div>Modateca</div></a></li><li style="padding-bottom: 8px;"><a target="_self" href="http://www.sp.senac.br/jsp/default.jsp?newsID=a13118.htm&amp;unit=CNAL"><div>Suporte</div></a></li></ul></div></div></li></ul></div></div></center></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+var __IS_EVENT=true;
+
+var __CUSTOM_mySize = 12;
+var __CUSTOM_maxSize = 20;
+var __CUSTOM_minSize = 9;
+var __CUSTOM_min=9;
+var __CUSTOM_max=20;
+var __CUSTOM_FONTSIZECLASS_EVENTS=['intro-paragraph'];
+
+function increaseFontSizeCustom(){
+ if(__IS_EVENT){
+ for(var i=0;i<__CUSTOM_FONTSIZECLASS_EVENTS.length;i++){
+ $('.'+__CUSTOM_FONTSIZECLASS_EVENTS[i]).each(function(index,element){
+ var s=0;
+ if(element.style.fontSize){
+ s=parseInt(element.style.fontSize.replace('px',''));
+ }else{
+ s=12;
+ }
+if(s!=__CUSTOM_max) s+=1;
+ element.style.fontSize=s+'px';
+ }); 
+ }
+ }else{
+ increaseFontSize();
+ }
+}
+
+function decreaseFontSizeCustom(){
+ if(__IS_EVENT){
+ for(var i=0;i<__CUSTOM_FONTSIZECLASS_EVENTS.length;i++){
+ $('.'+__CUSTOM_FONTSIZECLASS_EVENTS[i]).each(function(index,element){
+ var s=0;
+ if(element.style.fontSize){
+ s=parseInt(element.style.fontSize.replace('px',''));
+ }else{
+ s=12;
+ }
+if(s!=__CUSTOM_min) s-=1;
+ element.style.fontSize=s+'px';
+ }); 
+ }
+ }else{
+ decreaseFontSize();
+ }
+}
+
+</script><script language="JavaScript" src="/js/m-menu.js"></script><div id="mobile"><div id="mButton" alt="Menu" title="Menu"><a href="javascript:openMenu();"><img src="/imagens/bt-m-menu.png" border="0" alt="Menu" title="Menu"/></a></div><div id="mContent" style="text-align:center;font-size:16px;color:white;"><b>Senac São Paulo</b></div><div id="mContentB" style="text-align:center;font-size:16px;color:white;"><form method="get" name="buscaM" action="/jsp/search.jsp"><input type="hidden" name="template" value="477.dwt"><input type="hidden" name="context" value="A"><input type="hidden" name="keywords" value=""><input type="hidden" name="testeira" value="453"><input name="txt_busca" type="text" id="txt_busca" maxlength="50" alt="Busca" title="Busca"></form></div><div id="mIcon"><a href="javascript:showBusca();"><img src="/imagens/bt-m-lupa.png" border="0" alt="Busca" title="Busca"/></a></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Add jQuery library --><script type="text/javascript" src="/fancybox/lib/jquery-1.10.1.min.js"></script><!-- Add fancyBox main JS and CSS files --><script type="text/javascript" src="/fancybox/source/jquery.fancybox.js?v=2.1.5"></script><link rel="stylesheet" type="text/css" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" /><script>
+$(document).ready(function() {
+$(".fancybox_loading").fancybox({
+ beforeShow: function(){
+ $(".fancybox-skin").css("backgroundColor","transparent");
+ $(".fancybox-skin").css("box-shadow","0px 0px 0px #fff");
+ },
+ closeClick : false, // prevents closing when clicking INSIDE fancybox 
+ openEffect : 'none',
+ width: 200,
+ height: 100,
+ autoSize : false,
+ closeEffect : 'none',
+ closeBtn : false,
+ type : 'iframe',
+ href : '/jsp/default.jsp?template=2312.dwt',
+ helpers : { 
+ overlay : {closeClick: false} // prevents closing when clicking OUTSIDE fancybox 
+ },
+ iframe: {
+ preload: false // fixes issue with iframe and IE
+ }
+});
+
+});
+</script><script language="JavaScript" src="/js/m-menu.js"></script><div id="mMenu"><a href="/jsp/default.jsp?newsID=0" alt="Início" title="Início"><div class='item'>Início</div></a><a href="/login" alt="Login" title="Login"><div class='item'>Login</div></a><a href="/faleconosco" alt="Fale Conosco" title="Fale Conosco"><div class='item'>Fale Conosco</div></a><a href="javascript:void(0);" onClick="javascript:mOpen('cursos');" alt="Cursos" title="Cursos" ><div class='item' id="titCursos">Cursos por Modalidade<div id="cursosArrow" class="arrow"></div></div></a><div id='mCursos'><a href="/cursoslivres" title="Cursos Livres" alt="Cursos Livres"><div class='item sub'>Livres</div></a><a href="/cursostecnicos" title="Cursos Técnicos" alt="Cursos Técnicos"><div class='item sub'>Técnicos</div></a><!-- <a href="/graduacao" title="Graduação" alt="Graduação"><div class='item sub'>Graduação</div></a>--><a href="/vestibular/cursos" title="Graduação" alt="Graduação"><div class='item sub'>Graduação</div></a><a href="/posgraduacao" title="Pós-graduação" alt="Pós-graduaçao"><div class='item sub'>Pós-graduação</div></a><a href="/extensao" title="Extensão" alt="Extensão"><div class='item sub'>Extensão Universitária</div></a></div><!-- cursos por área --><a href="javascript:void(0);" onClick="javascript:mOpen('cursosArea');" alt="Cursos por Área" title="Cursos por Área" ><div class='item' id="titCursosArea">Cursos por Área<div id="cursosAreaArrow" class="arrow"></div></div></a><div id='mCursosArea'><a href="#" onClick="window.location='/arquitetura'" title="Arquitetura" alt="Arquitetura" class="fancybox_loading"><div class='item sub'>Arquitetura</div></a><a href="#" onClick="window.location='/beleza'" class="fancybox_loading" title="Beleza" alt="Beleza"><div class='item sub'>Beleza e Estética</div></a><a href="#" onClick="window.location='/certificacoes'" class="fancybox_loading" title="Certificações em Tecnologia" alt="Certificações em Tecnologia"><div class='item sub'>Certificações em Tecnologia</div></a><a href="#" onClick="window.location='/desenvolvimentosocial'" class="fancybox_loading" title="Desenvolvimento Social" alt="Desenvolvimento Social"><div class='item sub'>Desenvolimento Social</div></a><a href="#" onClick="window.location='/design'" class="fancybox_loading" title="Design" alt="Design"><div class='item sub'>Design</div></a><a href="#" onClick="window.location='/educacao'" class="fancybox_loading" title="Educação" alt="Educação"><div class='item sub'>Educação</div></a><a href="#" onClick="window.location='/eventos'" class="fancybox_loading" title="Eventos e Lazer" alt="Eventos e Lazer"><div class='item sub'>Eventos e Lazer</div></a><a href="#" onClick="window.location='/gastronomia'" class="fancybox_loading" title="Gastronomia" alt="Gastronomia"><div class='item sub'>Gastronomia</div></a><a href="#" onClick="window.location='/gestao'" class="fancybox_loading" title="Gestão e Negócios" alt="Gestão e Negócios"><div class='item sub'>Gestão e Negócios</div></a><a href="#" onClick="window.location='/hotelaria'" class="fancybox_loading" title="Hotelaria e Turismo" alt="Hotelaria e Turismo"><div class='item sub'>Hotelaria e Turismo</div></a><a href="#" onClick="window.location='/idiomas'" class="fancybox_loading" title="Idiomas" alt="Idiomas"><div class='item sub'>Idiomas</div></a><a href="#" onClick="window.location='/limpeza'" class="fancybox_loading" title="Limpeza, Conservação e Zeladoria" alt="Limpeza, Conservação e Zeladoria"><div class='item sub'>Limpeza, Conservação e Zeladoria</div></a><a href="#" onClick="window.location='/meioambiente'" class="fancybox_loading" title="Meio Ambiente, Seg. Saúde no Trabalho" alt="Meio Ambiente, Seg. Saúde no Trabalho"><div class='item sub'>Meio Ambiente, Seg. Saúde no Trabalho</div></a><a href="#" onClick="window.location='/moda'" class="fancybox_loading" title="Moda" alt="Moda"><div class='item sub'>Moda</div></a><a href="#" onClick="window.location='/saude'" class="fancybox_loading" title="Saúde e Bem-Estar" alt="Saúde e Bem-Estar"><div class='item sub'>Saúde e Bem-Estar</div></a><a href="#" onClick="window.location='/tecnologiadainformacao'" class="fancybox_loading" title="Tecnologia da Informação" alt="Tecnologia da Informação"><div class='item sub'>Tecnologia da Informação</div></a></div><!-- cursos por área --><a href="javascript:void(0);" onClick="javascript:mOpen('grandesp');" alt="Unidades da Capital" title="Unidades da Capital"><div class='item' id="titUnidadesGSP">Unidades da Capital<div id="gspArrow" class="arrow"></div></div></a><div id='mUnidadesGSP'><a href="/24demaio" alt="24 de maio" title="24 de maio"><div class='item sub'>24 de Maio</div></a><a href="/aclimacao" alt="Aclimação" title="Aclimação"><div class='item sub'>Aclimação</div></a><a href="/franciscomatarazzo" alt="Francisco Matarazzo" title="Francisco Matarazzo"><div class='item sub'>Francisco Matarazzo</div></a><a href="/guarulhos" alt="Guarulhos" title="Guarulhos"><div class='item sub'>Guarulhos</div></a><a href="/itaquera" alt="Itaquera" title="Itaquera"><div class='item sub'>Itaquera</div></a><a href="/jabaquara" alt="Jabaquara" title="Jabaquara"><div class='item sub'>Jabaquara</div></a><a href="/jardimprimavera" alt="Jardim Primavera" title="Jardim Primavera"><div class='item sub'>Jardim Primavera</div></a><a href="/lapafaustolo" alt="Lapa Faustolo" title="Lapa Faustolo"><div class='item sub'>Lapa Faustolo</div></a><a href="/lapascipiao" alt="Lapa Scipião" title="Lapa Scipião"><div class='item sub'>Lapa Scipião</div></a><a href="/lapatito" alt="Lapa Tito" title="Lapa Tito"><div class='item sub'>Lapa Tito</div></a><a href="/largotreze" alt="Largo Treze" title="Largo Treze"><div class='item sub'>Largo Treze</div></a><a href="/nacoesunidas" alt="Nações Unidas" title="Nações Unidas"><div class='item sub'>Nações Unidas</div></a><a href="/osasco" alt="Osasco" title="Osasco"><div class='item sub'>Osasco</div></a><a href="/penha" alt="Penha" title="Penha"><div class='item sub'>Penha</div></a><a href="/santacecilia" alt="Santa Cecília" title="Santa Cecília"><div class='item sub'>Santa Cecília</div></a><a href="/santana" alt="Santana" title="Santana"><div class='item sub'>Santana</div></a><a href="/santoandre" alt="Santo André" title="Santo André"><div class='item sub'>Santo André</div></a><a href="/sbc" alt="São Bernardo do Campo" title="São Bernardo do Campo"><div class='item sub'>São Bernardo do Campo</div></a><a href="/taboaodaserra" alt="Taboão da Serra" title="Taboão da Serra"><div class='item sub'>Taboão da Serra</div></a><a href="/tatuape" alt="Tatuapé" title="Tatuapé"><div class='item sub'>Tatuapé</div></a><a href="/tiradentes" alt="Tiradentes" title="Tiradentes"><div class='item sub'>Tiradentes</div></a><a href="/vilaprudente" alt="Vila Prudente" title="Vila Prudente"><div class='item sub'>Vila Prudente</div></a></div><a href="javascript:void(0);" onClick="javascript:mOpen('interior');" alt="Unidades do Interior" title="Unidades do Interior"><div class='item' id="titUnidades">Unidades do Interior<div id="interiorArrow" class="arrow"></div></div></a><div id='mUnidades'><a href="/americana"><div class='item sub'>Americana</div></a><a href="/aracatuba"><div class='item sub'>Araçatuba</div></a><a href="/araraquara"><div class='item sub'>Araraquara</div></a><a href="/barretos"><div class='item sub'>Barretos</div></a><a href="/bauru"><div class='item sub'>Bauru</div></a><a href="/bebedouro"><div class='item sub'>Bebedouro</div></a><a href="/bertioga"><div class='item sub'>Bertioga</div></a><a href="/botucatu"><div class='item sub'>Botucatu</div></a><a href="/campinas"><div class='item sub'>Campinas</div></a><a href="/catanduva"><div class='item sub'>Catanduva</div></a><a href="/franca"><div class='item sub'>Franca</div></a><a href="/guaratingueta"><div class='item sub'>Guaratinguetá</div></a><a href="/itapetininga"><div class='item sub'>Itapetininga</div></a><a href="/itapira"><div class='item sub'>Itapira</div></a><a href="/itu"><div class='item sub'>Itu</div></a><a href="/jaboticabal"><div class='item sub'>Jaboticabal</div></a><a href="/jau"><div class='item sub'>Jaú</div></a><a href="/jundiai"><div class='item sub'>Jundiaí</div></a><a href="/limeira"><div class='item sub'>Limeira</div></a><a href="/marilia"><div class='item sub'>Marília</div></a><a href="/mogiguacu"><div class='item sub'>Mogi Guaçu</div></a><a href="/piracicaba"><div class='item sub'>Piracicaba</div></a><a href="/presidenteprudente"><div class='item sub'>Presidente Prudente</div></a><a href="/registro"><div class='item sub'>Registro</div></a><a href="/ribeiraopreto"><div class='item sub'>Ribeirão Preto</div></a><a href="/rioclaro"><div class='item sub'>Rio Claro</div></a><a href="/saocarlos"><div class='item sub'>São Carlos</div></a><a href="/saojoaodaboavista"><div class='item sub'>São João da Boa Vista</div></a><a href="/saojosedoriopreto"><div class='item sub'>São José do Rio Preto</div></a><a href="/saojosedoscampos"><div class='item sub'>São José dos Campos</div></a><a href="/santos"><div class='item sub'>Santos</div></a><a href="/sorocaba"><div class='item sub'>Sorocaba</div></a><a href="/taubate"><div class='item sub'>Taubaté</div></a><a href="/votuporanga"><div class='item sub'>Votuporanga</div></a></div><a href="javascript:void(0);" onClick="javascript:mOpen('centrouni');" alt="Centro Universitário" title="Centro Universitário"><div class='item' id="titCentroUni">Centro Universitário<div id="centroArrow" class="arrow"></div></div></a><div id='mCentroUni'><a href="/cas" alt="Centro Universitário Senac - Santo Amaro" title="Centro Universitário Senac - Santo Amaro"><div class='item sub'>Santo Amaro</div></a><a href="/caj" alt="Centro Universitário Senac - Campos do Jordão" title="Centro Universitário Senac - Campos do Jordão"><div class='item sub'>Campos do Jordão</div></a><a href="/cap" alt="Centro Universitário Senac - Águas de São Paulo" title="Centro Universitário Senac - Águas de São Pedro"><div class='item sub'>Águas de São Pedro</div></a></div><a href="/noticias" alt="Notícias" title="Notícias"><div class='item'>Notícias</div></a><a href="/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvents&template=932.dwt" alt="Eventos" title="Eventos"><div class='item'>Eventos</div></a><a href="/vestibular" alt="Vestibular" title="Vestibular"><div class='item' style="border-bottom:0px;">Vestibular</div></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="mLogo"><a href="#" onCLick="linkLogo();" alt="Página Inicial" title="Página Inicial"><img src="/imagens/logo_senac_grande.png" border="0" /></a></div><div id="wrapperSenac"><div id="content"><div id="topo"><span id="sp_topo"><link rel="stylesheet" href="/css/testeiras2013.css" type="text/css" /><div id="testeira"><div id="logo"><a href="http://www.sp.senac.br" onCLick="linkLogo();"><img src="/imagens/logo_senac_grande.png" width="128" height="80" border="0" alt="P&aacute;gina Inicial" title="P&aacute;gina Inicial"></a></div><div id="testeira-main"><div id="testeira-titulo"><a href="/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvents&template=932.dwt" style="text-decoration:none;font-family:tahoma,arial,verdana;font-size:35px;color:#00478b;" alt="Calendário de Eventos" title="Calendário de Eventos">Calendário de Eventos</a></div><div id="line1">&nbsp;</div></div></div></span></div><div id="space"></div><div id="contentSenac"><span id="htmlBody"><div id="eventosContent"><div id="breadcrumb-locator" style="width:100%;float:left;"><span style="color:#959595">Calendário de Eventos ><span id="breadcrumb-locator-value"></span></span></div><br id="br1" clear="all"/><br id="br2"/><div id="menuTemas">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>#thema{font-family:Tahoma,Verdana !important;background-color:#eee;margin:1px !important;font-size:12px !important;padding:4px 4px 4px 20px !important; border-bottom:1px solid white;}#thema a:link{text-decoration:none;}#thema a:hover{text-decoration:underline;}#thema:hover{background:#ddd;}#tit-thema{font-family:Tahoma,Verdana;background:#01478c;color:#FFFFFF;padding:7px 0px 5px 20px; font-size:12px !important;margin:1px !important;}</style><table cellspacing='0' cellpadding='0' width='235' border='0'><tr><td id='tit-thema'>Encontre um evento de<br/>seu interesse por tema</td></tr><tr><td><img src='/imagens/menu2013-top.png'></td></tr></table><table cellspacing='0' cellpadding='0' width='235' border='0'><tr><td valign='middle' height='18' width='235'><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=150'>Arquitetura e Urbanismo</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=122'>Beleza  e Estética</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=156'>Comunicação e Artes</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=126'>Desenvolvimento Social</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=111'>Design</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=125'>Educação</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=161'>Ensino Superior</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=104'>Eventos e Lazer</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=101'>Gastronomia</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=112'>Gestão e Negócios</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=100'>Hotelaria e Turismo</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=105'>Idiomas e Linguagem</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=127'>Meio Ambiente, Segurança e Saúde no Trabalho</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=123'>Moda</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=51'>Pós-graduação</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=153'>Saúde e Bem-estar</a><br></div><div id='thema'><a style='color:#777; font-size:12px;' href='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectRangeEvents&template=944.dwt&range=600&theme=158'>Tecnologia da Informação</a><br></div></td></tr><tr><td>&nbsp;</td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sociais"><div class="addthis_horizontal_follow_toolbox"></div></div></div><div id="eventosPrincipal"><!-- CÓDIGO PARA IDENTIFICAÇÃO DOS TEMPLATES --><META NAME="WT.cg_n" CONTENT="Eventos"><META NAME="WT.cg_s" CONTENT="Capa"><link rel="stylesheet" href="/css/eventos/eventos.css"><link rel="stylesheet" href="/css/eventos/eventos-detalhe.css"><meta name="viewport" content="width=device-width" /><style>div{ font-family:tahoma,arial,verdana; font-size:12px;}a{ font-family:tahoma,arial,verdana; font-size:12px;}td{ font-family:tahoma,arial,verdana; font-size:13px; color:#959595; }.link_laranja{color:#ff7f00 !important;font-weight:normal !important;font-size:13px !important;text-decoration: none !important;}a.link_laranja:hover{text-decoration: underline !important;}.link_cinza{color:#959595 !important;font-weight:normal !important;font-size:13px !important;text-decoration: none !important;}a.link_cinza:hover{text-decoration: underline !important;}.events a {font-family: Tahoma, Geneva, sans-serif;color: #666666;}.events a:link {text-decoration: none;color: #666666;}.events a:visited {text-decoration: none;color: #666666;}.events a:hover {text-decoration: underline;color: #666666;}.events a:active {text-decoration: none;}a.linque1{text-decoration: none;color: #ffffff;font-family: tahoma;font-size:18px;}a.linque1:hover{text-decoration: underline;color: #ffffff;font-family: tahoma;font-size:18px;}.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe { width: 100% !important;}.calendario{font-family: tahoma;font-size:30px;color: #ffffff;}.calendario-mes{font-family: tahoma;font-size:18px;color: #ffffff;}.calendario-ano{font-family: tahoma;font-size:30px;color: #ffffff;}.calendario-ano-sel{font-family: tahoma;font-size:30px;color: #00478b;}.c1{ width:22% !important; margin:0px 0px 0px 0px !important;}.c2{ width:25% !important; margin:0px 0px 0px 0px !important;}.c3{ width:51% !important; margin:0px 0px 0px 0px !important;}.c1D{ width:22% !important; margin:0px 0px 0px 0px !important; height:100%; }.c2D{ width:25% !important; margin:0px 0px 0px 0px !important; height:100%; }.c3D{ width:51% !important; margin:0px 0px 0px 0px !important; height:100%; }.ceventosLine{ float:left; font-weight:normal; width:100%; font-size:13px; background:#eaeaea; height:35px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; }.ceventosLineB{ float:left; font-weight:normal; width:100%; font-size:13px; height:35px; }.ceventosDetail{ float:left; font-weight:normal; width:100%; font-size:13px; background:#eaeaea; height:33px; border-top:1px solid white; border-bottom:1px solid white;overflow:hidden; text-overflow:ellipsis; }</style><script language="javascript" src="../js/senac.js" ></script><script>
+var parmYear = "2017";
+
+var parmMonth = "2";
+
+var monthly_list = new Array();
+ 
+ monthly_list[monthly_list.length] = [2017,2,1];
+ 
+ monthly_list[monthly_list.length] = [2017,3,1];
+ 
+ monthly_list[monthly_list.length] = [2017,4,1];
+ 
+ monthly_list[monthly_list.length] = [2017,5,1];
+ 
+ monthly_list[monthly_list.length] = [2017,6,1];
+ 
+ monthly_list[monthly_list.length] = [2017,7,1];
+ 
+ monthly_list[monthly_list.length] = [2017,8,1];
+ 
+ monthly_list[monthly_list.length] = [2017,9,1];
+ 
+ monthly_list[monthly_list.length] = [2017,10,1];
+ 
+ monthly_list[monthly_list.length] = [2017,11,1];
+ 
+ monthly_list[monthly_list.length] = [2017,12,0];
+ 
+ monthly_list[monthly_list.length] = [2018,1,0];
+ 
+
+var eventCounter = 20;
+
+
+function mergeParm(url,parmName,parmValue){
+ var merged=url;
+ if( merged.indexOf("&"+parmName+"=")!=-1 ){
+ var i1=merged.indexOf("&"+parmName+"=");
+ var i2=merged.indexOf("&",i1+parmName.length+2);
+ if(i2==-1){
+ merged=merged.substring(0,i1)+"&"+parmName+"="+parmValue;
+ }else{
+ merged=merged.substring(0,i1)+"&"+parmName+"="+parmValue+merged.substring(i2);
+ }
+ }else if( merged.indexOf("?"+parmName+"=")!=-1 ){
+ var i1=merged.indexOf("?"+parmName+"=");
+ var i2=merged.indexOf("&",i1+parmName.length+2);
+ if(i2==-1){
+ merged=merged.substring(0,i1)+"?"+parmName+"="+parmValue;
+ }else{
+ merged=merged.substring(0,i1)+"?"+parmName+"="+parmValue+merged.substring(i2);
+ }
+ }else{
+ if( merged.indexOf('&')==-1 ){
+ merged += "?"+parmName+"="+parmValue;
+ }else{
+ merged += "&"+parmName+"="+parmValue;
+ }
+ }
+ return merged;
+}
+
+function trocaMes(y,m){
+ var url = document.location.href;
+ url = mergeParm(url,"year",y);
+ url = mergeParm(url,"month",m);
+ document.location = url; 
+}
+
+function getMonthName(i,forced){
+ var months=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+ var tag = (!forced && monthly_list[i][2]>0 ? 
+"<a href=\"javascript:trocaMes('"+monthly_list[i][0]+"','"+monthly_list[i][1]+"')\" class=\"linque1\" id=\"linque1-"+i+"\">" : "<span class=\"calendario-mes\" id=\"linque1-"+i+"\">") +
+months[ forced ? i : monthly_list[i][1]-1 ] + 
+ (!forced && monthly_list[i][2]>0 ? "</a>" : "</span>");
+ return tag;
+}
+
+function getStrictMonthName(i,forced){
+ var months=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+ var tag = months[ forced ? i : monthly_list[i][1]-1 ];
+ return tag;
+}
+
+function getYear(i){
+ return '<span id="year-desc-'+i+'" class="calendario-ano">'+monthly_list[i][0]+'</span>';
+}
+function setMonthCellBackground(){
+ if(parmYear!="" && parmMonth!=""){
+ var y=parseInt(parmYear);
+ var m=parseInt(parmMonth);
+ for(var i=0;i<monthly_list.length;i++){
+ if( monthly_list[i][0]==y && monthly_list[i][1]==m ){
+ var cellName = "monthcell"+(i+1);
+document.getElementById(cellName).style.backgroundColor='#E44F10';
+
+document.getElementById('year-desc-'+i).className='calendario-ano-sel';
+
+ //eval("document.all."+cellName+".style.backgroundColor=\"#E44F10\"");
+ }
+ }
+ }
+}
+
+ function getResumedFormatDate(dt){
+ if(dt!=null && dt.indexOf('/')!=-1){
+ var dts=dt.split('/');
+ var d=dts[0];
+ var m=dts[1];
+ var y=dts[2];
+ return (d.charAt(0)=='0'?d.substring(1):d) + '/' + (m.charAt(0)=='0'?m.substring(1):m) + '/' + y;
+ }else{
+ return '';
+ }
+ }
+
+
+
+function getFormatDateEventos(y1,m1,d1,y2,m2,d2,connector){
+ var txt='';
+ var _d1=(d1.length<2?'0':'')+d1;
+ var _d2=(d2.length<2?'0':'')+d2;
+ var _m1=(m1.length<2?'0':'')+m1;
+ var _m2=(m2.length<2?'0':'')+m2;
+ if(d1!='' && m1!='' && d2!='' && m2!=''){
+ if(_m1!=_m2){
+ txt = (d1.length<2?'0':'')+d1+' '+getMonthAbbrev(m1) + (y1!=parmYear?' '+y1:'') + ' '+connector.toLowerCase()+' ' + (d2.length<2?'0':'')+d2+' '+getMonthAbbrev(m2) + (y2!=parmYear?' '+y2:'');
+ }else if(_d1!=_d2){
+ txt = (d1.length<2?'0':'')+d1+ ' '+connector.toLowerCase()+' ' + (d2.length<2?'0':'')+d2+' '+getMonthAbbrev(m2);
+ }else{
+ txt = (d1.length<2?'0':'')+d1+' '+getMonthAbbrev(m1);
+ }
+ }else{
+ txt = (d1.length<2?'0':'')+d1+' '+getMonthAbbrev(m1);
+ }
+ return txt.toUpperCase();
+}
+
+function getMonthAbbrev(m){
+ var months=['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
+ var _m=m;
+ if(_m.charAt(0)=='0') _m=_m.substring(1);
+ return months[ parseInt(_m)-1 ];
+}
+
+function getTransformedSiteName(sn){
+if(sn=='REDE SENAC SÃO PAULO'){
+return 'Rede Senac São Paulo';
+}else{
+return sn;
+}
+}
+
+var __EVENT_QTY=0;
+
+var _parmParent='';
+
+</script><SCRIPT LANGUAGE=JavaScript>
+ var RCD_ADs_sitepage = 'T932';
+ var RCD_ADs_listpos = 'LE-Posicao01,LE-Posicao02,LE-Posicao03,LE-Posicao04,LD-Posicao01,LD-Posicao02,LD-Posicao03,LD-Posicao04';
+ var RCD_ADs_rn = new String(Math.random());
+ var RCD_ADs_rns = RCD_ADs_rn.substring(2);
+ var RCD_ADs_version = 10;
+ function RCD_NORMAL(position){
+ }
+ </SCRIPT><SCRIPT LANGUAGE=JavaScript1.1>
+ //RCD_ADs_version=11;
+ //if(navigator.userAgent.indexOf('Mozilla/3')!=-1) RCD_ADs_version=10;
+ //if(RCD_ADs_version==11){
+ // document.write('<SCRIPT LANGUAGE=JavaScript1.1 SRC=' + '/jsp/senacADjsscript.jsp?sitepage=' + RCD_ADs_sitepage + '&extra=' + RCD_ADs_rns + '><\/SCRIPT>');
+ //}
+ </SCRIPT><SCRIPT LANGUAGE=JavaScript>
+ function RCD_AD(position){
+ if(RCD_ADs_version==11) RCD_RICH(position);
+ else RCD_NORMAL(position);
+ }
+ </SCRIPT><!-- AddThis Button BEGIN --><!-- AddThis Button END --><script>
+var _print = '';
+if(_print!='T'){
+
+}else{
+document.getElementById('button_addthis_email').innerHTML="<a href=\"javascript:window.location='/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=1060.dwt&template2=&unit=NONE&event='\" title=\"Enviar para amigo\"><img src=\"/imagens/email-addthis.png\" width=\"18\" height=\"18\" border=\"0\"></a>";
+document.getElementById('button_addthis_print').innerHTML="<a href=\"javascript:window.print()\" title=\"Imprimir\"><img src=\"/imagens/print-addthis.png\" width=\"18\" height=\"15\" border=\"0\"></a>";
+}
+</script><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td valign="top"><table border="0" cellpadding="0" cellspacing="2" width="100%"><tr align="right" valign="bottom" bgcolor="B2E4E5"><td id="monthcell1" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(0))</script><br><script>document.write(getYear(0))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell2" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(1))</script><br><script>document.write(getYear(1))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell3" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(2))</script><br><script>document.write(getYear(2))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell4" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(3))</script><br><script>document.write(getYear(3))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell5" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(4))</script><br><script>document.write(getYear(4))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell6" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(5))</script><br><script>document.write(getYear(5))</script></div></td><td width="2">&nbsp;</td></tr></table></td></tr><tr align="right" valign="bottom" bgcolor="B2E4E5"><td id="monthcell7" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(6))</script><br><script>document.write(getYear(6))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell8" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(7))</script><br><script>document.write(getYear(7))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell9" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(8))</script><br><script>document.write(getYear(8))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell10" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(9))</script><br><script>document.write(getYear(9))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell11" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(10))</script><br><script>document.write(getYear(10))</script></div></td><td width="2">&nbsp;</td></tr></table></td><td id="monthcell12" width="16%" height="70" bgcolor="#dddddd"><table border="0" align="right" cellpadding="0" cellspacing="0"><tr><td><div align="right" class="calendario"><script>document.write(getMonthName(11))</script><br><script>document.write(getYear(11))</script></div></td><td width="2">&nbsp;</td></tr></table></td></tr></table><br><h2 style="color:#00478b;margin:0px;padding:0px;font-weight:normal;font-size:18px;font-family:tahoma,arial,verdana;"><script>document.write(getStrictMonthName(2-1,true))</script>&nbsp;&bull;&nbsp;2017</h2><div id="orangeLine"><div id="mySquare"></div><div style="float:left;width:115px;height:5px; border-top:1px solid white;"></div></div><!-- 4059--><div id="eventosTit"><div class="c1"><b>Próximas Datas</b></div><div class="c2"><b>Local</b></div><div class="c3"><b>Eventos</b></div></div><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2007';
+var sdm = '2';
+var sdd = '20';
+var sdey = '2017';
+var sdem = '3';
+var sded = '3';
+var maxDate='04/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('REDE SENAC SÃO PAULO'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4059'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Exposição: Arte e Cultura do Carnaval">Exposição: Arte e Cultura do Carnaval</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2016';
+var sdm = '9';
+var sdd = '12';
+var sdey = '2016';
+var sdem = '9';
+var sded = '12';
+var maxDate='23/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('REDE SENAC SÃO PAULO'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3788'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Workshop: Vinhos Brasileiros e sua Evolução">Workshop: Vinhos Brasileiros e sua Evolução</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2016';
+var sdm = '12';
+var sdd = '20';
+var sdey = '2017';
+var sdem = '3';
+var sded = '15';
+var maxDate='15/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Lapa Scipião'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4020'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Professor Lado B: Leopoldo Leal – A Ilha Tipográfica">Professor Lado B: Leopoldo Leal – A Ilha Tipográfica</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '1';
+var sdd = '9';
+var sdey = '2017';
+var sdem = '6';
+var sded = '26';
+var maxDate='26/06/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Largo Treze'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3447'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Massoterapia">Atendimentos: Massoterapia</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '1';
+var sdd = '23';
+var sdey = '2017';
+var sdem = '3';
+var sded = '16';
+var maxDate='16/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Tiradentes'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=2646'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Workshops: Gestão de Serviços de Saúde">Workshops: Gestão de Serviços de Saúde</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '1';
+var sdd = '25';
+var sdey = '2017';
+var sdem = '2';
+var sded = '28';
+var maxDate='28/02/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Lapa Scipião'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4039'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Ocupação: Coletivo Rolê">Ocupação: Coletivo Rolê</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '1';
+var sdd = '28';
+var sdey = '2017';
+var sdem = '3';
+var sded = '18';
+var maxDate='18/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Tiradentes'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=2680'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Workshops de Radiologia">Workshops de Radiologia</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '1';
+var sdd = '30';
+var sdey = '2017';
+var sdem = '4';
+var sded = '17';
+var maxDate='17/04/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Largo Treze'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4018'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Estética">Atendimentos: Estética</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '4';
+var sdey = '2017';
+var sdem = '3';
+var sded = '4';
+var maxDate='04/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Mogi Guaçu'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4030'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Workshops de Gastronomia">Workshops de Gastronomia</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '8';
+var sdey = '2017';
+var sdem = '3';
+var sded = '6';
+var maxDate='06/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Campinas'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3622'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Exposição: Tipos Latinos">Exposição: Tipos Latinos</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '9';
+var sdey = '2017';
+var sdem = '2';
+var sded = '28';
+var maxDate='28/02/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Limeira'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=2490'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Exposição: Audrey Hepburn">Exposição: Audrey Hepburn</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '11';
+var sdey = '2017';
+var sdem = '3';
+var sded = '18';
+var maxDate='18/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Largo Treze'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=2584'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Depilação">Atendimentos: Depilação</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '13';
+var sdey = '2017';
+var sdem = '3';
+var sded = '30';
+var maxDate='30/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Mogi Guaçu'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3959'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Massoterapia">Atendimentos: Massoterapia</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '15';
+var sdey = '2017';
+var sdem = '3';
+var sded = '10';
+var maxDate='10/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Jabaquara'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3469'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Exposição: Bosques Particulares">Exposição: Bosques Particulares</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '16';
+var sdey = '2017';
+var sdem = '3';
+var sded = '7';
+var maxDate='07/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Largo Treze'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=1976'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Design de Sobrancelha">Atendimentos: Design de Sobrancelha</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '18';
+var sdey = '2017';
+var sdem = '4';
+var sded = '1';
+var maxDate='01/04/2017';
+var connector = 'E';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Aclimação'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4027'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Workshop: Cerimônia do Chá - história, filosofia e sensorialidade">Workshop: Cerimônia do Chá - história, filosofia e sensorialidade</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '21';
+var sdey = '2017';
+var sdem = '3';
+var sded = '28';
+var maxDate='28/03/2017';
+var connector = 'E';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Piracicaba'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=1869'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Estética Facial">Atendimentos: Estética Facial</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '21';
+var sdey = '2017';
+var sdem = '3';
+var sded = '21';
+var maxDate='21/03/2017';
+var connector = 'E';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Tiradentes'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3706'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Workshops: Farmácia">Workshops: Farmácia</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLine-'+__EVENT_QTY+'" class="ceventosLine">');</script><script>document.write('<div id="eventosDetail-'+__EVENT_QTY+'" class="ceventosDetail">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '23';
+var sdey = '2017';
+var sdem = '6';
+var sded = '20';
+var maxDate='20/06/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Campinas'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=3316'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Ciclo de Palestras: Meio Ambiente em Debate">Ciclo de Palestras: Meio Ambiente em Debate</a>');</script></td></tr></table></div></div></div><script>__EVENT_QTY++;</script><script>document.write('<div id="eventosLineB-'+__EVENT_QTY+'" class="ceventosLineB">');</script><div class="c1D"><table width="100%" height="100%"><tr><td valign="middle"><script>
+var sdy = '2017';
+var sdm = '2';
+var sdd = '24';
+var sdey = '2017';
+var sdem = '3';
+var sded = '10';
+var maxDate='10/03/2017';
+var connector = 'A';
+if(maxDate!=null && maxDate!='' && maxDate!='null'){
+sdey=maxDate.substring(6);
+sdem=maxDate.substring(3,5);
+sded=maxDate.substring(0,2);
+}
+document.write(getFormatDateEventos(sdy,sdm,sdd,sdey,sdem,sded,connector));
+</script></td></tr></table></div><div class="c2D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write(getTransformedSiteName('Senac Taboão da Serra'))</script></td></tr></table></div><div class="c3D"><table width="100%" height="100%"><tr><td valign="middle"><script>document.write('<a href="default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvent&template=946.dwt&event=4058'+(_parmParent=='no'?'&parent=no':'')+'" class="link_cinza" title="Atendimentos: Design de Sobrancelhas">Atendimentos: Design de Sobrancelhas</a>');</script></td></tr></table></div></div><script>__EVENT_QTY++;</script><SCRIPT>
+ if(eventCounter==0){
+ document.write("<font color=\"#666666\" size=\"2\" face=\"tahoma\"><b>Nenhum evento encontrado</b></font>");
+ }
+ </SCRIPT><p>&nbsp;</p><br clear="all"/><script>
+
+var ua = navigator.userAgent.toLowerCase();
+
+if(ua.indexOf('msie 7')==-1 && ua.indexOf('msie 8')==-1 ){
+
+ document.write('<div id="fb-root"></div>');
+
+ document.write('<div class="fb-comments" data-href="http://www.sp.senac.br/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvents&amp;template=932.dwt" data-colorscheme="light" data-numposts="5" data-width="100%" data-mobile="auto-detect"></div>');
+
+ (
+ function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) return;
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+ fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk')
+ );
+
+}
+
+</script></td></tr></table></td></tr></table><script>
+
+
+ if(document.getElementById('breadcrumb-locator')){
+document.getElementById('breadcrumb-locator').style.display='none';
+ document.getElementById('br1').style.display='none';
+ document.getElementById('br2').style.display='none';
+ }
+ setMonthCellBackground();
+
+ if( _parmParent=='no'){
+ //var cw = -1;
+ //try{
+ //cw=document.body.clientWidth;
+ //}catch(error){
+ //cw=-1;
+ //}
+ //if( cw!=-1 && cw < 300 ){
+
+ for(var ii=0;ii<=11;ii++){
+document.getElementById('linque1-'+ii).style.fontSize='8px';
+document.getElementById('year-desc-'+ii).style.fontSize='14px';
+ }
+
+ for(var ii=0;ii<__EVENT_QTY;ii++){
+if(document.getElementById('eventosLine-'+ii)) document.getElementById('eventosLine-'+ii).style.height='60px';
+if(document.getElementById('eventosLineB-'+ii)) document.getElementById('eventosLineB-'+ii).style.height='60px';
+if(document.getElementById('eventosDetail-'+ii)) document.getElementById('eventosDetail-'+ii).style.height='58px';
+ }
+
+ //}
+ }
+
+</script></div></div></span></div></div></div><div id="footer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table id="rodapePortal" width="100%" border="0" cellpadding="2" cellspacing="0"><tr><td align="center" valign="top" bgcolor="#002851"><table width="1000" border="0" cellpadding="0" cellspacing="10" class="mapa"><tr><td width="155" align="left" valign="top"><span class="mapa_titulos">INSTITUCIONAL</span><br><span class="mapa_titulos"><br>Conhe&ccedil;a o Senac</span><br><a href="/jsp/default.jsp?newsID=a724.htm&testeira=457"><img src="/menu/img/ico_brasil.jpg" width="20" height="15" border="0" alt="Vers&atilde;o em Portugu&ecirc;s" title="Vers&atilde;o em Portugu&ecirc;s"></a>&nbsp;&nbsp;&nbsp;<a href="/jsp/default.jsp?newsID=a13157.htm&testeira=1064"><img src="/menu/img/ico_espanha.jpg" width="20" height="15" border="0" alt="Version en Espan&otilde;l" title="Version Espan&otilde;l"></a>&nbsp;&nbsp;&nbsp;<a href="/jsp/default.jsp?newsID=a13156.htm&testeira=1063"><img src="/menu/img/ico_inglaterra.jpg" width="20" height="15" border="0" alt="English Version" title="English Version"></a><br><span class="mapa_titulos"><br>Unidades</span><br><a href="/jsp/default.jsp?template=741.dwt&testeira=466&regiao=c">. Capital</a><br><a href="/jsp/default.jsp?template=741.dwt&testeira=466&regiao=i">. Interior</a><br><a href="/jsp/default.jsp?newsID=a1978.htm&testeira=722&sub=0&unit=NONE&type=PE,P,M,G,X">. Campi</a><br><br><a href="/jsp/default.jsp?newsID=a377.htm&testeira=386">. Bibliotecas</a><br><a href="http://www.editorasenacsp.com.br/portal/principal.do?appAction=vwPrincipal" target="_blank">. Editora Senac</a><br><a href="http://www.grandehotelsenac.com.br/" target="_blank">. Hot&eacute;is</a></p></td><td width="155" align="left" valign="top"><span class="mapa_titulos">SERVI&Ccedil;OS</span><br><br><a href="/jsp/default.jsp?newsID=a17344.htm&testeira=457">. Licita&ccedil;&otilde;es</a><br><a href="http://www3.sp.senac.br/recru/portal/_display.jsp">. Trabalhe Conosco</a><br><a href="/jsp/default.jsp?newsID=a18863.htm&testeira=453&sub=">. Assessoria de Imprensa</a><br><a href="/jsp/default.jsp?newsID=a18511.htm&testeira=386">. Bibliotecas</a><br><a href="/jsp/default.jsp?template=976.dwt&testeira=1461&unit=CNAL">. Fale Conosco</a></td><td width="155" align="left" valign="top"><span class="mapa_titulos">CURSOS</span><br><br><a href="/jsp/default.jsp?template=1442.dwt&testeira=473&type=L&sub=3">. Livres</a><br><a href="/jsp/default.jsp?template=1489.dwt&testeira=474&type=T&sub=2">. T&eacute;cnicos</a><br><a href="/jsp/default.jsp?template=1681.dwt&testeira=999">. Idiomas</a><br><a href="/aprendiz">. Aprendizagem</a><br><a href="/jsp/default.jsp?template=1644.dwt&testeira=723&type=G&unit=NONE&sub=">. Gradua&ccedil;&atilde;o</a><br><a href="/jsp/default.jsp?template=1586.dwt&testeira=724&type=P,M,PE&unit=NONE&sub=">. P&oacute;s-gradua&ccedil;&atilde;o</a><br><a href="/jsp/default.jsp?template=1588.dwt&testeira=725&type=X&unit=NONE&sub=">. Extens&atilde;o Universit&aacute;ria</a><br><a href="http://www.ead.senac.br/" target="_blank">. Educa&ccedil;&atilde;o a Dist&acirc;ncia</a><br><a href="/jsp/default.jsp?newsID=a20605.htm&testeira=696&sub=0">. Cursos in Company</a><br><br><span class="mapa_titulos">EVENTOS</span><br><a href="/jsp/default.jsp?newsID=DYNAMIC,oracle.br.dataservers.ContentEventDataServer18,selectEvents&template=932.dwt">. Calend&aacute;rio de Eventos</a></td><td width="155" align="left" valign="top"><span class="mapa_titulos">CENTRO<br> UNIVERSIT&Aacute;RIO</span><br><br><a href="/graduacao">. Gradua&ccedil;&atilde;o</a><br><a href="/jsp/webcas/default.jsp?newsID=a2052.htm&testeira=724&type=P,M,PE&unit=NONE&sub=">. P&oacute;s-gradua&ccedil;&atilde;o</a><br><a href="/extensao">. Extens&atilde;o Universit&aacute;ria</a><br><a href="http://www.ead.senac.br/" target="_blank">. Educa&ccedil;&atilde;o a Dist&acirc;ncia</a><br><br><a href="/jsp/default.jsp?newsID=a19838.htm&testeira=1953&sub=0">. Programa de Relacionamento</a><br><a href="/parcerias">. Parcerias</a><br><a href="/jsp/default.jsp?newsID=a18511.htm&testeira=386">. Biblioteca</a><br></td><td width="155" align="left" valign="top"><span class="mapa_titulos">EDUCA&Ccedil;&Atilde;O <br>A DIST&Acirc;NCIA</span><br><br><a href="http://www.ead.senac.br/" target="_blank">. Senac EAD</a><br><a href="/sp/boletim.html">. Boletim Universo EAD</a><br><br><span class="mapa_titulos">ATENDIMENTO <br>CORPORATIVO</span><br><br><a href="/jsp/default.jsp?newsID=a20605.htm&testeira=696&sub=0">Conheça o Atendimento</a><br/><a href="/jsp/default.jsp?newsID=a20593.htm&testeira=696&sub=0">Cases e Clientes</a><br/><a href="/jsp/default.jsp?newsID=a20575.htm&testeira=696&sub=0">Premiações</a><br/><a href="/jsp/default.jsp?newsID=a20627.htm&testeira=696&sub=0">Fale Conosco</a><br/></td><td width="155" align="left" valign="top"><span class="mapa_titulos">DESENVOLVIMENTO <br>SOCIAL</span><br><br><a href="/jsp/default.jsp?newsID=a19633.htm&testeira=1928">. Vis&atilde;o Institucional</a><br><a href="/psg">. Bolsas de Estudo</a><br><a href="/jsp/default.jsp?newsID=a21669.htm&testeira=1409">. Programa Aprendizagem</a><br><a href="/jsp/default.jsp?newsID=a19633.htm&testeira=1928">. Programa Rede Social</a><br><a href="/jsp/default.jsp?tab=00002&newsID=a2022.htm&subTab=00466&uf=&local=&testeira=1029&l=&template=&unit=">. Iniciativas Sociais</a><br><a href="/jsp/default.jsp?newsID=a15637.htm&testeira=1029">. A&ccedil;&otilde;es Socioeducacionais</a><br><a href="/jsp/default.jsp?newsID=a18662.htm&testeira=1847&sub=0">. Amamenta&ccedil;&atilde;o</a><br><a href="http://www.setor3.com.br/jsp/default.jsp?newsID=a355.htm&testeira=94">. Portal Setor 3</a><br></td></tr><tr><td><div class="addthis_custom_follow"></div></td></tr><tr><td colspan="6" align="center" valign="middle" style="color:white;font-size:12px;"><br/>Senac - Serviço Nacional de Aprendizagem Comercial - CNPJ:&nbsp;<a href="http://www.sp.senac.br/jsp/default.jsp?template=741.dwt&testeira=466&regiao=i" alt="consulte as unidades" title="consulte as unidades" style="color:white;font-size:12px;text-decoration:underline;">[consulte as unidades]</a> ou pelo <a href="/faleconosco" alt="Fale Conosco" title="Fale Conosco" style="color:white;font-size:12px;text-decoration:underline;">Fale Conosco</a><br/>Informações: 4090-1030 para capitais e regiões metropolitanas e 0800-883-2000 para demais regiões</td></tr></table></td></tr><tr><td align="center" valign="top" bgcolor="#004C94"><table width="1000" border="0" cellpadding="0" cellspacing="10" class="mapa"><tr><td width="485" height="16" align="left" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="85" align="left" valign="top"><img src="/menu/img/logo_branco.png" width="80" height="16"></td><td width="300" align="left" valign="middle" class="senacMapa" style="color:white;">Copyright &copy; 2007-2017. Todos os Direitos Reservados.</td></tr></table></td><td height="16" align="left" valign="middle" class="senacMapa" style="color:white;"><a href="/jsp/default.jsp?newsID=a13119.htm&testeira=498" target="_top">Cr&eacute;ditos e Expediente.</a></td><td width="155" height="16" align="center" valign="middle"><a class="fancybox fancybox.iframe" href="/jsp/default.jsp?tab=00002&newsID=a15504.htm&subTab=00418&testeira=1461&template=675.dwt">Termos de Uso<br/>e Pol&iacute;tica de Privacidade</a></td></tr></table></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div id="mFooter"><!--<div class="mFooter c1">&nbsp;<a href="/faleconosco" alt="Fale Conosco" title="Fale Conosco" style="color:white;text-decoration:underline;">Fale Conosco</a></div><div class="mFooter c2" style="color:white;">0800 883 2000</div><div style="float:left;width:100%;text-align:center;margin:7px 0px 7px 0px;">&copy; 2015 Senac São Paulo</div>--><div class="copyR">Informações:<a href="tel:40901030"> 4090-1030</a> para capitais e regiões metropolitanas <br>e<a href="tel:08008832000"> 0800-883-2000</a> para demais regiões ou pelo <a href="http://www.sp.senac.br/faleconosco">Fale Conosco </a><br><br><br>Copyright &copy; 2007-2016.<br>Todos os Direitos Reservados.<br><br></div></div><!-- GOOGLE ANALYTICS --><script language="JavaScript" src="/js/busca-m.js"></script><!-- WEBTRENDS --><!-- true-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- START OF SmartSource Data Collector TAG --><!-- Copyright (c) 1996-2011 WebTrends Inc. All rights reserved. --><!-- Version: 9.3.0 --><!-- Tag Builder Version: 3.1 --><!-- Created: 2/11/2011 7:45:26 PM --><script src="/js/webtrends.js" type="text/javascript"></script><!-- ----------------------------------------------------------------------------------- --><!-- Warning: The two script blocks below must remain inline. Moving them to an external --><!-- JavaScript include file can cause serious problems with cross-domain tracking. --><!-- ----------------------------------------------------------------------------------- --><script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]></script><script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+}
+_tag.dcsCollect();
+//]]></script><noscript><div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://webtrendssdc.sp.senac.br/dcsucgyded4g5p6zehetp4f6c_1p2i/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.3.0&amp;WT.dcssip=www.sp.senac.br"/></div></noscript><!-- END OF SmartSource Data Collector TAG -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=senacsaopaulo"></script></body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

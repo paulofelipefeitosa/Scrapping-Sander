@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="pt-BR">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="pt-BR">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/img/favicon.png" />
+    <title>Eventos | Theatro Municipal de São Paulo</title>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://theatromunicipal.org.br/xmlrpc.php">
+    <!--[if lt IE 9]>
+    <script src="http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/html5.js"></script>
+    <![endif]-->
+
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=622287571141361&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <link rel="alternate" type="application/rss+xml" title="Feed de Theatro Municipal de São Paulo &raquo;" href="http://theatromunicipal.org.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Theatro Municipal de São Paulo &raquo;  Feed de comentários" href="http://theatromunicipal.org.br/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de Theatro Municipal de São Paulo &raquo; Eventos" href="http://theatromunicipal.org.br/programacao/feed/" />
+<link rel='stylesheet' id='dashicons-css'  href='http://theatromunicipal.org.br/wp-includes/css/dashicons.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='editor-buttons-css'  href='http://theatromunicipal.org.br/wp-includes/css/editor.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/main.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='daterange-css'  href='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/daterangepicker-bs3.css?ver=4.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var formvars = {"ajaxurl":"http:\/\/theatromunicipal.org.br\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/includes/form/form.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/congelado.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/jquery.mask.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/modernizr.custom.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/jquery.mobile.custom.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/fastclick.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/background-check.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/is_mobile.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vars = {"baseUrl":"http:\/\/theatromunicipal.org.br","themeUrl":"http:\/\/theatromunicipal.org.br\/wp-content\/themes\/theatromunicipal","ajaxUrl":"http:\/\/theatromunicipal.org.br\/wp-admin\/admin-ajax.php","newsPostsPerPage":"6","isAdmin":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/main.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/footer-social-icons.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/footer-newsletter.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/main-navbar.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/share.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/sub-home-image-gallery.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/programacao-masonry-grid.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/programacao-share.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/moment.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/moment.pt-br.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Directory = {"url":"http:\/\/theatromunicipal.org.br\/wp-content\/themes\/theatromunicipal","site":"http:\/\/theatromunicipal.org.br"};
+var wpApiOptions = {"base":"http:\/\/theatromunicipal.org.br\/wp-json","nonce":"e1c536b515"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/angular.min.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/angular-ui-router.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/daterangepicker.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/angular-daterangepicker.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/lib/angular-sanitize.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/ng-app/app.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/ng-app/services.js'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/js/ng-app/controllers.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://theatromunicipal.org.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://theatromunicipal.org.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.2" />
+<link rel='https://github.com/WP-API/WP-API' href='http://theatromunicipal.org.br/wp-json' />
+    <style type="text/css">
+        #post-id-4343 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/16-04-18-banner-site-1024x677.jpg) !important; } #post-id-5091 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/TACET-Performance-1024x887.jpg) !important; } #post-id-5063 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/1603_Coro-Infantojuvenil_Coro-Lírico_Cúpula_Foto03_Paola-Micheletti-1024x683.jpg) !important; } #post-id-4527 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/Praça_das_Artes_Foto05_por_Nelson_Kon-1024x680.jpg) !important; } #post-id-4796 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/John_Neschiling_OSM_foto_Sylvia_Masini-e1411701479624-1024x681.jpg) !important; } #post-id-4386 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/John_Neschiling_OSM_foto_Sylvia_Masini-e1411701479624-1024x681.jpg) !important; } #post-id-5086 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/Silenciosas-GTAime_foto-39-1.jpg) !important; } #post-id-4456 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/Quarteto-da-Cidade_Foto-Heloisa-Ballarini-SECOM_04-1024x680.jpg) !important; } #post-id-5239 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/06/DSCN1557-1024x768.jpg) !important; } #post-id-4346 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/160705-ladymacbeth-banner-site-1024x677.png) !important; } #post-id-5082 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/Gestos-Sonoros_Sesc-Instrumental-3-1024x683.jpg) !important; } #post-id-4528 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/Sala_do_conservat_rio_Lustre_e_cadeiras_e_palco.jpg) !important; } #post-id-4592 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/El-amor-brujo-1_Miquel-González--1024x684.jpg) !important; } #post-id-5355 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/Praça_das_Artes_Foto05_por_Nelson_Kon-1024x680.jpg) !important; } #post-id-5262 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/06/Cópia-de-IMG_4502-1024x683.jpg) !important; } #post-id-5408 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/Damas-em-Trânsito_Lugar-do-Outro-_-Alessandra-Haro-1024x683.jpg) !important; } #post-id-4541 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/Sala_do_conservat_rio_Lustre_e_cadeiras_e_palco.jpg) !important; } #post-id-4457 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/10/Quarteto_da_Cidade_por_Sylvia_Masini-1-e1413206275608-1024x681.jpg) !important; } #post-id-5406 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/06/Praca_das_Artes_por_Nelson_Kon-7-e1411701779472-1024x682.jpg) !important; } #post-id-5417 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/14044945_10207425614613648_940658102_o-1024x683.jpg) !important; } #post-id-4530 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/Sala_do_conservat_rio_Lustre_e_cadeiras_e_palco.jpg) !important; } #post-id-5420 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/Caçador-de-Borboleta_Felipe-Bittencourt-1024x942.jpg) !important; } #post-id-4422 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/11/Concurso_OER_Katarine_Foto02_Paola.jpg) !important; } #post-id-4458 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/01/Quartato_da_Cidade_por_Gabriel_Novaes-1024x678.jpg) !important; } #post-id-4423 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/1211_Sala_do_Conservatório_Foto03_por_Sylvia_Masini-1024x681.jpg) !important; } #post-id-5549 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/09/TM_Salao_Arcos_por_Ricardo_Kleine-5-e1411704046162-1024x682.jpg) !important; } #post-id-4425 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/1504_OER_Foto04_Luiz_Casimiro-1024x683.jpg) !important; } #post-id-4397 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/capa-beethoven_site-1024x1024.jpg) !important; } #post-id-4544 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/Sala_do_conservat_rio_Lustre_e_cadeiras_e_palco.jpg) !important; } #post-id-5414 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/Ilana_Lichtenstein_Besta_Joana_Ferraz.jpg) !important; } #post-id-4400 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/capa-beethoven_site-1024x1024.jpg) !important; } #post-id-4357 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/capa_balé-site-1024x1024.jpg) !important; } #post-id-4459 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/10/Quarteto_da_Cidade_por_Sylvia_Masini-1-e1413206275608-1024x681.jpg) !important; } #post-id-4426 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/1504_OER_Foto04_Luiz_Casimiro-1024x683.jpg) !important; } #post-id-5603 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/08/Presença-Permeável-Sol-Casal-1__1-729x1024.jpg) !important; } #post-id-5598 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/08/Presença-Permeável-Marina-Matheus-e-Marcus-Braga-1024x768.jpg) !important; } #post-id-4531 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/Sala_do_conservat_rio_Lustre_e_cadeiras_e_palco.jpg) !important; } #post-id-4504 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Salão_Nobre_por_Ricardo_Kleine-16-1024x682.jpg) !important; } #post-id-5609 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/1211_Sala_do_Conservatório_Foto03_por_Sylvia_Masini-1024x681.jpg) !important; } #post-id-5605 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/08/1-Flyer-1024x1024.jpg) !important; } #post-id-4506 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/07/TM_Hall_por_Ricardo-Kleine-2-1024x683.jpg) !important; } #post-id-4460 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/01/Quartato_da_Cidade_por_Gabriel_Novaes-1024x678.jpg) !important; } #post-id-5579 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/08/Foto_cala_divulgação-1024x683.jpg) !important; } #post-id-5580 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/08/14424212_1285163628161988_804340620_o-1024x768.jpg) !important; } #post-id-5657 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Sala_do_Conservatório_Foto02_por_Nelson_Kon-1024x683.jpg) !important; } #post-id-4428 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/OER_por_Desire¦üe_Furoni-4-1024x683.jpg) !important; } #post-id-4349 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/elektra-site-1024x677.png) !important; } #post-id-5682 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Marcela-Tiboni-2.jpg) !important; } #post-id-4545 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/Sala_do_conservat_rio_Lustre_e_cadeiras_e_palco.jpg) !important; } #post-id-5667 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/05/CPMA__Sala-do-Conservatório_9-maio_Foto-23-Luiz-Casimiro.jpg) !important; } #post-id-5684 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Flávia-Paiva_Presença-Permeável-1-1024x747.jpg) !important; } #post-id-4461 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/09/Quarteto_da_Cidade_por_Sylvia_Masini-1-e1411569338903-1024x681.jpg) !important; } #post-id-5709 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Abissal_01_iN-SAiO_foto-Claudio-Higa-070-1024x683.jpg) !important; } #post-id-5695 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/Praça_das_Artes_Foto05_por_Nelson_Kon-1024x680.jpg) !important; } #post-id-5617 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Salão_Nobre1-1024x683.jpg) !important; } #post-id-4512 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/1602_Coral-Paulistano-Mário-de-Andrade_Escadaria_Foto01_Luiz_Casimiro-1024x683.jpg) !important; } #post-id-5678 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/escolademusica-1024x683.jpg) !important; } #post-id-5711 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/foto-14_Carol-Quintanilha-1024x682.jpg) !important; } #post-id-5670 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/1211_Sala_do_Conservatório_Foto03_por_Sylvia_Masini-1024x681.jpg) !important; } #post-id-4513 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Salão_Nobre1-1024x683.jpg) !important; } #post-id-5715 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/Perversos-Polimorfos_imagemnuaeoutroscontos-3.jpg) !important; } #post-id-5673 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/1211_Sala_do_Conservatório_Foto03_por_Sylvia_Masini-1024x681.jpg) !important; } #post-id-4403 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/temporada-sinfonica_site_01-1024x677.jpg) !important; } #post-id-5681 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Rózà_divulgação-2-1024x684.jpg) !important; } #post-id-5674 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/Quarteto-da-Cidade_Foto-Heloisa-Ballarini-SECOM_09-1024x664.jpg) !important; } #post-id-5679 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/frestas-1-1024x683.jpg) !important; } #post-id-5798 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/theatrostrip_66592_2_full-1024x681.jpg) !important; } #post-id-5796 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/08/14-10-28-estampas-02-1024x576.jpg) !important; } #post-id-5852 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/Basilica_de_Sao_Bento_1_Sao_Paulo_Brasil-1024x766.jpg) !important; } #post-id-4547 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Sala_do_Conservatório_Foto02_por_Nelson_Kon-1024x683.jpg) !important; } #post-id-5862 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/EF9A0922-1024x683.jpg) !important; } #post-id-5873 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/10353132_10208756180519145_8165759726700911074_n.jpg) !important; } #post-id-4359 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/quebrakovsky_site_01-1024x677.jpg) !important; } #post-id-5867 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/Presença-Permeável-_Hugo_Sissi-1024x767.jpg) !important; } #post-id-4466 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/Quarteto-da-Cidade_Foto-Heloisa-Ballarini-SECOM_09-1024x664.jpg) !important; } #post-id-4515 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/05/CPMA__Sala-do-Conservatório_9-maio_Foto-23-Luiz-Casimiro.jpg) !important; } #post-id-5730 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/09/Theatro_Municipal_SPfoto_Sylvia_Masini-501-681x1024.jpg) !important; } #post-id-5986 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/11/Presença-Permeável_EDMARTE_créditos-Lucas-Ávila-1024x683.jpg) !important; } #post-id-5872 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/14961569_10154099917852549_75333768_n.jpg) !important; } #post-id-4519 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/cpma1041016-1024x683.jpg) !important; } #post-id-4518 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/CPMA.Escadaria-1024x683.jpg) !important; } #post-id-4467 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/01/Quartato_da_Cidade_por_Gabriel_Novaes-1024x678.jpg) !important; } #post-id-4353 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/fosca_site_01-1024x677.jpg) !important; } #post-id-5858 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/Música-Estranha_Ateliê-Contemporâeno-1-of-1-1024x683.jpg) !important; } #post-id-4548 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/01/20150428_percoth_foto_sylvia_masini-5pq.jpg) !important; } #post-id-4867 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/03/Dançographismus_Foto-Arthur-Costa-4-1024x683.jpg) !important; } #post-id-4520 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/05/CPMA__Sala-do-Conservatório_9-maio_Foto-23-Luiz-Casimiro.jpg) !important; } #post-id-6090 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/11/Banda-Sinfônica-ArthurCosta20-1024x683.jpg) !important; } #post-id-6094 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/11/2-Samira-BR.jpg) !important; } #post-id-6092 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/11/3-Lucio-Agra.jpg) !important; } #post-id-4472 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2014/09/Quarteto_da_Cidade_por_Sylvia_Masini-1-e1411569338903-1024x681.jpg) !important; } #post-id-4521 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/cpma1041016-1024x683.jpg) !important; } #post-id-6127 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/10/Basilica_de_Sao_Bento_1_Sao_Paulo_Brasil-1024x766.jpg) !important; } #post-id-4488 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2015/12/TM_Plateia_por_Ricardo_Kleine-13-1024x683.jpg) !important; } #post-id-6136 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/12/1504_OER_Foto02_Luiz_Casimiro-1024x683.jpg) !important; } #post-id-6236 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/11/Banda-Sinfônica-ArthurCosta20-1024x683.jpg) !important; } #post-id-6220 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/12/Sem-título.jpg) !important; } #post-id-6211 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/12/FP20160430-212756-1024x683.jpg) !important; } #post-id-6217 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/12/2-Presenca-Permeavel-Janaina-Carrer-1024x575.jpg) !important; } #post-id-6224 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/12/pp-1024x616.jpg) !important; } #post-id-6222 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/12/4-Presenca-Permeavel-Jorge-Feitosa.jpg) !important; } #post-id-6207 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/07/1603_Praça-das-Artes_Foto02_Paola-Micheletti-1024x683.jpg) !important; } #post-id-6353 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/09/Sala_do_Conservatório_Foto02_por_Nelson_Kon-1024x683.jpg) !important; } #post-id-6316 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2016/05/Praça_das_Artes_Foto02_por_Nelson_Kon1-1024x683.jpg) !important; } #post-id-6327 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/01/2-marcelo-gandhi-presenca-permeavel.jpg) !important; } #post-id-6383 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/OSM1.Domingo213-1024x683.jpg) !important; } #post-id-6384 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/Theatro-Plateia_Andar1_por_Ricardo-Kleine-1-1024x682.jpg) !important; } #post-id-6512 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/Img_Prg_1.Sem00045-1024x683.jpg) !important; } #post-id-6409 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/Theatro-Plateia_Andar1_por_Ricardo-Kleine-11-1024x682.jpg) !important; } #post-id-6637 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/site-1024x677.jpg) !important; } #post-id-6416 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/TM_Plateia_por_Ricardo_Kleine-13-1024x683.jpg) !important; } #post-id-6526 { background-image: url(http://theatromunicipal.org.br/wp-content/uploads/2017/02/2016-09-13-23-30-Cópia-de-Adastra_foto_Clarissa_Lambert-1024x684.jpg) !important; }     </style>
+<meta name="og:type" content="website" />
+<meta name="og:url" content="http://theatromunicipal.org.br/programacao" />
+<meta name="og:site_name" content="Theatro Municipal de S&atilde;o Paulo" />
+<meta name="og:locale" content="pt_BR" />
+<meta name="og:title" content="Theatro Municipal de S&atilde;o Paulo" />
+<meta name="og:image" content="http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/img/logo-facebook.png" />
+<meta name="og:description" content="O Palco de S&atilde;o Paulo" />
+
+</head>
+
+<body class="archive post-type-archive post-type-archive-evento desktop">
+
+    <div id="fb-root"></div>
+
+    <nav class="main-navbar navbar navbar-default" role="navigation">
+
+        <div class="main-navbar--header navbar-header js-header">
+
+            <div class="main-navbar--toggle clearfix">
+                <button type="button" class="main-navbar--toggle--button navbar-toggle js-toggle" data-target=".main-navbar--collapse">
+                    <i class="fa fa-2x fa-bars"></i>
+                    <span>Menu</span>
+                </button>
+                                    <a class="main-navbar--home" href="http://theatromunicipal.org.br"><i class="fa fa-home fa-2x"></i></a>
+                                <a class="main-navbar--brand" href="http://theatromunicipal.org.br" onclick="if(location.pathname == '/'){location.hash = '#/'; return false;}"><img src='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/img/ftmsp-1x.png' /></a>
+            </div>
+
+            <div class="main-navbar--search clearfix">
+                <form class="main-navbar--search--form navbar-form" role="search" action="http://theatromunicipal.org.br" id="searchform" method="get">
+                    <input class="main-navbar--search--form--input form-control" type="text" id="s" name="s" placeholder="Pesquisar">
+                    <button class="main-navbar--search--form--button btn btn-primary fa fa-search" type="submit"><span class="sr-only">Procurar</span></button>
+                </form>
+                <div class="main-navbar--search--temp clearfix">
+                    <div class="menu-menu-temporario-container"><ul id="menu-menu-temporario" class="menu"><li id="menu-item-6396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6396 menu-item-ouvidoria first-menu-item"><a href="http://theatromunicipal.org.br/ouvidoria/">Fale conosco</a></li>
+</ul></div>                </div>
+            </div>
+
+        </div>
+
+        <div class="main-navbar--collapse hidden">
+
+            <div class="main-navbar--collapse--content container">
+
+                <div class="main-navbar--collapse--group programacao-ingressos">
+                    <header class="main-navbar--collapse--group--header">
+                        <h1>Programação e Ingressos</h1>
+                    </header>
+
+                    <div class="menu-programacao-e-ingressos-container"><ul id="menu-programacao-e-ingressos" class="main-navbar--collapse--group--list"><li class=""><a href="http://theatromunicipal.org.br/programacao" >Programação Completa</a></li><li class=""><a href="http://theatromunicipal.org.br/bilheteria/" >Bilheteria</a></li></ul></div>                </div>
+
+                <div class="main-navbar--collapse--group midia">
+                    <header class="main-navbar--collapse--group--header">
+                        <h1>Mídia</h1>
+                    </header>
+                    <div class="menu-midia-container"><ul id="menu-midia" class="main-navbar--collapse--group--list"><li class=""><a href="https://www.facebook.com/theatromunicipalsp/?ref=hl" >Facebook</a></li><li class=""><a href="http://instagram.com/theatromunicipal" >Instagram</a></li><li class=""><a href="https://www.youtube.com/channel/UCbyLo6ZhgtGVpHTN4fTFB3A" >YouTube</a></li><li class=""><a href="http://issuu.com/theatromunicipal" >Publicações</a></li><li class=""><a href="http://theatromunicipal.org.br/imprensa/" >Imprensa</a></li></ul></div>                </div>
+
+
+                <div class="main-navbar--collapse--group espacos">
+                    <header class="main-navbar--collapse--group--header">
+                        <h1>Espaços</h1>
+                    </header>
+
+                    <div class="menu-espacos-container"><ul id="menu-espacos" class="main-navbar--collapse--group--list list--parent"><li><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/" >Theatro Municipal</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#/programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_theatromunicipaldesaopaulo/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/diretor-artistico/" >Diretor Artístico</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#espacos" >Espaços</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#visita-guiada" >Visitas Guiadas</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#restaurante" >Restaurante</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#como-chegar" >Como Chegar</a></li><li class=""><a href="http://theatromunicipal.org.br/bilheteria/" >Bilheteria</a></li></ul></li><li><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/" >Praça das Artes</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#/programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_praca_das_artes/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#sala-de-exposicoes" >Exposições</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#sala-do-conservatorio" >Sala do Conservatório</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#centro-de-memoria" >Centro de Memória</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#visita-guiada" >Visita Guiada</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#como-chegar" >Como Chegar</a></li></ul></li><li><a href="http://theatromunicipal.org.br/espaco/central-tecnica/" >Central Técnica</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/espaco/central-tecnica/#acervo" >Acervo</a></li><li class=""><a href="http://theatromunicipal.org.br/espaco/central-tecnica/#visita-guiada" >Visita Guiada</a></li></ul></li></ul></div>                </div>
+
+                <div class="main-navbar--collapse--group grupos-artisticos">
+                    <header class="main-navbar--collapse--group--header">
+                        <h1>Grupos Artísticos</h1>
+                    </header>
+
+                    <div class="menu-grupos-artisticos-container"><ul id="menu-grupos-artisticos" class="main-navbar--collapse--group--list list--parent"><li><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/" >Orquestra Sinfônica Municipal</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/#programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_osm/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/#regente" >Regente</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/#musicos" >Músicos</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/#equipe" >Equipe</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-sinfonica-municipal/#audicoes" >Audições</a></li></ul></li><li><a href="http://theatromunicipal.org.br/grupoartistico/coro-lirico/" >Coro Lírico Municipal</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coro-lirico/#programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coro-lirico/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coro-lirico/#diretor-artistico" >Regente</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coro-lirico/#musicos" >Músicos</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coro-lirico/#equipe" >Equipe</a></li></ul></li><li><a href="http://theatromunicipal.org.br/grupoartistico/bale-da-cidade/" >Balé da Cidade de São Paulo</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/bale-da-cidade/#programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_bcsp/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/bale-da-cidade/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/bale-da-cidade/#diretora-artistica" >Diretor Artístico</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/bale-da-cidade/#staff" >Equipe</a></li></ul></li><li><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/" >Orquestra Experimental de Repertório</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/#programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_oer/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/#regente-titular" >Regente</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/#alunos" >Alunos</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/#equipe" >Equipe</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/#audicoes-2" >Audições</a></li></ul></li><li><a href="http://theatromunicipal.org.br/grupoartistico/coral-paulistano/" >Coral Paulistano Mário de Andrade</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coral-paulistano/#programacao" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coral-paulistano/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coral-paulistano/#diretor-artistico" >Regente</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coral-paulistano/#musicos" >Músicos</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/coral-paulistano/#equipe" >Equipe</a></li></ul></li><li><a href="http://theatromunicipal.org.br/grupoartistico/quarteto-da-cidade/" >Quarteto de Cordas da Cidade de São Paulo</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/quarteto-da-cidade/" >Programação</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/quarteto-da-cidade/#historia" >História</a></li><li class=""><a href="http://theatromunicipal.org.br/grupoartistico/quarteto-da-cidade/#musicos" >Músicos</a></li></ul></li></ul></div>                </div>
+
+                <div class="main-navbar--collapse--group formacao">
+                    <header class="main-navbar--collapse--group--header">
+                        <h1>Formação</h1>
+                    </header>
+
+                    <div class="menu-formacao-container"><ul id="menu-formacao" class="main-navbar--collapse--group--list list--parent"><li><a href="http://theatromunicipal.org.br/formacao/diretoria-de-formacao-3/" >Diretoria de Formação</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/formacao/diretoria-de-formacao-3/#projeto-pedagogico" >Projeto Pedagógico</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/diretoria-de-formacao-3/#equipe" >Equipe</a></li></ul></li><li><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/" >Escola de Dança de São Paulo</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/#historia" >A Escola</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_escola_de_danca_de_sao_paulo/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/#cursos-livres-e-de-formacao" >Programa de Formação em Dança</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/#cursos-livres" >Cursos Livres</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/#processo-seletivo-2016-formacao-em-danca" >Processo Seletivo 2016: Formação em Dança</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/#manual-do-aluno-2" >Manual do Aluno</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-de-danca-de-sao-paulo/#equipe" >Equipe e Professores</a></li></ul></li><li><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/" >Escola Municipal de Música</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#a-escola" >A Escola</a></li><li class=""><a href="http://theatromunicipal.org.br/category/noticias_escola_municipal_de_musica/" >Notícias</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#professores" >Cursos e Professores</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#oficinas" >Oficinas</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#processo-seletivo-2" >Processo Seletivo</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#grupos-internos" >Grupos internos</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#opera-studio" >Opera Studio</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/escola-municipal-de-musica/#equipe-2" >Equipe</a></li></ul></li><li><a href="http://theatromunicipal.org.br/formacao/nucleodeorquestrasdeformacao/" >Núcleo de Orquestras de Formação</a><ul class='nav'><li class=""><a href="http://theatromunicipal.org.br/formacao/nucleodeorquestrasdeformacao/#nucleo-de-orquestras-de-formacao" >O Núcleo</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/nucleodeorquestrasdeformacao/#orquestra-experimental-de-repertorio-2" >Orquestra Experimental de Repertório</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/nucleodeorquestrasdeformacao/#orquestrasinfonicainfantojuvenil" >Orquestra Sinfônica Infanto-Juvenil</a></li><li class=""><a href="http://theatromunicipal.org.br/formacao/nucleodeorquestrasdeformacao/#orquestra-jovem-municipal" >Orquestra Sinfônica Jovem Municipal</a></li><li class=""><a href="http://theatromunicipal.org.br/?post_type=formacao&p=33" >Testes</a></li></ul></li></ul></div>                </div>
+
+                <div class="main-navbar--collapse--group gestao">
+                    <header class="main-navbar--collapse--group--header">
+                        <h1>Gestão</h1>
+                    </header>
+                    <div class="menu-gestao-container"><ul id="menu-gestao" class="main-navbar--collapse--group--list"><li class=""><a href="http://theatromunicipal.org.br/fundacao-theatro-municipal/" >Fundação Theatro Municipal</a></li><li class=""><a href="http://theatromunicipal.org.br/diretor-geral/" >Diretor Geral</a></li><li class=""><a href="http://ibgestaocultural.org.br/" >IBGC</a></li><li class=""><a href="http://theatromunicipal.org.br/fundacao-theatro-municipal/locacoes/" >Locações</a></li><li class=""><a href="http://theatromunicipal.org.br/fundacao-theatro-municipal/patrocinadores/" >Patrocinadores</a></li><li class=""><a href="http://theatromunicipal.org.br/?page_id=3187" >Amigos do Theatro</a></li><li class=""><a href="http://theatromunicipal.org.br/equipe/" >Equipe</a></li><li class=""><a href="http://theatromunicipal.org.br/ouvidoria/" >Fale conosco</a></li><li class=""><a href="http://theatromunicipal.org.br//transparencia" >Transparência</a></li></ul></div>                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="wrapper">
+
+<section class="calendar clearfix" ui-view="home">
+    <aside class="calendar--aside filter" ui-view="filter-bar"></aside>
+    <section class="calendar--content results" ui-view="results"></section>
+</section>
+
+
+    <div class="patrocinadores carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item patrocinador active">
+                <img src="http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/img/municipal_o_palco.png" alt="Municipal. O Palco de S&atilde;o Paulo" />            </div>
+                                                <div class="item patrocinador" style="background-color: #ffffff;">
+                                                    <a href="http://www.operaamerica.org/" title="Opera America" target="_blank">
+                                <img width="1170" height="243" src="http://theatromunicipal.org.br/wp-content/uploads/2016/01/opera-america_.jpg" class="attachment-full wp-post-image" alt="opera america_" />                            </a>
+                                            </div>
+                                                                <div class="item patrocinador" style="background-color: #ffffff;">
+                                                    <a href="http://www.opera-europa.org/en/about-us/members/teatro-municipal-de-s-o-paulo" title="Opera Europa" target="_blank">
+                                <img width="1170" height="243" src="http://theatromunicipal.org.br/wp-content/uploads/2015/06/opera_europa_13.jpg" class="attachment-full wp-post-image" alt="opera_europa_1" />                            </a>
+                                            </div>
+                                    </div>
+    </div>
+
+    <div class="social-links js-social-links">
+        <header class="social-links--header">
+            <h1>Acompanhe as novidades</h1>
+        </header>
+
+        <div class="container">
+            <div class="social-links--content">
+                <div class="social-link js-social-link">
+                    <a class="facebook" href="https://www.facebook.com/theatromunicipalsp" title="Facebook">
+                        <span class="sr-only">facebook</span>
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                </div>
+                <div class="social-link js-social-link">
+                    <a class="twitter" href="https://twitter.com/municipalsp" title="Twitter">
+                        <span class="sr-only">twitter</span>
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
+                <div class="social-link js-social-link">
+                    <a class="youtube" href="http://www.youtube.com/channel/UCbyLo6ZhgtGVpHTN4fTFB3A" title="YouTube">
+                        <span class="sr-only">youtube</span>
+                        <span class="fa fa-youtube"></span>
+                    </a>
+                </div>
+                <div class="social-link js-social-link">
+                    <a class="instagram" href="http://instagram.com/theatromunicipal" title="Instagram">
+                        <span class="sr-only">instagram</span>
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </div>
+                <div class="social-link js-social-link">
+                    <a class="rss" href="http://theatromunicipal.org.br/feed/" title="RSS" target="_blank">
+                        <span class="sr-only">rss</span>
+                        <span class="fa fa-rss"></span>
+                    </a>
+                </div>
+            </div>
+            <form class="newsletter js-newsletter js-madmimi-form">
+                                <label class="newsletter--label"><span>Assine nossa newsletter</span></label>
+                <input class="newsletter--input" type="email" name="email" placeholder="Insira seu email"/>
+                <button class="newsletter--submit btn btn-warning" type="submit"><span>Cadastrar email</span></button>
+                <span class="newsletter--notifications js-loading" style="display:none;">Enviando...</span>
+                <span class="newsletter--notifications js-feedback-success" style="display:none;">Obrigado por se cadastrar!</span>
+                <span class="newsletter--notifications js-feedback-error" style="display:none;">Erro no cadastro! Por favor, tente novamente.</span>
+            </form>
+        </div>
+    </div>
+
+    <div class="venues">
+        <div class="venues--content container">
+            <div class="venue">
+                <h1 class="venue--title">Theatro Municipal</h1>
+                <div class="venue--address">
+                    <i class="fa fa-location-arrow"></i>
+                    <address>Praça Ramos de Azevedo, s/nº<br>Sé - São Paulo, SP<br><a href="http://theatromunicipal.org.br/espaco/theatro-municipal/#como-chegar">Ver no Mapa</a></address>
+                </div>
+                <div class="venue--phones clearfix">
+                    <i class="fa fa-phone"></i>
+
+                    <div class="venue--phone phone--tickets">
+                        <span class="type">Bilheteria</span>
+                        <span class="value"><span class="code">55</span> <span class="code">11</span> 3053 2090</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="venue">
+                <h1 class="venue--title">Praça das Artes</h1>
+                <div class="venue--address">
+                    <i class="fa fa-location-arrow"></i>
+                    <address>Avenida São João, 281<br>Sé - São Paulo, SP<br><a href="http://theatromunicipal.org.br/espaco/praca-das-artes/#como-chegar">Ver no Mapa</a></address>
+                </div>
+                <div class="venue--phones clearfix">
+                    <i class="fa fa-phone"></i>
+
+                    <div class="venue--phone phone--work">
+                        <span class="type">Telefone</span>
+                        <span class="value"><span class="code">55</span> <span class="code">11</span> 4571 0401</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="venue--tickets">
+                <h1>Adquira seus ingressos</h1>
+                <a class="btn btn-lg btn-info" href="http://www.compreingressos.com/theatromunicipaldesaopaulo" title="Compre Ingressos" target="_blank">Compre Ingressos</a>
+            </div>
+        </div>
+    </div>
+        <div class="brands">
+        <div class="brands--container container">
+            <div>
+                            <div class="alignleft">
+                <span></span><br/><a href="http://www.cultura.gov.br/" title="Ministério da Cultura" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoLeiDeIncentivoACultura.png" title="Ministério da Cultura" alt="Ministério da Cultura"> </a>                </div>
+                            <div class="alignleft">
+                                </div>
+                            <div class="alignleft">
+                <span>Patrocinador </span><br/><a href="http://www.bradesco.com.br/html/classic/index.shtm" title="Bradesco" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoBradesco.png" title="Bradesco" alt="Bradesco"> </a>                </div>
+                            <div class="alignleft">
+                <span>Copatrocinador</span><br/><a href="http://www.uol.com.br/" title="UOL" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoUOL.png" title="UOL" alt="UOL"> </a>                </div>
+                            <div class="alignleft">
+                <span>Apoio</span><br/><a href="http://www.haitongib.com.br/sec/" title="Haitong" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoHaitong.png" title="Haitong" alt="Haitong"> </a><a href="http://www.arteris.com.br" title="Arteris" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoArteris.png" title="Arteris" alt="Arteris"> </a><a href="http://www.qualicorp.com.br/qualicorp/ecp/comunidade.do?app=portalqualicorpnovosite" title="Qualicorp" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2017/01/Qualicorp_Sempre-ao-seu-lado.png" title="Qualicorp" alt="Qualicorp"> </a>                </div>
+                            <div class="alignleft">
+                <span>Relações institucionais</span><br/><a href="http://www.leviskycultura.com.br/" title="Levisky Negócios &amp; Cultura" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2015/01/levisky_site.jpg" title="Levisky Negócios &amp; Cultura" alt="Levisky Negócios &amp; Cultura"> </a>                </div>
+                            <div class="alignleft">
+                <span>Compra de ingressos</span><br/><a href="http://www.compreingressos.com/theatromunicipaldesaopaulo" title="Compre ingressos" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoCompreIngressos.png" title="Compre ingressos" alt="Compre ingressos"> </a>                </div>
+                            <div class="alignleft">
+                <span>Execução</span><br/><a href="http://ibgestaocultural.org.br/" title="Instituto Brasileiro de Gestão Cultural - IBGC" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoIBGC.png" title="Instituto Brasileiro de Gestão Cultural - IBGC" alt="Instituto Brasileiro de Gestão Cultural - IBGC"> </a>                </div>
+                            <div class="alignleft">
+                <span>Realização</span><br/><a href="http://theatromunicipal.org.br/fundacao-theatro-municipal/" title="Fundação Theatro Municipal de São Paulo" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoFundacaoTheatroMunicipal.png" title="Fundação Theatro Municipal de São Paulo" alt="Fundação Theatro Municipal de São Paulo"> </a><a href="http://spcultura.prefeitura.sp.gov.br/" title="Circuito São Paulo de Cultura" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoCircuitoSaoPauloDeCultura.png" title="Circuito São Paulo de Cultura" alt="Circuito São Paulo de Cultura"> </a><a href="http://www.capital.sp.gov.br/portal/" title="Prefeitura de São Paulo" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoPrefeituraDeSaoPaulo.png" title="Prefeitura de São Paulo" alt="Prefeitura de São Paulo"> </a><a href="http://www.brasil.gov.br/" title="Ministério da Cultura" target="_blank"> <img src="http://theatromunicipal.org.br/wp-content/uploads/2016/10/logoGovernoFederal.png" title="Ministério da Cultura" alt="Ministério da Cultura"> </a>                </div>
+                        </div>
+        </div>
+    </div>
+    
+    <div class="links">
+        <div class="links--container container">
+                        <a class="links--email" href="mailto:ouvidoriaftm@prefeitura.sp.gov.br" alt="Email: ouvidoriaftm@prefeitura.sp.gov.br">Contato</a> · <a class="links--privacy" href="http://theatromunicipal.org.br/politica-de-direitos-e-privacidade/" alt="Política de Direitos e Privacidade">Política de Direitos e Privacidade</a> · Desenvolvido por <a href="http://www.hacklab.com.br" title="hacklab/" target="_blank"><strong>hacklab/</strong></a>
+        </div>
+    </div>
+</div><!-- .wrapper -->
+
+                    <!-- Modal 3393 -->
+                    <div class="modal fade" id="modal-post-3393" tabindex="-1" role="dialog" aria-labelledby="modal-post-3393-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-3393-label">
+                                        <a href="http://theatromunicipal.org.br/2015/06/25/trio-puelli-faz-concerto-na-serie-musica-de-camara-no-conservatorio/">Trio Puelli faz concerto na série Música de Câmara no Conservatório</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="fb-root"></div>
+<p><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&#038;version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-video" data-allowfullscreen="1" data-href="https://www.facebook.com/tmspcontemporaneo/videos/389748957882533/">
+<div class="fb-xfbml-parse-ignore">
+<blockquote cite="/tmspcontemporaneo/videos/389748957882533/"><a href="/tmspcontemporaneo/videos/389748957882533/"></a>
+<p>Nesta próxima quinta-feira, dia 25 de junho, 20h, o Trio Puelli apresenta o espetáculo &quot;Soy loco por ti: música das Américas&quot;, com obras de compositores de nosso lindo continente, tais como Alejandro Cardona, Mauricio Kagel, Leonard Bernstein e a estreia mundial de &quot;Trio Móbile para Donizete Galvão&quot;, encomenda da Fundação Theatro Municipal de São Paulo ao compositor Silvio Ferraz, que você curte um trechinho no vídeo abaixo. Venha, vai ser o máximo!http://theatromunicipal.org.br/programacao/soy-loco-por-ti-musica-das-americas-trio-puelli/</p>
+<p>Posted by <a href="https://www.facebook.com/tmspcontemporaneo">Música Contemporânea no Conservatório</a> on Segunda, 22 de junho de 2015</p></blockquote>
+</div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 3391 -->
+                    <div class="modal fade" id="modal-post-3391" tabindex="-1" role="dialog" aria-labelledby="modal-post-3391-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-3391-label">
+                                        <a href="http://theatromunicipal.org.br/2015/06/25/bale-da-cidade-apresenta-brasileiros-no-municipal/">Balé da Cidade apresenta Brasileiros no Municipal</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="fb-root"></div>
+<p><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&#038;version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-video" data-allowfullscreen="1" data-href="https://www.facebook.com/theatromunicipalsp/videos/544704435678392/">
+<div class="fb-xfbml-parse-ignore">
+<blockquote cite="/theatromunicipalsp/videos/544704435678392/"><a href="/theatromunicipalsp/videos/544704435678392/">Balé da CIdade apresenta Brasileiros no Municipal</a>
+<p>O Municipal é ópera e muito mais!  Até 28 de junho, o Balé da Cidade de São Paulo apresenta no Palco de São Paulo o programa “Brasileiros”, com coreografias assinadas por três ex-integrantes do grupo: “_______Fio da Meada”, de Gleidson Vigne; “Árvore do Esquecimento”, de Jorge Garcia; e “Cenas a 37”, de Alex Soares. Ingressos de R$ 20 a R$ 70, com meia entrada para todos os setores, à venda na bilheteria do Theatro ou pelo link http://goo.gl/ri4QedAssista a trechos das três coreografias que integram &quot;Brasileiros&quot; #balédacidade #dança</p>
+<p>Posted by <a href="https://www.facebook.com/theatromunicipalsp">Theatro Municipal de São Paulo</a> on Quinta, 25 de junho de 2015</p></blockquote>
+</div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 3180 -->
+                    <div class="modal fade" id="modal-post-3180" tabindex="-1" role="dialog" aria-labelledby="modal-post-3180-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-3180-label">
+                                        <a href="http://theatromunicipal.org.br/2015/06/08/teaser-eugene-onegin/">Teaser: Eugene Onegin</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/WpgGrRAWl0k?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 3176 -->
+                    <div class="modal fade" id="modal-post-3176" tabindex="-1" role="dialog" aria-labelledby="modal-post-3176-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-3176-label">
+                                        <a href="http://theatromunicipal.org.br/2015/06/08/eugene-onegin-palestra-com-irineu-franco-perpetuo/">Eugene Onegin: Palestra com Irineu Franco Perpetuo</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/pP_DV4yHBB8?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 2970 -->
+                    <div class="modal fade" id="modal-post-2970" tabindex="-1" role="dialog" aria-labelledby="modal-post-2970-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-2970-label">
+                                        <a href="http://theatromunicipal.org.br/2015/04/27/palestra-sobre-as-operas-um-homem-so-ainadamar/">Palestra sobre as óperas Um Homem Só/ Ainadamar</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>,</p>
+<figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/6SWNAVoGHlU?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 2968 -->
+                    <div class="modal fade" id="modal-post-2968" tabindex="-1" role="dialog" aria-labelledby="modal-post-2968-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-2968-label">
+                                        <a href="http://theatromunicipal.org.br/2015/04/27/um-homem-so-ainadamar-teaser/">Um Homem Só /  Ainadamar: teaser</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/e5pAcBRaXLQ?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 2753 -->
+                    <div class="modal fade" id="modal-post-2753" tabindex="-1" role="dialog" aria-labelledby="modal-post-2753-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-2753-label">
+                                        <a href="http://theatromunicipal.org.br/2015/03/16/video-bastidores-de-otello-e-entrevista-com-giancarlo-del-monaco/">Vídeo: Bastidores de Otello e entrevista com Giancarlo del Monaco</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/3t8m6SJupQg?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 2743 -->
+                    <div class="modal fade" id="modal-post-2743" tabindex="-1" role="dialog" aria-labelledby="modal-post-2743-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-2743-label">
+                                        <a href="http://theatromunicipal.org.br/2015/03/12/video-palestra-sobre-a-opera-otello-de-verdi/">Vídeo: Palestra sobre a ópera Otello, de Verdi</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/RZPqcTbD3FU?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 2380 -->
+                    <div class="modal fade" id="modal-post-2380" tabindex="-1" role="dialog" aria-labelledby="modal-post-2380-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-2380-label">
+                                        <a href="http://theatromunicipal.org.br/2015/01/20/orquestra-experimental-de-repertorio-e-cristian-budu-homenageiam-sao-paulo-no-theatro-municipal/">Orquestra Experimental de Repertório e Cristian Budu homenageiam São Paulo no Theatro Municipal</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>A programação sinfônica do Palco de São Paulo começa o ano de 2015 festejando o aniversário da cidade com dois concertos especiais da nossa <a href="http://theatromunicipal.org.br/grupoartistico/orquestra-experimental-de-repertorio/" target="_blank">Orquestra Experimental de Repertório</a>, nos dias 24 e 25 de janeiro sob regência do maestro Carlos Moreno. O concerto conta com a participação do pianista Cristian Budu, vencedor do Concurso Internacional de Piano Clara Haskil, um dos mais importantes do mundo. Budu será solista na interpretação do Concerto para Piano de Edvard Grieg.<br />
+O programa traz ainda a célebre abertura da ópera “O Guarani”, de Carlos Gomes e a Sinfonia N. 9 em Mi Menor – Do Novo Mundo, de Antonín Dvorak.<br />
+Ingressos a R$ 10, à venda na Bilheteria do Theatro Municipal ou pelo site da <a href="http://www.compreingressos.com/espetaculos/2954-Orquestra-Experimental-de-Repertorio?origem=theatromunicipaldesaopaulo" target="_blank">Compre Ingressos</a>.</p>
+<p>Assista ao vídeo da final do Concurso de Piano Clara Haskil de 2013, com o jovem Cristian Budu acompanhado pela Orchestre de la Suisse Romande, sob regência de Frédéric Chaslin (via <a href="https://www.youtube.com/channel/UC3Ga0RIKA1751oe_YpTmRfw" target="_blank">canal oficial do Concurso no Youtube</a>)</p>
+<figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/whdbGJ-Cweo?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Modal 2129 -->
+                    <div class="modal fade" id="modal-post-2129" tabindex="-1" role="dialog" aria-labelledby="modal-post-2129-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="modal-post-2129-label">
+                                        <a href="http://theatromunicipal.org.br/2014/12/05/assista-ao-teaser-da-opera-tosca/">Teaser: Tosca, de Puccini, no Theatro Municipal de São Paulo</a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Tosca, de Puccini, fica em cartaz até 13/12 no Palco de São Paulo &#8211; a ópera encerra a Temporada Lírica 2014.</p>
+<p>&nbsp;</p>
+<figure class="video-wrapper"><iframe width="570" height="321" src="https://www.youtube.com/embed/k0X21gAF_t0?feature=oembed" frameborder="0" allowfullscreen></iframe></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <link rel='stylesheet' id='form-css'  href='http://theatromunicipal.org.br/wp-content/themes/theatromunicipal/includes/form/css/form.css?ver=4.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-includes/js/jquery/ui/core.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://theatromunicipal.org.br/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script> jQuery(function($){ $(".widget_meta a[href='http://theatromunicipal.org.br/comments/feed/']").parent().remove(); }); </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56303125-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
