@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# Centro Cultural do Banco do Brasil
-# 3:34
+# Caixa Cultural
 
 import os
 import re
@@ -22,12 +21,6 @@ def getInfoInside(page, stringA, stringB, pos):
 
 	return (page[idx : idxend], idxend + len(stringB))
 	#Retorna a string e a Posição do último caractere de stringB
-
-def getDate():
-	day = time.strftime("%d")
-	month = time.strftime("%m")
-	year = time.strftime("%Y")
-	return (day, month, year)
 
 def getAttrib(info, type):
 
@@ -52,8 +45,6 @@ def getLinks(info, start):
 def main():
 	cidade = ['Brasilia', 'Curitiba', 'Fortaleza', 'Recife', 'Rio de Janeiro', 'Salvador', 'São Paulo']
 	idcidade = ['1', '2', '3', '5', '6', '7', '9']
-
-	today = getDate()
 
 	for i in xrange(len(idcidade)):
 		
